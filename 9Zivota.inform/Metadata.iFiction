@@ -14,10 +14,20 @@
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>heart.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>my.css</leafname>
+                <description>--</description>
+            </auxiliary>
+        </resources>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-04-08</releasedate>
+                    <releasedate>2025-04-11</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -27,10 +37,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-04-08</originated>
+            <originated>2025-04-11</originated>
         </colophon>
         <glulx>
-            <serial>250408</serial>
+            <serial>250411</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
