@@ -8,6 +8,8 @@ Release along with the "Vorple" interpreter.
 
 Release along with the file "heart.png".
 
+Release along with the file "backpack.png"
+
 Release along with style sheet "my.css".
 
 The Garage is a room. "A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north."
@@ -22,7 +24,7 @@ It is open.
 It is not openable.
 It is scenery.
 
-A rope is in the Kitchen.
+The rope is in the Kitchen.
 It is wearable.
 The description is "This will come in handy."
 
@@ -59,6 +61,50 @@ Check going through a spike pit:
 		kill the player;
 		stop the action;
 		
+The carrying capacity of the player is 1.
+
+The bone is in the Kitchen.
+It is edible.
+
+Carry out taking inventory (this is the print inventory using HTML lists rule):
+	if Vorple is supported:
+		say "[We] [are] carrying:[line break]";
+		open HTML tag "ul";
+		repeat with item running through things carried by the player:
+			place "li" element reading "[item]";
+		close HTML tag;
+	otherwise:
+		follow the print standard inventory rule.
+		
+The print inventory using HTML lists rule is listed instead of the print standard inventory rule in the carry out taking inventory rules.
+
+When play begins:
+	execute JavaScript command "
+		let bp = document.createElement('div');
+		bp.id = 'backpack';
+		bp.onclick = () => vorple.prompt.submit('inventory');
+		document.body.appendChild(bp);
+
+		let n = document.createElement('div');
+		n.id = 'north';
+		n.onclick = () => vorple.prompt.submit('north');
+		document.body.appendChild(n);
+
+		let e = document.createElement('div');
+		e.id = 'east';
+		e.onclick = () => vorple.prompt.submit('east');
+		document.body.appendChild(e);
+
+		let s = document.createElement('div');
+		s.id = 'south';
+		s.onclick = () => vorple.prompt.submit('south');
+		document.body.appendChild(s);
+
+		let w = document.createElement('div');
+		w.id = 'west';
+		w.onclick = () => vorple.prompt.submit('west');
+		document.body.appendChild(w);
+	";
 
 When play begins:
 	display a notification reading "Welcome to Vorple!".
