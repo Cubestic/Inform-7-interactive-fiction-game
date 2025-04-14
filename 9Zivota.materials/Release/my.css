@@ -17,4 +17,113 @@
     background-image: url(heart.png);
     background-size: cover;
     background-position: center;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#backpack {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(backpack.png);
+    background-size: cover;
+    background-position: center;
+    /*border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;*/
+    cursor: pointer;
+}
+
+#backpack:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        transform: translate(2px, 2px);
+    }
+    80% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+#north {
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px black;*/
+    cursor: pointer;
+}
+
+#east {
+    position: fixed;
+    bottom: 160px;
+    right: 16px;
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px black;*/
+    cursor: pointer;
+}
+
+#west {
+    position: fixed;
+    bottom: 160px;
+    right: 184px;
+    width: 80px;
+    height: 30px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px black;*/
+    cursor: pointer;
+}
+
+#south {
+    position: fixed;
+    bottom: 120px;
+    right: 100px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px black;*/
+    cursor: pointer;
 }
