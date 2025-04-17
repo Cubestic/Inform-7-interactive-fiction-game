@@ -1,486 +1,545 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-796">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-796">
+  <item nodeId="node-1">
     <command xml:space="preserve">9Zivota</command>
-    <result xml:space="preserve">9Zivota&#x000A;An Interactive Fiction by Andrej&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Garage&#x000A;A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north.&#x000A;&#x000A;[Welcome to Vorple!]&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">In the distance, you hear a woman's voice. It's so loud that it woke you up. You feel stiff and tired, as if you hadn't slept at all. A small window above the bed is the only source of light in an otherwise completely dark room. You're not afraid of the dark-on the contrary, you find it comforting. You decide to head toward the woman's voice.&#x000A;&#x000A;Garage&#x000A;A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north.&#x000A;&#x000A;[Welcome to Vorple!]&#x000A;&#x000A;What is your name? &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-803"/>
+      <child nodeId="node-855"/>
+      <child nodeId="node-849"/>
+      <child nodeId="node-2"/>
     </children>
   </item>
-  <item nodeId="node-803">
+  <item nodeId="node-855">
+    <command xml:space="preserve">Eugen</command>
+    <result xml:space="preserve">Hi, Eugen!&#x000A;&#x000A;In the distance, you hear a woman's voice. It's so loud that it woke you up. You feel stiff and tired, as if you hadn't slept at all. A small window above the bed is the only source of light in an otherwise completely dark room. You're not afraid of the dark-on the contrary, you find it comforting. You decide to head toward the woman's voice.&#x000A;&#x000A;Garage&#x000A;A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-849">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Garage&#x000A;A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-850"/>
+    </children>
+  </item>
+  <item nodeId="node-850">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(the brown door)&#x000A;You see nothing special about the brown door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-851"/>
+    </children>
+  </item>
+  <item nodeId="node-851">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the brown door)&#x000A;&#x000A;Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;You can see a rope and a bone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-852"/>
+    </children>
+  </item>
+  <item nodeId="node-852">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-853"/>
+    </children>
+  </item>
+  <item nodeId="node-853">
+    <command xml:space="preserve">rope</command>
+    <result xml:space="preserve">This will come in handy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-854"/>
+    </children>
+  </item>
+  <item nodeId="node-854">
+    <command xml:space="preserve">version</command>
+    <result xml:space="preserve">9Zivota&#x000A;An Interactive Fiction by Andrej&#x000A;Release 1 / Serial number 250416 / Inform 7 v10.1.2 / D&#x000A;Inform 7 v10.1.2&#x000A;Identification number: //CAD75681-8B0E-4B24-A7CB-B9DE639CDA8D//&#x000A;Interpreter version 0.6.0 / VM 3.1.3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-2">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the brown door)&#x000A;&#x000A;Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;You can see Rope and a bone here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-808"/>
-      <child nodeId="node-804"/>
-      <child nodeId="node-3237"/>
-      <child nodeId="node-806"/>
-      <child nodeId="node-807"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-37"/>
+      <child nodeId="node-39"/>
+      <child nodeId="node-46"/>
+      <child nodeId="node-55"/>
     </children>
   </item>
-  <item nodeId="node-808">
+  <item nodeId="node-3">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Ne mogu ovo presko&#x010D;iti, ali se mogu zanjihati preko s ne&#x010D;im.&#x000A;&#x000A;YOU DIED&#x000A;&#x000A;Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;You can see Konopac here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1608"/>
-      <child nodeId="node-2430"/>
-      <child nodeId="node-809"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-24"/>
+      <child nodeId="node-25"/>
     </children>
   </item>
-  <item nodeId="node-1608">
+  <item nodeId="node-4">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1609"/>
+      <child nodeId="node-5"/>
     </children>
   </item>
-  <item nodeId="node-1609">
+  <item nodeId="node-5">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1610"/>
+      <child nodeId="node-6"/>
     </children>
   </item>
-  <item nodeId="node-1610">
+  <item nodeId="node-6">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1633"/>
-      <child nodeId="node-1611"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-1633">
+  <item nodeId="node-7">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1634"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-1634">
+  <item nodeId="node-8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1635"/>
+      <child nodeId="node-9"/>
     </children>
   </item>
-  <item nodeId="node-1635">
+  <item nodeId="node-9">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1636"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-1636">
+  <item nodeId="node-10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1637"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-1637">
+  <item nodeId="node-11">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;You are out of lives!&#x000A;&#x000A;&#x000A;&#x000A;    *** GAME OVER ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-1611">
+  <item nodeId="node-12">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1612"/>
+      <child nodeId="node-13"/>
     </children>
   </item>
-  <item nodeId="node-1612">
+  <item nodeId="node-13">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1613"/>
+      <child nodeId="node-14"/>
     </children>
   </item>
-  <item nodeId="node-1613">
+  <item nodeId="node-14">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1614"/>
+      <child nodeId="node-15"/>
     </children>
   </item>
-  <item nodeId="node-1614">
+  <item nodeId="node-15">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1615"/>
+      <child nodeId="node-16"/>
     </children>
   </item>
-  <item nodeId="node-1615">
+  <item nodeId="node-16">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1616"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
-  <item nodeId="node-1616">
+  <item nodeId="node-17">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1617"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-1617">
+  <item nodeId="node-18">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1618"/>
+      <child nodeId="node-19"/>
     </children>
   </item>
-  <item nodeId="node-1618">
+  <item nodeId="node-19">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1619"/>
+      <child nodeId="node-20"/>
     </children>
   </item>
-  <item nodeId="node-1619">
+  <item nodeId="node-20">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1620"/>
+      <child nodeId="node-21"/>
     </children>
   </item>
-  <item nodeId="node-1620">
+  <item nodeId="node-21">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1621"/>
+      <child nodeId="node-22"/>
     </children>
   </item>
-  <item nodeId="node-1621">
+  <item nodeId="node-22">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1622"/>
+      <child nodeId="node-23"/>
     </children>
   </item>
-  <item nodeId="node-1622">
+  <item nodeId="node-23">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;You are out of lives!&#x000A;&#x000A;&#x000A;&#x000A;    *** GAME OVER ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-2430">
+  <item nodeId="node-24">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Hallway&#x000A;A cold and long hallway that leads to the basement.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-809">
+  <item nodeId="node-25">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1623"/>
-      <child nodeId="node-810"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-36"/>
     </children>
   </item>
-  <item nodeId="node-1623">
+  <item nodeId="node-26">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1624"/>
+      <child nodeId="node-27"/>
     </children>
   </item>
-  <item nodeId="node-1624">
+  <item nodeId="node-27">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1625"/>
+      <child nodeId="node-28"/>
     </children>
   </item>
-  <item nodeId="node-1625">
+  <item nodeId="node-28">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1626"/>
+      <child nodeId="node-29"/>
     </children>
   </item>
-  <item nodeId="node-1626">
+  <item nodeId="node-29">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1627"/>
+      <child nodeId="node-30"/>
     </children>
   </item>
-  <item nodeId="node-1627">
+  <item nodeId="node-30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1628"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-1628">
+  <item nodeId="node-31">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1629"/>
+      <child nodeId="node-32"/>
     </children>
   </item>
-  <item nodeId="node-1629">
+  <item nodeId="node-32">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1630"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-1630">
+  <item nodeId="node-33">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1631"/>
+      <child nodeId="node-34"/>
     </children>
   </item>
-  <item nodeId="node-1631">
+  <item nodeId="node-34">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1632"/>
+      <child nodeId="node-35"/>
     </children>
   </item>
-  <item nodeId="node-1632">
+  <item nodeId="node-35">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">I can't jump over this, but I can swing across with something.&#x000A;You are out of lives!&#x000A;&#x000A;&#x000A;&#x000A;    *** GAME OVER ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-810">
+  <item nodeId="node-36">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-804">
+  <item nodeId="node-37">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-805"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
-  <item nodeId="node-805">
+  <item nodeId="node-38">
     <command xml:space="preserve">take konopac</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-3237">
+  <item nodeId="node-39">
     <command xml:space="preserve">take bone</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3238"/>
+      <child nodeId="node-40"/>
     </children>
   </item>
-  <item nodeId="node-3238">
+  <item nodeId="node-40">
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3239"/>
+      <child nodeId="node-41"/>
     </children>
   </item>
-  <item nodeId="node-3239">
+  <item nodeId="node-41">
     <command xml:space="preserve">drop</command>
     <result xml:space="preserve">(the bone)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3240"/>
+      <child nodeId="node-42"/>
     </children>
   </item>
-  <item nodeId="node-3240">
+  <item nodeId="node-42">
     <command xml:space="preserve">take konopac</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3241"/>
+      <child nodeId="node-43"/>
     </children>
   </item>
-  <item nodeId="node-3241">
+  <item nodeId="node-43">
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3242"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
-  <item nodeId="node-3242">
+  <item nodeId="node-44">
     <command xml:space="preserve">take bone</command>
     <result xml:space="preserve">You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3243"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
-  <item nodeId="node-3243">
+  <item nodeId="node-45">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a rope&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-806">
+  <item nodeId="node-46">
     <command xml:space="preserve">take konopac</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2431"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
-  <item nodeId="node-2431">
+  <item nodeId="node-47">
     <command xml:space="preserve">wear konopac</command>
     <result xml:space="preserve">You put on Konopac.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2432"/>
+      <child nodeId="node-48"/>
     </children>
   </item>
-  <item nodeId="node-2432">
+  <item nodeId="node-48">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Ne mogu ovo presko&#x010D;iti, ali se mogu zanjihati preko s ne&#x010D;im.&#x000A;Uspio sam! Ovaj konopac &#x0107;e mi dobro do&#x0107;i i na povratku.&#x000A;&#x000A;Hallway&#x000A;A cold and long hallway that leads to the basement.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2433"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
-  <item nodeId="node-2433">
+  <item nodeId="node-49">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Ne mogu ovo presko&#x010D;iti, ali se mogu zanjihati preko s ne&#x010D;im.&#x000A;Uspio sam! Ovaj konopac &#x0107;e mi dobro do&#x0107;i i na povratku.&#x000A;&#x000A;Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2434"/>
+      <child nodeId="node-50"/>
     </children>
   </item>
-  <item nodeId="node-2434">
+  <item nodeId="node-50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Garage&#x000A;A place where you spend your nights resting. Below the window, there is a bed without a pillow. The only exit is a brown door to the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2435"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-2435">
+  <item nodeId="node-51">
     <command xml:space="preserve">drop</command>
     <result xml:space="preserve">(Konopac)&#x000A;(first taking Konopac off)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2436"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-2436">
+  <item nodeId="node-52">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2437"/>
+      <child nodeId="node-53"/>
     </children>
   </item>
-  <item nodeId="node-2437">
+  <item nodeId="node-53">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-2438"/>
+      <child nodeId="node-54"/>
     </children>
   </item>
-  <item nodeId="node-2438">
+  <item nodeId="node-54">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Ne mogu ovo presko&#x010D;iti, ali se mogu zanjihati preko s ne&#x010D;im.&#x000A;&#x000A;YOU DIED&#x000A;Kitchen&#x000A;Here I always get something to eat, but I'm not always welcome. A dangerous pit with spikes blocks the way to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-807">
+  <item nodeId="node-55">
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-3244"/>
+      <child nodeId="node-56"/>
     </children>
   </item>
-  <item nodeId="node-3244">
+  <item nodeId="node-56">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  Rope&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
