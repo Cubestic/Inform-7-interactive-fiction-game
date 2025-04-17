@@ -885,56 +885,15 @@
     </table>
 
     <hr>
-    <p><b>From the extension Standard Rules - Standard actions concerning the actor's vision</b><br><b>looking</b>, examining&nbsp;<a href=12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, looking under&nbsp;<a href=13_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, searching&nbsp;<a href=14_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, consulting it about&nbsp;<a href=15_A.html><img border=0 src=inform:/doc_images/Beneath.png></a></p>
+    <p><b>Defined in the source - New actions</b><br><b>naming the player</b></p>
     <hr>
-    <p><b>Looking </b> (<i>past tense</i> looked): applying to nothing</p>
-    <p>The looking action describes the
-    player's current room and any visible items, but is made more complicated
-    by the problem of visibility. Inform calculates this by dividing the room
-    into visibility levels. For an actor on the floor of a room, there is only
-    one such level: the room itself. But an actor sitting on a chair inside
-    a packing case which is itself on a gantry would have four visibility levels:
-    chair, case, gantry, room. The looking rules use a special phrase, 'the
-    visibility-holder of X', to go up from one level to the next: thus the
-    visibility-holder of the case is the gantry.The 'visibility level count' is the number of levels which the player can
-    actually see, and the 'visibility ceiling' is the uppermost visible level.
-    For a player standing on the floor of a lighted room, this will be a count
-    of 1 with the ceiling set to the room. But a player sitting on a chair in
-    a closed opaque packing case would have visibility level count 2, and
-    visibility ceiling equal to the case. Moreover, light has to be available
-    in order to see anything at all: if the player is in darkness, the level
-    count is 0 and the ceiling is nothing.Finally, note that several actions other than looking also produce room
-    descriptions in some cases. The most familiar is going, but exiting a
-    container or getting off a supporter will also generate a room description.
-    (The phrase used by the relevant rules is 'produce a room description with
-    going spacing conventions' and carry out or report rules for newly written
-    actions are welcome to use this too if they would like to. The spacing
-    conventions affect paragraph division, and note that the main description
-    paragraph may be omitted for a place not newly visited, depending on the
-    VERBOSE settings.) Room descriptions like this are produced by running the
-    check, carry out and report rules for looking, but are not subject to
-    before, instead or after rules: so they do not count as a new action. The
-    looking variable 'room-describing action' holds the action name of the
-    reason a room description is currently being made: if the player typed
-    LOOK, this will indeed be set to the looking action, but if we're
-    describing a room just reached by GO EAST, say, it will be set to the going
-    action. This can be used to customise carry out looking rules so that
-    different forms of description are used on going to a room as compared with
-    looking around while already there.</p>
+    <p><b>Naming the player <span class="indexdullblue">some text</span> </b>&nbsp;<a href="source:story.ni#line177"><img border=0 src=inform:/doc_images/Reveal.png></a> (<i>past tense</i> named the player): applying to one topic</p>
     <hr>
     <p><b>Typed commands leading to this action</b></p>
-    <p>&quot;look&quot; - <i>looking</i>&nbsp;<a href=Details/11_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    <p>&quot;name is [text]&quot;&nbsp;<a href="source:story.ni#line176"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>naming the player</i>&nbsp;<a href=Details/77_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
     </p>
-    <p><b>Named values belonging to this action</b></p>
-    <p class="tightin2">room-describing action - <i>action name</i></p>
-    <p class="tightin2">abbreviated form allowed - <i>truth state</i></p>
-    <p class="tightin2">visibility level count - <i>number</i></p>
-    <p class="tightin2">visibility ceiling - <i>object</i></p>
     <p><b>Rules controlling this action</b></p>
-    <p><p class="indentin2">set action variables for&nbsp;&nbsp;&nbsp;&nbsp;<i>looking</i>&nbsp;&nbsp;<span class="indexdullred">determine visibility ceiling rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('determine visibility ceiling rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The determine visibility ceiling rule response (Setting action variables rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-    <p class="indentin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>looking when collecting names</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line202"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-    <p class="indentin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">declare everything unmentioned rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('declare everything unmentioned rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The declare everything unmentioned rule response (carry out looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">room description heading rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('room description heading rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The room description heading rule response (carry out looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">room description body text rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('room description body text rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The room description body text rule response (carry out looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">room description paragraphs about objects rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('room description paragraphs about objects rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The room description paragraphs about objects rule response (carry out looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">check new arrival rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('check new arrival rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The check new arrival rule response (carry out looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-    <p class="indentin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor looking</i>&nbsp;&nbsp;<span class="indexdullred">other people looking rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('other people looking rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The other people looking rule response (report looking rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p><p class="indentin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;(let T be the topic understood; ...)&nbsp;<a href="source:story.ni#line179"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
     </p>
 
     <!--CONTENT ENDS-->
