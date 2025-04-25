@@ -7,7 +7,7 @@ Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
 756 Preform nonterminals read from C:\Program Files\Inform\Internal\Languages\English\Syntax.preform
-I've now read your source text, which is 1104 words long.
+I've now read your source text, which is 1489 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
@@ -17,6 +17,7 @@ I've also read Vorple Notifications by Juhana Leinonen, which is 1058 words long
 I've also read Vorple Multimedia by Juhana Leinonen, which is 3906 words long.
 I've also read Vorple Screen Effects by Juhana Leinonen, which is 2616 words long.
 I've also read Vorple Hyperlinks by Juhana Leinonen, which is 1817 words long.
+I've also read Vorple Tooltips by Juhana Leinonen, which is 1801 words long.
 I've also read Vorple by Juhana Leinonen, which is 5666 words long.
 I've also read Basic Screen Effects by Emily Short, which is 2223 words long.
 
@@ -42,6 +43,7 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModel
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Figures.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Sounds.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandParserKit\kinds\Parsing.neptune
+.... Task__make_built_in_kind_constructors() took 6cs
 
 
 -----------------------------------------------------
@@ -93,22 +95,21 @@ Phase IX ... Augment model world
 Phase X ... Phrases and rules
 -----------------------------------------------------
 
-.... ImperativeDefinitions__assess_all() took 3cs
+.... ImperativeDefinitions__assess_all() took 4cs
 
 
 -----------------------------------------------------
 Phase XI ... Generating inter (1)
 -----------------------------------------------------
 
-.... RTKindConstructors__compile() took 2cs
+.... RTKindConstructors__compile() took 3cs
 
 
 -----------------------------------------------------
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... CompletionModule__compile() took 1cs
-.... RTProperties__compile() took 1cs
+.... CompletionModule__compile() took 2cs
 
 
 ==== Phase XII.1 ... Slashing command grammar ====
@@ -129,9 +130,9 @@ Switch val is LOCAL_VARIABLE_NT'hex value' {local: LV"hex value"-number number}
  for kind number pointery 0
 Switch val is LOCAL_VARIABLE_NT'type' {local: LV"type"-notification type notification type}
  for kind notification type pointery 0
-.... Sequence__undertake_queued_tasks() took 120cs
+.... Sequence__undertake_queued_tasks() took 127cs
 .... Sequence__undertake_queued_tasks() took 1cs
-.... RTPhrasebook__compile_entries() took 3cs
+.... RTPhrasebook__compile_entries() took 4cs
 
 
 -----------------------------------------------------
@@ -167,7 +168,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 158 centiseconds
+Compile CPU time: 175 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -212,12 +213,12 @@ Compile CPU time: 158 centiseconds
 
 ==== Phase XVII.11 ... step 11/15: eliminate-redundant-labels ====
 
-1887 redundant label(s) removed
+1911 redundant label(s) removed
 
 
 ==== Phase XVII.12 ... step 12/15: eliminate-redundant-operations ====
 
-370 redundant operation(s) removed
+388 redundant operation(s) removed
 
 
 ==== Phase XVII.13 ... step 13/15: optionally-generate text ->  ====
@@ -2118,6 +2119,680 @@ HTML tag stack:
     17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
     18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
     19. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close html at line 375 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close td at line 641 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    10. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close tr at line 642 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    8. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close table at line 645 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    7. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    8. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    6. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    7. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close html at line 375 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    5. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    6. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close td at line 641 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close tr at line 642 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    11. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close table at line 645 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    10. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    11. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    10. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close html at line 375 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    8. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close td at line 641 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. span (opened at line 875 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. td (opened at line 597 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    4. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    5. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close tr at line 642 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. td (opened at line 597 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    4. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close td at line 641 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. span (opened at line 875 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. td (opened at line 597 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    4. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    5. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    6. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    27. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close tr at line 642 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. td (opened at line 597 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    4. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    5. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close table at line 645 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    4. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close blockquote at line 322 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    3. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    11. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    12. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close td at line 641 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    9. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    17. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    18. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    27. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    28. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    29. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    30. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close tr at line 642 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    8. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    15. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    16. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    17. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    27. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    28. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    29. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close table at line 645 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    7. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    14. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    16. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    27. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    28. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    5. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    6. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    13. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    27. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+
+
+Trying to close html at line 375 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Tag error: closed HTML tag which wasn't open
+HTML tag stack:
+    1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    2. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    3. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    4. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    5. blockquote (opened at line 421 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    6. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    7. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    8. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    9. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    10. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    11. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    12. td (opened at line 559 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    13. tr (opened at line 557 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    14. table (opened at line 540 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    15. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    16. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    17. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    18. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    19. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    20. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    21. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    22. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    23. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    24. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    25. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
+    26. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
 Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
@@ -6031,8 +6706,8 @@ HTML tag stack:
     52. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 103cs
-Total of 118 files written as streams.
+Back end elapsed time: 185cs
+Total of 122 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
 
