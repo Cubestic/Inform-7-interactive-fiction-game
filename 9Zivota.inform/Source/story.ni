@@ -12,6 +12,8 @@ Include Vorple Hyperlinks by Juhana Leinonen.
 
 Include Vorple Tooltips by Juhana Leinonen.
 
+Include Vorple Status Line by Juhana Leinonen.
+
 Release along with the "Vorple" interpreter.
 
 Release along with the file "heart.png".
@@ -19,6 +21,12 @@ Release along with the file "heart.png".
 Release along with the file "backpack.png".
 
 Release along with the file "titlescreen.png".
+
+Release along with the file "cardinaldirections.png".
+
+Release along with the file "map.png".
+
+Release along with the file "map.html".
 
 Release along with style sheet "my.css".
 
@@ -32,9 +40,9 @@ The Storeroom is a room. It is east of the Garage. "Description missing."
 
 The Entrance hall is a room.
 
-[The Kitchen is a room. "Here I always get something to eat, but I'm not always welcome. The way to the north and west is open.[if we have not taken the rope]  A dangerous pit with spikes blocks the way to the east.[otherwise]I think I can swing across the pit now."
+The Kitchen is a room. It is north of the Entrance hall. "Here I always get something to eat, but I'm not always welcome. The way to the north and west is open.[if we have not taken the rope]  A dangerous pit with spikes blocks the way to the east.[otherwise]I think I can swing across the pit now."
 
-The Living room is a room. It is north of the Kitchen. "A large room full of light. The path to the northwest is open. A pair of large red doors leads to the northeast. I'm rarely allowed to go through those doors alone.[if we have not taken the red key]They're always locked.[otherwise]The doors can be opened now."
+[The Living room is a room. It is north of the Kitchen. "A large room full of light. The path to the northwest is open. A pair of large red doors leads to the northeast. I'm rarely allowed to go through those doors alone.[if we have not taken the red key]They're always locked.[otherwise]The doors can be opened now."
 
 The Hallway is a room. "A cold and long hallway that leads to the basement."
 
@@ -52,7 +60,7 @@ The Bathroom is a room. "I'm out of armor—there's no going back. It seems I'm 
 
 The Garden is a room. It is north of the Office. "After the garage, your favorite place to relax."
 
-The Bedrrom is a room. "I appear in the bedroom and see my owner looking for me under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."]
+The Bedroom is a room. "I appear in the bedroom and see my owner looking for me under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."]
 
 Chapter 3 - Doors
  
@@ -96,6 +104,7 @@ The description is "?".
 It is in the Storeroom.
 It is closed.
 It is openable.
+It is fixed in place.
 The coin is in the chest.
 
 Chapter 5 - Dying
@@ -195,6 +204,13 @@ Chapter 10 - Tutorial
 
 The default tooltip duration is 10.
 
+To directions:
+	execute JavaScript command "
+		let cd = document.createElement('div');
+		cd.id = 'directions';
+		document.body.appendChild(cd);
+	".
+
 To move north:
 	execute JavaScript command "
 		let n = document.createElement('div');
@@ -240,6 +256,7 @@ Tooltip1 is a truth state that varies. Tooltip1 is true.
 After looking:
 	if the location is the Garage and Tooltip1 is true:
 		display tooltip "Move forward by typing NORTH or by pressing the red button." on the prompt;
+		directions;
 		move north;
 		now Tooltip1 is false;
 	else if the location is the Garage and the player does not carry the coin:
@@ -267,7 +284,7 @@ Rule for printing the name of the coin when the coin is in the chest:
 	place an element called "coin-text" reading "coin";
 	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
 	
-After taking the coin:
+After taking the coin for the first time:
 	say "[line break]";
 	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
 	check inventory.
@@ -291,18 +308,24 @@ Understand "unforgiving" as unforgiving.
 The player has a difficulty. The difficulty of the player is unknown.
 
 Tezina is a truth state that varies. Tezina is false.
+Biranje is a truth state that varies. Biranje is false.
 
-Instead of taking the knife when the coin is carried:
+Instead of taking the knife when the coin is carried and biranje is false:
 	now the player carries the knife;
-	say "You pick up the coin.[line break]Oh, one more thing before u leave.";
+	say "You pick up the knife.[line break]Oh, one more thing before u leave.";
 	now tezina is true;
-	now the command prompt is "Please select difficulty >".
+	now the command prompt is "Please select difficulty >";
+	display tooltip "Type UNKNOWN." on the prompt [in 3 seconds];
+	
+Instead of taking the knife when the coin is carried and biranje is true:
+	now the player carries the knife;
+	say "You pick up the knife.";
 	
 After reading a command when tezina is true:
 	if the player's command includes "[difficulty]":
 		now the difficulty of the player is the difficulty understood;
 		if the difficulty of the player is unknown:
-			say "Please select: 'normal' 'hard' or 'extreme'. [run paragraph on]"; [ovo popravi]
+			say "Please select: 'normal' 'hard' or 'unforgiving'. [run paragraph on]"; [ovo popravi]
 			reject the player's command;
 		if the difficulty of the player is normal:
 			now the lives of the player is 9;
@@ -340,8 +363,44 @@ After reading a command when tezina is true:
 		say "[line break]Your journey continues...";
 		now the command prompt is ">";
 		now tezina is false;
+		now biranje is true;
 		move the player to the Entrance hall;
 		reject the player's command;
 	otherwise:
 		say "Please select a difficulty to continue. [run paragraph on]";
 		reject the player's command.
+		
+Chapter 12 - Status line
+
+When play begins:
+	construct the Vorple status line with 3 columns.
+	
+The left hand Vorple status line is "You are: [player's full name]".
+The middle Vorple status line is "Location: [the player's surroundings]".
+The right hand Vorple status line is "Time: [time of day]". The time of day is 9:50 AM.
+
+Chapter 13 - Map
+
+To open map:
+	execute JavaScript command "
+		let map = document.createElement('div');
+		map.id = 'map';
+		map.onclick = () => vorple.prompt.submit('map');
+		document.body.appendChild(map);
+	". 
+
+Map is an action applying to nothing. Understand "map" as map.
+
+Carry out map:
+	[say "Open map";]
+	if Vorple is supported:
+		place a link to web site "map.html" reading "Open map";
+		
+Mapping is a truth state that varies. Mapping is false.
+		
+After going to the Kitchen: [popravi]
+	if mapping is false:
+		now mapping is true;
+		open map;
+		continue the action.
+	
