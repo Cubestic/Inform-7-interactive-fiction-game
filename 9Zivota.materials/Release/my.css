@@ -6,6 +6,7 @@
     gap: 5px;
     padding: 10px;
     /*width: calc(50px * 9 + 5px * 8);*/
+    background-color: white;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -37,8 +38,8 @@
 
 #backpack {
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    bottom: 100px;
+    left: 275px;
     width: 150px;
     height: 150px;
     background-image: url(backpack.png);
@@ -76,10 +77,41 @@
     }
 }
 
+#map {
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    background-image: url(map.png);
+    background-size: cover;
+    background-position: center;
+    /*border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;*/
+    cursor: pointer;
+}
+
+#map:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
+
+#directions {
+    position: fixed;
+    bottom: 100px;
+    right: 167.75px;
+    width: 200px;
+    height: 200px;
+    background-image: url(cardinaldirections.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #north {
     position: fixed;
-    bottom: 200px;
-    right: 100px;
+    bottom: 301px;
+    right: 225.75px;
     width: 80px;
     height: 30px;
     background-color: red;
@@ -91,8 +123,8 @@
 
 #east {
     position: fixed;
-    bottom: 160px;
-    right: 16px;
+    bottom: 183px;
+    right: 82.75px;
     width: 80px;
     height: 30px;
     background-color: yellow;
@@ -104,8 +136,8 @@
 
 #west {
     position: fixed;
-    bottom: 160px;
-    right: 184px;
+    bottom: 183px;
+    right: 368.75px;
     width: 80px;
     height: 30px;
     background-color: green;
@@ -117,8 +149,8 @@
 
 #south {
     position: fixed;
-    bottom: 120px;
-    right: 100px;
+    bottom: 65px;;
+    right: 225.75px;
     width: 80px;
     height: 30px;
     background-color: blue;
@@ -133,7 +165,12 @@
 }
 
 #output {
+    max-width: 800px;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.status-line-container {
+    border-bottom: 1px solid;
 }
