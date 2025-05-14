@@ -35,6 +35,10 @@ auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\titlescreen.png" 
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\cardinaldirections.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.html" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\desk.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1a.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Tagesschrift-Regular.ttf" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\my.css" "--" "--"
 
 ! Website instructions
@@ -64,6 +68,10 @@ status instruction ||&nbsp;<a href="source:story.ni#line25"><img border=0 src=in
 status instruction ||&nbsp;<a href="source:story.ni#line27"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line29"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line31"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line33"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line35"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line37"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line39"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||

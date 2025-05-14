@@ -28,84 +28,73 @@ Release along with the file "map.png".
 
 Release along with the file "map.html".
 
+Release along with the file "desk.png".
+
+Release along with the file "note1.png"
+
+Release along with the file "note1a.png"
+
+Release along with the file "Tagesschrift-Regular.ttf".
+
 Release along with style sheet "my.css".
 
 Chapter 2 - Rooms
 
-The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. Ahead of you stretches a dark hallway." [The only exit is a brown door to the north."]
+The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. Ahead of you stretches a dark hallway."
 
 The Hallway is a room. It is north of the Garage. "A cold, long hallway that leads to nowhere."
 
 The Storeroom is a room. It is east of the Garage. "Description missing."
 
-The Entrance hall is a room.
+The Entrance hall is a room. "In the distance, you hear a woman’s voice. You feel stiff and tired, as if you hadn’t slept at all last night. You decide to head toward the woman’s voice."
 
-The Kitchen is a room. It is north of the Entrance hall. "Here I always get something to eat, but I'm not always welcome. The way to the north and west is open.[if we have not taken the rope]  A dangerous pit with spikes blocks the way to the east.[otherwise]I think I can swing across the pit now."
+[!]
 
-[The Living room is a room. It is north of the Kitchen. "A large room full of light. The path to the northwest is open. A pair of large red doors leads to the northeast. I'm rarely allowed to go through those doors alone.[if we have not taken the red key]They're always locked.[otherwise]The doors can be opened now."
+The Kitchen is a room. It is north of the Entrance hall. ["Here I always get something to eat, but I'm not always welcome. The way to the north and west is open.[if we have not taken the rope]  A dangerous pit with spikes blocks the way to the east.[otherwise]I think I can swing across the pit now."]
 
-The Hallway is a room. "A cold and long hallway that leads to the basement."
+The Living room is a room. It is north of the Kitchen. ["A large room full of light. The path to the northwest is open. A pair of large red doors leads to the northeast. I'm rarely allowed to go through those doors alone.[if we have not taken the red key]They're always locked.[otherwise]The doors can be opened now."]
 
-The Basement is a room. It is below the Hallway. "It's damp and darker than the garage. The woman's voice can't be heard in here."
+[!] The Library is a room. 
 
-The Dining room is a room. It is west of the Kitchen. "An old room with yellow wallpaper that leads to the attic."
+The Basement is a room. It is south of the Library. ["It's damp and darker than the garage. The woman's voice can't be heard in here."]
 
-The Attic is a room. It is above the Dining room. "Unbearable heat. I can't stay here for more than 10 minutes. You see a friend in a black-and-white coat selling something."
+The Dining room is a room. It is west of the Kitchen. ["An old room with yellow wallpaper that leads to the attic."]
 
-The Pantry is a room. "A small room where you usually find sweets."
+The Attic is a room. It is north of the Dining room. ["Unbearable heat. I can't stay here for more than 10 minutes. You see a friend in a black-and-white coat selling something."]
 
-The Office is a room. It is northwest of the Office. "A nicely decorated room with your picture on the table and your name on the back – Eugen."[[if the armor is not carried]Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."]
+The Pantry is a room. It is east of the Study. "A small room where you usually find sweets."
 
-The Bathroom is a room. "I'm out of armor—there's no going back. It seems I'm stuck here."
+The Study is a room. It is north of the Living room. [["A nicely decorated room with your picture on the table and your name on the back – Eugen." if the armor is not carried]Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."]
 
-The Garden is a room. It is north of the Office. "After the garage, your favorite place to relax."
+[!]
 
-The Bedroom is a room. "I appear in the bedroom and see my owner looking for me under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."]
+The Bathroom is a room. ["I'm out of armor—there's no going back. It seems I'm stuck here."]
+
+The Garden is a room. ["After the garage, your favorite place to relax."]
+
+The Bedroom is a room. ["I appear in the bedroom and see my owner looking for me under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."]
 
 Chapter 3 - Doors
  
 The spike pit is a door.
-It is east of the Kitchen and west of the Hallway. 
-It is open.
-It is not openable.
-It is scenery.
-
-[The brown door is a door.
-It is north of the Garage and south of the Kitchen.
-It is closed.
-It is openable.
-It is scenery.]
-
-The red door is a door.
-It is northeast of the Living room and southwest of the Pantry.
-It is closed.
-It is openable.
-It is locked.
-It is scenery.
-The red key unlocks the red door.
-
-The rotating blades is a door.
-It is west of the Office and east of the Bathroom.
-It is open.
-It is not openable.
-It is scenery.
+It is east of the Kitchen and west of the Library.[?] 
+It is open, not openable and scenery.
 
 Chapter 4 - Items
-
-The rope is in the Kitchen.
-It is wearable.
-The description is "This will come in handy."
-
-The bone is in the Kitchen.
-It is edible.
 
 The chest is a container.
 The description is "?".
 It is in the Storeroom.
-It is closed.
-It is openable.
-It is fixed in place.
+It is closed, openable and fixed in place.
 The coin is in the chest.
+
+The rope is in the Dining room.
+It is wearable.
+The description is "This will come in handy."
+
+Brown key is in the secret drawer.
+
+Note is on the desk in the Entrance hall.
 
 Chapter 5 - Dying
 
@@ -120,7 +109,7 @@ To kill the player:
 		end the story saying "[bold type]GAME OVER";
 	otherwise:
 		say "[line break][bold type]YOU DIED[line break]";
-		now the player is in the Kitchen.
+		now the player is in the Kitchen. [ne moze uvijek biti u kuhinji]
 		
 Check going through a spike pit:
 	say "I can't get over this, but I might be able to swing across using something.";
@@ -133,7 +122,7 @@ Check going through a spike pit:
 		stop the action;
 	otherwise:
 		kill the player;
-		stop the action;
+		stop the action.
 		
 Chapter 6 - Inventory
 		
@@ -403,4 +392,376 @@ After going to the Kitchen: [popravi]
 		now mapping is true;
 		open map;
 		continue the action.
+		
+Chapter 14 - Entrance hall
+
+The desk is in the Entrance hall.
+The description is "Veliki stol s 4 obojane ladice od kojih je jedna izbljedila".
+
+After examining the desk:
+	if Vorple is supported:
+		place an image "desk.png" with the description "?", centered. [popravi]
+		
+The red drawer, the blue drawer, the green drawer and the pink drawer are parts of the desk.
+The red drawer, the blue drawer, the green drawer and the pink drawer are openable closed containers. [drugacije nazovi rozu ladicu]
+
+The secret drawer is a part of the desk. The secret drawer is an openable closed container.
+The secret drawer is scenery. [nevidljiva trenutno]
+
+Instead of doing anything other than examining to the secret drawer when the secret drawer is scenery:
+	say "Can't do that."
 	
+The desk has a truth state called sequence. The sequence of the desk is false.
+The desk has a number called position. The position of the desk is 0.
+
+Check opening the red drawer:
+	say "Prazna ladica";
+	if the sequence of the desk is false:
+		now the sequence of the desk is true;
+		now the position of the desk is 1;
+	else if the position is not 0 :
+		now the sequence of the desk is false;
+		now the position of the desk is 0;
+		
+Check opening the blue drawer:
+	say "Prazna ladica";
+	if the position of the desk is 1:
+		now the position of the desk is 2;
+	else:
+		now the sequence of the desk is false;
+		now the position of the desk is 0;
+		
+Check opening the pink drawer:
+	say "Prazna ladica";
+	if the position of the desk is 2:
+		now the position of the desk is 3;
+	else:
+		now the sequence of the desk is false;
+		now the position of the desk is 0;
+		
+Check opening the green drawer:
+	[say "Prazna ladica";]
+	if the position of the desk is 3:
+		now the position of the desk is 4;
+		now the secret drawer is not scenery;
+		say "As you open the lower drawer, you hear a click and a secret fourth drawer appears in the desk!";
+	else:
+		now the sequence of the desk is false;
+		now the position of the desk is 0;
+		
+After examining the note:
+	if Vorple is supported:
+		place an image "note1.png" with the description "?", centered. [popravi]
+		
+Flip is an action applying to one visible thing.
+Understand "flip [something]" as flip.
+Understand "turn over [something]" as flip.
+Understand "rotate [something]" as flip. [popravi]
+Understand "turn [something] over" as flip.
+
+Check flip:
+	if the noun is the note:
+		place an image "note1a.png" with the description "?", centered. [popravi]
+		
+Chapter 15
+
+Rotirajuce ostrice is a door.
+It is west of the Study and east of the Bathroom. 
+It is open.
+It is not openable.
+It is scenery.
+
+Check going through Rotirajuce ostrice:
+	say "Ne mogu ovo proći bez zaštite.";
+	if Oklop is worn:
+		say "Uspio sam! Nema natrag, jer se oklop oštećen.";
+		remove Oklop from play;
+	otherwise if Oklop is carried:
+		say "Oklop je korisniji ako ga [italic type]nosiš."; 
+		kill the player;
+		stop the action;
+	otherwise:
+		kill the player;
+		stop the action.
+		
+Konopac is in the Dining room.
+Konopac is wearable.
+The description is "Ovo će mi dobro doći."
+		
+Frizider is a container.
+The description is "Najbolje meso se nalazi ovdje."
+It is in the Kitchen.
+It is closed.
+It is openable.
+Kost is in frizider.
+Kost is edible.
+The description is "Ne voliš kosti, ali kad si gladan sve je dobro."
+
+Ormaric is a container.
+It is in the Pantry.
+It is closed.
+It is openable.
+Bocica is in Ormaric.
+The description is "Izgleda kao sprej protiv nametnika."
+
+Zlatna skrinja is a container.
+It is in the Living room.
+It is closed.
+It is openable.
+It is locked.
+Zlatni kljuc unlocks Zlatna skrinja.
+Zlatnici is in Zlatna skrinja.
+The description is "Zlatnici različitih oblika. Nekima bi se činili čudnima, ali ne i tebi."
+
+Crna skrinja is a container.
+It is in the Attic.
+It is closed.
+It is openable.
+It is locked.
+Crni kljuc unlocks Crna skrinja.
+
+Check opening Crna skrinja:
+	if Crna skrinja is locked:
+		say "Treba mi ključ za ovo.";
+	otherwise:	
+		say "Ovo bolje ne otvarati.";
+		kill the player;
+		stop the action.
+		
+Stvorenje is in the Basement.
+Stvorenje is an animal.
+The description is "Iz mraka te promatraju dva žarka oka. Režanje postaje sve jače i jače. Izgleda da je netko jako gladan.
+U kutu ispod svijetiljke vidiš zlatni ključ."
+
+Nahrani is an action applying to one visible thing.
+Understand "daj [someone] kost" as nahrani.
+
+Check Nahrani:
+	if the noun is Stvorenje:
+		say "Režanje je prestalo i zamjenilo ga je mljackanje. [the noun] se smirilo. Zgrabio si ključ i stavio ga u inventory.";
+		now Kost is nowhere;
+		move Zlatni kljuc to the player;
+	otherwise:
+		say "Mislim da bi netko drugi više uživao u ovome.";
+		
+Pojedi is an action applying to one visible thing.
+Understand "pojedi [something]" as pojedi.
+
+Check Pojedi:
+	if something is Kobasica:
+		say "To mi je kad kupujem kobasice po vrućini od pajdaša.";
+		end the story saying "[bold type]YOU DIED";
+	otherwise:
+		now Kobasica is nowhere;
+		
+Zlatnici can be skupljen or neskupljen.
+Zlatnici is neskupljen.
+B is a number variable.
+B is 0.
+C is a number variable.
+C is 0.
+P is a number variable.
+P is 0.
+Instead of taking Zlatnici:
+	if Zlatnici is skupljen:
+		continue the action;
+	otherwise:
+		now P is 1500;
+		now B is B plus P;
+		now Zlatnici is skupljen;
+		now the description of Zlatnici is "[B] Zlatnika.".
+		
+The Attic has a time called the opening hour.
+The opening hour of the Attic is 10:30 AM.
+The Attic has a time called the closing hour.
+The closing hour of the Attic is 10:45 AM.
+
+Check going to the Attic:
+	if the time of day is before the opening hour of the Attic,
+	say "Tavan je zaključan do [the opening hour of the the Attic] zbog vrućine." instead.
+	
+Check going to the Attic:
+	if the time of day is after the closing hour of the Attic,
+	say "Tavan je zaključan od [the closing hour of the Attic] zbog vrućine." instead.
+
+Every turn when the location is the Attic:
+	let deadline be the closing hour of the location;
+	if the deadline is before the time of day:
+		say "Zbog velike vrućine si morao izaći van.";
+		move the player to the Dining room.
+		
+Instead of going to the Garden:
+	if we have not taken Bocica:
+		say "Kada ideš van potrebna ti je zaštita. Posebno protiv Krpelja.";
+	otherwise:
+		Move the player to the Garden.
+		
+Understand "Eugen" or "say Eugen" as casting Eugen.
+Casting Eugen is an action applying to nothing.
+Check casting Eugen:
+	if the player is not in the Bathroom:
+		say "Da tako se zovem, ali mi to sada ne pomaže." instead.
+Carry out casting Eugen:
+	say "Nestao si u oblaku magle.";
+now the player is in the Bedroom.
+
+Understand "Mijau" or "Mijau" as casting Mijau.
+Casting Mijau is an action applying to nothing.
+Check casting Mijau:
+	if the player is in the Bedroom:
+		end the story saying "Konačno sam te našao.[bold type] Mijau [roman type]Tako sam gladan.[bold type] Mijau";
+	otherwise:
+		say "Nitko me ne cuje. "
+		
+Boris is an animal in the Attic.
+
+Table of Boris Responses
+Topic	Response			Index
+"Posao"	"Posao ne ide baš najbolje, vruće je, spava mi se i jedva gledam."		"Posao"
+"Zenski glas"	"Čuo sam kako te zove i traži. Ja sam malo prije kod nje jeo."			"Zenski glas"
+	
+After asking Boris about something:
+	if the topic understood is a topic listed in the Table of Boris Responses:
+		say "[Response entry]";
+		
+Chapter 16 - Buying
+
+Blagajna is in the Attic. "Stavi što si odabrao na blagajnu pajdo da ti mogu uzeti zlatnike hehe."
+Blagajna can be Crnk, Ok, Ck, Ko, Og or prazna.
+Blagajna is prazna.
+Blagajna is scenery.
+
+[crni kljuc]
+Crni kljuc is in the Attic.
+Crni kljuc can be kupljeno or nekupljeno.
+Crni kljuc is nekupljeno.
+The description is "80 zlatnika."
+Instead of taking Crni kljuc:
+	if Crni kljuc is nekupljeno:
+		say "Moraš to platiti pajdo!";
+	otherwise:
+		continue the action.
+
+Instead of putting Crni kljuc on Blagajna:
+	now Blagajna is Crnk;
+	say "To će biti 80 zlatnika. Stavi zlatnike na blagajnu.".
+	
+[oklop]
+Oklop is in the Attic.
+Oklop is wearable.
+Oklop can be kupljeno or nekupljeno.
+Oklop is nekupljeno.
+The description is "510 zlatnika."
+Instead of taking Oklop:
+	if Oklop is nekupljeno:
+		say "Moraš to platiti pajdo!";
+	otherwise:
+		continue the action.
+
+Instead of putting Oklop on Blagajna:
+	now Blagajna is Ok;
+	say "To će biti 510 zlatnika. Stavi zlatnike na blagajnu.".
+
+[crveni kljuc]	
+Crveni kljuc is in the Attic.
+Crveni kljuc can be kupljeno or nekupljeno.
+Crveni kljuc is nekupljeno.
+The description is "490 zlatnika."
+Instead of taking Crveni kljuc:
+	if Crveni kljuc is nekupljeno:
+		say "Moraš to platiti pajdo!";
+	otherwise:
+		continue the action.
+
+Instead of putting Crveni kljuc on Blagajna:
+	now Blagajna is Ck;
+	say "To će biti 490 zlatnika. Stavi zlatnike na blagajnu.".
+
+[kobasica]
+Kobasica is in the Attic.
+Kobasica can be kupljeno or nekupljeno.
+Kobasica is nekupljeno.
+The description is "200 zlatnika. Ova kobasica izgleda socno, a ja sam gladan."
+Instead of taking Kobasica:
+	if Kobasica is nekupljeno:
+		say "Moraš to platiti pajdo!";
+	otherwise:
+		continue the action.
+
+Instead of putting Kobasica on Blagajna:
+	now Blagajna is Ko;
+	say "To će biti 200 zlatnika. Stavi zlatnike na blagajnu.".
+	
+[ogrlica]
+Ogrlica is in the Attic.
+Ogrlica can be kupljeno or nekupljeno.
+Ogrlica is nekupljeno.
+The description is "350 zlatnika."
+Instead of taking Ogrlica:
+	if Ogrlica is nekupljeno:
+		say "Moraš to platiti pajdo!";
+	otherwise:
+		continue the action.
+
+Instead of putting Ogrlica on Blagajna:
+	now Blagajna is Og;
+	say "To će biti 350 zlatnika. Stavi zlatnike na blagajnu.".
+	
+Instead of putting Zlatnici on Blagajna:
+	if Blagajna is prazna:
+		say "Nisi ništa odabrao pajdo.";
+	if Blagajna is Crnk:
+		Now C is 80;
+		if B is less than C:
+			say "Nemaš dovoljno zlatnika pajdo!";
+			now Blagajna is prazna;
+		otherwise:
+			now B is B minus C;
+			now the description of Zlatnici is "[B] ";
+			now Crni kljuc is kupljeno;
+			now Blagajna is prazna;
+			say "Je li to sve? Nemoj zaboraviti svoj Crni ključ. Imaš još [B] Zlatnika.";
+	if Blagajna is Ok:
+		Now C is 510;
+		if B is less than C:
+			say "Nemaš dovoljno zlatnika pajdo!";
+			now Blagajna is prazna;
+		otherwise:
+			now B is B minus C;
+			now the description of Zlatnici is "[B] Zlatnika";
+			now Oklop is kupljeno;
+			now Blagajna is prazna;
+			say "Je li to sve? Nemoj zaboraviti svoj Oklop. Imaš još [B] Zlatnika.";
+	if Blagajna is Ck:
+		Now C is 490;
+		if B is less than C:
+			say "Nemaš dovoljno zlatnika pajdo!";
+			now Blagajna is prazna;
+		otherwise:
+			now B is B minus C;
+			now the description of Zlatnici is "[B] Zlatnika";
+			now Crveni kljuc is kupljeno;
+			now Blagajna is prazna;
+			say "Je li to sve? Nemoj zaboraviti svoj Crveni ključ. Imaš još [B] Zlatnika.";	
+	if Blagajna is Ko:
+		Now C is 200;
+		if B is less than C:
+			say "Nemaš dovoljno zlatnika pajdo!";
+			now Blagajna is prazna;
+		otherwise:
+			now B is B minus C;
+			now the description of Zlatnici is "[B] Zlatnika";
+			now Kobasica is kupljeno;
+			now Blagajna is prazna;
+			say "Je li to sve? Nemoj zaboraviti svoju Kobasicu. Imaš još [B] Zlatnika.";		
+	if Blagajna is Og:
+		Now C is 350;
+		if B is less than C:
+			say "Nemaš dovoljno zlatnika pajdo!";
+			now Blagajna is prazna;
+		otherwise:
+			now B is B minus C;
+			now the description of Zlatnici is "[B] Zlatnika";
+			now Crni kljuc is kupljeno;
+			now Blagajna is prazna;
+			say "Je li to sve? Nemoj zaboraviti svoju Ogrlicu. Imaš još [B] Zlatnika.";
