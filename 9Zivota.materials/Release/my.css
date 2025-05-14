@@ -174,3 +174,14 @@
 .status-line-container {
     border-bottom: 1px solid;
 }
+
+@font-face {
+    font-family: 'Tagesschrift';
+    src: url(Tagesschrift-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Tagesschrift', sans-serif;
+  }

@@ -40,6 +40,22 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>desk.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>note1.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>note1a.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>Tagesschrift-Regular.ttf</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>my.css</leafname>
                 <description>--</description>
             </auxiliary>
@@ -47,7 +63,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-04-29</releasedate>
+                    <releasedate>2025-05-14</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -57,10 +73,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-04-29</originated>
+            <originated>2025-05-14</originated>
         </colophon>
         <glulx>
-            <serial>250429</serial>
+            <serial>250514</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
