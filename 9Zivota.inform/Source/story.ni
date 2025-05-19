@@ -40,61 +40,107 @@ Release along with style sheet "my.css".
 
 Chapter 2 - Rooms
 
-The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. Ahead of you stretches a dark hallway."
+The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. You feel stiff and tired, as if you hadn’t slept at all last night. Ahead of you stretches a dark hallway."
 
 The Hallway is a room. It is north of the Garage. "A cold, long hallway that leads to nowhere."
 
-The Storeroom is a room. It is east of the Garage. "Description missing."
+The Storeroom is a room. It is east of the Garage. "A small room where you usually find sweets."
 
-The Entrance hall is a room. "In the distance, you hear a woman’s voice. You feel stiff and tired, as if you hadn’t slept at all last night. You decide to head toward the woman’s voice."
-
-[!]
-
-The Kitchen is a room. It is north of the Entrance hall. ["Here I always get something to eat, but I'm not always welcome. The way to the north and west is open.[if we have not taken the rope]  A dangerous pit with spikes blocks the way to the east.[otherwise]I think I can swing across the pit now."]
-
-The Living room is a room. It is north of the Kitchen. ["A large room full of light. The path to the northwest is open. A pair of large red doors leads to the northeast. I'm rarely allowed to go through those doors alone.[if we have not taken the red key]They're always locked.[otherwise]The doors can be opened now."]
-
-[!] The Library is a room. 
-
-The Basement is a room. It is south of the Library. ["It's damp and darker than the garage. The woman's voice can't be heard in here."]
-
-The Dining room is a room. It is west of the Kitchen. ["An old room with yellow wallpaper that leads to the attic."]
-
-The Attic is a room. It is north of the Dining room. ["Unbearable heat. I can't stay here for more than 10 minutes. You see a friend in a black-and-white coat selling something."]
-
-The Pantry is a room. It is east of the Study. "A small room where you usually find sweets."
-
-The Study is a room. It is north of the Living room. [["A nicely decorated room with your picture on the table and your name on the back – Eugen." if the armor is not carried]Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."]
+The Entrance hall is a room. "In the distance, a woman’s voice calls out. You hear your name and decide to follow the sound."
 
 [!]
 
-The Bathroom is a room. ["I'm out of armor—there's no going back. It seems I'm stuck here."]
+The Kitchen is a room. "Here you always get something to eat, but you're not always welcome. The way to the north and west is open.[if we have not taken the rope] A dangerous pit with spikes blocks the way to the east.[otherwise] I think I can swing across the pit now."
 
-The Garden is a room. ["After the garage, your favorite place to relax."]
+The Living room is a room. It is north of the Kitchen. "A large room full of light. The path to the west is open. A large red door leads to the east. You are rarely allowed to go through those doors alone.[if we have not taken the red key] They're always locked.[otherwise] open The doors can be opened now."
 
-The Bedroom is a room. ["I appear in the bedroom and see my owner looking for me under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."]
+The Library is a room. "?"
+
+The Basement is a room. It is south of the Library. "It's damp and darker than the garage. The woman's voice can't be heard in here."
+
+The Dining room is a room. It is west of the Kitchen. "An old room with yellow wallpaper that leads to the attic."
+
+The Attic is a room. It is north of the Dining room. "Unbearable heat. I can't stay here for more than 10 minutes. You see a familiar face in a black-and-white coat selling something."
+
+The Pantry is a room. It is east of the Study. "?"
+
+The Study is a room. It is west of the Living room. "A nicely decorated room with your picture on the table and your name on the back [italic type][player's full name][roman type].[if the armor is not carried] Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."
+
+[!]
+
+The Bathroom is a room. "I'm out of armor—there's no going back. It seems I'm stuck here."
+
+The Garden is a room. Garden is north of the Living room. "After the garage, your favorite place to relax."
+
+The Bedroom is a room. "You appear in the bedroom and see your owner looking for you under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."
 
 Chapter 3 - Doors
  
+The brown door is a door.
+It is north of the Entrance hall and south of the Kitchen.
+It is closed, openable, locked and scenery.
+
 The spike pit is a door.
 It is east of the Kitchen and west of the Library.[?] 
+It is open, not openable and scenery.
+
+The red door is a door.
+It is east of the Living room and west of the Pantry.
+It is closed, openable, locked and scenery.
+
+The rotating blades is a door.
+It is west of the Study and east of the Bathroom.
 It is open, not openable and scenery.
 
 Chapter 4 - Items
 
 The chest is a container.
-The description is "?".
 It is in the Storeroom.
 It is closed, openable and fixed in place.
+
 The coin is in the chest.
+
+The knife is in the Garage.
+It is scenery.
+
+The red key unlocks the red door.
+
+The brown key is in the secret drawer.
+The brown key unlocks the brown door.
+
+The note is on the desk in the Entrance hall. The description is "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D."
 
 The rope is in the Dining room.
 It is wearable.
 The description is "This will come in handy."
 
-Brown key is in the secret drawer.
+The fridge is a container.
+The description is "The best meat is found here."
+It is in the Kitchen.
+It is closed and openable.
 
-Note is on the desk in the Entrance hall.
+The bone is in the fridge.
+It is edible.
+The description is "You don’t like bones, but when you’re hungry, anything will do."
+
+The cabinet is a container.
+It is in the Pantry.
+It is closed and openable.
+
+The small bottle is in the cabinet.
+The description is "It looks like a spray against pests."
+
+The golden chest is a container.
+It is in Living room.
+It is closed, openable and locked.
+
+The golden key unlocks golden chest.
+The coins are in the golden chest.
+The description is "Gold coins of various shapes. Some might find them strange, but not you."
+
+The black chest is a container.
+It is closed, openable and locked.
+The black key unlocks the black chest.
 
 Chapter 5 - Dying
 
@@ -108,7 +154,10 @@ To kill the player:
 		execute JavaScript command "setTimeout(() => location.reload(), 5000);";
 		end the story saying "[bold type]GAME OVER";
 	otherwise:
-		say "[line break][bold type]YOU DIED[line break]";
+		say "[line break]";
+		place an inline element called "death";
+		display text "YOU DIED" in the element called "death";
+		say "[line break]";
 		now the player is in the Kitchen. [ne moze uvijek biti u kuhinji]
 		
 Check going through a spike pit:
@@ -117,16 +166,56 @@ Check going through a spike pit:
 		say "I made it! This rope will come in handy on the way back too.";
 		continue the action;
 	otherwise if a rope is carried:
-		say "A rope is more useful if you [italic type]wear, [roman type]it, not just have it in your inventory.";
+		say "A rope is more useful if you [italic type]wear [roman type]it, not just have it in your inventory.";
 		kill the player;
 		stop the action;
 	otherwise:
 		kill the player;
 		stop the action.
 		
+Check going through a rotating blades:
+	say "I can't get through this without protection.";
+	if armor is worn:
+		say "I made it! There's no going back, because the armor is damaged.";
+		remove armor from play;
+		continue the action;
+	otherwise if armor is carried:
+		say "Armor is more useful if you [italic type]wear, [roman type]it."; 
+		kill the player;
+		stop the action;
+	otherwise:
+		kill the player;
+		stop the action.
+		
+Check opening the black chest:
+	if the black chest is locked:
+		say "I need a key to open this.";
+	otherwise:	
+		say "This is better left unopened.";
+		kill the player;
+		stop the action.
+		
+Check going to the basement:
+	say "You hear loud growling coming from the basement.";
+	if the bone is carried:
+		say "That bone from the fridge might come in handy.";
+	otherwise:
+		say "It's not wise to enter a room where you might end up as someone's snack.";
+		kill the player;
+		stop the action.
+		
+Instead of eating:
+	if the noun is the sausage:
+		say "That’s what I get for buying cheap sausages.";
+		kill the player;
+		stop the action;
+	otherwise:
+		now the sausage is nowhere.
+	
+		
 Chapter 6 - Inventory
 		
-The carrying capacity of the player is 1.
+The carrying capacity of the player is 5.
 
 Carry out taking inventory (this is the print inventory using HTML lists rule):
 	if Vorple is supported:
@@ -144,7 +233,7 @@ Chapter 7 - Title screen
 
 When play begins:
 	if Vorple is supported:
-		place an image "titlescreen.png" with the description "?", centered;
+		place an image "titlescreen.png" with the description "Titlescreen", centered;
 	center "[fantasy font style][play the game][end style]";
 	wait for the SPACE key;
 	clear the screen.
@@ -250,9 +339,7 @@ After looking:
 		now Tooltip1 is false;
 	else if the location is the Garage and the player does not carry the coin:
 		display tooltip "You can go right by typing EAST or by pressing the yellow button." on the prompt;
-		move east;
-	else if the location is the Garage and the player carries the coin:
-		display tooltip "Tooltip missing." on the prompt.
+		move east.
 			
 After going to the Hallway for the first time:
 	try looking;
@@ -264,7 +351,7 @@ After going to the Storeroom for the first time:
 	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt.
 	
 Instead of examining the chest when the chest is closed:
-	say "The chest is ";
+	say "An old, heavy chest that you've never seen open. The chest is ";
 	place an element called "chest-text" reading "closed";
 	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
 	say ".".
@@ -284,9 +371,16 @@ After taking inventory:
 		move west;
 		now the knife is not scenery.
 		
-The knife is in the Garage.
-It is scenery.
-		
+After examining the chest when the chest is closed:
+	say "An old, heavy chest that you've never seen open. The chest is ";
+	
+Rule for printing the name of the knife:
+	if the location is the Garage:
+		place an element called "knife-text" reading "knife";
+		display a tooltip "This wasn't here before. I'd better take it." on the element called "knife-text" [in 1 seconds];
+	otherwise:
+		say "knife";
+	
 Chapter 11 - Difficulty 
 		
 Difficulty is a kind of value. The difficulties are normal, hard, unforgiving and unknown.
@@ -300,8 +394,8 @@ Tezina is a truth state that varies. Tezina is false.
 Biranje is a truth state that varies. Biranje is false.
 
 Instead of taking the knife when the coin is carried and biranje is false:
-	now the player carries the knife;
-	say "You pick up the knife.[line break]Oh, one more thing before u leave.";
+	move the knife to the player;
+	say "You pick up the knife.[paragraph break]Oh, one more thing before youunf leave.";
 	now tezina is true;
 	now the command prompt is "Please select difficulty >";
 	display tooltip "Type UNKNOWN." on the prompt [in 3 seconds];
@@ -387,26 +481,27 @@ Carry out map:
 		
 Mapping is a truth state that varies. Mapping is false.
 		
-After going to the Kitchen: [popravi]
+[After going to the Kitchen: [popravi]
 	if mapping is false:
 		now mapping is true;
 		open map;
-		continue the action.
+		continue the action.]
 		
 Chapter 14 - Entrance hall
 
 The desk is in the Entrance hall.
-The description is "Veliki stol s 4 obojane ladice od kojih je jedna izbljedila".
+The description is "A small table with four painted drawers, one of which is faded.".
 
 After examining the desk:
 	if Vorple is supported:
-		place an image "desk.png" with the description "?", centered. [popravi]
+		place an image "desk.png" with the description "Desk", centered. [popravi]
 		
-The red drawer, the blue drawer, the green drawer and the pink drawer are parts of the desk.
-The red drawer, the blue drawer, the green drawer and the pink drawer are openable closed containers. [drugacije nazovi rozu ladicu]
+The pink drawer, the green drawer, the red drawer and the blue drawer are parts of the desk.
+The pink drawer, the green drawer, the red drawer and the blue drawer are openable closed containers.
+The printed name of the pink drawer is "faded drawer".
 
 The secret drawer is a part of the desk. The secret drawer is an openable closed container.
-The secret drawer is scenery. [nevidljiva trenutno]
+The secret drawer is scenery.
 
 Instead of doing anything other than examining to the secret drawer when the secret drawer is scenery:
 	say "Can't do that."
@@ -415,7 +510,7 @@ The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
 
 Check opening the red drawer:
-	say "Prazna ladica";
+	say "[line break]An empty drawer";
 	if the sequence of the desk is false:
 		now the sequence of the desk is true;
 		now the position of the desk is 1;
@@ -424,7 +519,7 @@ Check opening the red drawer:
 		now the position of the desk is 0;
 		
 Check opening the blue drawer:
-	say "Prazna ladica";
+	say "[line break]An empty drawer";
 	if the position of the desk is 1:
 		now the position of the desk is 2;
 	else:
@@ -432,7 +527,7 @@ Check opening the blue drawer:
 		now the position of the desk is 0;
 		
 Check opening the pink drawer:
-	say "Prazna ladica";
+	say "[line break]An empty drawer";
 	if the position of the desk is 2:
 		now the position of the desk is 3;
 	else:
@@ -440,137 +535,41 @@ Check opening the pink drawer:
 		now the position of the desk is 0;
 		
 Check opening the green drawer:
-	[say "Prazna ladica";]
+	say "[line break]An empty drawer";
 	if the position of the desk is 3:
 		now the position of the desk is 4;
 		now the secret drawer is not scenery;
-		say "As you open the lower drawer, you hear a click and a secret fourth drawer appears in the desk!";
+		say "[line break]As you open the green drawer, you hear a click and a secret fifth drawer appears in the desk!";
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
 		
 After examining the note:
 	if Vorple is supported:
-		place an image "note1.png" with the description "?", centered. [popravi]
+		place an image "note1.png" with the description "Note1", centered.
 		
 Flip is an action applying to one visible thing.
 Understand "flip [something]" as flip.
-Understand "turn over [something]" as flip.
-Understand "rotate [something]" as flip. [popravi]
 Understand "turn [something] over" as flip.
+Understand "turn over [something]" as flip.
 
 Check flip:
 	if the noun is the note:
-		place an image "note1a.png" with the description "?", centered. [popravi]
+		place an image "note1a.png" with the description "Note1a", centered. [popravi]
 		
-Chapter 15
+Chapter 15 - Basement
 
-Rotirajuce ostrice is a door.
-It is west of the Study and east of the Bathroom. 
-It is open.
-It is not openable.
-It is scenery.
+The beast is in the Basement.
+The beast is an animal.
+The description is "Two glowing eyes watch you from the darkness. The growling grows steadily louder. It seems someone is very hungry. In the corner beneath the lamp, you see a golden key."
 
-Check going through Rotirajuce ostrice:
-	say "Ne mogu ovo proći bez zaštite.";
-	if Oklop is worn:
-		say "Uspio sam! Nema natrag, jer se oklop oštećen.";
-		remove Oklop from play;
-	otherwise if Oklop is carried:
-		say "Oklop je korisniji ako ga [italic type]nosiš."; 
-		kill the player;
-		stop the action;
-	otherwise:
-		kill the player;
-		stop the action.
+Instead of giving the bone to the beast:
+	say "The growling stopped and was replaced by chewing. The beast calmed down. You grabbed the key and put it in your backpack.";
+	now the bone is nowhere;
+	move the golden key to the player.
 		
-Konopac is in the Dining room.
-Konopac is wearable.
-The description is "Ovo će mi dobro doći."
-		
-Frizider is a container.
-The description is "Najbolje meso se nalazi ovdje."
-It is in the Kitchen.
-It is closed.
-It is openable.
-Kost is in frizider.
-Kost is edible.
-The description is "Ne voliš kosti, ali kad si gladan sve je dobro."
+Chapter 16 - Attic
 
-Ormaric is a container.
-It is in the Pantry.
-It is closed.
-It is openable.
-Bocica is in Ormaric.
-The description is "Izgleda kao sprej protiv nametnika."
-
-Zlatna skrinja is a container.
-It is in the Living room.
-It is closed.
-It is openable.
-It is locked.
-Zlatni kljuc unlocks Zlatna skrinja.
-Zlatnici is in Zlatna skrinja.
-The description is "Zlatnici različitih oblika. Nekima bi se činili čudnima, ali ne i tebi."
-
-Crna skrinja is a container.
-It is in the Attic.
-It is closed.
-It is openable.
-It is locked.
-Crni kljuc unlocks Crna skrinja.
-
-Check opening Crna skrinja:
-	if Crna skrinja is locked:
-		say "Treba mi ključ za ovo.";
-	otherwise:	
-		say "Ovo bolje ne otvarati.";
-		kill the player;
-		stop the action.
-		
-Stvorenje is in the Basement.
-Stvorenje is an animal.
-The description is "Iz mraka te promatraju dva žarka oka. Režanje postaje sve jače i jače. Izgleda da je netko jako gladan.
-U kutu ispod svijetiljke vidiš zlatni ključ."
-
-Nahrani is an action applying to one visible thing.
-Understand "daj [someone] kost" as nahrani.
-
-Check Nahrani:
-	if the noun is Stvorenje:
-		say "Režanje je prestalo i zamjenilo ga je mljackanje. [the noun] se smirilo. Zgrabio si ključ i stavio ga u inventory.";
-		now Kost is nowhere;
-		move Zlatni kljuc to the player;
-	otherwise:
-		say "Mislim da bi netko drugi više uživao u ovome.";
-		
-Pojedi is an action applying to one visible thing.
-Understand "pojedi [something]" as pojedi.
-
-Check Pojedi:
-	if something is Kobasica:
-		say "To mi je kad kupujem kobasice po vrućini od pajdaša.";
-		end the story saying "[bold type]YOU DIED";
-	otherwise:
-		now Kobasica is nowhere;
-		
-Zlatnici can be skupljen or neskupljen.
-Zlatnici is neskupljen.
-B is a number variable.
-B is 0.
-C is a number variable.
-C is 0.
-P is a number variable.
-P is 0.
-Instead of taking Zlatnici:
-	if Zlatnici is skupljen:
-		continue the action;
-	otherwise:
-		now P is 1500;
-		now B is B plus P;
-		now Zlatnici is skupljen;
-		now the description of Zlatnici is "[B] Zlatnika.".
-		
 The Attic has a time called the opening hour.
 The opening hour of the Attic is 10:30 AM.
 The Attic has a time called the closing hour.
@@ -578,190 +577,157 @@ The closing hour of the Attic is 10:45 AM.
 
 Check going to the Attic:
 	if the time of day is before the opening hour of the Attic,
-	say "Tavan je zaključan do [the opening hour of the the Attic] zbog vrućine." instead.
+	say "The attic is locked until [the opening hour of the Attic] because of the heat." instead.
 	
 Check going to the Attic:
-	if the time of day is after the closing hour of the Attic,
-	say "Tavan je zaključan od [the closing hour of the Attic] zbog vrućine." instead.
+	if the time of day is after the closing hour of the Attic:
+		say "The attic is locked until [the closing hour of the Attic] because of the heat." instead.
+	
 
 Every turn when the location is the Attic:
 	let deadline be the closing hour of the location;
 	if the deadline is before the time of day:
-		say "Zbog velike vrućine si morao izaći van.";
-		move the player to the Dining room.
+		say "Because of the intense heat, you had to leave the attic.";
+		move the player to Dining room.
 		
-Instead of going to the Garden:
-	if we have not taken Bocica:
-		say "Kada ideš van potrebna ti je zaštita. Posebno protiv Krpelja.";
-	otherwise:
-		Move the player to the Garden.
-		
-Understand "Eugen" or "say Eugen" as casting Eugen.
-Casting Eugen is an action applying to nothing.
-Check casting Eugen:
-	if the player is not in the Bathroom:
-		say "Da tako se zovem, ali mi to sada ne pomaže." instead.
-Carry out casting Eugen:
-	say "Nestao si u oblaku magle.";
-now the player is in the Bedroom.
+[Attic items]
 
-Understand "Mijau" or "Mijau" as casting Mijau.
-Casting Mijau is an action applying to nothing.
-Check casting Mijau:
-	if the player is in the Bedroom:
-		end the story saying "Konačno sam te našao.[bold type] Mijau [roman type]Tako sam gladan.[bold type] Mijau";
+The Shop is a thing in the Attic.
+
+The black key is in the Shop.
+
+The armor is in the Shop.
+It is wearable.
+
+The red key is in the Shop.
+
+The sausage is in the Shop.
+
+The necklace is in the Shop.
+
+Rule for printing the name of Shop while listing contents of a room:
+	say "Shop";
+	omit contents in listing.
+
+Table of Shop Items
+Item	Cost
+Black key	$80
+Armor	$510
+Red key	$490
+Sausage	$200
+Necklace	$350
+
+Instead of examining the Shop:
+	if Vorple is supported:
+		say "[We] [can] see the following items for sale:[line break]";
+		open HTML tag "table" called "table1";
+		open HTML tag "tr";
+		place "th" element reading "Item";
+		place "th" element reading "Price";
+		close HTML tag;
+		repeat through the Table of Shop Items:
+			open HTML tag "tr";
+			place "td" element called "td1" reading "[Item entry]";
+			place "td" element called "td1" reading "[Cost entry]";
+			close HTML tag;
+		close HTML tag;
 	otherwise:
-		say "Nitko me ne cuje. "
+		say "You see various items for sale."
 		
-Boris is an animal in the Attic.
+Price is a kind of value. $1000 specifies a price.
+
+The player has a price. The price of the player is $0.
+
+After taking the coins:
+	now the price of the player is $1500.
+	
+After entering the Attic:
+	now the left hand Vorple status line is "Coins [price of the player]".
+	
+[After leaving the Attic:
+	now the left hand Vorple status line is "You are: [player's full name]".]
+	
+Instead of taking something which is in the Shop:
+	say "You'll need to buy that first."
+
+Purchase is an action applying to one thing.
+Understand "buy [thing]" as purchase.
+
+Check purchase:
+	let price wanted be $0;
+	repeat through Table of Shop Items:
+		if Item entry is the noun:
+			now price wanted is Cost entry;
+	if the price of the player is less than price wanted:
+		say "You don't have enough money. [The noun] costs [price wanted], but you only have [price of player]." instead.
+
+Carry out purchase:
+	let price wanted be $0;
+	repeat through Table of Shop Items:
+		if Item entry is the noun:
+			now price wanted is Cost entry;
+	decrease the price of the player by price wanted;
+	now the player carries the noun;
+	say "You pay [price wanted] and acquire [the noun].".
+	
+Report purchase:
+	say "You now have [price of player] remaining in your wallet.".
+
+Chapter 17
+
+Instead of going to the Garden:
+	if we have not taken the small bottle:
+		say "When you go outside, you need protection. Especially against ticks.";
+	otherwise:
+		move the player to the Garden.
+
+After reading a command:
+	if the player's command matches the text "[player's full name]" or the player's command matches the text "say [player's full name]":
+		replace the matched text with "cast name";
+		continue the action.
+
+Understand "cast name" as casting player name.
+Casting player name is an action applying to nothing.
+
+Check casting player name:
+	if the player is not in the Bathroom:
+		say "Yes, that’s my name, but that doesn’t help me right now." instead.
+
+Carry out casting player name:
+	say "You disappeared into a cloud of fog.";
+	now the player is in the Bedroom.
+		
+Chapter 18 - Dialog
+
+Boris is an animal in the Dining room. The description of Boris is "Boris".
 
 Table of Boris Responses
 Topic	Response			Index
-"Posao"	"Posao ne ide baš najbolje, vruće je, spava mi se i jedva gledam."		"Posao"
-"Zenski glas"	"Čuo sam kako te zove i traži. Ja sam malo prije kod nje jeo."			"Zenski glas"
+"Female voice"	"I heard her calling and looking for you. I was eating with her a little while ago."			"Female voice"
 	
 After asking Boris about something:
 	if the topic understood is a topic listed in the Table of Boris Responses:
 		say "[Response entry]";
 		
-Chapter 16 - Buying
-
-Blagajna is in the Attic. "Stavi što si odabrao na blagajnu pajdo da ti mogu uzeti zlatnike hehe."
-Blagajna can be Crnk, Ok, Ck, Ko, Og or prazna.
-Blagajna is prazna.
-Blagajna is scenery.
-
-[crni kljuc]
-Crni kljuc is in the Attic.
-Crni kljuc can be kupljeno or nekupljeno.
-Crni kljuc is nekupljeno.
-The description is "80 zlatnika."
-Instead of taking Crni kljuc:
-	if Crni kljuc is nekupljeno:
-		say "Moraš to platiti pajdo!";
-	otherwise:
-		continue the action.
-
-Instead of putting Crni kljuc on Blagajna:
-	now Blagajna is Crnk;
-	say "To će biti 80 zlatnika. Stavi zlatnike na blagajnu.".
+After examining Boris: [mozes staviti insted pa nema You see nothing special about Boris.]
+	say "Topics you can talk about with Boris:[line break]";
+	repeat with N running from 1 to the number of rows in the Table of Boris Responses:
+		choose row N in the Table of Boris Responses;
+		say "  - ";
+		place a link to command "ask Boris about [Index entry]" reading "[Index entry]";
+		say "[line break]".
+		
+Rule for printing the name of Boris:
+	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
 	
-[oklop]
-Oklop is in the Attic.
-Oklop is wearable.
-Oklop can be kupljeno or nekupljeno.
-Oklop is nekupljeno.
-The description is "510 zlatnika."
-Instead of taking Oklop:
-	if Oklop is nekupljeno:
-		say "Moraš to platiti pajdo!";
+Chapter 19 - Ending
+
+Understand "meow" as casting meow.
+
+Casting meow is an action applying to nothing.
+
+Check casting meow:
+	if the player is in the Bedroom:
+		end the story saying "Ah, there you are. Come on, we need to get ready — our vet appointment’s at 5.";
 	otherwise:
-		continue the action.
-
-Instead of putting Oklop on Blagajna:
-	now Blagajna is Ok;
-	say "To će biti 510 zlatnika. Stavi zlatnike na blagajnu.".
-
-[crveni kljuc]	
-Crveni kljuc is in the Attic.
-Crveni kljuc can be kupljeno or nekupljeno.
-Crveni kljuc is nekupljeno.
-The description is "490 zlatnika."
-Instead of taking Crveni kljuc:
-	if Crveni kljuc is nekupljeno:
-		say "Moraš to platiti pajdo!";
-	otherwise:
-		continue the action.
-
-Instead of putting Crveni kljuc on Blagajna:
-	now Blagajna is Ck;
-	say "To će biti 490 zlatnika. Stavi zlatnike na blagajnu.".
-
-[kobasica]
-Kobasica is in the Attic.
-Kobasica can be kupljeno or nekupljeno.
-Kobasica is nekupljeno.
-The description is "200 zlatnika. Ova kobasica izgleda socno, a ja sam gladan."
-Instead of taking Kobasica:
-	if Kobasica is nekupljeno:
-		say "Moraš to platiti pajdo!";
-	otherwise:
-		continue the action.
-
-Instead of putting Kobasica on Blagajna:
-	now Blagajna is Ko;
-	say "To će biti 200 zlatnika. Stavi zlatnike na blagajnu.".
-	
-[ogrlica]
-Ogrlica is in the Attic.
-Ogrlica can be kupljeno or nekupljeno.
-Ogrlica is nekupljeno.
-The description is "350 zlatnika."
-Instead of taking Ogrlica:
-	if Ogrlica is nekupljeno:
-		say "Moraš to platiti pajdo!";
-	otherwise:
-		continue the action.
-
-Instead of putting Ogrlica on Blagajna:
-	now Blagajna is Og;
-	say "To će biti 350 zlatnika. Stavi zlatnike na blagajnu.".
-	
-Instead of putting Zlatnici on Blagajna:
-	if Blagajna is prazna:
-		say "Nisi ništa odabrao pajdo.";
-	if Blagajna is Crnk:
-		Now C is 80;
-		if B is less than C:
-			say "Nemaš dovoljno zlatnika pajdo!";
-			now Blagajna is prazna;
-		otherwise:
-			now B is B minus C;
-			now the description of Zlatnici is "[B] ";
-			now Crni kljuc is kupljeno;
-			now Blagajna is prazna;
-			say "Je li to sve? Nemoj zaboraviti svoj Crni ključ. Imaš još [B] Zlatnika.";
-	if Blagajna is Ok:
-		Now C is 510;
-		if B is less than C:
-			say "Nemaš dovoljno zlatnika pajdo!";
-			now Blagajna is prazna;
-		otherwise:
-			now B is B minus C;
-			now the description of Zlatnici is "[B] Zlatnika";
-			now Oklop is kupljeno;
-			now Blagajna is prazna;
-			say "Je li to sve? Nemoj zaboraviti svoj Oklop. Imaš još [B] Zlatnika.";
-	if Blagajna is Ck:
-		Now C is 490;
-		if B is less than C:
-			say "Nemaš dovoljno zlatnika pajdo!";
-			now Blagajna is prazna;
-		otherwise:
-			now B is B minus C;
-			now the description of Zlatnici is "[B] Zlatnika";
-			now Crveni kljuc is kupljeno;
-			now Blagajna is prazna;
-			say "Je li to sve? Nemoj zaboraviti svoj Crveni ključ. Imaš još [B] Zlatnika.";	
-	if Blagajna is Ko:
-		Now C is 200;
-		if B is less than C:
-			say "Nemaš dovoljno zlatnika pajdo!";
-			now Blagajna is prazna;
-		otherwise:
-			now B is B minus C;
-			now the description of Zlatnici is "[B] Zlatnika";
-			now Kobasica is kupljeno;
-			now Blagajna is prazna;
-			say "Je li to sve? Nemoj zaboraviti svoju Kobasicu. Imaš još [B] Zlatnika.";		
-	if Blagajna is Og:
-		Now C is 350;
-		if B is less than C:
-			say "Nemaš dovoljno zlatnika pajdo!";
-			now Blagajna is prazna;
-		otherwise:
-			now B is B minus C;
-			now the description of Zlatnici is "[B] Zlatnika";
-			now Crni kljuc is kupljeno;
-			now Blagajna is prazna;
-			say "Je li to sve? Nemoj zaboraviti svoju Ogrlicu. Imaš još [B] Zlatnika.";
+		say "No one hears you."
