@@ -215,7 +215,7 @@ Instead of eating:
 		
 Chapter 6 - Inventory
 		
-The carrying capacity of the player is 5.
+The carrying capacity of the player is 2.
 
 Carry out taking inventory (this is the print inventory using HTML lists rule):
 	if Vorple is supported:
@@ -228,6 +228,74 @@ Carry out taking inventory (this is the print inventory using HTML lists rule):
 		follow the print standard inventory rule.
 		
 The print inventory using HTML lists rule is listed instead of the print standard inventory rule in the carry out taking inventory rules.
+
+The backpack is in the Entrance Hall. The backpack is a player's holdall. The backpack has carrying capacity 3.
+
+To update capacity counter:
+	let items be the number of things carried by the player;
+	let items_in_backpack be 0;
+	if the player carries the backpack:
+		repeat with item running through things in the backpack:
+			increase items_in_backpack by 1;
+	let total_items be items + items_in_backpack;
+	let displayed_capacity be the carrying capacity of the player;
+	if the player carries the backpack:
+		let backpack_capacity be the carrying capacity of the backpack;
+		increase displayed_capacity by backpack_capacity;
+	let indicator_text be "[total_items]/[displayed_capacity]";
+	execute JavaScript command "
+		const capacityDiv = document.getElementById('capacity-indicator');
+		capacityDiv.textContent = '[indicator_text]';
+		if([total_items] >= [displayed_capacity]) {
+			capacityDiv.classList.add('capacity-full');
+			capacityDiv.classList.remove('capacity-available');
+		} else {
+			capacityDiv.classList.add('capacity-available');
+			capacityDiv.classList.remove('capacity-full');
+		}
+	".
+	
+To display capacity counter:
+	execute JavaScript command "
+		const capacityDiv = document.createElement('div');
+		capacityDiv.id = 'capacity-indicator'; capacityDiv.textContent = '0/2';
+		capacityDiv.classList.add('capacity-indicator');
+		document.body.appendChild(capacityDiv);
+	";
+	update capacity counter.
+	
+After taking something:
+	update capacity counter;
+	continue the action.
+
+After dropping something:
+	update capacity counter;
+	continue the action.
+
+[After inserting something into something:
+	update capacity indicator;
+	continue the action.
+
+After removing something from something:
+	update capacity indicator;
+	continue the action.]
+
+Instead of taking the backpack:
+	say "You pick up the backpack.";
+	now the player carries the backpack;
+	increase the carrying capacity of the player by 1;
+	update capacity counter.
+
+After dropping the backpack:
+	decrease the carrying capacity of the player by 1;
+	say "You drop the backpack, reducing how much you can carry.";
+	update capacity counter;
+	let backpack_items be the number of things in the backpack;
+	if backpack_items is greater than 0:
+		say "The contents of your backpack spill out onto the ground:";
+		repeat with item running through things in the backpack:
+			say "[item]";
+			now item is in the location.
 
 Chapter 7 - Title screen
 
@@ -363,7 +431,8 @@ Rule for printing the name of the coin when the coin is in the chest:
 After taking the coin for the first time:
 	say "[line break]";
 	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
-	check inventory.
+	check inventory;
+	display capacity counter.
 	
 After taking inventory:
 	if the player is in the Storeroom and the player carries the coin:
@@ -395,6 +464,7 @@ Biranje is a truth state that varies. Biranje is false.
 
 Instead of taking the knife when the coin is carried and biranje is false:
 	move the knife to the player;
+	update capacity counter;
 	say "You pick up the knife.[paragraph break]Oh, one more thing before youunf leave.";
 	now tezina is true;
 	now the command prompt is "Please select difficulty >";

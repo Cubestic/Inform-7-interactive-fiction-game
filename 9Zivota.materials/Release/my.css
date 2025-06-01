@@ -203,3 +203,30 @@
 .death {
     color: red;
 }
+
+.capacity-indicator {
+    position: fixed;
+    bottom: 100px;
+    left: 405px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 32px;
+    text-align: center;
+}
+
+.capacity-available {
+    background-color: #ccffcc;
+    border-color: #99ff99;
+}
+
+.capacity-full {
+    background-color: #ffcccc;
+    border-color: #ff9999;
+}
