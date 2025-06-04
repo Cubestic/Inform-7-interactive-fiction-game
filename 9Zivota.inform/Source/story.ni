@@ -1,6 +1,6 @@
 "9Zivota" by Andrej
 
-Chapter 1 - Game setup
+Part - Game setup
 
 Include Vorple Notifications by Juhana Leinonen.
 
@@ -38,7 +38,7 @@ Release along with the file "Tagesschrift-Regular.ttf".
 
 Release along with style sheet "my.css".
 
-Chapter 2 - Rooms
+Part - Rooms
 
 The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. You feel stiff and tired, as if you hadn’t slept at all last night. Ahead of you stretches a dark hallway."
 
@@ -48,67 +48,57 @@ The Storeroom is a room. It is east of the Garage. "A small room where you usual
 
 The Entrance hall is a room. "In the distance, a woman’s voice calls out. You hear your name and decide to follow the sound."
 
-[!]
+The Bathroom is a room. It is west of the Entrance hall.
 
-The Kitchen is a room. "Here you always get something to eat, but you're not always welcome. The way to the north and west is open.[if we have not taken the rope] A dangerous pit with spikes blocks the way to the east.[otherwise] I think I can swing across the pit now."
+The Utility room is a room. It is west of Bathroom.
 
-The Living room is a room. It is north of the Kitchen. "A large room full of light. The path to the west is open. A large red door leads to the east. You are rarely allowed to go through those doors alone.[if we have not taken the red key] They're always locked.[otherwise] open The doors can be opened now."
+The Living room is a room. ["A large room full of light. The path to the west is open. A large red door leads to the east. You are rarely allowed to go through those doors alone.[if we have not taken the red key] They're always locked.[otherwise] open The doors can be opened now."]
 
 The Library is a room. "?"
 
 The Basement is a room. It is south of the Library. "It's damp and darker than the garage. The woman's voice can't be heard in here."
 
-The Dining room is a room. It is west of the Kitchen. "An old room with yellow wallpaper that leads to the attic."
+The Gallery is a room. It is north of the Bathroom.
 
-The Attic is a room. It is north of the Dining room. "Unbearable heat. I can't stay here for more than 10 minutes. You see a familiar face in a black-and-white coat selling something."
+The Balcony is a room.
 
-The Pantry is a room. It is east of the Study. "?"
+The Kitchen is a room. It is north of the Living room. ["Here you always get something to eat, but you're not always welcome. The way to the north and west is open.[if we have not taken the rope] A dangerous pit with spikes blocks the way to the east.[otherwise] I think I can swing across the pit now."]
 
-The Study is a room. It is west of the Living room. "A nicely decorated room with your picture on the table and your name on the back [italic type][player's full name][roman type].[if the armor is not carried] Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."
+The Dining room is a room. It is west of the Kitchen and north of the Gallery. "An old room with yellow wallpaper that leads to the attic."
 
-[!]
+The Pantry is a room. It is east of the Kitchen. "I'm out of armor—there's no going back. It seems I'm stuck here."
 
-The Bathroom is a room. "I'm out of armor—there's no going back. It seems I'm stuck here."
+The Closet is a room.
 
-The Garden is a room. Garden is north of the Living room. "After the garage, your favorite place to relax."
+The Attic is a room. It is north of the Closet. "Unbearable heat. I can't stay here for more than 10 minutes. You see a familiar face in a black-and-white coat selling something."
+
+The Study is a room. "A nicely decorated room with your picture on the table and your name on the back [italic type][player's full name][roman type].[if the armor is not carried] Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."
+
+The Garden is a room. It is north of the Study. "After the garage, your favorite place to relax."
 
 The Bedroom is a room. "You appear in the bedroom and see your owner looking for you under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."
 
-Chapter 3 - Doors
+Part - Doors
  
 The brown door is a door.
-It is north of the Entrance hall and south of the Kitchen.
+It is north of the Entrance hall and south of the Living room.
 It is closed, openable, locked and scenery.
 
 The spike pit is a door.
-It is east of the Kitchen and west of the Library.[?] 
+It is east of the Living room and west of the Library.
+It is open, not openable and scenery.
+
+The rotating blades is a door.
+It is north of the Pantry and south of the Study.
 It is open, not openable and scenery.
 
 The red door is a door.
-It is east of the Living room and west of the Pantry.
+It is north of the Dining room and south of the Closet.
 It is closed, openable, locked and scenery.
 
-The rotating blades is a door.
-It is west of the Study and east of the Bathroom.
-It is open, not openable and scenery.
-
-Chapter 4 - Items
-
-The chest is a container.
-It is in the Storeroom.
-It is closed, openable and fixed in place.
-
-The coin is in the chest.
-
-The knife is in the Garage.
-It is scenery.
+Part - Items
 
 The red key unlocks the red door.
-
-The brown key is in the secret drawer.
-The brown key unlocks the brown door.
-
-The note is on the desk in the Entrance hall. The description is "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D."
 
 The rope is in the Dining room.
 It is wearable.
@@ -130,19 +120,19 @@ It is closed and openable.
 The small bottle is in the cabinet.
 The description is "It looks like a spray against pests."
 
-The golden chest is a container.
+The golden skrinja is a container.
 It is in Living room.
 It is closed, openable and locked.
 
-The golden key unlocks golden chest.
-The coins are in the golden chest.
+The golden key unlocks golden skrinja.
+The coins are in the golden skrinja.
 The description is "Gold coins of various shapes. Some might find them strange, but not you."
 
 The black chest is a container.
 It is closed, openable and locked.
 The black key unlocks the black chest.
 
-Chapter 5 - Dying
+Part - Dying
 
 The player has a number called lives. The lives of the player is 9.
 
@@ -211,9 +201,8 @@ Instead of eating:
 		stop the action;
 	otherwise:
 		now the sausage is nowhere.
-	
-		
-Chapter 6 - Inventory
+
+Part - Inventory
 		
 The carrying capacity of the player is 2.
 
@@ -223,6 +212,11 @@ Carry out taking inventory (this is the print inventory using HTML lists rule):
 		open HTML tag "ul";
 		repeat with item running through things carried by the player:
 			place "li" element reading "[item]";
+			if the item contains something:
+				open HTML tag "ul";
+				repeat with content running through things contained by the item:
+					place "li" element reading "[content]";
+				close HTML tag;
 		close HTML tag;
 	otherwise:
 		follow the print standard inventory rule.
@@ -296,8 +290,42 @@ After dropping the backpack:
 		repeat with item running through things in the backpack:
 			say "[item]";
 			now item is in the location.
+			
+Part - Status line
 
-Chapter 7 - Title screen
+When play begins:
+	construct the Vorple status line with 3 columns.
+	
+The left hand Vorple status line is "You are: [player's full name]".
+The middle Vorple status line is "Location: [the player's surroundings]".
+The right hand Vorple status line is "Time: [time of day]". The time of day is 9:50 AM.
+
+Part - Map
+
+To open map:
+	execute JavaScript command "
+		let map = document.createElement('div');
+		map.id = 'map';
+		map.onclick = () => vorple.prompt.submit('map');
+		document.body.appendChild(map);
+	". 
+
+Map is an action applying to nothing. Understand "map" as map.
+
+Carry out map:
+	[say "Open map";]
+	if Vorple is supported:
+		place a link to web site "map.html" reading "Open map";
+		
+Mapping is a truth state that varies. Mapping is false.
+		
+[After going to the Kitchen: [popravi]
+	if mapping is false:
+		now mapping is true;
+		open map;
+		continue the action.]
+			
+Part - Title screen
 
 When play begins:
 	if Vorple is supported:
@@ -311,8 +339,10 @@ To say play the game:
 		place a link to execute the JavaScript command "vorple.prompt.queueKeypress(' ')" reading "PLAY".
 		
 Rule for printing the banner text: do nothing.
+			
+Part - Tutorial
 
-Chapter 8 - Player's name
+Chapter - Player's name
 
 The player's full name is a text that varies.
 
@@ -344,11 +374,72 @@ Rule for printing the banner text when collecting names: do nothing.
 
 Rule for constructing the status line when collecting names: do nothing.
 
-Chapter 9 - Miscellanous
+Chapter - Garage
 
-Chapter 10 - Tutorial
+The brush is in the Garage.
+It is scenery.
 
 The default tooltip duration is 10.
+
+Tooltip1 is a truth state that varies. Tooltip1 is true.
+
+After looking:
+	if the location is the Garage and Tooltip1 is true:
+		display tooltip "Move forward by typing NORTH or by pressing the red button." on the prompt;
+		directions;
+		move north;
+		now Tooltip1 is false;
+	else if the location is the Garage and the player does not carry the coin:
+		display tooltip "You can go right by typing EAST or by pressing the yellow button." on the prompt;
+		move east.
+		
+Rule for printing the name of the brush:
+	if the location is the Garage:
+		place an element called "brush-text" reading "brush";
+		display a tooltip "This wasn't here before. I'd better take it." on the element called "brush-text" [in 1 seconds];
+	otherwise:
+		say "brush";
+		
+Chapter - Hallway
+			
+After going to the Hallway for the first time:
+	try looking;
+	display tooltip "To get back type SOUTH or press the blue button." on the prompt;
+	move south.
+	
+Chapter - Storeroom
+
+The  test chest is a container.
+It is in the Storeroom.
+It is closed, openable and fixed in place.
+
+The coin is in the chest.
+	
+After going to the Storeroom for the first time:
+	try looking;
+	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt.
+	
+Instead of examining the chest when the chest is closed:
+	say "An old, heavy chest that you've never seen open. The chest is ";
+	place an element called "chest-text" reading "closed";
+	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
+	say ".".
+	
+Rule for printing the name of the coin when the coin is in the chest:
+	place an element called "coin-text" reading "coin";
+	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
+	
+After taking the coin for the first time:
+	say "[line break]";
+	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
+	check inventory;
+	display capacity counter.
+	
+After taking inventory:
+	if the player is in the Storeroom and the player carries the coin:
+		display tooltip "Time to get back! Press the green button or type WEST." on the prompt [in 3 seconds];
+		move west;
+		now the brush is not scenery.
 
 To directions:
 	execute JavaScript command "
@@ -396,61 +487,8 @@ To check inventory:
 		bp.onclick = () => vorple.prompt.submit('inventory');
 		document.body.appendChild(bp);
 	".
-
-Tooltip1 is a truth state that varies. Tooltip1 is true.
-
-After looking:
-	if the location is the Garage and Tooltip1 is true:
-		display tooltip "Move forward by typing NORTH or by pressing the red button." on the prompt;
-		directions;
-		move north;
-		now Tooltip1 is false;
-	else if the location is the Garage and the player does not carry the coin:
-		display tooltip "You can go right by typing EAST or by pressing the yellow button." on the prompt;
-		move east.
-			
-After going to the Hallway for the first time:
-	try looking;
-	display tooltip "To get back type SOUTH or press the blue button." on the prompt;
-	move south.
 	
-After going to the Storeroom for the first time:
-	try looking;
-	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt.
-	
-Instead of examining the chest when the chest is closed:
-	say "An old, heavy chest that you've never seen open. The chest is ";
-	place an element called "chest-text" reading "closed";
-	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
-	say ".".
-	
-Rule for printing the name of the coin when the coin is in the chest:
-	place an element called "coin-text" reading "coin";
-	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
-	
-After taking the coin for the first time:
-	say "[line break]";
-	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
-	check inventory;
-	display capacity counter.
-	
-After taking inventory:
-	if the player is in the Storeroom and the player carries the coin:
-		display tooltip "Time to get back! Press the green button or type WEST." on the prompt [in 3 seconds];
-		move west;
-		now the knife is not scenery.
-		
-After examining the chest when the chest is closed:
-	say "An old, heavy chest that you've never seen open. The chest is ";
-	
-Rule for printing the name of the knife:
-	if the location is the Garage:
-		place an element called "knife-text" reading "knife";
-		display a tooltip "This wasn't here before. I'd better take it." on the element called "knife-text" [in 1 seconds];
-	otherwise:
-		say "knife";
-	
-Chapter 11 - Difficulty 
+Chapter - Difficulty 
 		
 Difficulty is a kind of value. The difficulties are normal, hard, unforgiving and unknown.
 Understand "normal" as normal.
@@ -462,17 +500,17 @@ The player has a difficulty. The difficulty of the player is unknown.
 Tezina is a truth state that varies. Tezina is false.
 Biranje is a truth state that varies. Biranje is false.
 
-Instead of taking the knife when the coin is carried and biranje is false:
-	move the knife to the player;
+Instead of taking the brush when the coin is carried and biranje is false:
+	move the brush to the player;
 	update capacity counter;
-	say "You pick up the knife.[paragraph break]Oh, one more thing before youunf leave.";
+	say "You pick up the brush.[paragraph break]Oh, one more thing before you leave.";
 	now tezina is true;
 	now the command prompt is "Please select difficulty >";
 	display tooltip "Type UNKNOWN." on the prompt [in 3 seconds];
 	
-Instead of taking the knife when the coin is carried and biranje is true:
-	now the player carries the knife;
-	say "You pick up the knife.";
+Instead of taking the brush when the coin is carried and biranje is true:
+	now the player carries the brush;
+	say "You pick up the brush.";
 	
 After reading a command when tezina is true:
 	if the player's command includes "[difficulty]":
@@ -523,41 +561,9 @@ After reading a command when tezina is true:
 		say "Please select a difficulty to continue. [run paragraph on]";
 		reject the player's command.
 		
-Chapter 12 - Status line
+Part - Entrance hall
 
-When play begins:
-	construct the Vorple status line with 3 columns.
-	
-The left hand Vorple status line is "You are: [player's full name]".
-The middle Vorple status line is "Location: [the player's surroundings]".
-The right hand Vorple status line is "Time: [time of day]". The time of day is 9:50 AM.
-
-Chapter 13 - Map
-
-To open map:
-	execute JavaScript command "
-		let map = document.createElement('div');
-		map.id = 'map';
-		map.onclick = () => vorple.prompt.submit('map');
-		document.body.appendChild(map);
-	". 
-
-Map is an action applying to nothing. Understand "map" as map.
-
-Carry out map:
-	[say "Open map";]
-	if Vorple is supported:
-		place a link to web site "map.html" reading "Open map";
-		
-Mapping is a truth state that varies. Mapping is false.
-		
-[After going to the Kitchen: [popravi]
-	if mapping is false:
-		now mapping is true;
-		open map;
-		continue the action.]
-		
-Chapter 14 - Entrance hall
+The note is on the desk in the Entrance hall. The description is "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D."
 
 The desk is in the Entrance hall.
 The description is "A small table with four painted drawers, one of which is faded.".
@@ -575,6 +581,9 @@ The secret drawer is scenery.
 
 Instead of doing anything other than examining to the secret drawer when the secret drawer is scenery:
 	say "Can't do that."
+	
+The brown key is in the secret drawer.
+The brown key unlocks the brown door.
 	
 The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
@@ -627,7 +636,7 @@ Check flip:
 	if the noun is the note:
 		place an image "note1a.png" with the description "Note1a", centered. [popravi]
 		
-Chapter 15 - Basement
+Part - Basement
 
 The beast is in the Basement.
 The beast is an animal.
@@ -638,7 +647,7 @@ Instead of giving the bone to the beast:
 	now the bone is nowhere;
 	move the golden key to the player.
 		
-Chapter 16 - Attic
+Part - Attic
 
 The Attic has a time called the opening hour.
 The opening hour of the Attic is 10:30 AM.
@@ -743,7 +752,7 @@ Carry out purchase:
 Report purchase:
 	say "You now have [price of player] remaining in your wallet.".
 
-Chapter 17
+Part - Fix
 
 Instead of going to the Garden:
 	if we have not taken the small bottle:
@@ -767,7 +776,7 @@ Carry out casting player name:
 	say "You disappeared into a cloud of fog.";
 	now the player is in the Bedroom.
 		
-Chapter 18 - Dialog
+Part - Dialog
 
 Boris is an animal in the Dining room. The description of Boris is "Boris".
 
@@ -790,7 +799,7 @@ After examining Boris: [mozes staviti insted pa nema You see nothing special abo
 Rule for printing the name of Boris:
 	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
 	
-Chapter 19 - Ending
+Part - Ending
 
 Understand "meow" as casting meow.
 
