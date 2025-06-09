@@ -124,7 +124,7 @@ The golden skrinja is a container.
 It is in Living room.
 It is closed, openable and locked.
 
-The golden key unlocks golden skrinja.
+[The golden key unlocks golden skrinja.]
 The coins are in the golden skrinja.
 The description is "Gold coins of various shapes. Some might find them strange, but not you."
 
@@ -185,14 +185,14 @@ Check opening the black chest:
 		kill the player;
 		stop the action.
 		
-Check going to the basement:
+[Check going to the basement:
 	say "You hear loud growling coming from the basement.";
 	if the bone is carried:
 		say "That bone from the fridge might come in handy.";
 	otherwise:
 		say "It's not wise to enter a room where you might end up as someone's snack.";
 		kill the player;
-		stop the action.
+		stop the action.]
 		
 Instead of eating:
 	if the noun is the sausage:
@@ -389,7 +389,7 @@ After looking:
 		directions;
 		move north;
 		now Tooltip1 is false;
-	else if the location is the Garage and the player does not carry the coin:
+	else if the location is the Garage and the player does not carry the first coin:
 		display tooltip "You can go right by typing EAST or by pressing the yellow button." on the prompt;
 		move east.
 		
@@ -409,11 +409,12 @@ After going to the Hallway for the first time:
 	
 Chapter - Storeroom
 
-The  test chest is a container.
+The test chest is a container.
 It is in the Storeroom.
 It is closed, openable and fixed in place.
 
-The coin is in the chest.
+A coin is a kind of thing.
+The first coin is a coin in the chest. The printed name of the first coin is "coin".
 	
 After going to the Storeroom for the first time:
 	try looking;
@@ -425,18 +426,18 @@ Instead of examining the chest when the chest is closed:
 	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
 	say ".".
 	
-Rule for printing the name of the coin when the coin is in the chest:
+Rule for printing the name of the first coin when the first coin is in the chest:
 	place an element called "coin-text" reading "coin";
 	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
 	
-After taking the coin for the first time:
+After taking the first coin for the first time:
 	say "[line break]";
 	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
 	check inventory;
 	display capacity counter.
 	
 After taking inventory:
-	if the player is in the Storeroom and the player carries the coin:
+	if the player is in the Storeroom and the player carries the first coin:
 		display tooltip "Time to get back! Press the green button or type WEST." on the prompt [in 3 seconds];
 		move west;
 		now the brush is not scenery.
@@ -500,7 +501,7 @@ The player has a difficulty. The difficulty of the player is unknown.
 Tezina is a truth state that varies. Tezina is false.
 Biranje is a truth state that varies. Biranje is false.
 
-Instead of taking the brush when the coin is carried and biranje is false:
+Instead of taking the brush when the first coin is carried and biranje is false:
 	move the brush to the player;
 	update capacity counter;
 	say "You pick up the brush.[paragraph break]Oh, one more thing before you leave.";
@@ -508,7 +509,7 @@ Instead of taking the brush when the coin is carried and biranje is false:
 	now the command prompt is "Please select difficulty >";
 	display tooltip "Type UNKNOWN." on the prompt [in 3 seconds];
 	
-Instead of taking the brush when the coin is carried and biranje is true:
+Instead of taking the brush when the first coin is carried and biranje is true:
 	now the player carries the brush;
 	say "You pick up the brush.";
 	
@@ -584,6 +585,8 @@ Instead of doing anything other than examining to the secret drawer when the sec
 	
 The brown key is in the secret drawer.
 The brown key unlocks the brown door.
+
+The second coin is a coin in the blue drawer. The printed name of the second coin is "coin".
 	
 The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
@@ -638,15 +641,141 @@ Check flip:
 		
 Part - Basement
 
-The beast is in the Basement.
-The beast is an animal.
-The description is "Two glowing eyes watch you from the darkness. The growling grows steadily louder. It seems someone is very hungry. In the corner beneath the lamp, you see a golden key."
+The game machine is a switched off device in the Basement.
 
-Instead of giving the bone to the beast:
-	say "The growling stopped and was replaced by chewing. The beast calmed down. You grabbed the key and put it in your backpack.";
-	now the bone is nowhere;
-	move the golden key to the player.
+Instead of switching on the game machine:
+	now the game machine is switched on;
+	say "You switch the machine on.[paragraph break]Insert coin to play!".
+	
+A reward is a kind of thing. Some rewards are defined by the Table of Prizes.
+	
+Table of Prizes
+Prize	Descriptioin
+golden key	"Opis"
+
+The golden key unlocks golden skrinja.
+
+The game machine has a truth state called loaded. The loaded of the game machine is false.
+The game machine has a number called times_won. The times_won of the game machine is 0.
+
+Instead of inserting a coin into the game machine:
+	if the game machine is switched off:
+		say "You should turn on the game machine first.";
+	else:
+		remove the noun from play;
+		now the loaded of the game machine is true;
+		say "You insert the coin into the machine. The machine lights up![paragraph break]";
+		say "Press ";
+		place a link to command "start" reading "START";
+		say " to play.".
 		
+The game machine has a number called current_question. The current_question of the game machine is 0.
+The game machine has a number called correct_answers. The correct_answers of the game machine is 0.
+The game machine has a truth state called quiz_active. The quiz_active of the game machine is false.
+
+Release along with the file "trivia.png".
+Release along with the file "trivia1.png".
+Release along with the file "trivia2.png".
+Release along with the file "trivia3.png".
+Release along with the file "trivia4.png".
+Release along with the file "trivia5.png".
+Release along with the file "trivia6.png".
+Release along with the file "trivia7.png".
+Release along with the file "trivia8.png".
+Release along with the file "trivia9.png".
+Release along with the file "trivia10.png".
+Release along with the file "trivia11.png".
+Release along with the file "trivia12.png".
+Release along with the file "trivia13.png".
+
+Table of Trivia
+Trivia	Answer	Image
+"Which piece fits perfectly into the image?"	"E"	"trivia.png"
+"Which piece fits perfectly into the image?"	"B"	"trivia1.png"
+"Which piece fits perfectly into the image?"	"G"	"trivia2.png"
+"Which piece fits perfectly into the image?"	"C"	"trivia3.png"
+"Which piece fits perfectly into the image?"	"E"	"trivia4.png"
+"Which piece fits perfectly into the image?"	"F"	"trivia5.png"
+"Choose the matching figure."	"A"	"trivia6.png"
+"Choose the matching figure."	"C"	"trivia7.png"
+"Choose the matching figure."	"D"	"trivia8.png"
+"Choose the matching figure."	"D"	"trivia9.png"
+"Choose the matching figure."	"C"	"trivia10.png"
+"Find the object that matches the one on the left."	"A"	"trivia11.png"
+"Find the object that matches the one on the left."	"D"	"trivia12.png"
+"Find the object that matches the one on the left."	"D"	"trivia13.png"
+"How old is a person today if, in 38 years, they will be three times as old as they are now?" 	"19"	""
+"I have a head and a tail but nothing in between. What am I?"	"Coin"	""
+"When Tom was 6, Tim was half his age. If Tom is 40 today, how old is Tim?"	"37"	""
+"What disappears as soon as you say its name?"	"Silence"	""
+"What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?"	"R"	""
+"I have keys, but no locks, and no rooms. You can enter, but you can’t go outside. What am I?"	"Keyboard"	""
+
+Startgame is an action applying to nothing. Understand "start" as startgame.
+
+Check startgame:
+	if the player is not in the Basement:
+		say "There's no game machine here." instead;
+	if the game machine is switched off:
+		say "The machine isn't turned on." instead;
+	if the loaded of the game machine is false:
+		say "You need to insert a coin first." instead.
+		
+Carry out startgame:
+	now the quiz_active of the game machine is true;
+	now the current_question of the game machine is 1;
+	now the correct_answers of the game machine is 0;
+	say "Welcome to the Trivia Challenge! Answer 2 questions correctly to win![paragraph break]";
+	show next question.
+	
+To decide whether answering trivia:
+	if the quiz_active of the game machine is true, yes;
+	no.
+	
+The game machine has a number called last_asked_question. The last_asked_question of the game machine is 0.
+
+To show next question:
+	let question_num be a random number from 1 to the number of rows in the Table of Trivia;
+	now the last_asked_question of the game machine is question_num;
+	choose row question_num in the Table of Trivia;
+	say "Question [current_question of the game machine]: [Trivia entry][paragraph break]";
+	if Image entry is not "" and Vorple is supported:
+		place an image Image entry with the description "Question image", centered;
+		say "[paragraph break]";
+	now the command prompt is "Your answer > ".
+
+After reading a command when answering trivia:
+	let player_answer be the player's command;
+	choose row last_asked_question of the game machine in the Table of Trivia;
+	if player_answer matches the text Answer entry:
+		increase the correct_answers of the game machine by 1;
+		say "[line break]Correct![paragraph break]";
+		if the correct_answers of the game machine is 5:
+			increase the times_won of the game machine by 1;
+			say "Congratulations! You've answered all 2 questions correctly! You win![paragraph break]";
+			if the times_won of the game machine is greater than the number of rows in the Table of Prizes:
+				say "The machine is out of prizes!";
+			else:
+				choose row times_won of the game machine in the Table of Prizes;
+				say "The machine makes a grinding noise and spits out [a prize entry]!";
+				now the Prize entry is in the Basement;
+			now the quiz_active of the game machine is false;
+			now the loaded of the game machine is false;
+			now the current_question of the game machine is 0;
+			now the correct_answers of the game machine is 0;
+			now the command prompt is ">";
+		else:
+			increase the current_question of the game machine by 1;
+			show next question;
+	else:
+		say "[line break]Wrong answer! Game over!";
+		now the quiz_active of the game machine is false;
+		now the loaded of the game machine is false;
+		now the current_question of the game machine is 0;
+		now the correct_answers of the game machine is 0;
+		now the command prompt is ">";
+	reject the player's command.
+
 Part - Attic
 
 The Attic has a time called the opening hour.

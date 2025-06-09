@@ -59,11 +59,67 @@
                 <leafname>my.css</leafname>
                 <description>--</description>
             </auxiliary>
+            <auxiliary>
+                <leafname>trivia.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia1.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia2.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia3.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia4.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia5.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia6.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia7.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia8.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia9.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia10.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia11.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia12.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia13.png</leafname>
+                <description>--</description>
+            </auxiliary>
         </resources>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-06-04</releasedate>
+                    <releasedate>2025-06-09</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -73,10 +129,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-06-04</originated>
+            <originated>2025-06-09</originated>
         </colophon>
         <glulx>
-            <serial>250604</serial>
+            <serial>250609</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>

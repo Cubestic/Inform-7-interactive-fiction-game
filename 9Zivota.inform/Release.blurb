@@ -40,6 +40,20 @@ auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1.png" "--" "
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1a.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Tagesschrift-Regular.ttf" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\my.css" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia1.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia2.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia3.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia4.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia5.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia6.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia7.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia8.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia9.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia10.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia11.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia12.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia13.png" "--" "--"
 
 ! Website instructions
 
@@ -72,6 +86,20 @@ status instruction ||&nbsp;<a href="source:story.ni#line33"><img border=0 src=in
 status instruction ||&nbsp;<a href="source:story.ni#line35"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line37"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line39"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line676"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line677"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line678"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line679"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line680"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line681"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line682"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line683"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line684"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line685"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line686"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line687"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line688"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line689"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
