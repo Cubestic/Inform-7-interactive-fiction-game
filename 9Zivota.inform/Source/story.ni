@@ -54,9 +54,9 @@ The Utility room is a room. It is west of Bathroom.
 
 The Living room is a room. ["A large room full of light. The path to the west is open. A large red door leads to the east. You are rarely allowed to go through those doors alone.[if we have not taken the red key] They're always locked.[otherwise] open The doors can be opened now."]
 
-The Library is a room. "?"
+The Library is a room. "Opis knjiznice"
 
-The Basement is a room. It is south of the Library. "It's damp and darker than the garage. The woman's voice can't be heard in here."
+The Basement is a room. [It is south of the Library.] "It's damp and darker than the garage. The woman's voice can't be heard in here."
 
 The Gallery is a room. It is north of the Bathroom.
 
@@ -95,6 +95,10 @@ It is open, not openable and scenery.
 The red door is a door.
 It is north of the Dining room and south of the Closet.
 It is closed, openable, locked and scenery.
+
+The secret door is a door.
+It is south of the Library and north of the Basement.
+It is closed, locked, scenery and undescribed.
 
 Part - Items
 
@@ -638,6 +642,55 @@ Understand "turn over [something]" as flip.
 Check flip:
 	if the noun is the note:
 		place an image "note1a.png" with the description "Note1a", centered. [popravi]
+
+Part - Library
+
+The bookshelf is a supporter in the Library. The description is "Opis police". It is scenery.
+
+The crown book is on the bookshelf. The crown book is undescribed.
+The sun book is on the bookshelf. The sun book is undescribed.
+The star book is on the bookshelf. The star book is undescribed.
+The wheel book is on the bookshelf. The wheel book is undescribed.
+
+The bookshelf has a truth state called sequence. The sequence of the bookshelf is false.
+The bookshelf has a number called position. The position of the bookshelf is 0.
+
+Instead of pulling the crown book:
+	say "[line break]Knjiga1";
+	if the sequence of the bookshelf is false:
+		now the sequence of the bookshelf is true;
+		now the position of the bookshelf is 1;
+	else if the position of the bookshelf is not 0:
+		now the sequence of the bookshelf is false;
+		now the position of the bookshelf is 0.
+
+Instead of pulling the star book:
+	say "[line break]Knjiga2";
+	if the position of the bookshelf is 1:
+		now the position of the bookshelf is 2;
+	else:
+		now the sequence of the bookshelf is false;
+		now the position of the bookshelf is 0.
+
+Instead of pulling the wheel book:
+	say "[line break]Knjiga3";
+	if the position of the bookshelf is 2:
+		now the position of the bookshelf is 3;
+	else:
+		now the sequence of the bookshelf is false;
+		now the position of the bookshelf is 0.
+
+Instead of pulling the sun book:
+	say "[line break]Knjiga4";
+	if the position of the bookshelf is 3:
+		now the position of the bookshelf is 4;
+		now the secret door is unlocked;
+		now the secret door is open;
+		now the secret door is not undescribed;
+		say "[line break]RADIII!";
+	else:
+		now the sequence of the bookshelf is false;
+		now the position of the bookshelf is 0.
 		
 Part - Basement
 
