@@ -14,6 +14,10 @@ Include Vorple Tooltips by Juhana Leinonen.
 
 Include Vorple Status Line by Juhana Leinonen.
 
+Include Vorple Modal Windows by Juhana Leinonen.
+
+Include Vorple Command Prompt Control by Juhana Leinonen.
+
 Release along with the "Vorple" interpreter.
 
 Release along with the file "heart.png".
@@ -76,6 +80,10 @@ The Study is a room. "A nicely decorated room with your picture on the table and
 
 The Garden is a room. It is north of the Study. "After the garage, your favorite place to relax."
 
+[Balcony]
+
+
+
 The Bedroom is a room. "You appear in the bedroom and see your owner looking for you under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."
 
 Part - Doors
@@ -88,6 +96,10 @@ The spike pit is a door.
 It is east of the Living room and west of the Library.
 It is open, not openable and scenery.
 
+The secret door is a door.
+It is south of the Library and north of the Basement.
+It is closed, locked, scenery and undescribed.
+
 The rotating blades is a door.
 It is north of the Pantry and south of the Study.
 It is open, not openable and scenery.
@@ -96,13 +108,10 @@ The red door is a door.
 It is north of the Dining room and south of the Closet.
 It is closed, openable, locked and scenery.
 
-The secret door is a door.
-It is south of the Library and north of the Basement.
-It is closed, locked, scenery and undescribed.
-
 Part - Items
 
-The red key unlocks the red door.
+The red key is in the Closet.
+It unlocks the red door.
 
 The rope is in the Dining room.
 It is wearable.
@@ -124,23 +133,28 @@ It is closed and openable.
 The small bottle is in the cabinet.
 The description is "It looks like a spray against pests."
 
-The golden skrinja is a container.
+The golden chest is a container.
 It is in Living room.
 It is closed, openable and locked.
 
-[The golden key unlocks golden skrinja.]
-The coins are in the golden skrinja.
+The coins are in the golden chest.
 The description is "Gold coins of various shapes. Some might find them strange, but not you."
 
 The black chest is a container.
+It is in the Attic.
 It is closed, openable and locked.
-The black key unlocks the black chest.
+
+Part - Command
+
+After issuing the response text of a response (called R):
+	if R is parser clarification internal rule response (D) or R is parser clarification internal rule response (E):
+		prefill the command line with "[parser command so far] ".
 
 Part - Dying
 
 The player has a number called lives. The lives of the player is 9.
 
-To kill the player:
+To kill the player in (respawn room - a room):
 	decrease the lives of the player by 1;
 	execute JavaScript command "document.querySelector('#heart-container .heart')?.remove();";
 	if the lives of the player is 0:
@@ -152,7 +166,7 @@ To kill the player:
 		place an inline element called "death";
 		display text "YOU DIED" in the element called "death";
 		say "[line break]";
-		now the player is in the Kitchen. [ne moze uvijek biti u kuhinji]
+		now the player is in the respawn room. [ne moze uvijek biti u kuhinji]
 		
 Check going through a spike pit:
 	say "I can't get over this, but I might be able to swing across using something.";
@@ -161,10 +175,10 @@ Check going through a spike pit:
 		continue the action;
 	otherwise if a rope is carried:
 		say "A rope is more useful if you [italic type]wear [roman type]it, not just have it in your inventory.";
-		kill the player;
+		kill the player in the Living room;
 		stop the action;
 	otherwise:
-		kill the player;
+		kill the player in the Living room;
 		stop the action.
 		
 Check going through a rotating blades:
@@ -175,10 +189,10 @@ Check going through a rotating blades:
 		continue the action;
 	otherwise if armor is carried:
 		say "Armor is more useful if you [italic type]wear, [roman type]it."; 
-		kill the player;
+		kill the player in the Pantry;
 		stop the action;
 	otherwise:
-		kill the player;
+		kill the player in the Pantry;
 		stop the action.
 		
 Check opening the black chest:
@@ -186,7 +200,7 @@ Check opening the black chest:
 		say "I need a key to open this.";
 	otherwise:	
 		say "This is better left unopened.";
-		kill the player;
+		kill the player in the Closet;
 		stop the action.
 		
 [Check going to the basement:
@@ -198,13 +212,13 @@ Check opening the black chest:
 		kill the player;
 		stop the action.]
 		
-Instead of eating:
+[Instead of eating:
 	if the noun is the sausage:
 		say "That’s what I get for buying cheap sausages.";
 		kill the player;
 		stop the action;
 	otherwise:
-		now the sausage is nowhere.
+		now the sausage is nowhere.]
 
 Part - Inventory
 		
@@ -270,13 +284,9 @@ After dropping something:
 	update capacity counter;
 	continue the action.
 
-[After inserting something into something:
-	update capacity indicator;
+After wearing something:
+	update capacity counter;
 	continue the action.
-
-After removing something from something:
-	update capacity indicator;
-	continue the action.]
 
 Instead of taking the backpack:
 	say "You pick up the backpack.";
@@ -429,7 +439,7 @@ Instead of examining the chest when the chest is closed:
 	place an element called "chest-text" reading "closed";
 	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
 	say ".".
-	
+
 Rule for printing the name of the first coin when the first coin is in the chest:
 	place an element called "coin-text" reading "coin";
 	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
@@ -568,7 +578,7 @@ After reading a command when tezina is true:
 		
 Part - Entrance hall
 
-The note is on the desk in the Entrance hall. The description is "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D."
+The note is on the desk in the Entrance hall.
 
 The desk is in the Entrance hall.
 The description is "A small table with four painted drawers, one of which is faded.".
@@ -629,9 +639,13 @@ Check opening the green drawer:
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
-		
+
 After examining the note:
 	if Vorple is supported:
+		show a modal window;
+		set output focus to the modal window;
+		say "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D.";
+		set output focus to the main window;
 		place an image "note1.png" with the description "Note1", centered.
 		
 Flip is an action applying to one visible thing.
@@ -647,10 +661,16 @@ Part - Library
 
 The bookshelf is a supporter in the Library. The description is "Opis police". It is scenery.
 
-The crown book is on the bookshelf. The crown book is undescribed.
-The sun book is on the bookshelf. The sun book is undescribed.
-The star book is on the bookshelf. The star book is undescribed.
-The wheel book is on the bookshelf. The wheel book is undescribed.
+A puzzle-book is a kind of thing.
+The crown book, the star book, the wheel book, and the sun book are puzzle-books.
+
+Instead of taking a puzzle-book:
+	say "The book seems firmly attached to the shelf. You can only pull it."
+
+The crown book is a puzzle-book on the bookshelf. The crown book is undescribed.
+The sun book is a puzzle-book on the bookshelf. The sun book is undescribed.
+The star book is a puzzle-book on the bookshelf. The star book is undescribed.
+The wheel book is a puzzle-book on the bookshelf. The wheel book is undescribed.
 
 The bookshelf has a truth state called sequence. The sequence of the bookshelf is false.
 The bookshelf has a number called position. The position of the bookshelf is 0.
@@ -706,7 +726,7 @@ Table of Prizes
 Prize	Descriptioin
 golden key	"Opis"
 
-The golden key unlocks golden skrinja.
+The golden key unlocks golden chest.
 
 The game machine has a truth state called loaded. The loaded of the game machine is false.
 The game machine has a number called times_won. The times_won of the game machine is 0.
@@ -851,16 +871,15 @@ Every turn when the location is the Attic:
 		say "Because of the intense heat, you had to leave the attic.";
 		move the player to Dining room.
 		
-[Attic items]
+Chapter - Attic items
 
 The Shop is a thing in the Attic.
 
 The black key is in the Shop.
+The black key unlocks the black chest.
 
 The armor is in the Shop.
 It is wearable.
-
-The red key is in the Shop.
 
 The sausage is in the Shop.
 
@@ -874,7 +893,6 @@ Table of Shop Items
 Item	Cost
 Black key	$80
 Armor	$510
-Red key	$490
 Sausage	$200
 Necklace	$350
 
