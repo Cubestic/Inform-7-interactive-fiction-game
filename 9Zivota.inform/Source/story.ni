@@ -66,23 +66,23 @@ The Gallery is a room. It is north of the Bathroom.
 
 The Balcony is a room.
 
+SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony".
+SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony".
+SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony".
+
 The Kitchen is a room. It is north of the Living room. ["Here you always get something to eat, but you're not always welcome. The way to the north and west is open.[if we have not taken the rope] A dangerous pit with spikes blocks the way to the east.[otherwise] I think I can swing across the pit now."]
 
 The Dining room is a room. It is west of the Kitchen and north of the Gallery. "An old room with yellow wallpaper that leads to the attic."
 
 The Pantry is a room. It is east of the Kitchen. "I'm out of armor—there's no going back. It seems I'm stuck here."
 
-The Closet is a room.
+The Closet is a room. It is east of SobaC.
 
 The Attic is a room. It is north of the Closet. "Unbearable heat. I can't stay here for more than 10 minutes. You see a familiar face in a black-and-white coat selling something."
 
 The Study is a room. "A nicely decorated room with your picture on the table and your name on the back [italic type][player's full name][roman type].[if the armor is not carried] Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."
 
 The Garden is a room. It is north of the Study. "After the garage, your favorite place to relax."
-
-[Balcony]
-
-
 
 The Bedroom is a room. "You appear in the bedroom and see your owner looking for you under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."
 
@@ -122,8 +122,7 @@ The description is "The best meat is found here."
 It is in the Kitchen.
 It is closed and openable.
 
-The bone is in the fridge.
-It is edible.
+The bone is a thing.
 The description is "You don’t like bones, but when you’re hungry, anything will do."
 
 The cabinet is a container.
@@ -166,7 +165,9 @@ To kill the player in (respawn room - a room):
 		place an inline element called "death";
 		display text "YOU DIED" in the element called "death";
 		say "[line break]";
-		now the player is in the respawn room. [ne moze uvijek biti u kuhinji]
+		now the player is in the respawn room;
+		if Vorple is supported:
+			execute JavaScript command "localStorage.setItem('currentRoom', '[printed name of respawn room]')".
 		
 Check going through a spike pit:
 	say "I can't get over this, but I might be able to swing across using something.";
@@ -203,14 +204,26 @@ Check opening the black chest:
 		kill the player in the Closet;
 		stop the action.
 		
-[Check going to the basement:
-	say "You hear loud growling coming from the basement.";
+Check going to the Gallery for the first time:
+	say "You hear loud growling coming from the gallery.";
 	if the bone is carried:
-		say "That bone from the fridge might come in handy.";
+		say "Ona kost might come in handy.";
 	otherwise:
 		say "It's not wise to enter a room where you might end up as someone's snack.";
-		kill the player;
-		stop the action.]
+		kill the player in the Bathroom;
+		stop the action.
+		
+Check going north from SobaA:
+	if the weight of the player >= 3:
+		say "Tezak si!";
+		kill the player in the Gallery;
+		stop the action.
+		
+Check going north from SobaB:
+	if the weight of the player >= 2:
+		say "Jos uvijek si tezak";
+		kill the player in the Gallery;
+		stop the action.
 		
 [Instead of eating:
 	if the noun is the sausage:
@@ -241,7 +254,7 @@ Carry out taking inventory (this is the print inventory using HTML lists rule):
 		
 The print inventory using HTML lists rule is listed instead of the print standard inventory rule in the carry out taking inventory rules.
 
-The backpack is in the Entrance Hall. The backpack is a player's holdall. The backpack has carrying capacity 3.
+[The backpack is in the Entrance Hall.] The backpack is a player's holdall. The backpack has carrying capacity 3.
 
 To update capacity counter:
 	let items be the number of things carried by the player;
@@ -311,7 +324,7 @@ When play begins:
 	construct the Vorple status line with 3 columns.
 	
 The left hand Vorple status line is "You are: [player's full name]".
-The middle Vorple status line is "Location: [the player's surroundings]".
+[The middle Vorple status line is "Location: [the player's surroundings]".]
 The right hand Vorple status line is "Time: [time of day]". The time of day is 9:50 AM.
 
 Part - Map
@@ -327,18 +340,22 @@ To open map:
 Map is an action applying to nothing. Understand "map" as map.
 
 Carry out map:
-	[say "Open map";]
 	if Vorple is supported:
 		place a link to web site "map.html" reading "Open map";
 		
+After going:
+	if Vorple is supported:
+		execute JavaScript command "localStorage.setItem('currentRoom', '[printed name of location]')";
+	continue the action.
+		
 Mapping is a truth state that varies. Mapping is false.
 		
-[After going to the Kitchen: [popravi]
+After going to the Bathroom:
 	if mapping is false:
 		now mapping is true;
 		open map;
-		continue the action.]
-			
+	continue the action.
+
 Part - Title screen
 
 When play begins:
@@ -391,7 +408,7 @@ Rule for constructing the status line when collecting names: do nothing.
 Chapter - Garage
 
 The brush is in the Garage.
-It is scenery.
+It is undescribed.
 
 The default tooltip duration is 10.
 
@@ -445,16 +462,20 @@ Rule for printing the name of the first coin when the first coin is in the chest
 	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
 	
 After taking the first coin for the first time:
-	say "[line break]";
+	say "Taken[line break]";
 	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
 	check inventory;
 	display capacity counter.
+	
+After taking the first coin:
+	say "Taken.";
+	update capacity counter.
 	
 After taking inventory:
 	if the player is in the Storeroom and the player carries the first coin:
 		display tooltip "Time to get back! Press the green button or type WEST." on the prompt [in 3 seconds];
 		move west;
-		now the brush is not scenery.
+		now the brush is described.
 
 To directions:
 	execute JavaScript command "
@@ -600,7 +621,8 @@ Instead of doing anything other than examining to the secret drawer when the sec
 The brown key is in the secret drawer.
 The brown key unlocks the brown door.
 
-The second coin is a coin in the blue drawer. The printed name of the second coin is "coin".
+The second coin is a coin in the red drawer. The printed name of the second coin is "coin".
+The fuse is in the blue drawer.
 	
 The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
@@ -658,6 +680,8 @@ Check flip:
 		place an image "note1a.png" with the description "Note1a", centered. [popravi]
 
 Part - Library
+
+The third coin is a coin in the Library. The printed name of the third coin is "coin".
 
 The bookshelf is a supporter in the Library. The description is "Opis police". It is scenery.
 
@@ -717,8 +741,11 @@ Part - Basement
 The game machine is a switched off device in the Basement.
 
 Instead of switching on the game machine:
-	now the game machine is switched on;
-	say "You switch the machine on.[paragraph break]Insert coin to play!".
+	if the generator is switched off:
+		say "Nema struje!";
+	else:
+		now the game machine is switched on;
+		say "You switch the machine on.[paragraph break]Insert coin to play!".
 	
 A reward is a kind of thing. Some rewards are defined by the Table of Prizes.
 	
@@ -848,7 +875,135 @@ After reading a command when answering trivia:
 		now the correct_answers of the game machine is 0;
 		now the command prompt is ">";
 	reject the player's command.
+	
+Part - Bathroom
 
+Teodor is an animal in the Bathroom. The description of Teodor is "Teodor".
+
+Table of Teodor Responses
+Topic	Response			Index	Asked
+"Topic1"	"Razgovor1"			"Topic1"	false
+"Topic2"	"Razgovor2"			"Topic2"	false
+"Topic3"	"Razgovor3"			"Topic3"	false
+	
+To decide whether all topics are discussed:
+	repeat through the Table of Teodor Responses:
+		if the Asked entry is false:
+			no;
+	yes.
+
+After asking Teodor about something:
+	if the topic understood is a topic listed in the Table of Teodor Responses:
+		say "[Response entry]";
+		now the Asked entry is true;
+		if all topics are discussed:
+			say "[line break]Teodor wags his tail and drops a backpack at your feet.";
+			now the backpack is in the location.
+		
+After examining Teodor: [mozes staviti insted pa nema You see nothing special about Boris.]
+	say "Topics you can talk about with Teodor:[line break]";
+	repeat with N running from 1 to the number of rows in the Table of Teodor Responses:
+		choose row N in the Table of Teodor Responses;
+		say "  - ";
+		place a link to command "ask Teodor about [Index entry]" reading "[Index entry]";
+		if the Asked entry is true:
+			say " (discussed)";
+		say "[line break]".
+		
+Rule for printing the name of Teodor:
+	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
+
+Part - Utility room
+
+The generator is a switched off device in the Utility room. It is fixed in place.
+
+The description of the generator is "[generator-status]".
+
+To say generator-status:
+	say "Fuel: ";
+	if the player carries the fuel can:
+		say "1/1";
+	else:
+		say "0/1";
+	say " | Fuse: ";
+	if the player carries the fuse:
+		say "1/1";
+	else:
+		say "0/1".
+		
+Instead of switching on the generator:
+	if the generator is switched on:
+		say "That's already on.";
+	else if the player does not carry the fuel can and the player does not carry the fuse:
+		say "Treba ti gorivo i osigurac.";
+	else if the player does not carry the fuel can:
+		say "Treba ti goriva.";
+	else if the player does not carry the fuse:
+		say "Treba ti osigurac.";
+	else:
+		say "You switch the generator on.";
+		now the generator is switched on;
+		now the fuel can is nowhere;
+		now the fuse is nowhere.
+
+Part - Gallery
+
+The fuel can is in the Gallery.
+
+Part - Kitchen
+
+Irena is an animal in the Kitchen. The description of Irena is "Irena". Irena carries the bone.
+
+Table of Irena Responses
+Topic	Response			Index
+"Female voice"	"Bas mi treba nesto da se pocesljam"			"Female voice"
+	
+After asking Irena about something:
+	if the topic understood is a topic listed in the Table of Irena Responses:
+		say "[Response entry]";
+		
+After examining Irena: [mozes staviti insted pa nema You see nothing special about Irena.]
+	say "Topics you can talk about with Irena:[line break]";
+	repeat with N running from 1 to the number of rows in the Table of Irena Responses:
+		choose row N in the Table of Irena Responses;
+		say "  - ";
+		place a link to command "ask Irena about [Index entry]" reading "[Index entry]";
+		say "[line break]".
+		
+Rule for printing the name of Irena:
+	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
+	
+Instead of giving the brush to Irena:
+	remove the brush from play;
+	try Irena dropping the bone.
+	
+Part - Balcony
+
+After going:
+	if Vorple is supported:
+		if the location is SobaA:
+			execute JavaScript command "localStorage.setItem('currentRoom', 'SobaA')";
+		otherwise if the location is SobaB:
+			execute JavaScript command "localStorage.setItem('currentRoom', 'SobaB')";
+		otherwise if the location is SobaC:
+			execute JavaScript command "localStorage.setItem('currentRoom', 'SobaC')";
+		otherwise:
+			execute JavaScript command "localStorage.setItem('currentRoom', '[printed name of location]')";
+	continue the action.
+
+The player has a number called weight. The weight of the player is 0.
+
+After taking something:
+	increase the weight of the player by 1;
+	continue the action.
+	
+After dropping something:
+	decrease the weight of the player by 1;
+	continue the action.
+	
+When play begins:
+	now the right hand status line is "Weight: [weight of the player]".
+	
 Part - Attic
 
 The Attic has a time called the opening hour.
@@ -969,36 +1124,13 @@ Understand "cast name" as casting player name.
 Casting player name is an action applying to nothing.
 
 Check casting player name:
-	if the player is not in the Bathroom:
+	if the player is not in the Study:
 		say "Yes, that’s my name, but that doesn’t help me right now." instead.
 
 Carry out casting player name:
 	say "You disappeared into a cloud of fog.";
 	now the player is in the Bedroom.
-		
-Part - Dialog
 
-Boris is an animal in the Dining room. The description of Boris is "Boris".
-
-Table of Boris Responses
-Topic	Response			Index
-"Female voice"	"I heard her calling and looking for you. I was eating with her a little while ago."			"Female voice"
-	
-After asking Boris about something:
-	if the topic understood is a topic listed in the Table of Boris Responses:
-		say "[Response entry]";
-		
-After examining Boris: [mozes staviti insted pa nema You see nothing special about Boris.]
-	say "Topics you can talk about with Boris:[line break]";
-	repeat with N running from 1 to the number of rows in the Table of Boris Responses:
-		choose row N in the Table of Boris Responses;
-		say "  - ";
-		place a link to command "ask Boris about [Index entry]" reading "[Index entry]";
-		say "[line break]".
-		
-Rule for printing the name of Boris:
-	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
-	
 Part - Ending
 
 Understand "meow" as casting meow.

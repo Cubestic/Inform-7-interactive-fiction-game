@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World map</title>
+  <style>
+    body {
+      background: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(7, 130px);
+      grid-auto-rows: 130px;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .room {
+      border: 3px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: white;
+      font-size: 18px;
+      /*width: 130px;
+      height: 130px;*/
+      position: relative;
+    }
+
+    .dot {
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 15px;
+      /*left: 50%;
+      transform: translateX(-50%);*/
+    }
+
+    .balcony {
+      grid-column: 2;
+      grid-row: 3 / 6;
+      height: auto;
+    }
+
+    .col-1 { grid-column: 1; }
+
+    .col-2 { grid-column: 2; }
+    .col-3 { grid-column: 3; }
+    .col-4 { grid-column: 4; }
+    .col-5 { grid-column: 5; }
+
+    .col-6 { grid-column: 6; }
+    .col-7 { grid-column: 7; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <!-- Row 1 -->
+    <div class="room col-4">Bedroom</div>
+
+    <!-- Row 2 -->
+    <div class="room col-3">Attic</div>
+    <div class="room col-5">Garden</div>
+
+    <!--Balcony-->
+    <div class="room balcony">Balcony</div>
+
+    <!-- Row 3 -->
+    <div class="room col-3">Closet</div>
+    <div class="room col-5">Study</div>
+
+    <!-- Row 4 -->
+    <div class="room col-3">Dining room</div>
+    <div class="room col-4">Kitchen</div>
+    <div class="room col-5">Pantry</div>
+
+    <!-- Row 5 -->
+    <div class="room col-3">Gallery</div>
+    <div class="room col-4">Living room</div>
+    <div class="room col-5">Library</div>
+
+    <!-- Row 6 -->
+    <div class="room col-2">Utility room</div>
+    <div class="room col-3">Bathroom</div>
+    <div class="room col-4">Entrance hall</div>
+    <div class="room col-5">Basement</div>
+  </div>
+  <script>
+    function updatePlayerLocation() {
+      const currentRoom = localStorage.getItem('currentRoom');
+
+      if (currentRoom) {
+        document.querySelectorAll('.dot').forEach(dot => dot.remove());
+        
+        if (currentRoom === 'SobaA' || currentRoom === 'SobaB' || currentRoom === 'SobaC') {
+          const balcony = document.querySelector('.balcony');
+          if (balcony) {
+            const dot = document.createElement('div');
+            dot.className = 'dot';
+            
+            if (currentRoom === 'SobaC') {
+              dot.style.bottom = '295px';
+            } else if (currentRoom === 'SobaB') {
+              dot.style.bottom = '155px';
+            } else if (currentRoom === 'SobaA') {
+              dot.style.bottom = '15px';
+            }
+            
+            balcony.appendChild(dot);
+          }
+        } else {
+          const rooms = document.querySelectorAll('.room');
+          rooms.forEach(room => {
+            if (room.textContent.trim() === currentRoom) {
+              const dot = document.createElement('div');
+              dot.className = 'dot';
+              room.appendChild(dot);
+            }
+          });
+        }
+      }
+    }
+
+    updatePlayerLocation();
+
+    setInterval(updatePlayerLocation, 1000);
+
+    document.addEventListener('visibilitychange', function() {
+      if (!document.hidden) {
+        updatePlayerLocation();
+      }
+    });
+</script>
+</body>
+</html>
