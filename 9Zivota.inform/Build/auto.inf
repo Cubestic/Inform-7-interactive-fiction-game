@@ -4261,7 +4261,7 @@ Constant alphabetised_text_20 = "0";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
 Constant I7_VERSION_NUMBER = "10.1.2";
 Constant alphabetised_text_21 = "19";
-Serial "250624";
+Serial "250629";
 Constant alphabetised_text_22 = "37";
 Constant alphabetised_text_23 = "9Zivota";
 Constant alphabetised_text_24 = ">";
