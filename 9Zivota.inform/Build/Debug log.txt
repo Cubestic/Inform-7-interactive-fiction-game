@@ -30,6 +30,8 @@ I've also read Vorple Element Manipulation by Juhana Leinonen, which is 1738 wor
 Phase I ... Dividing source into compilation units
 -----------------------------------------------------
 
+.... Hierarchy__establish() took 1cs
+.... Task__write_XML_headings_file() took 1cs
 
 
 -----------------------------------------------------
@@ -47,28 +49,28 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModel
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Figures.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Sounds.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandParserKit\kinds\Parsing.neptune
-.... Task__make_built_in_kind_constructors() took 6cs
+.... Task__make_built_in_kind_constructors() took 14cs
 
 
 -----------------------------------------------------
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 10cs
+.... MajorNodes__pre_pass() took 19cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 7cs
+.... MajorNodes__pass_1() took 13cs
 
 
 -----------------------------------------------------
 Phase V ... Second pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_2() took 1cs
+.... MajorNodes__pass_2() took 2cs
 
 
 -----------------------------------------------------
@@ -93,29 +95,31 @@ Phase VIII ... Tables and grammar
 Phase IX ... Augment model world
 -----------------------------------------------------
 
-.... World__stage_V() took 1cs
+.... World__stage_V() took 3cs
 
 
 -----------------------------------------------------
 Phase X ... Phrases and rules
 -----------------------------------------------------
 
-.... ImperativeDefinitions__assess_all() took 4cs
+.... ImperativeDefinitions__assess_all() took 9cs
 
 
 -----------------------------------------------------
 Phase XI ... Generating inter (1)
 -----------------------------------------------------
 
-.... RTKindConstructors__compile() took 3cs
+.... RTKindConstructors__compile() took 7cs
+.... RTBibliographicData__compile_constants() took 1cs
 
 
 -----------------------------------------------------
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... CompletionModule__compile() took 2cs
-.... ImperativeDefinitions__compile_first_block() took 1cs
+.... CompletionModule__compile() took 3cs
+.... InferenceSubjects__emit_all() took 1cs
+.... ImperativeDefinitions__compile_first_block() took 2cs
 
 
 ==== Phase XII.1 ... Slashing command grammar ====
@@ -136,9 +140,9 @@ Switch val is LOCAL_VARIABLE_NT'hex value' {local: LV"hex value"-number number}
  for kind number pointery 0
 Switch val is LOCAL_VARIABLE_NT'type' {local: LV"type"-notification type notification type}
  for kind notification type pointery 0
-.... Sequence__undertake_queued_tasks() took 139cs
+.... Sequence__undertake_queued_tasks() took 285cs
 .... Sequence__undertake_queued_tasks() took 1cs
-.... RTPhrasebook__compile_entries() took 4cs
+.... RTPhrasebook__compile_entries() took 10cs
 
 
 -----------------------------------------------------
@@ -159,9 +163,9 @@ Phase XIV ... Generating inter (4)
 Phase XV ... Generating inter (5)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 1cs
+.... Sequence__undertake_queued_tasks() took 2cs
 Providing for a total heap of 8192, given requirement of 8192
-.... Sequence__lint_inter() took 2cs
+.... Sequence__lint_inter() took 4cs
 
 
 -----------------------------------------------------
@@ -174,7 +178,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 193 centiseconds
+Compile CPU time: 393 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -8387,7 +8391,7 @@ HTML tag stack:
     30. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 212cs
+Back end elapsed time: 521cs
 Total of 139 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
