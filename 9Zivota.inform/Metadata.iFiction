@@ -36,10 +36,6 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
-                <leafname>map.html</leafname>
-                <description>--</description>
-            </auxiliary>
-            <auxiliary>
                 <leafname>desk.png</leafname>
                 <description>--</description>
             </auxiliary>
@@ -48,7 +44,31 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
-                <leafname>note1a.png</leafname>
+                <leafname>note2.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v1.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v2.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v3.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v4.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v5.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>achievement.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -56,11 +76,11 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
-                <leafname>my.css</leafname>
+                <leafname>map.html</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
-                <leafname>trivia.png</leafname>
+                <leafname>my.css</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -115,11 +135,15 @@
                 <leafname>trivia13.png</leafname>
                 <description>--</description>
             </auxiliary>
+            <auxiliary>
+                <leafname>trivia14.png</leafname>
+                <description>--</description>
+            </auxiliary>
         </resources>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-06-29</releasedate>
+                    <releasedate>2025-07-06</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -129,10 +153,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-06-29</originated>
+            <originated>2025-07-06</originated>
         </colophon>
         <glulx>
-            <serial>250629</serial>
+            <serial>250706</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
