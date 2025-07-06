@@ -2,65 +2,72 @@
 
 Part - Game setup
 
-Include Vorple Notifications by Juhana Leinonen.
+Chapter - Extensions
 
-Include Vorple Multimedia by Juhana Leinonen.
-
-Include Vorple Screen Effects by Juhana Leinonen.
-
-Include Vorple Hyperlinks by Juhana Leinonen.
-
-Include Vorple Tooltips by Juhana Leinonen.
-
-Include Vorple Status Line by Juhana Leinonen.
-
-Include Vorple Modal Windows by Juhana Leinonen.
-
+Include Achievements by Juhana Leinonen.
 Include Vorple Command Prompt Control by Juhana Leinonen.
+Include Vorple Hyperlinks by Juhana Leinonen.
+Include Vorple Modal Windows by Juhana Leinonen.
+Include Vorple Multimedia by Juhana Leinonen.
+Include Vorple Notifications by Juhana Leinonen.
+Include Vorple Screen Effects by Juhana Leinonen.
+Include Vorple Status Line by Juhana Leinonen.
+Include Vorple Tooltips by Juhana Leinonen.
 
 Release along with the "Vorple" interpreter.
 
+Chapter - Images
+
 Release along with the file "heart.png".
-
 Release along with the file "backpack.png".
-
 Release along with the file "titlescreen.png".
-
 Release along with the file "cardinaldirections.png".
-
 Release along with the file "map.png".
+Release along with the file "desk.png".
+Release along with the file "note1.png".
+Release along with the file "note2.png".
+
+Chapter - Audio
+
+Release along with the file "v1.mp3".
+Release along with the file "v2.mp3".
+Release along with the file "v3.mp3".
+Release along with the file "v4.mp3".
+Release along with the file "v5.mp3".
+
+Release along with the file "achievement.mp3".
+
+Chapter - Font
+
+Release along with the file "Tagesschrift-Regular.ttf".
+
+Chapter - HTML
 
 Release along with the file "map.html".
 
-Release along with the file "desk.png".
-
-Release along with the file "note1.png"
-
-Release along with the file "note1a.png"
-
-Release along with the file "Tagesschrift-Regular.ttf".
+Chapter - CSS
 
 Release along with style sheet "my.css".
 
 Part - Rooms
 
-The Garage is a room. "A place where you spend your nights resting. Below the window, lies a bed without a pillow. You feel stiff and tired, as if you hadn’t slept at all last night. Ahead of you stretches a dark hallway."
+The Garage is a room. "This is where you spend your nights resting. In the corner lie two beds without blankets or pillows. It looks like your roommate is already up. You look tired and grumpy, as if you hadn't slept at all last night. Despite your exhaustion, it is time to get going."
 
-The Hallway is a room. It is north of the Garage. "A cold, long hallway that leads to nowhere."
+The Hallway is a room. It is north of the Garage. "A long, cold hallway stretches before you, disappearing into darkness. You are not afraid of the dark, and it doesn't obstruct your vision."
 
-The Storeroom is a room. It is east of the Garage. "A small room where you usually find sweets."
+The Storeroom is a room. It is east of the Garage. "A cluttered storeroom filled with various junk. While these objects hold no value to you, the maze of clutter makes a perfect hiding spot from your annoying roommate." 
 
-The Entrance hall is a room. "In the distance, a woman’s voice calls out. You hear your name and decide to follow the sound."
+The Entrance hall is a room.
 
 The Bathroom is a room. It is west of the Entrance hall.
 
 The Utility room is a room. It is west of Bathroom.
 
-The Living room is a room. ["A large room full of light. The path to the west is open. A large red door leads to the east. You are rarely allowed to go through those doors alone.[if we have not taken the red key] They're always locked.[otherwise] open The doors can be opened now."]
+The Living room is a room.
 
-The Library is a room. "Opis knjiznice"
+The Library is a room.
 
-The Basement is a room. [It is south of the Library.] "It's damp and darker than the garage. The woman's voice can't be heard in here."
+The Basement is a room.
 
 The Gallery is a room. It is north of the Bathroom.
 
@@ -70,21 +77,21 @@ SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony".
 SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony".
 SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony".
 
-The Kitchen is a room. It is north of the Living room. ["Here you always get something to eat, but you're not always welcome. The way to the north and west is open.[if we have not taken the rope] A dangerous pit with spikes blocks the way to the east.[otherwise] I think I can swing across the pit now."]
+The Kitchen is a room. It is north of the Living room.
 
-The Dining room is a room. It is west of the Kitchen and north of the Gallery. "An old room with yellow wallpaper that leads to the attic."
+The Dining room is a room. It is west of the Kitchen and north of the Gallery.
 
-The Pantry is a room. It is east of the Kitchen. "I'm out of armor—there's no going back. It seems I'm stuck here."
+The Pantry is a room. It is east of the Kitchen.
 
 The Closet is a room. It is east of SobaC.
 
-The Attic is a room. It is north of the Closet. "Unbearable heat. I can't stay here for more than 10 minutes. You see a familiar face in a black-and-white coat selling something."
+The Attic is a room. It is north of the Closet.
 
-The Study is a room. "A nicely decorated room with your picture on the table and your name on the back [italic type][player's full name][roman type].[if the armor is not carried] Dangerous rotating blades block the way to the west. [otherwise]I think the armor protects me from the blades."
+The Study is a room.
 
-The Garden is a room. It is north of the Study. "After the garage, your favorite place to relax."
+The Garden is a room. It is north of the Study.
 
-The Bedroom is a room. "You appear in the bedroom and see your owner looking for you under the bed.[line break]Woman’s voice: Here, kitty kitty, I have something nice for you."
+The Bedroom is a room.
 
 Part - Doors
  
@@ -117,20 +124,8 @@ The rope is in the Dining room.
 It is wearable.
 The description is "This will come in handy."
 
-The fridge is a container.
-The description is "The best meat is found here."
-It is in the Kitchen.
-It is closed and openable.
-
 The bone is a thing.
 The description is "You don’t like bones, but when you’re hungry, anything will do."
-
-The cabinet is a container.
-It is in the Pantry.
-It is closed and openable.
-
-The small bottle is in the cabinet.
-The description is "It looks like a spray against pests."
 
 The golden chest is a container.
 It is in Living room.
@@ -323,9 +318,9 @@ Part - Status line
 When play begins:
 	construct the Vorple status line with 3 columns.
 	
-The left hand Vorple status line is "You are: [player's full name]".
+[The right hand Vorple status line is "You are: [player's full name]".]
 [The middle Vorple status line is "Location: [the player's surroundings]".]
-The right hand Vorple status line is "Time: [time of day]". The time of day is 9:50 AM.
+The left hand Vorple status line is "[time of day]". The time of day is 9:50 AM.
 
 Part - Map
 
@@ -395,8 +390,9 @@ After reading a command when collecting names:
 	now the player's full name is the player's command;
 	now the command prompt is ">";
 	say "[line break]Hi, [bold type][player's full name][roman type]! I’m glad you’re back. You've been gone for quite some time. Let’s remember how things work around here.[line break]";
+	play music file "v1.mp3 ";
 	move the player to the Garage, without printing a room description;
-	display tooltip "Try to LOOK around you." on the prompt;
+	display tooltip "Try to LOOK around you." on the prompt in 8 seconds;
 	reject the player's command.
 	
 Instead of looking when collecting names: do nothing.
@@ -410,13 +406,15 @@ Chapter - Garage
 The brush is in the Garage.
 It is undescribed.
 
-The default tooltip duration is 10.
+The default tooltip duration is 8.
 
 Tooltip1 is a truth state that varies. Tooltip1 is true.
 
 After looking:
 	if the location is the Garage and Tooltip1 is true:
-		display tooltip "Move forward by typing NORTH or by pressing the red button." on the prompt;
+		hide the tooltip;
+		play music file "v2.mp3 ";
+		display tooltip "Move forward by typing NORTH or by pressing the red button." on the prompt in 18 seconds;
 		directions;
 		move north;
 		now Tooltip1 is false;
@@ -434,30 +432,34 @@ Rule for printing the name of the brush:
 Chapter - Hallway
 			
 After going to the Hallway for the first time:
+	hide the tooltip;
 	try looking;
-	display tooltip "To get back type SOUTH or press the blue button." on the prompt;
+	play music file "v3.mp3 ";
+	display tooltip "To get back type SOUTH or press the blue button." on the prompt in 10 seconds;
 	move south.
 	
 Chapter - Storeroom
 
-The test chest is a container.
+The coffer is a container.
 It is in the Storeroom.
 It is closed, openable and fixed in place.
 
 A coin is a kind of thing.
-The first coin is a coin in the chest. The printed name of the first coin is "coin".
+The first coin is a coin in the coffer. The printed name of the first coin is "coin".
 	
 After going to the Storeroom for the first time:
+	hide the tooltip;
 	try looking;
-	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt.
+	play music file "v4.mp3";
+	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt in 11 seconds .
 	
-Instead of examining the chest when the chest is closed:
-	say "An old, heavy chest that you've never seen open. The chest is ";
+Instead of examining the coffer when the coffer is closed:
+	say "A small ornate chest that you've never seen open. The coffer is ";
 	place an element called "chest-text" reading "closed";
-	display a tooltip "You can OPEN the chest to see what's inside." on the element called "chest-text" [in 1 seconds];
+	display a tooltip "You can OPEN the coffer to see what's inside." on the element called "chest-text" [in 1 seconds];
 	say ".".
 
-Rule for printing the name of the first coin when the first coin is in the chest:
+Rule for printing the name of the first coin when the first coin is in the coffer:
 	place an element called "coin-text" reading "coin";
 	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
 	
@@ -488,6 +490,7 @@ To move north:
 	execute JavaScript command "
 		let n = document.createElement('div');
 		n.id = 'north';
+		n.textContent = 'N';
 		n.onclick = () => vorple.prompt.submit('north');
 		document.body.appendChild(n);
 	".
@@ -496,6 +499,7 @@ To move east:
 	execute JavaScript command "
 		let e = document.createElement('div');
 		e.id = 'east';
+		e.textContent = 'E';
 		e.onclick = () => vorple.prompt.submit('east');
 		document.body.appendChild(e);
 	".
@@ -504,6 +508,7 @@ To move south:
 	execute JavaScript command "
 		let s = document.createElement('div');
 		s.id = 'south';
+		s.textContent = 'S';
 		s.onclick = () => vorple.prompt.submit('south');
 		document.body.appendChild(s);
 	".
@@ -512,6 +517,7 @@ To move west:
 	execute JavaScript command "
 		let w = document.createElement('div');
 		w.id = 'west';
+		w.textContent = 'W';
 		w.onclick = () => vorple.prompt.submit('west');
 		document.body.appendChild(w);
 	".
@@ -539,10 +545,12 @@ Biranje is a truth state that varies. Biranje is false.
 Instead of taking the brush when the first coin is carried and biranje is false:
 	move the brush to the player;
 	update capacity counter;
+	hide the tooltip;
 	say "You pick up the brush.[paragraph break]Oh, one more thing before you leave.";
+	play music file "v5.mp3 ";
 	now tezina is true;
 	now the command prompt is "Please select difficulty >";
-	display tooltip "Type UNKNOWN." on the prompt [in 3 seconds];
+	display tooltip "Type UNKNOWN for help." on the prompt in 3 seconds;
 	
 Instead of taking the brush when the first coin is carried and biranje is true:
 	now the player carries the brush;
@@ -592,6 +600,8 @@ After reading a command when tezina is true:
 		now tezina is false;
 		now biranje is true;
 		move the player to the Entrance hall;
+		play music file "achievement.mp3 ";
+		award the "Getting started" achievement;
 		reject the player's command;
 	otherwise:
 		say "Please select a difficulty to continue. [run paragraph on]";
@@ -628,7 +638,6 @@ The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
 
 Check opening the red drawer:
-	say "[line break]An empty drawer";
 	if the sequence of the desk is false:
 		now the sequence of the desk is true;
 		now the position of the desk is 1;
@@ -637,7 +646,6 @@ Check opening the red drawer:
 		now the position of the desk is 0;
 		
 Check opening the blue drawer:
-	say "[line break]An empty drawer";
 	if the position of the desk is 1:
 		now the position of the desk is 2;
 	else:
@@ -645,7 +653,6 @@ Check opening the blue drawer:
 		now the position of the desk is 0;
 		
 Check opening the pink drawer:
-	say "[line break]An empty drawer";
 	if the position of the desk is 2:
 		now the position of the desk is 3;
 	else:
@@ -653,7 +660,6 @@ Check opening the pink drawer:
 		now the position of the desk is 0;
 		
 Check opening the green drawer:
-	say "[line break]An empty drawer";
 	if the position of the desk is 3:
 		now the position of the desk is 4;
 		now the secret drawer is not scenery;
@@ -661,6 +667,7 @@ Check opening the green drawer:
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
+		say "You open the green drawer." instead.
 
 After examining the note:
 	if Vorple is supported:
@@ -677,7 +684,7 @@ Understand "turn over [something]" as flip.
 
 Check flip:
 	if the noun is the note:
-		place an image "note1a.png" with the description "Note1a", centered. [popravi]
+		place an image "note2.png" with the description "Note2", centered. [popravi]
 
 Part - Library
 
@@ -773,7 +780,6 @@ The game machine has a number called current_question. The current_question of t
 The game machine has a number called correct_answers. The correct_answers of the game machine is 0.
 The game machine has a truth state called quiz_active. The quiz_active of the game machine is false.
 
-Release along with the file "trivia.png".
 Release along with the file "trivia1.png".
 Release along with the file "trivia2.png".
 Release along with the file "trivia3.png".
@@ -787,15 +793,16 @@ Release along with the file "trivia10.png".
 Release along with the file "trivia11.png".
 Release along with the file "trivia12.png".
 Release along with the file "trivia13.png".
+Release along with the file "trivia14.png".
 
 Table of Trivia
 Trivia	Answer	Image
-"Which piece fits perfectly into the image?"	"E"	"trivia.png"
 "Which piece fits perfectly into the image?"	"B"	"trivia1.png"
 "Which piece fits perfectly into the image?"	"G"	"trivia2.png"
 "Which piece fits perfectly into the image?"	"C"	"trivia3.png"
 "Which piece fits perfectly into the image?"	"E"	"trivia4.png"
 "Which piece fits perfectly into the image?"	"F"	"trivia5.png"
+"Which piece fits perfectly into the image?"	"E"	"trivia14.png"
 "Choose the matching figure."	"A"	"trivia6.png"
 "Choose the matching figure."	"C"	"trivia7.png"
 "Choose the matching figure."	"D"	"trivia8.png"
@@ -1001,8 +1008,8 @@ After dropping something:
 	decrease the weight of the player by 1;
 	continue the action.
 	
-When play begins:
-	now the right hand status line is "Weight: [weight of the player]".
+[When play begins:
+	now the right hand status line is "Weight: [weight of the player]".]
 	
 Part - Attic
 
@@ -1109,12 +1116,6 @@ Report purchase:
 
 Part - Fix
 
-Instead of going to the Garden:
-	if we have not taken the small bottle:
-		say "When you go outside, you need protection. Especially against ticks.";
-	otherwise:
-		move the player to the Garden.
-
 After reading a command:
 	if the player's command matches the text "[player's full name]" or the player's command matches the text "say [player's full name]":
 		replace the matched text with "cast name";
@@ -1142,3 +1143,40 @@ Check casting meow:
 		end the story saying "Ah, there you are. Come on, we need to get ready — our vet appointment’s at 5.";
 	otherwise:
 		say "No one hears you."
+		
+Part - Achievements
+
+Table of Achievements
+Achievement	Description	Validation	Awarded
+"Getting started"	"Finish the tutorial."	a rule	false
+
+To award the (A - text) achievement:
+	repeat through the Table of Achievements:
+		if achievement entry is A:
+			now awarded entry is true;
+			display a success notification reading "You've earned an achievement: [A]";
+			stop.
+			
+Understand "all achievements" as listing all achievements.
+Listing all achievements is an action out of world.
+
+Carry out listing all achievements:
+	let unlocked be 0;
+	let locked be 0;
+	repeat through Table of Achievements:
+		if awarded entry is true:
+			increase unlocked by 1;
+		otherwise:
+			increase locked by 1;
+	if unlocked > 0:
+		say "You have unlocked the following achievements:[paragraph break]";
+		repeat through Table of Achievements:
+			if awarded entry is true:
+				say "[bold type][achievement entry]:[roman type] [description entry][line break]";
+	otherwise:
+		say "You haven't unlocked any achievements yet.[paragraph break]";
+	if locked > 0:
+		say "[line break]Locked achievements:[paragraph break]";
+		repeat through Table of Achievements:
+			if awarded entry is false:
+				say "[italic type][achievement entry][roman type][line break]";
