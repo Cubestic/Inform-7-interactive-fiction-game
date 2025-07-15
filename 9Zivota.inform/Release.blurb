@@ -37,12 +37,14 @@ auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.png" "--" "--
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\desk.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note2.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note3.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v1.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v2.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v3.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v4.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v5.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\achievement.mp3" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\wilhelm.mp3" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Tagesschrift-Regular.ttf" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.html" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\my.css" "--" "--"
@@ -60,6 +62,10 @@ auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia11.png" "--
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia12.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia13.png" "--" "--"
 auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia14.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia15.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia16.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia17.png" "--" "--"
+auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia18.png" "--" "--"
 
 ! Website instructions
 
@@ -89,29 +95,35 @@ status instruction ||&nbsp;<a href="source:story.ni#line25"><img border=0 src=in
 status instruction ||&nbsp;<a href="source:story.ni#line26"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line27"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line28"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line32"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line29"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line33"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line34"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line35"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line36"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line38"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line42"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line46"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line50"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line783"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line784"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line785"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line786"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line787"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line788"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line789"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line790"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line791"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line792"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line793"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line794"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line795"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line796"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line37"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line39"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line40"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line44"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line48"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line52"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line849"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line850"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line851"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line852"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line853"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line854"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line855"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line856"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line857"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line858"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line859"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line860"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line861"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line862"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line863"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line864"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line865"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line866"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||

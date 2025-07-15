@@ -7,7 +7,7 @@ Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
 756 Preform nonterminals read from C:\Program Files\Inform\Internal\Languages\English\Syntax.preform
-I've now read your source text, which is 6218 words long.
+I've now read your source text, which is 7298 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
@@ -54,14 +54,14 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandPar
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 13cs
+.... MajorNodes__pre_pass() took 10cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 8cs
+.... MajorNodes__pass_1() took 7cs
 
 
 -----------------------------------------------------
@@ -107,7 +107,7 @@ Phase X ... Phrases and rules
 Phase XI ... Generating inter (1)
 -----------------------------------------------------
 
-.... RTKindConstructors__compile() took 3cs
+.... RTKindConstructors__compile() took 4cs
 
 
 -----------------------------------------------------
@@ -136,7 +136,7 @@ Switch val is LOCAL_VARIABLE_NT'hex value' {local: LV"hex value"-number number}
  for kind number pointery 0
 Switch val is LOCAL_VARIABLE_NT'type' {local: LV"type"-notification type notification type}
  for kind notification type pointery 0
-.... Sequence__undertake_queued_tasks() took 152cs
+.... Sequence__undertake_queued_tasks() took 144cs
 .... Sequence__undertake_queued_tasks() took 1cs
 .... RTPhrasebook__compile_entries() took 4cs
 
@@ -174,7 +174,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 206 centiseconds
+Compile CPU time: 193 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -219,12 +219,12 @@ Compile CPU time: 206 centiseconds
 
 ==== Phase XVII.11 ... step 11/15: eliminate-redundant-labels ====
 
-2260 redundant label(s) removed
+2294 redundant label(s) removed
 
 
 ==== Phase XVII.12 ... step 12/15: eliminate-redundant-operations ====
 
-534 redundant operation(s) removed
+555 redundant operation(s) removed
 
 
 ==== Phase XVII.13 ... step 13/15: optionally-generate text ->  ====
@@ -8917,8 +8917,8 @@ HTML tag stack:
     30. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 155cs
-Total of 143 files written as streams.
+Back end elapsed time: 126cs
+Total of 145 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
 

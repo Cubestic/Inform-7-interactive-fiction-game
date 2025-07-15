@@ -26,6 +26,7 @@ Release along with the file "map.png".
 Release along with the file "desk.png".
 Release along with the file "note1.png".
 Release along with the file "note2.png".
+Release along with the file "note3.png".
 
 Chapter - Audio
 
@@ -36,6 +37,7 @@ Release along with the file "v4.mp3".
 Release along with the file "v5.mp3".
 
 Release along with the file "achievement.mp3".
+Release along with the file "wilhelm.mp3".
 
 Chapter - Font
 
@@ -57,41 +59,39 @@ The Hallway is a room. It is north of the Garage. "A long, cold hallway stretche
 
 The Storeroom is a room. It is east of the Garage. "A cluttered storeroom filled with various junk. While these objects hold no value to you, the maze of clutter makes a perfect hiding spot from your annoying roommate." 
 
-The Entrance hall is a room.
+The Entrance hall is a room. "Ovo je opis koji nedostaje."
 
-The Bathroom is a room. It is west of the Entrance hall.
+The Bathroom is a room. It is west of the Entrance hall. "Ovo je opis koji nedostaje."
 
-The Utility room is a room. It is west of Bathroom.
+The Utility room is a room. It is west of Bathroom. "Ovo je opis koji nedostaje."
 
-The Living room is a room.
+The Living room is a room. "Ovo je opis koji nedostaje. Napisi jos da je spike pit na istoku."
 
-The Library is a room.
+The Library is a room. "Ovo je opis koji nedostaje. Opis mora sadrzavati da postoji polica."
 
-The Basement is a room.
+The Basement is a room. "Ovo je opis koji nedostaje."
 
-The Gallery is a room. It is north of the Bathroom.
+The Gallery is a room. It is north of the Bathroom. "Ovo je opis koji nedostaje."
 
-The Balcony is a room.
-
-SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony".
+SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony". The description is "Ovo je opis koji nedostaje."
 SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony".
 SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony".
 
-The Kitchen is a room. It is north of the Living room.
+The Kitchen is a room. It is north of the Living room. "Ovo je opis koji nedostaje."
 
-The Dining room is a room. It is west of the Kitchen and north of the Gallery.
+The Dining room is a room. It is west of the Kitchen and north of the Gallery. "Ovo je opis koji nedostaje."
 
-The Pantry is a room. It is east of the Kitchen.
+The Pantry is a room. It is east of the Kitchen. "Ovo je opis koji nedostaje. Napisi jos da je blades na sjeveru."
 
-The Closet is a room. It is east of SobaC.
+The Closet is a room. It is east of SobaC. "Ovo je opis koji nedostaje."
 
-The Attic is a room. It is north of the Closet.
+The Attic is a room. It is north of the Closet. "Ovo je opis koji nedostaje."
 
-The Study is a room.
+The Study is a room. "Ovo je opis koji nedostaje."
 
-The Garden is a room. It is north of the Study.
+The Garden is a room. It is north of the Study. "Ovo je opis koji nedostaje."
 
-The Bedroom is a room.
+The Bedroom is a room. "Ovo je opis koji nedostaje."
 
 Part - Doors
  
@@ -117,26 +117,12 @@ It is closed, openable, locked and scenery.
 
 Part - Items
 
-The red key is in the Closet.
-It unlocks the red door.
-
-The rope is in the Dining room.
-It is wearable.
-The description is "This will come in handy."
-
-The bone is a thing.
-The description is "You don’t like bones, but when you’re hungry, anything will do."
-
 The golden chest is a container.
-It is in Living room.
+It is in the Living room.
 It is closed, openable and locked.
 
-The coins are in the golden chest.
+The money is in the golden chest.
 The description is "Gold coins of various shapes. Some might find them strange, but not you."
-
-The black chest is a container.
-It is in the Attic.
-It is closed, openable and locked.
 
 Part - Command
 
@@ -147,10 +133,16 @@ After issuing the response text of a response (called R):
 Part - Dying
 
 The player has a number called lives. The lives of the player is 9.
+Death is a truth state that varies. Death is false. 
 
 To kill the player in (respawn room - a room):
 	decrease the lives of the player by 1;
 	execute JavaScript command "document.querySelector('#heart-container .heart')?.remove();";
+	if death is false:
+		now death is true;
+		play sound effect file "wilhelm.mp3";
+		play music file "achievement.mp3";
+		award the "8 more left" achievement;
 	if the lives of the player is 0:
 		say "[line break]You are out of lives!";
 		execute JavaScript command "setTimeout(() => location.reload(), 5000);";
@@ -171,23 +163,26 @@ Check going through a spike pit:
 		continue the action;
 	otherwise if a rope is carried:
 		say "A rope is more useful if you [italic type]wear [roman type]it, not just have it in your inventory.";
+		play music file "wilhelm.mp3";
 		kill the player in the Living room;
 		stop the action;
 	otherwise:
+		play music file "wilhelm.mp3";
 		kill the player in the Living room;
 		stop the action.
 		
 Check going through a rotating blades:
 	say "I can't get through this without protection.";
 	if armor is worn:
-		say "I made it! There's no going back, because the armor is damaged.";
-		remove armor from play;
+		say "I made it!";
 		continue the action;
 	otherwise if armor is carried:
 		say "Armor is more useful if you [italic type]wear, [roman type]it."; 
+		play music file "wilhelm.mp3";
 		kill the player in the Pantry;
 		stop the action;
 	otherwise:
+		play music file "wilhelm.mp3";
 		kill the player in the Pantry;
 		stop the action.
 		
@@ -196,37 +191,33 @@ Check opening the black chest:
 		say "I need a key to open this.";
 	otherwise:	
 		say "This is better left unopened.";
+		play music file "wilhelm.mp3";
 		kill the player in the Closet;
 		stop the action.
 		
-Check going to the Gallery for the first time:
+Check going to the Gallery [for the first time]:
 	say "You hear loud growling coming from the gallery.";
 	if the bone is carried:
-		say "Ona kost might come in handy.";
+		say "This better work.";
 	otherwise:
-		say "It's not wise to enter a room where you might end up as someone's snack.";
+		say "Two bright eyes are the last thing you see as you enter the Gallery.";
+		play music file "wilhelm.mp3";
 		kill the player in the Bathroom;
 		stop the action.
 		
 Check going north from SobaA:
-	if the weight of the player >= 3:
+	if the weight of the player > 3:
 		say "Tezak si!";
+		play music file "wilhelm.mp3";
 		kill the player in the Gallery;
 		stop the action.
 		
 Check going north from SobaB:
-	if the weight of the player >= 2:
-		say "Jos uvijek si tezak";
+	if the weight of the player > 2:
+		say "[line break]Jos uvijek si tezak";
+		play music file "wilhelm.mp3";
 		kill the player in the Gallery;
 		stop the action.
-		
-[Instead of eating:
-	if the noun is the sausage:
-		say "That’s what I get for buying cheap sausages.";
-		kill the player;
-		stop the action;
-	otherwise:
-		now the sausage is nowhere.]
 
 Part - Inventory
 		
@@ -249,7 +240,9 @@ Carry out taking inventory (this is the print inventory using HTML lists rule):
 		
 The print inventory using HTML lists rule is listed instead of the print standard inventory rule in the carry out taking inventory rules.
 
-[The backpack is in the Entrance Hall.] The backpack is a player's holdall. The backpack has carrying capacity 3.
+Chapter - Backpack
+
+The backpack is a player's holdall. The backpack has carrying capacity 3.
 
 To update capacity counter:
 	let items be the number of things carried by the player;
@@ -295,32 +288,48 @@ After dropping something:
 After wearing something:
 	update capacity counter;
 	continue the action.
+	
+After taking off something:
+	update capacity counter;
+	continue the action.
 
 Instead of taking the backpack:
-	say "You pick up the backpack.";
-	now the player carries the backpack;
-	increase the carrying capacity of the player by 1;
-	update capacity counter.
+	if the player carries a backpack:
+		say "You already have a backpack.";
+	otherwise:
+		say "You pick up the backpack.";
+		now the player carries the backpack;
+		increase the weight of the player by 1;
+		increase the carrying capacity of the player by 1;
+		update capacity counter.
 
 After dropping the backpack:
+	decrease the weight of the player by 1;
 	decrease the carrying capacity of the player by 1;
 	say "You drop the backpack, reducing how much you can carry.";
 	update capacity counter;
 	let backpack_items be the number of things in the backpack;
 	if backpack_items is greater than 0:
-		say "The contents of your backpack spill out onto the ground:";
+		say "The contents of your backpack spill out onto the ground: ";
 		repeat with item running through things in the backpack:
-			say "[item]";
+			say "[line break][item],";
+			decrease the weight of the player by 1;
 			now item is in the location.
+	
+[Instead of giving something to someone when the noun is in the backpack:
+	decrease the weight of the player by 1;
+	now the second noun carries the noun;
+	say "You give [the noun] to [the second noun].";
+	update capacity counter.]
 			
 Part - Status line
 
 When play begins:
 	construct the Vorple status line with 3 columns.
 	
-[The right hand Vorple status line is "You are: [player's full name]".]
-[The middle Vorple status line is "Location: [the player's surroundings]".]
-The left hand Vorple status line is "[time of day]". The time of day is 9:50 AM.
+The left hand Vorple status line is "Weight: [weight of the player]".
+The middle Vorple status line is "Coins: [price of the player]".
+The right hand Vorple status line is "[time of day]". The time of day is 9:50 AM.
 
 Part - Map
 
@@ -336,7 +345,7 @@ Map is an action applying to nothing. Understand "map" as map.
 
 Carry out map:
 	if Vorple is supported:
-		place a link to web site "map.html" reading "Open map";
+		place a link to web site "map.html" reading "Open map [line break]";
 		
 After going:
 	if Vorple is supported:
@@ -392,13 +401,11 @@ After reading a command when collecting names:
 	say "[line break]Hi, [bold type][player's full name][roman type]! I’m glad you’re back. You've been gone for quite some time. Let’s remember how things work around here.[line break]";
 	play music file "v1.mp3 ";
 	move the player to the Garage, without printing a room description;
-	display tooltip "Try to LOOK around you." on the prompt in 8 seconds;
+	display tooltip "Try to LOOK around you." on the prompt in 9 seconds;
 	reject the player's command.
 	
 Instead of looking when collecting names: do nothing.
-
 Rule for printing the banner text when collecting names: do nothing.
-
 Rule for constructing the status line when collecting names: do nothing.
 
 Chapter - Garage
@@ -443,35 +450,35 @@ Chapter - Storeroom
 The coffer is a container.
 It is in the Storeroom.
 It is closed, openable and fixed in place.
-
-A coin is a kind of thing.
-The first coin is a coin in the coffer. The printed name of the first coin is "coin".
 	
 After going to the Storeroom for the first time:
 	hide the tooltip;
 	try looking;
 	play music file "v4.mp3";
-	display tooltip "Try inspecting items by typing EXAMINE {item name}." on the prompt in 11 seconds .
+	display tooltip "Try inspecting items by typing EXAMINE [bracket]item name[close bracket]." on the prompt in 11 seconds .
 	
 Instead of examining the coffer when the coffer is closed:
 	say "A small ornate chest that you've never seen open. The coffer is ";
 	place an element called "chest-text" reading "closed";
-	display a tooltip "You can OPEN the coffer to see what's inside." on the element called "chest-text" [in 1 seconds];
+	display a tooltip "You can OPEN the coffer to see what's inside." on the element called "chest-text" in 1 seconds;
 	say ".".
+	
+A coin is a kind of thing.
+The first coin is a coin in the coffer.
 
 Rule for printing the name of the first coin when the first coin is in the coffer:
 	place an element called "coin-text" reading "coin";
-	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" [in 1 seconds].
-	
-After taking the first coin for the first time:
-	say "Taken[line break]";
-	display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
-	check inventory;
-	display capacity counter.
+	display a tooltip "The coin is something you can TAKE." on the element called "coin-text" in 1 seconds.
 	
 After taking the first coin:
-	say "Taken.";
-	update capacity counter.
+	say "Taken.[line break]";
+	increase the weight of the player by 1;
+	if we have not taken the first coin:
+		display tooltip "Try typing INVENTORY or click the backpack icon." on the prompt;
+		check inventory;
+		display capacity counter;
+	otherwise:
+		update capacity counter.
 	
 After taking inventory:
 	if the player is in the Storeroom and the player carries the first coin:
@@ -512,7 +519,7 @@ To move south:
 		s.onclick = () => vorple.prompt.submit('south');
 		document.body.appendChild(s);
 	".
-	
+
 To move west:
 	execute JavaScript command "
 		let w = document.createElement('div');
@@ -521,7 +528,7 @@ To move west:
 		w.onclick = () => vorple.prompt.submit('west');
 		document.body.appendChild(w);
 	".
-	
+
 To check inventory:
 	execute JavaScript command "
 		let bp = document.createElement('div');
@@ -529,7 +536,7 @@ To check inventory:
 		bp.onclick = () => vorple.prompt.submit('inventory');
 		document.body.appendChild(bp);
 	".
-	
+
 Chapter - Difficulty 
 		
 Difficulty is a kind of value. The difficulties are normal, hard, unforgiving and unknown.
@@ -544,6 +551,7 @@ Biranje is a truth state that varies. Biranje is false.
 
 Instead of taking the brush when the first coin is carried and biranje is false:
 	move the brush to the player;
+	increase the weight of the player by 1;
 	update capacity counter;
 	hide the tooltip;
 	say "You pick up the brush.[paragraph break]Oh, one more thing before you leave.";
@@ -554,6 +562,7 @@ Instead of taking the brush when the first coin is carried and biranje is false:
 	
 Instead of taking the brush when the first coin is carried and biranje is true:
 	now the player carries the brush;
+	increase the weight of the player by 1;
 	say "You pick up the brush.";
 	
 After reading a command when tezina is true:
@@ -599,6 +608,7 @@ After reading a command when tezina is true:
 		now the command prompt is ">";
 		now tezina is false;
 		now biranje is true;
+		hide the tooltip;
 		move the player to the Entrance hall;
 		play music file "achievement.mp3 ";
 		award the "Getting started" achievement;
@@ -609,15 +619,34 @@ After reading a command when tezina is true:
 		
 Part - Entrance hall
 
-The note is on the desk in the Entrance hall.
+The entrance hall note is on the desk in the Entrance hall. The printed name of the entrance hall note is "note".
+The description is "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break]D."
+
+After examining the entrance hall note:
+	if Vorple is supported:
+		place an image "note1.png" with the description "Note1", centered.
+		
+Flip is an action applying to one visible thing.
+Understand "flip [something]" as flip.
+Understand "turn [something] over" as flip.
+Understand "turn over [something]" as flip.
+
+Check flip:
+	if the noun is the entrance hall note:
+		place an image "note2.png" with the description "Note2", centered.
 
 The desk is in the Entrance hall.
 The description is "A small table with four painted drawers, one of which is faded.".
+Rule for writing a paragraph about the desk:
+	if the entrance hall note is on the desk:
+		say "You can see a desk here.";
+	otherwise:
+		say "You can see a desk here.".
 
 After examining the desk:
 	if Vorple is supported:
-		place an image "desk.png" with the description "Desk", centered. [popravi]
-		
+		place an image "desk.png" with the description "Desk", centered.
+				
 The pink drawer, the green drawer, the red drawer and the blue drawer are parts of the desk.
 The pink drawer, the green drawer, the red drawer and the blue drawer are openable closed containers.
 The printed name of the pink drawer is "faded drawer".
@@ -625,14 +654,32 @@ The printed name of the pink drawer is "faded drawer".
 The secret drawer is a part of the desk. The secret drawer is an openable closed container.
 The secret drawer is scenery.
 
+After opening the secret drawer:
+	say "You open the secret drawer, revealing a brown key.[line break]";
+	if we have not opened the secret drawer:
+		play music file "achievement.mp3";
+		award the "StationPlay" achievement.
+
 Instead of doing anything other than examining to the secret drawer when the secret drawer is scenery:
 	say "Can't do that."
 	
 The brown key is in the secret drawer.
 The brown key unlocks the brown door.
 
-The second coin is a coin in the red drawer. The printed name of the second coin is "coin".
+The second coin is a coin in the red drawer.
+After taking the second coin:
+	say "Taken.";
+	increase the weight of the player by 1;
+	update capacity counter.
+
 The fuse is in the blue drawer.
+
+The library note is in the pink drawer.
+The description is "D,[line break]I have redesigned your bookcase as instructed. Your four favorite books have been placed at the specified spots and must be taken alphabetically."
+
+After examining the library note:
+	if Vorple is supported:
+		place an image "note3.png" with the description "Note3", centered.
 	
 The desk has a truth state called sequence. The sequence of the desk is false.
 The desk has a number called position. The position of the desk is 0.
@@ -659,55 +706,57 @@ Check opening the pink drawer:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
 		
-Check opening the green drawer:
+[Check opening the green drawer:
+	if the green drawer is open:
+		say "That's already open." instead;
 	if the position of the desk is 3:
 		now the position of the desk is 4;
 		now the secret drawer is not scenery;
-		say "[line break]As you open the green drawer, you hear a click and a secret fifth drawer appears in the desk!";
+		say "As you open the green drawer, you hear a click and a secret drawer appears in the desk!";
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
-		say "You open the green drawer." instead.
-
-After examining the note:
-	if Vorple is supported:
-		show a modal window;
-		set output focus to the modal window;
-		say "[player's full name] is not allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, in case you forgot.[line break] D.";
-		set output focus to the main window;
-		place an image "note1.png" with the description "Note1", centered.
+		say "You open the green drawer." instead.]
 		
-Flip is an action applying to one visible thing.
-Understand "flip [something]" as flip.
-Understand "turn [something] over" as flip.
-Understand "turn over [something]" as flip.
-
-Check flip:
-	if the noun is the note:
-		place an image "note2.png" with the description "Note2", centered. [popravi]
+Before opening the green drawer:
+	if the position of the desk is 3:
+		now the position of the desk is 4;
+		now the secret drawer is not scenery;
+		say "As you open the green drawer, you hear a click and a secret drawer appears in the desk!";
+		now the green drawer is open;
+	else:
+		now the sequence of the desk is false;
+		now the position of the desk is 0.
 
 Part - Library
 
-The third coin is a coin in the Library. The printed name of the third coin is "coin".
+The fourth coin is a coin in the Library.
+After taking the fourth coin:
+	say "Taken.";
+	increase the weight of the player by 1;
+	update capacity counter.
 
-The bookshelf is a supporter in the Library. The description is "Opis police". It is scenery.
+The bookshelf is a supporter in the Library. The description is "Opis police + slika". It is scenery.
+After examining the bookshelf:
+	if Vorple is supported:
+		place an image "note1.png" with the description "Note4", centered.
 
 A puzzle-book is a kind of thing.
-The crown book, the star book, the wheel book, and the sun book are puzzle-books.
+The wheel book, the crown book, the sun book, and the star book are puzzle-books.
 
 Instead of taking a puzzle-book:
 	say "The book seems firmly attached to the shelf. You can only pull it."
 
-The crown book is a puzzle-book on the bookshelf. The crown book is undescribed.
-The sun book is a puzzle-book on the bookshelf. The sun book is undescribed.
 The star book is a puzzle-book on the bookshelf. The star book is undescribed.
+The crown book is a puzzle-book on the bookshelf. The crown book is undescribed.
 The wheel book is a puzzle-book on the bookshelf. The wheel book is undescribed.
+The sun book is a puzzle-book on the bookshelf. The sun book is undescribed.
 
 The bookshelf has a truth state called sequence. The sequence of the bookshelf is false.
 The bookshelf has a number called position. The position of the bookshelf is 0.
 
 Instead of pulling the crown book:
-	say "[line break]Knjiga1";
+	say "Opis knjige 1.[line break]";
 	if the sequence of the bookshelf is false:
 		now the sequence of the bookshelf is true;
 		now the position of the bookshelf is 1;
@@ -716,29 +765,31 @@ Instead of pulling the crown book:
 		now the position of the bookshelf is 0.
 
 Instead of pulling the star book:
-	say "[line break]Knjiga2";
+	say "Opis knjige 2.[line break]";
 	if the position of the bookshelf is 1:
 		now the position of the bookshelf is 2;
 	else:
 		now the sequence of the bookshelf is false;
 		now the position of the bookshelf is 0.
 
-Instead of pulling the wheel book:
-	say "[line break]Knjiga3";
+Instead of pulling the sun book:
+	say "Opis knjige 3.[line break]";
 	if the position of the bookshelf is 2:
 		now the position of the bookshelf is 3;
 	else:
 		now the sequence of the bookshelf is false;
 		now the position of the bookshelf is 0.
 
-Instead of pulling the sun book:
-	say "[line break]Knjiga4";
+Instead of pulling the wheel book:
+	say "Opis knjige 4.[line break]";
 	if the position of the bookshelf is 3:
 		now the position of the bookshelf is 4;
 		now the secret door is unlocked;
 		now the secret door is open;
 		now the secret door is not undescribed;
-		say "[line break]RADIII!";
+		play music file "achievement.mp3 ";
+		award the "Mate&Teo" achievement;
+		say "[line break]Otvorila su se tajna vrata prema podrumu.";
 	else:
 		now the sequence of the bookshelf is false;
 		now the position of the bookshelf is 0.
@@ -749,7 +800,7 @@ The game machine is a switched off device in the Basement.
 
 Instead of switching on the game machine:
 	if the generator is switched off:
-		say "Nema struje!";
+		say "The power's out!";
 	else:
 		now the game machine is switched on;
 		say "You switch the machine on.[paragraph break]Insert coin to play!".
@@ -757,10 +808,17 @@ Instead of switching on the game machine:
 A reward is a kind of thing. Some rewards are defined by the Table of Prizes.
 	
 Table of Prizes
-Prize	Descriptioin
+Prize	Description
 golden key	"Opis"
 
 The golden key unlocks golden chest.
+After taking the golden key:
+	if we have not taken the golden key:
+		play music file "achievement.mp3";
+		award the "Best candidate for the job" achievement;
+	say "Taken.[line break]";
+	increase the weight of the player by 1;
+	update capacity counter.
 
 The game machine has a truth state called loaded. The loaded of the game machine is false.
 The game machine has a number called times_won. The times_won of the game machine is 0.
@@ -770,11 +828,19 @@ Instead of inserting a coin into the game machine:
 		say "You should turn on the game machine first.";
 	else:
 		remove the noun from play;
+		decrease the weight of the player by 1;
+		update capacity counter;
 		now the loaded of the game machine is true;
 		say "You insert the coin into the machine. The machine lights up![paragraph break]";
 		say "Press ";
 		place a link to command "start" reading "START";
-		say " to play.".
+		say " to play.";
+		say "Read ";
+		place a link to command "rules" reading "RULES";
+		say ".";
+		say "View ";
+		place a link to command "prizes" reading "PRIZES";
+		say ".".
 		
 The game machine has a number called current_question. The current_question of the game machine is 0.
 The game machine has a number called correct_answers. The correct_answers of the game machine is 0.
@@ -794,6 +860,10 @@ Release along with the file "trivia11.png".
 Release along with the file "trivia12.png".
 Release along with the file "trivia13.png".
 Release along with the file "trivia14.png".
+Release along with the file "trivia15.png".
+Release along with the file "trivia16.png".
+Release along with the file "trivia17.png".
+Release along with the file "trivia18.png".
 
 Table of Trivia
 Trivia	Answer	Image
@@ -803,6 +873,7 @@ Trivia	Answer	Image
 "Which piece fits perfectly into the image?"	"E"	"trivia4.png"
 "Which piece fits perfectly into the image?"	"F"	"trivia5.png"
 "Which piece fits perfectly into the image?"	"E"	"trivia14.png"
+"Which piece fits perfectly into the image?"	"C"	"trivia15.png"
 "Choose the matching figure."	"A"	"trivia6.png"
 "Choose the matching figure."	"C"	"trivia7.png"
 "Choose the matching figure."	"D"	"trivia8.png"
@@ -811,12 +882,22 @@ Trivia	Answer	Image
 "Find the object that matches the one on the left."	"A"	"trivia11.png"
 "Find the object that matches the one on the left."	"D"	"trivia12.png"
 "Find the object that matches the one on the left."	"D"	"trivia13.png"
+"Which one doesn't fit?"	"D"	"trivia16.png"
+"Which one doesn't fit?"	"A"	"trivia17.png"
+"Which one doesn't fit?"	"D"	"trivia18.png"
 "How old is a person today if, in 38 years, they will be three times as old as they are now?" 	"19"	""
-"I have a head and a tail but nothing in between. What am I?"	"Coin"	""
 "When Tom was 6, Tim was half his age. If Tom is 40 today, how old is Tim?"	"37"	""
-"What disappears as soon as you say its name?"	"Silence"	""
-"What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?"	"R"	""
+"An eagle flies at a height of 2 1/4 kilometers. During flight, it rises another 2500 meters. At what height is it now flying? (in meters)"	"4750"	""
+"Marko wants to insure his car which is worth 100,000 euros. The insurance is paid at 3 percent of 4/5 of the car's value. How much does the insurance for that car cost?"	"2400"	""
+"Ivan's office is 2 km away from his house. Walking on foot, he covers 5 km per hour. How much time does he spend over 5 days going to work and returning home?"	"4"	""
+"One company works in 3 shifts. The company employs a total of 330 workers. In the first shift, 1/4 of the workers work, and in the second shift, 2/8 of the workers work. How many workers work in the third shift?"	"165"	""
+"From a barrel of 56 liters, 3/4 of the wine has leaked out. How many deciliters of wine are left in the barrel?"	"140"	""
+"A piece of paper 3 2/4 meters wide needs to be cut into strips 70 cm wide each. How many such strips can be cut?"	"5"	""
+"Ivan bought two wooden beams, the first is 3.3 meters long, and the second is 2.465 meters long. How much longer is the first beam?"	"0.835"	""
+"Marko paid 15 cents for one lollipop. How much will he pay for one dozen lollipops?"	"180"	""
+"I have a head and a tail but nothing in between. What am I?"	"Coin"	""
 "I have keys, but no locks, and no rooms. You can enter, but you can’t go outside. What am I?"	"Keyboard"	""
+["What disappears as soon as you say its name?"	"Silence"	""]
 
 Startgame is an action applying to nothing. Understand "start" as startgame.
 
@@ -832,17 +913,37 @@ Carry out startgame:
 	now the quiz_active of the game machine is true;
 	now the current_question of the game machine is 1;
 	now the correct_answers of the game machine is 0;
-	say "Welcome to the Trivia Challenge! Answer 2 questions correctly to win![paragraph break]";
+	say "Welcome to the Trivia Challenge! Answer 5 questions correctly to win![paragraph break]";
 	show next question.
 	
+Showrules is an action applying to nothing. Understand "rules" as showrules.
+
+Carry out showrules:
+	say "Pravila[line break]".
+
+Showprizes is an action applying to nothing. Understand "prizes" as showprizes.
+
+Carry out showprizes:
+	say "You can win:[line break]";
+	repeat through Table of Prizes:
+		say " - [Prize entry][line break]".
+
 To decide whether answering trivia:
 	if the quiz_active of the game machine is true, yes;
 	no.
 	
+The game machine has a list of numbers called asked_questions. The asked_questions of the game machine is {}.
 The game machine has a number called last_asked_question. The last_asked_question of the game machine is 0.
 
 To show next question:
-	let question_num be a random number from 1 to the number of rows in the Table of Trivia;
+	let available_questions be a list of numbers;
+	repeat with N running from 1 to the number of rows in the Table of Trivia:
+		if N is not listed in the asked_questions of the game machine:
+			add N to available_questions;
+	let max_index be the number of entries in available_questions;
+	let random_index be a random number between 1 and max_index;
+	let question_num be entry random_index of available_questions;
+	add question_num to the asked_questions of the game machine;
 	now the last_asked_question of the game machine is question_num;
 	choose row question_num in the Table of Trivia;
 	say "Question [current_question of the game machine]: [Trivia entry][paragraph break]";
@@ -859,7 +960,8 @@ After reading a command when answering trivia:
 		say "[line break]Correct![paragraph break]";
 		if the correct_answers of the game machine is 5:
 			increase the times_won of the game machine by 1;
-			say "Congratulations! You've answered all 2 questions correctly! You win![paragraph break]";
+			say "Congratulations! You've answered all questions correctly! You win![paragraph break]";
+			now the asked_questions of the game machine is {};
 			if the times_won of the game machine is greater than the number of rows in the Table of Prizes:
 				say "The machine is out of prizes!";
 			else:
@@ -875,7 +977,8 @@ After reading a command when answering trivia:
 			increase the current_question of the game machine by 1;
 			show next question;
 	else:
-		say "[line break]Wrong answer! Game over!";
+		say "[line break]Wrong answer! Better luck next time!";
+		now the asked_questions of the game machine is {};
 		now the quiz_active of the game machine is false;
 		now the loaded of the game machine is false;
 		now the current_question of the game machine is 0;
@@ -885,7 +988,7 @@ After reading a command when answering trivia:
 	
 Part - Bathroom
 
-Teodor is an animal in the Bathroom. The description of Teodor is "Teodor".
+Teodor is a man in the Bathroom. The description of Teodor is "Ovo je opis Teodora.".
 
 Table of Teodor Responses
 Topic	Response			Index	Asked
@@ -899,24 +1002,27 @@ To decide whether all topics are discussed:
 			no;
 	yes.
 
+backpack_taken is a truth state that varies. backpack_taken is false.
+
 After asking Teodor about something:
 	if the topic understood is a topic listed in the Table of Teodor Responses:
-		say "[Response entry]";
+		say "[Response entry][line break]";
 		now the Asked entry is true;
-		if all topics are discussed:
-			say "[line break]Teodor wags his tail and drops a backpack at your feet.";
-			now the backpack is in the location.
-		
-After examining Teodor: [mozes staviti insted pa nema You see nothing special about Boris.]
+		if all topics are discussed and backpack_taken is false:
+			say "[line break]Teodor drops a backpack at your feet.";
+			now the backpack is in the Bathroom;
+			now the backpack_taken is true.
+
+After examining Teodor:
 	say "Topics you can talk about with Teodor:[line break]";
 	repeat with N running from 1 to the number of rows in the Table of Teodor Responses:
 		choose row N in the Table of Teodor Responses;
-		say "  - ";
+		say " - ";
 		place a link to command "ask Teodor about [Index entry]" reading "[Index entry]";
 		if the Asked entry is true:
 			say " (discussed)";
 		say "[line break]".
-		
+
 Rule for printing the name of Teodor:
 	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
 
@@ -924,16 +1030,16 @@ Part - Utility room
 
 The generator is a switched off device in the Utility room. It is fixed in place.
 
-The description of the generator is "[generator-status]".
+The description of the generator is "Ovo je opis generatora. [paragraph break][generator-status]".
 
 To say generator-status:
-	say "Fuel: ";
-	if the player carries the fuel can:
+	say "Fuse: ";
+	if the player carries the fuse:
 		say "1/1";
 	else:
 		say "0/1";
-	say " | Fuse: ";
-	if the player carries the fuse:
+	say " | Fuel: ";
+	if the player carries the fuel can:
 		say "1/1";
 	else:
 		say "0/1".
@@ -942,39 +1048,58 @@ Instead of switching on the generator:
 	if the generator is switched on:
 		say "That's already on.";
 	else if the player does not carry the fuel can and the player does not carry the fuse:
-		say "Treba ti gorivo i osigurac.";
+		say "You need a fuse and fuel.";
 	else if the player does not carry the fuel can:
-		say "Treba ti goriva.";
+		say "You need fuel.";
 	else if the player does not carry the fuse:
-		say "Treba ti osigurac.";
+		say "You are missing a fuse.";
 	else:
 		say "You switch the generator on.";
 		now the generator is switched on;
-		now the fuel can is nowhere;
-		now the fuse is nowhere.
+		play music file "achievement.mp3 ";
+		award the "Let there be light" achievement;
+		remove the fuel can from play;
+		remove the fuse from play;
+		decrease the weight of the player by 2;
+		update capacity counter.
 
 Part - Gallery
 
+The beast is a animal in the Gallery. The description is "Ovo je opis pasa. Reci da je gladan."
+It carries the red key.
+
+The red key is a thing.
+It unlocks the red door.
+
 The fuel can is in the Gallery.
+
+Instead of giving the bone to the beast:
+	update capacity counter;
+	try the beast dropping the red key.
 
 Part - Kitchen
 
-Irena is an animal in the Kitchen. The description of Irena is "Irena". Irena carries the bone.
+The bone is a thing.
+The description is "Ne smijes ovo izgubiti inace ne mozes u gallery ili napisi kod Irene koliko je kost bitna."
+
+Irena is a woman in the Kitchen. The description of Irena is "Ovo je opis Irene". Irena carries the bone.
 
 Table of Irena Responses
-Topic	Response			Index
-"Female voice"	"Bas mi treba nesto da se pocesljam"			"Female voice"
+Topic	Response			Index	Asked
+"Topic1"	"Bas mi treba nekaj da se pocesljam"			"Topic1"	false
 	
 After asking Irena about something:
 	if the topic understood is a topic listed in the Table of Irena Responses:
-		say "[Response entry]";
+		say "[Response entry][line break]";
 		
 After examining Irena: [mozes staviti insted pa nema You see nothing special about Irena.]
 	say "Topics you can talk about with Irena:[line break]";
 	repeat with N running from 1 to the number of rows in the Table of Irena Responses:
 		choose row N in the Table of Irena Responses;
-		say "  - ";
+		say " - ";
 		place a link to command "ask Irena about [Index entry]" reading "[Index entry]";
+		if the Asked entry is true:
+			say " (discussed)";
 		say "[line break]".
 		
 Rule for printing the name of Irena:
@@ -982,8 +1107,31 @@ Rule for printing the name of Irena:
 	
 Instead of giving the brush to Irena:
 	remove the brush from play;
+	decrease the weight of the player by 1;
+	update capacity counter;
 	try Irena dropping the bone.
 	
+Part - Dining room
+
+The rope is in the Dining room.
+It is wearable.
+The description is "This will come in handy. Napisi kak je bitno."
+
+The step stool is in the Pantry.
+It is pushable between rooms and fixed in place.
+The description is "Napisi kak je bitno da se dode do uzeta."
+
+Instead of taking the rope:
+	if the step stool is not in the Dining room:
+		say "The rope is hanging too high up. You can't reach it from here. Maybe if you had something to stand on...";
+	otherwise if we have not taken the rope:
+		say "Taken.";
+		now the player carries the rope;
+		increase the weight of the player by 1;
+		update capacity counter;
+	otherwise:
+		continue the action.
+
 Part - Balcony
 
 After going:
@@ -1008,12 +1156,9 @@ After dropping something:
 	decrease the weight of the player by 1;
 	continue the action.
 	
-[When play begins:
-	now the right hand status line is "Weight: [weight of the player]".]
-	
 Part - Attic
 
-The Attic has a time called the opening hour.
+[The Attic has a time called the opening hour.
 The opening hour of the Attic is 10:30 AM.
 The Attic has a time called the closing hour.
 The closing hour of the Attic is 10:45 AM.
@@ -1031,9 +1176,13 @@ Every turn when the location is the Attic:
 	let deadline be the closing hour of the location;
 	if the deadline is before the time of day:
 		say "Because of the intense heat, you had to leave the attic.";
-		move the player to Dining room.
-		
+		move the player to Dining room.]
+
 Chapter - Attic items
+
+The black chest is a container.
+It is in the Attic.
+It is closed, openable and locked.
 
 The Shop is a thing in the Attic.
 
@@ -1043,10 +1192,6 @@ The black key unlocks the black chest.
 The armor is in the Shop.
 It is wearable.
 
-The sausage is in the Shop.
-
-The necklace is in the Shop.
-
 Rule for printing the name of Shop while listing contents of a room:
 	say "Shop";
 	omit contents in listing.
@@ -1055,8 +1200,6 @@ Table of Shop Items
 Item	Cost
 Black key	$80
 Armor	$510
-Sausage	$200
-Necklace	$350
 
 Instead of examining the Shop:
 	if Vorple is supported:
@@ -1078,15 +1221,19 @@ Instead of examining the Shop:
 Price is a kind of value. $1000 specifies a price.
 
 The player has a price. The price of the player is $0.
+The money has a price. The price of the money is $1500.
 
-After taking the coins:
-	now the price of the player is $1500.
-	
-After entering the Attic:
-	now the left hand Vorple status line is "Coins [price of the player]".
-	
-[After leaving the Attic:
-	now the left hand Vorple status line is "You are: [player's full name]".]
+After taking the money:
+	say "Taken.[line break]";
+	increase the price of the player by the price of the money;
+	update capacity counter;
+	increase the weight of the player by 1.
+
+After dropping the money:
+	say "Dropped.[line break]";
+	decrease the price of the player by the price of the money;
+	update capacity counter;
+	decrease the weight of the player by 1.
 	
 Instead of taking something which is in the Shop:
 	say "You'll need to buy that first."
@@ -1108,7 +1255,9 @@ Carry out purchase:
 		if Item entry is the noun:
 			now price wanted is Cost entry;
 	decrease the price of the player by price wanted;
-	now the player carries the noun;
+	if the player carries the money:
+		decrease the price of the money by price wanted;
+	now the noun is in the location; [now the player carries the noun]
 	say "You pay [price wanted] and acquire [the noun].".
 	
 Report purchase:
@@ -1140,6 +1289,8 @@ Casting meow is an action applying to nothing.
 
 Check casting meow:
 	if the player is in the Bedroom:
+		play music file "achievement.mp3 ";
+		award the "8 more left" achievement;
 		end the story saying "Ah, there you are. Come on, we need to get ready — our vet appointment’s at 5.";
 	otherwise:
 		say "No one hears you."
@@ -1149,6 +1300,14 @@ Part - Achievements
 Table of Achievements
 Achievement	Description	Validation	Awarded
 "Getting started"	"Finish the tutorial."	a rule	false
+"StationPlay"	"Solve the desk puzzle."	--	false
+"Let there be light"	"Turn on the generator."	--	false
+"Mate&Teo"	"Solve the bookshelf puzzle."	--	false
+"Best candidate for the job"	"Win a prize on the game machine."	--	false
+"Neno is waiting"	"Finish the game."	--	false
+"Enjoying the pain"	"Finish the game on unforgiving difficulty."	--	false
+"8 more left"	"Die for the first time."	--	false
+
 
 To award the (A - text) achievement:
 	repeat through the Table of Achievements:
@@ -1180,3 +1339,5 @@ Carry out listing all achievements:
 		repeat through Table of Achievements:
 			if awarded entry is false:
 				say "[italic type][achievement entry][roman type][line break]";
+	
+	

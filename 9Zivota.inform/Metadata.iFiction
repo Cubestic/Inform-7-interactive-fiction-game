@@ -48,6 +48,10 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>note3.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>v1.mp3</leafname>
                 <description>--</description>
             </auxiliary>
@@ -69,6 +73,10 @@
             </auxiliary>
             <auxiliary>
                 <leafname>achievement.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>wilhelm.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -139,11 +147,27 @@
                 <leafname>trivia14.png</leafname>
                 <description>--</description>
             </auxiliary>
+            <auxiliary>
+                <leafname>trivia15.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia16.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia17.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>trivia18.png</leafname>
+                <description>--</description>
+            </auxiliary>
         </resources>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-07-06</releasedate>
+                    <releasedate>2025-07-15</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -153,10 +177,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-07-06</originated>
+            <originated>2025-07-15</originated>
         </colophon>
         <glulx>
-            <serial>250706</serial>
+            <serial>250715</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
