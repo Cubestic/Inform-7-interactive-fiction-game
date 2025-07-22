@@ -36,6 +36,10 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>achievement.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>desk.png</leafname>
                 <description>--</description>
             </auxiliary>
@@ -49,6 +53,18 @@
             </auxiliary>
             <auxiliary>
                 <leafname>note3.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>note4.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>note5.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>note6.png</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -69,6 +85,30 @@
             </auxiliary>
             <auxiliary>
                 <leafname>v5.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v6.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v7.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v8.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v9.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v10.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v11.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -167,7 +207,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-07-15</releasedate>
+                    <releasedate>2025-07-22</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -177,10 +217,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-07-15</originated>
+            <originated>2025-07-22</originated>
         </colophon>
         <glulx>
-            <serial>250715</serial>
+            <serial>250722</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
