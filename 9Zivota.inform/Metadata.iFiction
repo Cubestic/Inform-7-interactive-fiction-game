@@ -100,15 +100,15 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>v11.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>v9.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
                 <leafname>v10.mp3</leafname>
-                <description>--</description>
-            </auxiliary>
-            <auxiliary>
-                <leafname>v11.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -207,7 +207,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-07-22</releasedate>
+                    <releasedate>2025-07-24</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -217,10 +217,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-07-22</originated>
+            <originated>2025-07-24</originated>
         </colophon>
         <glulx>
-            <serial>250722</serial>
+            <serial>250724</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>
