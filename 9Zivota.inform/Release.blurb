@@ -1,18 +1,18 @@
 ! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Build\StatusCblorb.html"
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform"
-release to "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Release"
+project folder "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.inform"
+release to "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "9Zivota.gblorb"
-storyfile "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Build\output.ulx" include
-ifiction "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Metadata.iFiction" include
+storyfile "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.inform\Build\output.ulx" include
+ifiction "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.inform\Metadata.iFiction" include
 cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 release file "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
@@ -29,69 +29,69 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\heart.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\backpack.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\titlescreen.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\cardinaldirections.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\achievement.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\desk.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note1.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note2.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note3.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note4.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note5.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\note6.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v1.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v2.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v3.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v4.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v5.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v6.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v7.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v8.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v9.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v10.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\v11.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\achievement.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\wilhelm.mp3" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Tagesschrift-Regular.ttf" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\map.html" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\my.css" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia1.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia2.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia3.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia4.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia5.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia6.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia7.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia8.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia9.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia10.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia11.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia12.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia13.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia14.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia15.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia16.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia17.png" "--" "--"
-auxiliary "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\trivia18.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\heart.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\backpack.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\titlescreen.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\cardinaldirections.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\map.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\achievement.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\desk.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note1.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note2.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note3.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note4.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note5.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\note6.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v1.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v2.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v3.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v4.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v5.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v6.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v7.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v8.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v11.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v9.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\v10.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\achievement.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\wilhelm.mp3" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Tagesschrift-Regular.ttf" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\map.html" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\my.css" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia1.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia2.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia3.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia4.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia5.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia6.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia7.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia8.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia9.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia10.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia11.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia12.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia13.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia14.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia15.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia16.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia17.png" "--" "--"
+auxiliary "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\trivia18.png" "--" "--"
 
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "9Zivota.gblorb.js"
-template path "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Templates"
-template path "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Templates"
+template path "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Templates"
+template path "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Templates"
 template path "C:\Users\Cubestic\Documents\Inform\Templates"
 template path "C:\Program Files\Inform\Internal\Templates"
 placeholder [INTERPRETERSCRIPTS] = " <link rel='stylesheet' href='my.css' type='text/css' media='all'></link>"
 interpreter "Vorple" "g"
-base64 "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Build\output.ulx" to "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Release\interpreter\9Zivota.gblorb.js"
+base64 "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.inform\Build\output.ulx" to "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Release\interpreter\9Zivota.gblorb.js"
 
 ! Website instructions
 
-template path "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Templates"
-template path "C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Templates"
+template path "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Templates"
+template path "C:\test\nginx-1.28.0\html\Inform-7-interactive-fiction-game\9Zivota.materials\Templates"
 template path "C:\Users\Cubestic\Documents\Inform\Templates"
 template path "C:\Program Files\Inform\Internal\Templates"
 css
@@ -126,24 +126,24 @@ status instruction ||&nbsp;<a href="source:story.ni#line51"><img border=0 src=in
 status instruction ||&nbsp;<a href="source:story.ni#line55"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line59"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status instruction ||&nbsp;<a href="source:story.ni#line63"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line966"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line967"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line968"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line969"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line970"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line971"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line972"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line973"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line974"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line975"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line976"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line977"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line978"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line979"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line980"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line981"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line982"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line983"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1008"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1009"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1010"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1011"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1012"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1013"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1014"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1015"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1016"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1017"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1018"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1019"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1020"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1021"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1022"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1023"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1024"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line1025"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||

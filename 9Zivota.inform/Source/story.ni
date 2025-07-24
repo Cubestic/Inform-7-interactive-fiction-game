@@ -43,9 +43,9 @@ Release along with the file "v5.mp3".
 Release along with the file "v6.mp3".
 Release along with the file "v7.mp3".
 Release along with the file "v8.mp3".
+Release along with the file "v11.mp3".
 Release along with the file "v9.mp3".
 Release along with the file "v10.mp3".
-Release along with the file "v11.mp3".
 
 Release along with the file "achievement.mp3".
 Release along with the file "wilhelm.mp3".
@@ -88,21 +88,21 @@ SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony". 
 SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony".
 SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony".
 
-The Kitchen is a room. It is north of the Living room. "Ovo je opis koji nedostaje."
+The Closet is a room. It is east of SobaC. "To you, this is more of a box than a room. A narrow space filled with clothes, shoes, bags, and boxes. All stuff you have no use for, and the smell isn't exactly appealing. You don’t wear clothes and don’t need any shoes. Your outfit grows with you and thickens as the weather gets colder. This room is nothing more than an obstacle on the way to the attic."
 
-The Dining room is a room. It is west of the Kitchen and north of the Gallery. "Ovo je opis koji nedostaje."
+The Kitchen is a room. It is north of the Living room. "Your favourite room in the house. Along the wall sit the usual elements: stove, dishwasher, and cabinets. A few plates and cups are piled up in the sink. Nobody's bothered to wash them. In the center of the room stands a large counter with a few chairs. On it: a cutting board, a knife, and a hefty chunk of chicken breast. Someone is preparing lunch. You're not allowed on the counter, but who's going to stop you now? Just as you're about to make the jump, you spot an open can in the corner. You heard it open from the living room. The can is empty. Must've been your roommate. Now you're annoyed and hungry. Better check the pantry for more cans."
 
-The Pantry is a room. It is east of the Kitchen. "Ovo je opis koji nedostaje. Napisi jos da je blades na sjeveru."
+The Dining room is a room. It is west of the Kitchen and north of the Gallery. ""
 
-The Closet is a room. It is east of SobaC. "Ovo je opis koji nedostaje."
+The Pantry is a room. It is east of the Kitchen. "you sense a looming danger in front of you"
 
-The Attic is a room. It is north of the Closet. "Ovo je opis koji nedostaje."
+The Attic is a room. It is north of the Closet. ""
 
-The Study is a room. "Ovo je opis koji nedostaje."
+The Study is a room. ""
 
 [The Garden is a room. It is north of the Study. "Ovo je opis koji nedostaje."]
 
-The Bedroom is a room. "Ovo je opis koji nedostaje."
+The Bedroom is a room. ""
 
 Part - Doors
  
@@ -135,6 +135,10 @@ After issuing the response text of a response (called R):
 When play begins:
 	choose row with a final response rule of immediately undo rule in the Table of Final Question Options;
 	blank out the final question wording entry.
+	
+[When play begins:
+	repeat through the Table of Final Question Options:
+		blank out the final question wording entry.]
 	
 Use undo prevention.
 
@@ -200,6 +204,7 @@ Check opening the black chest:
 	otherwise:	
 		say "This is better left unopened.";
 		play music file "wilhelm.mp3";
+		award the "Curiosity killed ..." achievement;
 		kill the player in the Closet;
 		stop the action.
 		
@@ -825,17 +830,54 @@ Instead of switching on the generator:
 		update capacity counter.
 		
 Part - Living room
-
-After going to the Living room for the first time:
-	play music file "v11.mp3";
-	continue the action.
 	
 The golden chest is a container.
 It is in the Living room.
 It is closed, openable and locked.
 
 The money is in the golden chest.
-The description is "Gold coins of various shapes. Some might find them strange, but not you."
+The description is "Gold coins of various shapes. Some might find them strange, but not you. They don't fit into the game machine"
+
+Chapter - Secret ending
+
+The Living room has a truth state called timer. The timer of the Living room is false.
+
+After going to the Living room:
+	if the Living room is unvisited:
+		play music file "v11.mp3";
+	if the timer of the Living room is false:
+		now the timer of the Living room is true;
+		execute JavaScript command "
+			window.livingroomTimer = setTimeout(() => {
+				if (vorple.prompt.currentRoom === 'Living room') {
+					vorple.prompt.submit('living room ending');
+				}
+			}, 120000);
+			window.livingroomEntryTime = Date.now();
+		";
+	execute JavaScript command "
+		vorple.prompt.currentRoom = 'Living room';
+	";
+	continue the action.
+
+After going from the Living room:
+	execute JavaScript command "
+		if (window.livingroomTimer) {
+			clearTimeout(window.livingroomTimer);
+			window.livingroomTimer = null;
+		}
+	";
+	now the timer of the Living room is false;
+	continue the action.
+
+Understand "***" as living room ending.
+Living room ending is an action applying to nothing.
+
+Carry out living room ending:
+	if the player is in the Living room:
+		play music file "achievement.mp3";
+		award the "Pspspspsps" achievement;
+		end the story finally saying "Drugi kraj".
 
 Part - Library
 
@@ -849,7 +891,7 @@ After taking the fourth coin:
 	increase the weight of the player by 1;
 	update capacity counter.
 
-The bookshelf is a supporter in the Library. The description is "[if we have taken the library note]This looks familiar". It is scenery.
+The bookshelf is a supporter in the Library. The description is "[if we have taken the library note]This looks familiar.". It is scenery.
 After examining the bookshelf:
 	if Vorple is supported:
 		place an image "note5.png" with the description "Note5", centered.
@@ -1036,7 +1078,7 @@ Carry out startgame:
 Showrules is an action applying to nothing. Understand "rules" as showrules.
 
 Carry out showrules:
-	say "Pravila[line break]".
+	say "Answer to picture-based questions should be given by writing the capital letter corresponding to the option you think is correct (e.g. A)[line break]For math questions, the answer should be a number only, using the units from the question, but without writing the unit itself (e.g. 190).[line break]For all other types of questions, respond with one word, capitalized (e.g. Silence).".
 
 Showprizes is an action applying to nothing. Understand "prizes" as showprizes.
 
@@ -1159,6 +1201,8 @@ Irena is a woman in the Kitchen. The description of Irena is "Ovo je opis Irene"
 Table of Irena Responses
 Topic	Response			Index	Asked
 "Topic1"	"Bas mi treba nekaj da se pocesljam"			"Topic1"	false
+"Topic2"	"Bas mi treba nekaj da se pocesljam"			"Topic2"	false
+"Topic3"	"Bas mi treba nekaj da se pocesljam"			"Topic3"	false
 	
 After asking Irena about something:
 	if the topic understood is a topic listed in the Table of Irena Responses:
@@ -1216,7 +1260,7 @@ Part - Dining room
 
 The rope is in the Dining room.
 It is wearable.
-The description is "This will come in handy. Napisi kak je bitno."
+The description is "This will come in handy. Better not drop this in a wrong place!"
 
 Instead of taking the rope:
 	if the step stool is not in the Dining room:
@@ -1230,7 +1274,7 @@ Instead of taking the rope:
 		continue the action.
 		
 The mysterious note is in the Dining room.
-The description is "Kao da se prepozanjes u ovome.".
+The description is "Something about this feels strangely familiar".
 
 After examining the mysterious note:
 	if Vorple is supported:
@@ -1344,7 +1388,7 @@ Understand "buy [thing]" as purchase.
 		
 Check purchase:
 	if the noun is not in the Shop:
-		say "That's not for sale." instead;
+		say "You've already bought that." instead;
 	let price wanted be $0;
 	let found be false;
 	repeat through Table of Shop Items:
@@ -1429,7 +1473,8 @@ Achievement	Description	Validation	Awarded
 "Enjoying the pain"	"Finish the game on unforgiving difficulty."	--	false
 "8 more left"	"Die for the first time."	--	false
 "Fable enjoyer"	"Unlock the fridge."	--	false
-"Curiosity killed ..."	"Open the blackchest."	--	false
+"Curiosity killed ..."	"Open the black chest."	--	false
+"Pspspspsps"	"Wait for your owner."	--	false
 
 To award the (A - text) achievement:
 	repeat through the Table of Achievements:
