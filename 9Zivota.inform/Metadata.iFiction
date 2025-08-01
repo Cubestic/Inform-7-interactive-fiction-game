@@ -68,6 +68,14 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>you.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>ending2.png</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>v1.mp3</leafname>
                 <description>--</description>
             </auxiliary>
@@ -112,11 +120,55 @@
                 <description>--</description>
             </auxiliary>
             <auxiliary>
+                <leafname>v12.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v13.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v14.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v15.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v16.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v17.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v18.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v19.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>v20.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>intro.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
                 <leafname>achievement.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
                 <leafname>wilhelm.mp3</leafname>
+                <description>--</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>directed.mp3</leafname>
                 <description>--</description>
             </auxiliary>
             <auxiliary>
@@ -207,7 +259,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2025-07-24</releasedate>
+                    <releasedate>2025-08-01</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>Inform 10.1.2 (build )</compilerversion>
@@ -217,10 +269,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>Inform 10.1.2 (build )</generatorversion>
-            <originated>2025-07-24</originated>
+            <originated>2025-08-01</originated>
         </colophon>
         <glulx>
-            <serial>250724</serial>
+            <serial>250801</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
         </glulx>

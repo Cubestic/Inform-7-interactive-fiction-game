@@ -31,6 +31,8 @@ Release along with the file "note3.png".
 Release along with the file "note4.png".
 Release along with the file "note5.png".
 Release along with the file "note6.png".
+Release along with the file "you.png".
+Release along with the file "ending2.png".
 
 Chapter - Audio
 
@@ -46,9 +48,21 @@ Release along with the file "v8.mp3".
 Release along with the file "v11.mp3".
 Release along with the file "v9.mp3".
 Release along with the file "v10.mp3".
+Release along with the file "v12.mp3".
+Release along with the file "v13.mp3".
+Release along with the file "v14.mp3".
+Release along with the file "v15.mp3".
+Release along with the file "v16.mp3".
+Release along with the file "v17.mp3".
+Release along with the file "v18.mp3".
+Release along with the file "v19.mp3".
 
+Release along with the file "v20.mp3".
+
+Release along with the file "intro.mp3".
 Release along with the file "achievement.mp3".
 Release along with the file "wilhelm.mp3".
+Release along with the file "directed.mp3".
 
 Chapter - Font
 
@@ -85,24 +99,24 @@ The Basement is a room. "Cobwebs hang everywhere, and the space is crammed with 
 The Gallery is a room. It is north of the Bathroom. "The walls are filled with various imagery. Some of it you recognize, while other pieces you don’t understand and can barely describe. You spot your dull roommate in a few of them, but there’s no sign of yourself. In the corner stands a small table with a porcelain vase that looks ready to topple every time you pass by. To make matters worse, your neighbour is here. Who let him in? You hate that guy, his pushiness and his constant howling scare you. This isn’t a place to linger."
 
 SobaA is a room. It is west of Gallery. The printed name of SobaA is "Balcony". "The balcony connects the Gallery with the Closet but isn’t used very much. It’s old and in dire need of repair. There’s a bit of everything here: several flower pots with plants that look like they’re about to give up. Last time you 'watered' the plants, you were scolded. A large green sun umbrella casts shade across the entire balcony. Underneath it, the watering can stands empty. Shame, you could use a refreshing drink right now. The view is beautiful, except for those ragged crows screeching overhead. They’re too big to hunt. To move across the balcony, you jump onto the balcony railing."
-SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony".
-SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony".
+SobaB is a room. It is north of SobaA. The printed name of SobaB is "Balcony". "Balancing carefully, you move across, watching each step."
+SobaC is a room. It is north of SobaB. The printed name of SobaC is "Balcony". "You reach the end and jump back down."
 
 The Closet is a room. It is east of SobaC. "To you, this is more of a box than a room. A narrow space filled with clothes, shoes, bags, and boxes. All stuff you have no use for, and the smell isn't exactly appealing. You don’t wear clothes and don’t need any shoes. Your outfit grows with you and thickens as the weather gets colder. This room is nothing more than an obstacle on the way to the attic."
 
-The Kitchen is a room. It is north of the Living room. "Your favourite room in the house. Along the wall sit the usual elements: stove, dishwasher, and cabinets. A few plates and cups are piled up in the sink. Nobody's bothered to wash them. In the center of the room stands a large counter with a few chairs. On it: a cutting board, a knife, and a hefty chunk of chicken breast. Someone is preparing lunch. You're not allowed on the counter, but who's going to stop you now? Just as you're about to make the jump, you spot an open can in the corner. You heard it open from the living room. The can is empty. Must've been your roommate. Now you're annoyed and hungry. Better check the pantry for more cans."
+The Kitchen is a room. It is north of the Living room. "Your favourite room in the house. Along the wall sit the usual elements: stove, dishwasher, and cabinets. A few plates and cups are piled up in the sink. Nobody's bothered to wash them. In the center of the room stands a large counter with a few chairs. On it, there's a cutting board, a knife, and a hefty chunk of chicken breast. Someone is preparing lunch. You're not allowed on the counter, but who's going to stop you now? Just as you're about to make the jump, you spot an open can in the corner. You heard it open from the living room. The can is empty. Must've been your roommate. Now you're annoyed and hungry. Better check the pantry for more cans."
 
-The Dining room is a room. It is west of the Kitchen and north of the Gallery. ""
+The Dining room is a room. It is west of the Kitchen and north of the Gallery. "The dining room has a large oval table surrounded by six high-backed chairs. You've always wondered why the backs are so tall; when you sit down, you can't see what's happening behind you. Against the wall stands a large cabinet with carved decorations on its doors, filled with plates, glasses, cups, and porcelain figurines. Pictures hang on the walls, people you've never seen in your life, except maybe for two of them, though you're not sure. They look completely different today. The chandelier hangs quite low with one bulb burned out that no one's bothered to replace. Sunlight streams through two large windows overlooking the balcony. You often sit on those windowsills looking out."
 
-The Pantry is a room. It is east of the Kitchen. "you sense a looming danger in front of you"
+The Pantry is a room. It is east of the Kitchen. "A wonderful place filled with all kinds of food, even some meant for you. Two large shelves are packed with jars from top to bottom. There’s flour, rice, sugar, and salt. Strangely, no ants, which surprises you. You spot a wheel of dry cheese and a piece of cured bacon. Smells good. The lower shelves hold cartons of long-life milk, boxes of mineral water, and canned vegetables. Yuck, veggies aren’t your thing. The bottom shelf is filled with cans, but none of them are opened, and to make matters worse, there’s no one around to feed you. You’re not like your lousy roommate, eating off the plate left on the floor. Despite the overwhelming happiness, you sense a looming danger in front of you."
 
-The Attic is a room. It is north of the Closet. ""
+The Attic is a room. It is north of the Closet. "A faint light filters in through the roof window, revealing all the dust in the air. You can’t stay here for long; your nose is stuffed, your allergies are starting to act up, and the heat is unbearable. You spot a long, skinny figure lying on the floor next to the black chest. It’s your roommate. What is he doing here with that smug look on his face and a full belly? You feel like slapping him for no reason, but a sneeze is already on its way."
 
-The Study is a room. ""
+The Study is a room. "Against one wall are several bookshelves, and along another, there's a desk with a computer on it. In the corner is your designated relaxation spot, which you don’t even like, but Boris seems to enjoy it more anyway. In the middle of this not-so-big room stands a writing desk with a comfortable chair. The desk is cluttered with papers and personal stationery. Amid all that mess, a photo in a beautiful frame catches your eye. The only thing prettier than the frame is the whiskered prince posing in it."
 
-[The Garden is a room. It is north of the Study. "Ovo je opis koji nedostaje."]
+[The Garden is a room. It is north of the Study. "Description"]
 
-The Bedroom is a room. ""
+The Bedroom is a room. "As you appear in the bedroom, you see a womanly figure moving around the large bed calling your name. The bed has not been made, the pillows are scattered and the blanket is crumpled. Next to the bed stands a nightstand with a lamp that is oddly still on even though it is already midday. You have found the source of the voice calling you. Now is your chance to finally speak up and make yourself heard."
 
 Part - Doors
  
@@ -132,15 +146,52 @@ After issuing the response text of a response (called R):
 	if R is parser clarification internal rule response (D) or R is parser clarification internal rule response (E):
 		prefill the command line with "[parser command so far] ".
 		
+This is the game restart rule:
+	execute JavaScript command "location.reload();".
+	
+This is the game quit rule:
+	execute JavaScript command "window.close();".
+		
 When play begins:
+	choose row with a final response rule of immediately restart the VM rule in the Table of Final Question Options;
+	now the final response rule entry is the game restart rule;
+	choose row with a final response rule of immediately restore saved game rule in the Table of Final Question Options;
+	blank out the final question wording entry;
+	choose row with a final response rule of immediately quit rule in the Table of Final Question Options;
+	now the final response rule entry is the game quit rule;
 	choose row with a final response rule of immediately undo rule in the Table of Final Question Options;
 	blank out the final question wording entry.
-	
-[When play begins:
-	repeat through the Table of Final Question Options:
-		blank out the final question wording entry.]
+
+Check restoring the game:
+	say "Restoring saved games is not allowed in this game." instead.
 	
 Use undo prevention.
+
+This is the clickable print the final question rule:
+	let named options count be 0;
+	repeat through the Table of Final Question Options:
+		if the only if victorious entry is false or the story has ended finally:
+			if there is a final response rule entry
+				or the final response activity entry [activity] is not empty:
+				if there is a final question wording entry, increase named options count by 1;
+	if the named options count is less than 1, abide by the immediately quit rule;
+	say "Would you like to " (A);
+	repeat through the Table of Final Question Options:
+		if the only if victorious entry is false or the story has ended finally:
+			if there is a final response rule entry 
+				or the final response activity entry [activity] is not empty:
+				if there is a final question wording entry and final question wording entry matches the regular expression "<A-Z>{2,}":
+					place a link to command text matching regular expression reading final question wording entry;
+					decrease named options count by 1;
+					if the named options count is 1:
+						if the serial comma option is active, say ",";
+						say " or " (B);
+					otherwise if the named options count is 0:
+						say "?[paragraph break]";
+					otherwise:
+						say ", ";
+
+The clickable print the final question rule is listed instead of the print the final question rule in the before handling the final question rulebook.
 
 Part - Dying
 
@@ -207,7 +258,7 @@ Check opening the black chest:
 		award the "Curiosity killed ..." achievement;
 		kill the player in the Closet;
 		stop the action.
-		
+
 Check going to the Gallery [for the first time]:
 	say "You hear loud growling coming from the gallery.";
 	if the perfume is carried:
@@ -217,14 +268,19 @@ Check going to the Gallery [for the first time]:
 		play music file "wilhelm.mp3";
 		kill the player in the Bathroom;
 		stop the action.
-		
+
+Instead of taking the red key when the beast carries the red key:
+	say "As you reach for the key, neighbor snarls and attacks!";
+	play music file "wilhelm.mp3";
+	kill the player in the Gallery.
+	
 Check going north from SobaA:
 	if the weight of the player > 2:
 		say "You are too heavy!";
 		play music file "wilhelm.mp3";
 		kill the player in the Gallery;
 		stop the action.
-		
+
 Check going north from SobaB:
 	if the weight of the player > 1:
 		say "[line break]You are still too heavy.";
@@ -342,8 +398,8 @@ When play begins:
 	construct the Vorple status line with 3 columns.
 	
 The left hand Vorple status line is "Weight: [weight of the player]".
-The middle Vorple status line is "Coins: [price of the player]".
-The right hand Vorple status line is "[time of day]". The time of day is 9:50 AM.
+The middle Vorple status line is "Money: [price of the player]".
+The right hand Vorple status line is "[time of day]". The time of day is 1:00 PM.
 
 Part - Map
 
@@ -377,10 +433,12 @@ After going to the Bathroom:
 Part - Title screen
 
 When play begins:
+	play music file "intro.mp3", looping;
 	if Vorple is supported:
 		place an image "titlescreen.png" with the description "Titlescreen", centered;
 	center "[fantasy font style][play the game][end style]";
 	wait for the SPACE key;
+	stop all audio;
 	clear the screen.
 	
 To say play the game:
@@ -474,7 +532,7 @@ After going to the Storeroom for the first time:
 Instead of examining the coffer when the coffer is closed:
 	say "A small ornate chest that you've never seen open. The coffer is ";
 	place an element called "chest-text" reading "closed";
-	display a tooltip "You can OPEN the coffer to see what's inside." on the element called "chest-text" in 1 seconds;
+	display a tooltip "You can OPEN the coffer to see what's inside." on the element called "chest-text" [in 1 seconds];
 	say ".".
 	
 A coin is a kind of thing.
@@ -496,7 +554,8 @@ After taking the first coin:
 	
 After taking inventory:
 	if the player is in the Storeroom and the player carries the first coin:
-		display tooltip "Time to get back! Press the green button or type WEST." on the prompt [in 3 seconds];
+		hide the tooltip;
+		display tooltip "Time to get back! Press the green button or type WEST." on the prompt in 2 seconds;
 		move west;
 		now the brush is described.
 
@@ -583,7 +642,7 @@ After reading a command when tezina is true:
 	if the player's command includes "[difficulty]":
 		now the difficulty of the player is the difficulty understood;
 		if the difficulty of the player is unknown:
-			say "Please select: 'normal' 'hard' or 'unforgiving'. [run paragraph on]"; [ovo popravi]
+			say "Please select: 'normal' 'hard' or 'unforgiving' difficulty. [run paragraph on]";
 			reject the player's command;
 		if the difficulty of the player is normal:
 			now the lives of the player is 9;
@@ -636,7 +695,7 @@ After reading a command when tezina is true:
 Part - Entrance hall
 
 The entrance hall note is on the desk in the Entrance hall. The printed name of the entrance hall note is "note".
-The description is "[player's full name] isn't allowed to go in. The door is locked, and the key's in the drawer. I wrote down how to open it, just in case you forgot.[line break]D."
+The description is "[player's full name] isn't allowed to go in. The brown door is locked, and the key's in the drawer. I wrote down how to open it, just in case you forgot.[line break]D."
 
 After examining the entrance hall note:
 	if Vorple is supported:
@@ -681,6 +740,7 @@ Instead of doing anything other than examining to the secret drawer when the sec
 	
 The brown key is in the secret drawer.
 The brown key unlocks the brown door.
+The description is "It unlocks the brown door."
 
 The second coin is a coin in the red drawer.
 After taking the second coin:
@@ -691,7 +751,7 @@ After taking the second coin:
 The fuse is in the blue drawer.
 
 The library note is in the pink drawer.
-The description is "D,[line break]I have redesigned your bookcase as instructed. Your four favorite books have been placed at the specified spots and must be taken alphabetically."
+The description is "D,[line break]I have redesigned your bookcase as instructed. Your four favorite books have been placed at the specified spots and must be pulled alphabetically."
 
 After examining the library note:
 	if Vorple is supported:
@@ -707,42 +767,35 @@ Check opening the red drawer:
 	else if the position is not 0 :
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
-		
+
 Check opening the blue drawer:
 	if the position of the desk is 1:
 		now the position of the desk is 2;
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
-		
+
 Check opening the pink drawer:
 	if the position of the desk is 2:
 		now the position of the desk is 3;
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0;
-		
-[Check opening the green drawer:
-	if the green drawer is open:
-		say "That's already open." instead;
+
+Check opening the green drawer:
 	if the position of the desk is 3:
 		now the position of the desk is 4;
 		now the secret drawer is not scenery;
-		say "As you open the green drawer, you hear a click and a secret drawer appears in the desk!";
-	else:
-		now the sequence of the desk is false;
-		now the position of the desk is 0;
-		say "You open the green drawer." instead.]
-		
-Before opening the green drawer:
-	if the position of the desk is 3:
-		now the position of the desk is 4;
-		now the secret drawer is not scenery;
-		say "As you open the green drawer, you hear a click and a secret drawer appears in the desk!";
-		now the green drawer is open;
+		say "As you open the green drawer, you hear a click and a secret drawer appears in the desk!" instead;
+		continue the action;
 	else:
 		now the sequence of the desk is false;
 		now the position of the desk is 0.
+
+After closing a drawer:
+	now the sequence of the desk is false;
+	now the position of the desk is 0;
+	continue the action.
 	
 Part - Bathroom
 
@@ -750,13 +803,14 @@ After going to the Bathroom for the first time:
 	play music file "v7.mp3";
 	continue the action.
 
-Teodor is a man in the Bathroom. The description of Teodor is "Ovo je opis Teodora.".
+Teodor is a man in the Bathroom. The description of Teodor is "lawyer, activist, secret service agent".
 
 Table of Teodor Responses
 Topic	Response			Index	Asked
-"Topic1"	"Razgovor1"			"Topic1"	false
-"Topic2"	"Razgovor2"			"Topic2"	false
-"Topic3"	"Razgovor3"			"Topic3"	false
+"his work"	"I'm in a hurry. The client wants to see me before the trial. After that, I’m heading to the pub. Robi invited me because he’s celebrating something."			"his work"	false
+"electricity"	"If you're worried about the electricity, you can bring it back from the Utility room."			"electricity"	false
+"woman's voice"	"Last time I saw her, she was in the Kitchen."			"woman's voice"	false
+"huh"	"D told me that you should wait for her in the Living room for 5x + 3 = 2x + 9 minutes."	"huh"	false
 	
 To decide whether all topics are discussed:
 	repeat through the Table of Teodor Responses:
@@ -776,7 +830,7 @@ After asking Teodor about something:
 			now the backpack_taken is true.
 
 After examining Teodor:
-	say "Topics you can talk about with Teodor:[line break]";
+	say "You can talk to Teodor about:[line break]";
 	repeat with N running from 1 to the number of rows in the Table of Teodor Responses:
 		choose row N in the Table of Teodor Responses;
 		say " - ";
@@ -796,7 +850,7 @@ After going to the Utility room for the first time:
 
 The generator is a switched off device in the Utility room. It is fixed in place.
 
-The description of the generator is "Ovo je opis generatora. [paragraph break][generator-status]".
+The description of the generator is "A big, old fuel-powered generator used to produce electricity. It's loud, bulky, and smells like gasoline, but it gets the job done. [paragraph break][generator-status]".
 
 To say generator-status:
 	say "Fuse: ";
@@ -836,7 +890,7 @@ It is in the Living room.
 It is closed, openable and locked.
 
 The money is in the golden chest.
-The description is "Gold coins of various shapes. Some might find them strange, but not you. They don't fit into the game machine"
+The description is "Gold coins of various shapes. Some might find them strange, but not you. They don't fit into the game machine, though."
 
 Chapter - Secret ending
 
@@ -850,7 +904,7 @@ After going to the Living room:
 		execute JavaScript command "
 			window.livingroomTimer = setTimeout(() => {
 				if (vorple.prompt.currentRoom === 'Living room') {
-					vorple.prompt.submit('living room ending');
+					vorple.prompt.submit('***');
 				}
 			}, 120000);
 			window.livingroomEntryTime = Date.now();
@@ -875,16 +929,27 @@ Living room ending is an action applying to nothing.
 
 Carry out living room ending:
 	if the player is in the Living room:
-		play music file "achievement.mp3";
+		play sound effect "achievement.mp3";
 		award the "Pspspspsps" achievement;
-		end the story finally saying "Drugi kraj".
+		if the difficulty of the player is unforgiving:
+			play sound effect "achievement.mp3";
+			award the "Enjoying the pain" achievement;
+		place an image "ending2.png" with the description "Ending2", centered;
+		play music file "directed.mp3", looping;
+		say "[line break]";
+		place an inline element called "ending";
+		display text "Ah, there you are. Come on, your bath is getting cold." in the element called "ending";
+		end the story finally;
+	otherwise:
+		say "What is this? What are you writing?"
 
 Part - Library
 
-After going to the Library for the first time:
-	play music file "v9.mp3";
+After going to the Library:
+	if the Library is unvisited:
+		play music file "v9.mp3";
 	continue the action.
-
+	
 The fourth coin is a coin in the Library.
 After taking the fourth coin:
 	say "Taken.";
@@ -911,7 +976,7 @@ The bookshelf has a truth state called sequence. The sequence of the bookshelf i
 The bookshelf has a number called position. The position of the bookshelf is 0.
 
 Instead of pulling the crown book:
-	say "Authors: Blaženka Divjak, Tihomir Hunjak[line break]";
+	say "Authors: Blaženka Divjak & Tihomir Hunjak[line break]";
 	if the sequence of the bookshelf is false:
 		now the sequence of the bookshelf is true;
 		now the position of the bookshelf is 1;
@@ -920,7 +985,7 @@ Instead of pulling the crown book:
 		now the position of the bookshelf is 0.
 
 Instead of pulling the star book:
-	say "Authors: Miroslav Žugaj, Ruža Brčić[line break]";
+	say "Authors: Miroslav Žugaj & Ruža Brčić[line break]";
 	if the position of the bookshelf is 1:
 		now the position of the bookshelf is 2;
 	else:
@@ -928,7 +993,7 @@ Instead of pulling the star book:
 		now the position of the bookshelf is 0.
 
 Instead of pulling the sun book:
-	say "Authors: Alen Lovrenčić, Mario Konecki[line break]";
+	say "Authors: Alen Lovrenčić & Mario Konecki[line break]";
 	if the position of the bookshelf is 2:
 		now the position of the bookshelf is 3;
 	else:
@@ -936,7 +1001,7 @@ Instead of pulling the sun book:
 		now the position of the bookshelf is 0.
 
 Instead of pulling the wheel book:
-	say "Authors: Mirko Maleković, Markus Schatten[line break]";
+	say "Authors: Mirko Maleković & Markus Schatten[line break]";
 	if the position of the bookshelf is 3:
 		now the position of the bookshelf is 4;
 		now the secret door is unlocked;
@@ -951,11 +1016,13 @@ Instead of pulling the wheel book:
 		
 Part - Basement
 
-After going to the Basement for the first time:
-	play music file "v10.mp3";
+After going to the Basement:
+	if the Basement is unvisited:
+		play music file "v10.mp3";
 	continue the action.
 
 The game machine is a switched off device in the Basement.
+It is fixed in place.
 
 Instead of switching on the game machine:
 	if the generator is switched off:
@@ -968,7 +1035,7 @@ A reward is a kind of thing. Some rewards are defined by the Table of Prizes.
 	
 Table of Prizes
 Prize	Description
-golden key	"Opis"
+golden key	"It unlocks the golden chest."
 
 The golden key unlocks golden chest.
 After taking the golden key:
@@ -1078,7 +1145,7 @@ Carry out startgame:
 Showrules is an action applying to nothing. Understand "rules" as showrules.
 
 Carry out showrules:
-	say "Answer to picture-based questions should be given by writing the capital letter corresponding to the option you think is correct (e.g. A)[line break]For math questions, the answer should be a number only, using the units from the question, but without writing the unit itself (e.g. 190).[line break]For all other types of questions, respond with one word, capitalized (e.g. Silence).".
+	say "Answer to picture-based questions should be given by writing the capital letter corresponding to the option you think is correct (e.g. A).[line break]For math questions, the answer should be a number only, using the units from the question, but without writing the unit itself (e.g. 190).[line break]For all other types of questions, respond with one word, capitalized (e.g. Silence).".
 
 Showprizes is an action applying to nothing. Understand "prizes" as showprizes.
 
@@ -1147,11 +1214,17 @@ After reading a command when answering trivia:
 
 Part - Gallery
 
-The beast is a animal in the Gallery. The description is "Ovo je opis pasa. Reci da je gladan."
+After going to the Gallery:
+	if the Gallery is unvisited:
+		play music file "v12.mp3";
+	continue the action.
+
+The beast is a animal in the Gallery. The description is "This guy looks hungry. The only thing redder than his big tongue is the key he wears around his neck."
 It carries the red key.
 
 The red key is a thing.
 It unlocks the red door.
+The description is "It unlocks the red door."
 
 The fuel can is in the Gallery.
 
@@ -1159,7 +1232,21 @@ Instead of giving the bone to the beast:
 	update capacity counter;
 	try the beast dropping the red key.
 	
+Crvenko is a truth state that varies. Crvenko is false.
+
+After taking the red key:
+	if Crvenko is false:
+		now Crvenko is true;
+		play music file "achievement.mp3";
+		award the "Neighbor relations" achievement;
+	continue the action.
+
 Part - Balcony
+
+After going to the SobaA:
+	if the SobaA is unvisited:
+		play music file "v13.mp3";
+	continue the action.
 
 After going:
 	if Vorple is supported:
@@ -1172,6 +1259,14 @@ After going:
 		otherwise:
 			execute JavaScript command "localStorage.setItem('currentRoom', '[printed name of location]')";
 	continue the action.
+	
+The fifth coin is a coin in the SobaA.
+After taking the fifth coin:
+	say "Taken.";
+	increase the weight of the player by 1;
+	update capacity counter.
+	
+Chapter - Player's weight
 
 The player has a number called weight. The weight of the player is 0.
 
@@ -1185,6 +1280,11 @@ After dropping something:
 	
 Part - Closet
 
+After going to the Closet:
+	if the Closet is unvisited:
+		play music file "v14.mp3";
+	continue the action.
+
 The third coin is a coin in the Closet.
 After taking the third coin:
 	say "Taken.";
@@ -1193,23 +1293,28 @@ After taking the third coin:
 
 Part - Kitchen
 
-The perfume is a thing.
-The description is "Ne smijes ovo izgubiti inace ne mozes u gallery ili napisi kod Irene koliko je kost bitna i napisi da ti prikriva miris."
+After going to the Kitchen:
+	if the Kitchen is unvisited:
+		play music file "v15.mp3";
+	continue the action.
 
-Irena is a woman in the Kitchen. The description of Irena is "Ovo je opis Irene". Irena carries the perfume.
+The perfume is a thing.
+The description is "This helps me cover my scent. Better not drop this in the wrong place!"
+
+Irena is a woman in the Kitchen. The description of Irena is "model, weather presenter, singer". Irena carries the perfume.
 
 Table of Irena Responses
 Topic	Response			Index	Asked
-"Topic1"	"Bas mi treba nekaj da se pocesljam"			"Topic1"	false
-"Topic2"	"Bas mi treba nekaj da se pocesljam"			"Topic2"	false
-"Topic3"	"Bas mi treba nekaj da se pocesljam"			"Topic3"	false
+"her looks"	"Ugh, look at my hair! I can’t find my brush and I have a job interview in an hour"			"her looks"	false
+"pub"	"That bald gnome Robi invited us to the pub for some kind of celebration later."			"pub"	false
+"woman's voice"	"Last time I heard her, she was in the Study."			"woman's voice"	false
 	
 After asking Irena about something:
 	if the topic understood is a topic listed in the Table of Irena Responses:
 		say "[Response entry][line break]";
 		
-After examining Irena: [mozes staviti insted pa nema You see nothing special about Irena.]
-	say "Topics you can talk about with Irena:[line break]";
+After examining Irena:
+	say "You can talk to Irena about:[line break]";
 	repeat with N running from 1 to the number of rows in the Table of Irena Responses:
 		choose row N in the Table of Irena Responses;
 		say " - ";
@@ -1241,7 +1346,7 @@ After reading a command when the command prompt is "Please enter the code > ":
 	if the player's command matches "5873":
 		say "The lock beeps and clicks open!";
 		play music file "achievement.mp3";
-		award the "Fable enjoyer" achievement;
+		award the "Belling the Cat" achievement;
 		now the fridge is unlocked;
 		now the code of the fridge is true;
 		now the command prompt is ">";
@@ -1253,25 +1358,30 @@ After reading a command when the command prompt is "Please enter the code > ":
 	reject the player's command.
 
 The bone is a thing.
-The description is "Ne smijes ovo izgubiti inace ne mozes u gallery ili napisi kod Irene koliko je kost bitna i napisi da ti prikriva miris."
+The description is "This thing sure tastes delicious, but not to me."
 It is in the fridge.
 
 Part - Dining room
 
+After going to the Dining room:
+	if the Dining room is unvisited:
+		play music file "v16.mp3";
+	continue the action.
+
 The rope is in the Dining room.
 It is wearable.
-The description is "This will come in handy. Better not drop this in a wrong place!"
+The description is "This will come in handy. Better not drop this in the wrong place!"
 
 Instead of taking the rope:
 	if the step stool is not in the Dining room:
 		say "The rope is hanging too high up. You can't reach it from here. Maybe if you had something to stand on...";
-	[otherwise if we have not taken the rope:
-		say "Taken.";
-		now the player carries the rope;
-		increase the weight of the player by 1;
-		update capacity counter;]
 	otherwise:
 		continue the action.
+		
+After taking the rope for the first time:
+	play music file "achievement.mp3";
+	award the "It's over Anakin" achievement;
+	continue the action.
 		
 The mysterious note is in the Dining room.
 The description is "Something about this feels strangely familiar".
@@ -1279,12 +1389,20 @@ The description is "Something about this feels strangely familiar".
 After examining the mysterious note:
 	if Vorple is supported:
 		place an image "note6.png" with the description "Note6", centered.
+		
+Instead of unlocking the red door with something when the player is in the Dining room:
+	say "The lock mechanism is only accessible from the other side.".
 
 Part - Pantry
 
+After going to the Pantry:
+	if the Pantry is unvisited:
+		play music file "v17.mp3";
+	continue the action.
+
 The step stool is in the Pantry.
 It is pushable between rooms and fixed in place.
-The description is "Napisi kak je bitno da se dode do uzeta."
+The description is "This might give me the high ground."
 
 The kitchen note is in the Pantry.
 The description is "A polybius square used to construct and decode secret messages."
@@ -1312,7 +1430,36 @@ Every turn when the location is the Attic:
 	let deadline be the closing hour of the location;
 	if the deadline is before the time of day:
 		say "Because of the intense heat, you had to leave the attic.";
-		move the player to Dining room.]
+		move the player to Closet.]
+		
+After going to the Attic:
+	if the Attic is unvisited:
+		play music file "v18.mp3";
+	continue the action.
+		
+Boris is an animal in the Attic. The description of Boris is "He’s younger, taller, and skinnier than you, with a big M on his forehead. Unlike your white outfit covered in big spots, he wears a brown one with stripes. He doesn’t talk much, and when he does, you can barely hear him. You share the living space, and he always tries to eat your meals."
+
+Table of Boris Responses
+Topic	Response			Index	Asked
+"meoow"	"meooooow"			"meoow"	false
+"meow"	"meow meow"			"meow"	false
+	
+After asking Boris about something:
+	if the topic understood is a topic listed in the Table of Boris Responses:
+		say "[Response entry][line break]";
+		
+After examining Boris:
+	say "You can talk to Boris about:[line break]";
+	repeat with N running from 1 to the number of rows in the Table of Boris Responses:
+		choose row N in the Table of Boris Responses;
+		say " - ";
+		place a link to command "ask Boris about [Index entry]" reading "[Index entry]";
+		if the Asked entry is true:
+			say " (discussed)";
+		say "[line break]".
+		
+Rule for printing the name of Boris:
+	place a link to command "examine [the printed name of the item described]" reading "[the printed name of the item described]";
 
 Chapter - Attic items
 
@@ -1335,7 +1482,7 @@ Rule for printing the name of Shop while listing contents of a room:
 Table of Shop Items
 Item	Cost	Purchased
 Black key	$80	false
-Armor	$510	false
+Armor	$51	false
 
 Instead of examining the Shop:
 	if Vorple is supported:
@@ -1358,7 +1505,7 @@ Instead of examining the Shop:
 Price is a kind of value. $1000 specifies a price.
 
 The player has a price. The price of the player is $0.
-The money has a price. The price of the money is $1500.
+The money has a price. The price of the money is $150.
 
 After taking the money:
 	say "Taken.[line break]";
@@ -1378,14 +1525,8 @@ Instead of taking something which is in the Shop:
 Purchase is an action applying to one thing.
 Understand "buy [thing]" as purchase.
 
-[Check purchase:
-	let price wanted be $0;
-	repeat through Table of Shop Items:
-		if Item entry is the noun:
-			now price wanted is Cost entry;
-	if the price of the player is less than price wanted:
-		say "You don't have enough money. [The noun] costs [price wanted], but you only have [price of player]." instead.]
-		
+Kupnja is a truth state that varies. Kupnja is false.
+	
 Check purchase:
 	if the noun is not in the Shop:
 		say "You've already bought that." instead;
@@ -1397,22 +1538,9 @@ Check purchase:
 				say "You already bought [the noun]." instead;
 			now found is true;
 			now price wanted is Cost entry;
-	[if found is false:
-		say "That's not for sale." instead;]
 	if the price of the player is less than price wanted:
 		say "You don't have enough money. [The noun] costs [price wanted], but you only have [price of player]." instead.
 
-[Carry out purchase:
-	let price wanted be $0;
-	repeat through Table of Shop Items:
-		if Item entry is the noun:
-			now price wanted is Cost entry;
-	decrease the price of the player by price wanted;
-	if the player carries the money:
-		decrease the price of the money by price wanted;
-	now the noun is in the location; [now the player carries the noun]
-	say "You pay [price wanted] and acquire [the noun].".]
-	
 Carry out purchase:
 	let price wanted be $0;
 	repeat through Table of Shop Items:
@@ -1423,12 +1551,29 @@ Carry out purchase:
 	if the player carries the money:
 		decrease the price of the money by price wanted;
 	move the noun to the Attic;
-	say "You pay [price wanted] and acquire [the noun].".
+	say "You pay [price wanted] and acquire [the noun].";
+	if Kupnja is false:
+		now Kupnja is true;
+		play music file "achievement.mp3";
+		award the "Shopper" achievement.
 	
 Report purchase:
 	say "You now have [price of player] remaining in your wallet.".
 
 Part - Study
+
+After going to the Study:
+	if the Study is unvisited:
+		play music file "v19.mp3";
+	continue the action.
+
+The photo is in the Study.
+The description is "[italic type]You carry me always, but I weigh nothing at all.[line break]I'm given at birth, yet not written on a wall.[line break]I open the door when strangers appear.[line break]Speak me aloud, and you’ll make yourself clear.[line break]What am I?[paragraph break][roman type]Now that you remember what I am… tell me yours.".
+It is scenery.
+
+After examining the photo:
+	if Vorple is supported:
+		place an image "you.png" with the description "You", centered.
 
 After reading a command:
 	if the player's command matches the text "[player's full name]" or the player's command matches the text "say [player's full name]":
@@ -1443,10 +1588,17 @@ Check casting player name:
 		say "Yes, that’s your name, but that doesn’t help you right now." instead.
 
 Carry out casting player name:
+	play music file "achievement.mp3";
+	award the "Riddle me This" achievement;
 	say "You disappear into a cloud of fog.";
 	now the player is in the Bedroom.
 
 Part - Bedroom (Ending)
+
+After going to the Bedroom:
+	if the Bedroom is unvisited:
+		play music file "v20.mp3";
+	continue the action.
 
 Understand "meow" as casting meow.
 
@@ -1454,11 +1606,20 @@ Casting meow is an action applying to nothing.
 
 Check casting meow:
 	if the player is in the Bedroom:
-		play music file "achievement.mp3";
+		play sound effect "achievement.mp3";
 		award the "Neno is waiting" achievement;
-		end the story finally saying "Ah, there you are. Come on, we need to get ready - our vet appointment’s at 5.";
+		if the difficulty of the player is unforgiving:
+			play sound effect "achievement.mp3";
+			award the "Enjoying the pain" achievement;
+		place an image "titlescreen.png" with the description "Ending", centered;
+		play music file "directed.mp3", looping;
+		say "[line break]";
+		place an inline element called "ending";
+		display text "Ah, there you are. Come on, we need to get ready - our vet appointment’s at 17:00." in the element called "ending";
+		end the story finally;
 	otherwise:
 		say "No one hears you."
+
 
 Part - Achievements
 
@@ -1472,9 +1633,13 @@ Achievement	Description	Validation	Awarded
 "Neno is waiting"	"Finish the game."	--	false
 "Enjoying the pain"	"Finish the game on unforgiving difficulty."	--	false
 "8 more left"	"Die for the first time."	--	false
-"Fable enjoyer"	"Unlock the fridge."	--	false
+"Belling the Cat"	"Unlock the fridge."	--	false
 "Curiosity killed ..."	"Open the black chest."	--	false
 "Pspspspsps"	"Wait for your owner."	--	false
+"It's over Anakin"	"Obtain the rope."	--	false
+"Neighbor relations"	"Obtain the red key."	--	false
+"Riddle me This"	"Solve the photo riddle."	--	false
+"Shopper"	"Buy something from the shop."	--	false
 
 To award the (A - text) achievement:
 	repeat through the Table of Achievements:
