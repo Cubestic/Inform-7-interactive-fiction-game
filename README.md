@@ -8,7 +8,7 @@ Windows
 
 **2.** Download Nginx for Windows and unpack it into the IF folder. (https://nginx.org/en/download.html)
 
-**3.** Clone this repository into the html folder (C:\IF\nginx-1.26.3\html), then at the Command Prompt, type:
+**3.** Clone this repository into the html folder. (C:\IF\nginx-1.26.3\html)
 
 * `cd C:\IF\nginx-1.26.3\html`
 
