@@ -27,6 +27,6 @@ http://localhost/Inform-7-interactive-fiction-game/9Zivota.materials/Release/pla
 
 **Ending music:** Frolic by Luciano Michelini (Curb Your Enthusiasm)
 
-**Heart art:** Pixel Hearth by Ben Bushnell (https://www.needpix.com/photo/1138710/pixel-heart-heart-pixel-symbol-red-valentine-romantic-shape-pixelated)
+**Heart icon:** Pixel Hearth by Ben Bushnell (https://www.needpix.com/photo/1138710/pixel-heart-heart-pixel-symbol-red-valentine-romantic-shape-pixelated)
 
 **Title screen music:** Grasswalk by Laura Shigihara (Plants vs. Zombies OST)  https://archive.org/details/plants-vs.-zombies-ost-flac/Laura+Shigihara+-+Plants+vs.+Zombies+Original+Soundtrack/04+-+Grasswalk.flac
