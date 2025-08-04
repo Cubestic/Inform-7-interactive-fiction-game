@@ -21,12 +21,12 @@ http://localhost/Inform-7-interactive-fiction-game/9Zivota.materials/Release/pla
 
 ## Credits
 
-**Achievement sound:**
+**Achievement sound:** 16bit Success sound by flush https://opengameart.org/content/16bit-success-sound
 
-**Death sound:** Wilhelm scream
+**Death sound:** Wilhelm scream https://en.wikipedia.org/wiki/Wilhelm_scream
 
-**Ending music:** Frolic by Luciano Michelini (Curb Your Enthusiasm)
+**Ending music:** Frolic by Luciano Michelini (Curb Your Enthusiasm) https://www.soundboard.com/sb/sound/1007449
 
-**Heart icon:** Pixel Hearth by Ben Bushnell (https://www.needpix.com/photo/1138710/pixel-heart-heart-pixel-symbol-red-valentine-romantic-shape-pixelated)
+**Heart icon:** Pixel Heart by BenBushnell https://pixabay.com/illustrations/pixel-heart-heart-pixel-symbol-red-2779422/
 
 **Title screen music:** Grasswalk by Laura Shigihara (Plants vs. Zombies OST)  https://archive.org/details/plants-vs.-zombies-ost-flac/Laura+Shigihara+-+Plants+vs.+Zombies+Original+Soundtrack/04+-+Grasswalk.flac
