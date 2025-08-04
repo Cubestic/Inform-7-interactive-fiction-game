@@ -32,6 +32,7 @@ Release along with the file "note4.png".
 Release along with the file "note5.png".
 Release along with the file "note6.png".
 Release along with the file "you.png".
+Release along with the file "ending.png".
 Release along with the file "ending2.png".
 
 Chapter - Audio
@@ -364,9 +365,9 @@ After taking off something:
 
 Instead of taking the backpack:
 	if the player carries a backpack:
-		say "You already have a backpack.";
+		say "You already have that.";
 	otherwise:
-		say "You pick up the backpack.";
+		say "You pick up the backpack and put it on.";
 		now the player carries the backpack;
 		increase the weight of the player by 1;
 		increase the carrying capacity of the player by 1;
@@ -889,7 +890,7 @@ The golden chest is a container.
 It is in the Living room.
 It is closed, openable and locked.
 
-The money is in the golden chest.
+money is in the golden chest.
 The description is "Gold coins of various shapes. Some might find them strange, but not you. They don't fit into the game machine, though."
 
 Chapter - Secret ending
@@ -1278,6 +1279,9 @@ After dropping something:
 	decrease the weight of the player by 1;
 	continue the action.
 	
+Instead of taking something when the noun is in the backpack:
+	say "You can't take things from the backpack while wearing it!"
+	
 Part - Closet
 
 After going to the Closet:
@@ -1378,9 +1382,13 @@ Instead of taking the rope:
 	otherwise:
 		continue the action.
 		
+Konopac is a truth state that varies. Konopac is false.
+		
 After taking the rope for the first time:
-	play music file "achievement.mp3";
-	award the "It's over Anakin" achievement;
+	if Konopac is false:
+		now Konopac is true;
+		play music file "achievement.mp3";
+		award the "It's over Anakin" achievement;
 	continue the action.
 		
 The mysterious note is in the Dining room.
@@ -1403,6 +1411,9 @@ After going to the Pantry:
 The step stool is in the Pantry.
 It is pushable between rooms and fixed in place.
 The description is "This might give me the high ground."
+
+Instead of taking the step stool:
+	say "I can't take this, but maybe I can push it."
 
 The kitchen note is in the Pantry.
 The description is "A polybius square used to construct and decode secret messages."
@@ -1505,17 +1516,17 @@ Instead of examining the Shop:
 Price is a kind of value. $1000 specifies a price.
 
 The player has a price. The price of the player is $0.
-The money has a price. The price of the money is $150.
+money has a price. The price of money is $150.
 
-After taking the money:
+After taking money:
 	say "Taken.[line break]";
-	increase the price of the player by the price of the money;
+	increase the price of the player by the price of money;
 	update capacity counter;
 	increase the weight of the player by 1.
 
-After dropping the money:
+After dropping money:
 	say "Dropped.[line break]";
-	decrease the price of the player by the price of the money;
+	decrease the price of the player by the price of money;
 	update capacity counter;
 	decrease the weight of the player by 1.
 	
@@ -1549,7 +1560,7 @@ Carry out purchase:
 			now Purchased entry is true;
 	decrease the price of the player by price wanted;
 	if the player carries the money:
-		decrease the price of the money by price wanted;
+		decrease the price of money by price wanted;
 	move the noun to the Attic;
 	say "You pay [price wanted] and acquire [the noun].";
 	if Kupnja is false:
@@ -1595,8 +1606,11 @@ Carry out casting player name:
 
 Part - Bedroom (Ending)
 
+Krevet is a truth state that varies. Krevet is false.
+
 After going to the Bedroom:
-	if the Bedroom is unvisited:
+	if Krevet is false:
+		now Krevet is true;
 		play music file "v20.mp3";
 	continue the action.
 
@@ -1611,7 +1625,7 @@ Check casting meow:
 		if the difficulty of the player is unforgiving:
 			play sound effect "achievement.mp3";
 			award the "Enjoying the pain" achievement;
-		place an image "titlescreen.png" with the description "Ending", centered;
+		place an image "ending.png" with the description "Ending", centered;
 		play music file "directed.mp3", looping;
 		say "[line break]";
 		place an inline element called "ending";
