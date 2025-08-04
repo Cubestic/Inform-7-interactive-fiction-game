@@ -38,266 +38,266 @@
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>37</integer>
+        <key>Line</key><integer>38</integer>
         <key>Title</key><string>Chapter - Audio</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>67</integer>
+        <key>Line</key><integer>68</integer>
         <key>Title</key><string>Chapter - Font</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>71</integer>
+        <key>Line</key><integer>72</integer>
         <key>Title</key><string>Chapter - HTML</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>75</integer>
+        <key>Line</key><integer>76</integer>
         <key>Title</key><string>Chapter - CSS</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>79</integer>
+        <key>Line</key><integer>80</integer>
         <key>Title</key><string>Part - Rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>121</integer>
+        <key>Line</key><integer>122</integer>
         <key>Title</key><string>Part - Doors</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>143</integer>
+        <key>Line</key><integer>144</integer>
         <key>Title</key><string>Part - Command</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>12</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>196</integer>
+        <key>Line</key><integer>197</integer>
         <key>Title</key><string>Part - Dying</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>13</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>291</integer>
+        <key>Line</key><integer>292</integer>
         <key>Title</key><string>Part - Inventory</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>14</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>312</integer>
+        <key>Line</key><integer>313</integer>
         <key>Title</key><string>Chapter - Backpack</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>395</integer>
+        <key>Line</key><integer>396</integer>
         <key>Title</key><string>Part - Status line</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>16</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>404</integer>
+        <key>Line</key><integer>405</integer>
         <key>Title</key><string>Part - Map</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>17</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>433</integer>
+        <key>Line</key><integer>434</integer>
         <key>Title</key><string>Part - Title screen</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>18</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>450</integer>
+        <key>Line</key><integer>451</integer>
         <key>Title</key><string>Part - Tutorial</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>19</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>452</integer>
+        <key>Line</key><integer>453</integer>
         <key>Title</key><string>Chapter - Player's name</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>20</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>483</integer>
+        <key>Line</key><integer>484</integer>
         <key>Title</key><string>Chapter - Garage</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>21</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>511</integer>
+        <key>Line</key><integer>512</integer>
         <key>Title</key><string>Chapter - Hallway</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>22</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>520</integer>
+        <key>Line</key><integer>521</integer>
         <key>Title</key><string>Chapter - Storeroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>23</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>613</integer>
+        <key>Line</key><integer>614</integer>
         <key>Title</key><string>Chapter - Difficulty</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>695</integer>
+        <key>Line</key><integer>696</integer>
         <key>Title</key><string>Part - Entrance hall</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>800</integer>
+        <key>Line</key><integer>801</integer>
         <key>Title</key><string>Part - Bathroom</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>845</integer>
+        <key>Line</key><integer>846</integer>
         <key>Title</key><string>Part - Utility room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>886</integer>
+        <key>Line</key><integer>887</integer>
         <key>Title</key><string>Part - Living room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>895</integer>
+        <key>Line</key><integer>896</integer>
         <key>Title</key><string>Chapter - Secret ending</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>946</integer>
+        <key>Line</key><integer>947</integer>
         <key>Title</key><string>Part - Library</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>30</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1017</integer>
+        <key>Line</key><integer>1018</integer>
         <key>Title</key><string>Part - Basement</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>31</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1215</integer>
+        <key>Line</key><integer>1216</integer>
         <key>Title</key><string>Part - Gallery</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>32</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1244</integer>
+        <key>Line</key><integer>1245</integer>
         <key>Title</key><string>Part - Balcony</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>33</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1269</integer>
+        <key>Line</key><integer>1270</integer>
         <key>Title</key><string>Chapter - Player's weight</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>34</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1281</integer>
+        <key>Line</key><integer>1285</integer>
         <key>Title</key><string>Part - Closet</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>35</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1294</integer>
+        <key>Line</key><integer>1298</integer>
         <key>Title</key><string>Part - Kitchen</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>36</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1364</integer>
+        <key>Line</key><integer>1368</integer>
         <key>Title</key><string>Part - Dining room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>37</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1396</integer>
+        <key>Line</key><integer>1404</integer>
         <key>Title</key><string>Part - Pantry</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>38</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1413</integer>
+        <key>Line</key><integer>1424</integer>
         <key>Title</key><string>Part - Attic</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>39</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1464</integer>
+        <key>Line</key><integer>1475</integer>
         <key>Title</key><string>Chapter - Attic items</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>40</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1563</integer>
+        <key>Line</key><integer>1574</integer>
         <key>Title</key><string>Part - Study</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>41</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1596</integer>
+        <key>Line</key><integer>1607</integer>
         <key>Title</key><string>Part - Bedroom (Ending)</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>42</key><dict>
         <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
-        <key>Line</key><integer>1624</integer>
+        <key>Line</key><integer>1638</integer>
         <key>Title</key><string>Part - Achievements</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
