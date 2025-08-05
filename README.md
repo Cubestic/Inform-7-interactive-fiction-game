@@ -27,6 +27,8 @@ http://localhost/Inform-7-interactive-fiction-game/9Zivota.materials/Release/pla
 
 **Ending music:** Frolic by Luciano Michelini (Curb Your Enthusiasm) https://www.soundboard.com/sb/sound/1007449
 
+**Font:** Tagesschrift by Yanone https://fonts.google.com/specimen/Tagesschrift
+
 **Heart icon:** Pixel Heart by BenBushnell https://pixabay.com/illustrations/pixel-heart-heart-pixel-symbol-red-2779422/
 
 **Title screen music:** Grasswalk by Laura Shigihara (Plants vs. Zombies OST)  https://archive.org/details/plants-vs.-zombies-ost-flac/Laura+Shigihara+-+Plants+vs.+Zombies+Original+Soundtrack/04+-+Grasswalk.flac
