@@ -379,7 +379,7 @@ Array Global_Vars --> 0
   (8) ! -->58 = V69_default_tooltip_duration (V69_default_tooltip_duration)
   (0) ! -->59 = V70_death (V70_death)
   (0) ! -->60 = V71_mapping (V71_mapping)
-  (bc_U917) ! -->61 = V72_player_s_full_name (V72_player_s_full_name)
+  (bc_U916) ! -->61 = V72_player_s_full_name (V72_player_s_full_name)
   (1) ! -->62 = V73_tooltip1 (V73_tooltip1)
   (0) ! -->63 = V74_tezina (V74_tezina)
   (0) ! -->64 = V75_biranje (V75_biranje)
@@ -1699,7 +1699,6 @@ Constant call_U673 = EMPTY_RULEBOOK;
 Constant rulebook_id_U317 = 316;
 Constant action_id_U62 = 61;
 Constant var_id_U96 = 20061;
-Constant call_U674 = EMPTY_RULEBOOK;
 Constant rulebook_id_U318 = 317;
 Constant rulebook_id_U319 = 318;
 Constant call_U676 = EMPTY_RULEBOOK;
@@ -4466,7 +4465,7 @@ Constant alphabetised_text_27 = "165";
 Constant alphabetised_text_28 = "180";
 Constant alphabetised_text_29 = "19";
 Constant alphabetised_text_30 = "2400";
-Serial "250804";
+Serial "250807";
 Constant alphabetised_text_31 = "37";
 Constant alphabetised_text_32 = "4";
 Constant alphabetised_text_33 = "4750";
@@ -4693,31 +4692,32 @@ Constant alphabetised_text_249 = "electricity";
 Constant alphabetised_text_250 = "ending";
 Constant alphabetised_text_251 = "ending.png";
 Constant alphabetised_text_252 = "ending2.png";
-Constant alphabetised_text_253 = "error";
-Constant alphabetised_text_254 = "f";
-Constant alphabetised_text_255 = "faded drawer";
-Constant alphabetised_text_256 = "false";
-Constant alphabetised_text_257 = "fifth coin";
-Constant alphabetised_text_258 = "first coin";
-Constant alphabetised_text_259 = "fourth coin";
-Constant alphabetised_text_260 = "fridge";
-Constant alphabetised_text_261 = "fuel can";
-Constant alphabetised_text_262 = "fuse";
-Constant alphabetised_text_263 = "game machine";
-Constant alphabetised_text_264 = "generator";
-Constant alphabetised_text_265 = "golden chest";
-Constant alphabetised_text_266 = "golden key";
-Constant alphabetised_text_267 = "green drawer";
-Constant alphabetised_text_268 = "haven.prompt.history.clear()";
-Constant alphabetised_text_269 = "haven.prompt.history.remove()";
-Constant alphabetised_text_270 = "her looks";
-Constant alphabetised_text_271 = "his work";
-Constant alphabetised_text_272 = "huh";
-Constant alphabetised_text_273 = "i";
-Constant alphabetised_text_274 = "id";
-Constant alphabetised_text_275 = "info";
-Constant alphabetised_text_276 = "inside";
-Constant alphabetised_text_277 = "intro.mp3";
+Constant alphabetised_text_253 = "entrance note";
+Constant alphabetised_text_254 = "error";
+Constant alphabetised_text_255 = "f";
+Constant alphabetised_text_256 = "faded drawer";
+Constant alphabetised_text_257 = "false";
+Constant alphabetised_text_258 = "fifth coin";
+Constant alphabetised_text_259 = "first coin";
+Constant alphabetised_text_260 = "fourth coin";
+Constant alphabetised_text_261 = "fridge";
+Constant alphabetised_text_262 = "fuel can";
+Constant alphabetised_text_263 = "fuse";
+Constant alphabetised_text_264 = "game machine";
+Constant alphabetised_text_265 = "generator";
+Constant alphabetised_text_266 = "golden chest";
+Constant alphabetised_text_267 = "golden key";
+Constant alphabetised_text_268 = "green drawer";
+Constant alphabetised_text_269 = "haven.prompt.history.clear()";
+Constant alphabetised_text_270 = "haven.prompt.history.remove()";
+Constant alphabetised_text_271 = "her looks";
+Constant alphabetised_text_272 = "his work";
+Constant alphabetised_text_273 = "huh";
+Constant alphabetised_text_274 = "i";
+Constant alphabetised_text_275 = "id";
+Constant alphabetised_text_276 = "info";
+Constant alphabetised_text_277 = "inside";
+Constant alphabetised_text_278 = "intro.mp3";
 Constant outcome_it_does_U1 = "it does";
 Constant outcome_it_does_not_U1 = "it does not";
 Constant outcome_it_is_likely_U1 = "it is likely";
@@ -4725,31 +4725,30 @@ Constant outcome_it_is_possible_U1 = "it is possible";
 Constant outcome_it_is_unlikely_U1 = "it is unlikely";
 Constant outcome_it_is_very_likely_U1 = "it is very likely";
 Constant outcome_it_is_very_unlikely_U1 = "it is very unlikely";
-Constant alphabetised_text_278 = "kitchen note";
-Constant alphabetised_text_279 = "lawyer, activist, secret service agent";
-Constant alphabetised_text_280 = "left-aligned";
-Constant alphabetised_text_281 = "left-floating";
-Constant alphabetised_text_282 = "li";
-Constant alphabetised_text_283 = "library note";
-Constant alphabetised_text_284 = "list your ACHIEVEMENTS";
-Constant alphabetised_text_285 = "localStorage.setItem(~currentRoom~, ~SobaA~)";
-Constant alphabetised_text_286 = "localStorage.setItem(~currentRoom~, ~SobaB~)";
-Constant alphabetised_text_287 = "localStorage.setItem(~currentRoom~, ~SobaC~)";
-Constant alphabetised_text_288 = "location.reload();";
-Constant alphabetised_text_289 = "map.html";
-Constant alphabetised_text_290 = "men";
-Constant alphabetised_text_291 = "meooooow";
-Constant alphabetised_text_292 = "meoow";
-Constant alphabetised_text_293 = "meow";
-Constant alphabetised_text_294 = "meow meow";
-Constant alphabetised_text_295 = "model, weather presenter, singer";
-Constant alphabetised_text_296 = "money";
-Constant alphabetised_text_297 = "mysterious note";
-Constant alphabetised_text_298 = "name";
-Constant alphabetised_text_299 = "north";
-Constant alphabetised_text_300 = "northeast";
-Constant alphabetised_text_301 = "northwest";
-Constant alphabetised_text_302 = "note";
+Constant alphabetised_text_279 = "kitchen note";
+Constant alphabetised_text_280 = "lawyer, activist, secret service agent";
+Constant alphabetised_text_281 = "left-aligned";
+Constant alphabetised_text_282 = "left-floating";
+Constant alphabetised_text_283 = "li";
+Constant alphabetised_text_284 = "library note";
+Constant alphabetised_text_285 = "list your ACHIEVEMENTS";
+Constant alphabetised_text_286 = "localStorage.setItem(~currentRoom~, ~SobaA~)";
+Constant alphabetised_text_287 = "localStorage.setItem(~currentRoom~, ~SobaB~)";
+Constant alphabetised_text_288 = "localStorage.setItem(~currentRoom~, ~SobaC~)";
+Constant alphabetised_text_289 = "location.reload();";
+Constant alphabetised_text_290 = "map.html";
+Constant alphabetised_text_291 = "men";
+Constant alphabetised_text_292 = "meooooow";
+Constant alphabetised_text_293 = "meoow";
+Constant alphabetised_text_294 = "meow";
+Constant alphabetised_text_295 = "meow meow";
+Constant alphabetised_text_296 = "model, weather presenter, singer";
+Constant alphabetised_text_297 = "money";
+Constant alphabetised_text_298 = "mysterious note";
+Constant alphabetised_text_299 = "name";
+Constant alphabetised_text_300 = "north";
+Constant alphabetised_text_301 = "northeast";
+Constant alphabetised_text_302 = "northwest";
 Constant alphabetised_text_303 = "note1.png";
 Constant alphabetised_text_304 = "note2.png";
 Constant alphabetised_text_305 = "note3.png";
@@ -4885,22 +4884,21 @@ Constant alphabetised_text_430 = "wheel book";
 Constant alphabetised_text_431 = "wilhelm.mp3";
 Constant alphabetised_text_432 = "window._v_tooltip_timer=null";
 Constant alphabetised_text_433 = "window._vorpleSetupRulebookHasRun=true";
-Constant alphabetised_text_434 = "window.close();";
-Constant alphabetised_text_435 = "woman's voice";
-Constant alphabetised_text_436 = "women";
-Constant alphabetised_text_437 = "you.png";
-Constant alphabetised_text_438 = "yourself";
-Constant alphabetised_text_439 = "|";
+Constant alphabetised_text_434 = "woman's voice";
+Constant alphabetised_text_435 = "women";
+Constant alphabetised_text_436 = "you.png";
+Constant alphabetised_text_437 = "yourself";
+Constant alphabetised_text_438 = "|";
 Constant V1_starting_the_virtual_mach = activity_id_U1;
 Constant V2_printing_the_name = activity_id_U2;
 Constant V3_printing_the_plural_name = activity_id_U3;
-Constant text_U1 = alphabetised_text_299;
+Constant text_U1 = alphabetised_text_300;
 Constant text_U2 = alphabetised_text_368;
 Constant text_U3 = alphabetised_text_242;
-Constant text_U4 = alphabetised_text_300;
+Constant text_U4 = alphabetised_text_301;
 Constant text_U5 = alphabetised_text_368;
 Constant text_U6 = alphabetised_text_242;
-Constant text_U7 = alphabetised_text_301;
+Constant text_U7 = alphabetised_text_302;
 Constant text_U8 = alphabetised_text_368;
 Constant text_U9 = alphabetised_text_242;
 Constant text_U10 = alphabetised_text_342;
@@ -4924,16 +4922,16 @@ Constant text_U27 = alphabetised_text_242;
 Constant text_U28 = alphabetised_text_246;
 Constant text_U29 = alphabetised_text_368;
 Constant text_U30 = alphabetised_text_242;
-Constant text_U31 = alphabetised_text_276;
+Constant text_U31 = alphabetised_text_277;
 Constant text_U32 = alphabetised_text_368;
 Constant text_U33 = alphabetised_text_242;
 Constant text_U34 = alphabetised_text_312;
 Constant text_U35 = alphabetised_text_368;
 Constant text_U36 = alphabetised_text_242;
-Constant text_U37 = alphabetised_text_438;
+Constant text_U37 = alphabetised_text_437;
 Constant text_U38 = alphabetised_text_57;
 Constant text_U39 = alphabetised_text_203;
-Constant text_U40 = alphabetised_text_438;
+Constant text_U40 = alphabetised_text_437;
 Constant text_U41 = alphabetised_text_313;
 Constant RBNO0_OUTCOME_U1 = outcome_it_is_very_unlikely_U1;
 Constant RBNO4_OUTCOME_U1 = outcome_it_is_very_likely_U1;
@@ -4980,8 +4978,8 @@ Constant text_U46 = alphabetised_text_209;
 Constant text_U47 = alphabetised_text_313;
 Constant K9_region_First = nothing;
 Constant text_U48 = alphabetised_text_323;
-Constant text_U49 = alphabetised_text_290;
-Constant text_U50 = alphabetised_text_436;
+Constant text_U49 = alphabetised_text_291;
+Constant text_U50 = alphabetised_text_435;
 Constant text_U51 = alphabetised_text_206;
 Constant text_U52 = alphabetised_text_240;
 Constant K14_vehicle_First = nothing;
@@ -4998,7 +4996,7 @@ Constant text_U61 = alphabetised_text_150;
 Constant text_U62 = alphabetised_text_340;
 Constant text_U63 = alphabetised_text_147;
 Constant text_U64 = alphabetised_text_186;
-Constant text_U65 = alphabetised_text_284;
+Constant text_U65 = alphabetised_text_285;
 Constant column_identity_U2 = table_column_id_U2;
 Constant column_identity_U3 = table_column_id_U3;
 Constant column_identity_U4 = table_column_id_U4;
@@ -5007,17 +5005,17 @@ Constant column_identity_U6 = table_column_id_U6;
 Constant column_identity_U7 = table_column_id_U7;
 Constant V35_printing_the_achievement = activity_id_U35;
 Constant V36_listing_final_achievement = activity_id_U36;
-Constant text_U66 = alphabetised_text_298;
-Constant text_U67 = alphabetised_text_439;
+Constant text_U66 = alphabetised_text_299;
+Constant text_U67 = alphabetised_text_438;
 Constant text_U68 = alphabetised_text_226;
-Constant text_U69 = alphabetised_text_298;
-Constant text_U70 = alphabetised_text_298;
+Constant text_U69 = alphabetised_text_299;
+Constant text_U70 = alphabetised_text_299;
 Constant text_U71 = alphabetised_text_226;
-Constant text_U72 = alphabetised_text_298;
+Constant text_U72 = alphabetised_text_299;
 Constant text_U73 = alphabetised_text_226;
 Constant text_U74 = alphabetised_text_204;
 Constant text_U75 = alphabetised_text_247;
-Constant text_U76 = alphabetised_text_273;
+Constant text_U76 = alphabetised_text_274;
 Constant text_U77 = alphabetised_text_310;
 Constant text_U78 = alphabetised_text_392;
 Constant text_U79 = alphabetised_text_72;
@@ -5031,7 +5029,7 @@ Constant text_U86 = alphabetised_text_366;
 Constant text_U87 = alphabetised_text_309;
 Constant text_U88 = alphabetised_text_391;
 Constant text_U89 = alphabetised_text_390;
-Constant text_U90 = alphabetised_text_256;
+Constant text_U90 = alphabetised_text_257;
 Constant text_U91 = alphabetised_text_41;
 Constant text_U92 = alphabetised_text_39;
 Constant text_U93 = alphabetised_text_204;
@@ -5039,7 +5037,7 @@ Constant text_U94 = alphabetised_text_208;
 Constant text_U95 = alphabetised_text_222;
 Constant text_U96 = alphabetised_text_236;
 Constant text_U97 = alphabetised_text_247;
-Constant text_U98 = alphabetised_text_254;
+Constant text_U98 = alphabetised_text_255;
 Constant text_U99 = alphabetised_text_24;
 Constant text_U100 = alphabetised_text_420;
 Constant text_U101 = alphabetised_text_345;
@@ -5048,11 +5046,11 @@ Constant text_U103 = alphabetised_text_422;
 Constant text_U104 = alphabetised_text_40;
 Constant text_U105 = alphabetised_text_421;
 Constant text_U106 = alphabetised_text_423;
-Constant text_U107 = alphabetised_text_274;
+Constant text_U107 = alphabetised_text_275;
 Constant text_U108 = alphabetised_text_419;
 Constant text_U109 = alphabetised_text_424;
-Constant text_U110 = alphabetised_text_269;
-Constant text_U111 = alphabetised_text_268;
+Constant text_U110 = alphabetised_text_270;
+Constant text_U111 = alphabetised_text_269;
 Constant text_U112 = alphabetised_text_425;
 Constant text_U113 = alphabetised_text_427;
 Constant text_U114 = alphabetised_text_15;
@@ -5063,24 +5061,24 @@ Constant text_U118 = alphabetised_text_23;
 Constant text_U119 = alphabetised_text_40;
 Constant text_U120 = alphabetised_text_416;
 Constant text_U121 = alphabetised_text_225;
-Constant text_U122 = alphabetised_text_280;
+Constant text_U122 = alphabetised_text_281;
 Constant text_U123 = alphabetised_text_332;
-Constant text_U124 = alphabetised_text_281;
+Constant text_U124 = alphabetised_text_282;
 Constant text_U125 = alphabetised_text_333;
 Constant text_U126 = alphabetised_text_225;
-Constant text_U127 = alphabetised_text_280;
+Constant text_U127 = alphabetised_text_281;
 Constant text_U128 = alphabetised_text_332;
-Constant text_U129 = alphabetised_text_281;
+Constant text_U129 = alphabetised_text_282;
 Constant text_U130 = alphabetised_text_333;
-Constant text_U131 = alphabetised_text_256;
+Constant text_U131 = alphabetised_text_257;
 Constant text_U132 = alphabetised_text_390;
-Constant text_U133 = alphabetised_text_256;
-Constant text_U134 = alphabetised_text_256;
+Constant text_U133 = alphabetised_text_257;
+Constant text_U134 = alphabetised_text_257;
 Constant text_U135 = alphabetised_text_390;
 Constant text_U136 = alphabetised_text_390;
-Constant text_U137 = alphabetised_text_256;
-Constant text_U138 = alphabetised_text_256;
-Constant text_U139 = alphabetised_text_256;
+Constant text_U137 = alphabetised_text_257;
+Constant text_U138 = alphabetised_text_257;
+Constant text_U139 = alphabetised_text_257;
 Constant text_U140 = alphabetised_text_390;
 Constant text_U141 = alphabetised_text_390;
 Constant text_U142 = alphabetised_text_390;
@@ -5092,10 +5090,10 @@ Constant text_U147 = alphabetised_text_327;
 Constant text_U148 = alphabetised_text_326;
 Constant text_U149 = alphabetised_text_325;
 Constant text_U150 = alphabetised_text_324;
-Constant text_U151 = alphabetised_text_275;
+Constant text_U151 = alphabetised_text_276;
 Constant text_U152 = alphabetised_text_359;
 Constant text_U153 = alphabetised_text_428;
-Constant text_U154 = alphabetised_text_253;
+Constant text_U154 = alphabetised_text_254;
 Constant V37_pausing_the_game = activity_id_U37;
 Constant column_identity_U8 = table_column_id_U8;
 Constant column_identity_U9 = table_column_id_U9;
@@ -5104,9 +5102,9 @@ Constant text_U155 = alphabetised_text_17;
 Constant text_U156 = alphabetised_text_224;
 Constant text_U157 = alphabetised_text_331;
 Constant text_U158 = alphabetised_text_311;
-Constant text_U159 = alphabetised_text_282;
+Constant text_U159 = alphabetised_text_283;
 Constant text_U160 = alphabetised_text_393;
-Constant text_U161 = alphabetised_text_282;
+Constant text_U161 = alphabetised_text_283;
 Constant V38_constructing_the_vorple_s = activity_id_U38;
 Constant text_U162 = alphabetised_text_350;
 Constant text_U163 = alphabetised_text_352;
@@ -5177,15 +5175,15 @@ Constant text_U227 = alphabetised_text_316;
 Constant text_U228 = alphabetised_text_220;
 Constant text_U229 = alphabetised_text_230;
 Constant text_U230 = alphabetised_text_234;
-Constant text_U231 = alphabetised_text_258;
+Constant text_U231 = alphabetised_text_259;
 Constant text_U232 = alphabetised_text_233;
-Constant text_U233 = alphabetised_text_302;
+Constant text_U233 = alphabetised_text_253;
 Constant text_U234 = alphabetised_text_238;
 Constant text_U235 = alphabetised_text_49;
 Constant text_U236 = alphabetised_text_361;
-Constant text_U237 = alphabetised_text_255;
+Constant text_U237 = alphabetised_text_256;
 Constant text_U238 = alphabetised_text_234;
-Constant text_U239 = alphabetised_text_267;
+Constant text_U239 = alphabetised_text_268;
 Constant text_U240 = alphabetised_text_234;
 Constant text_U241 = alphabetised_text_321;
 Constant text_U242 = alphabetised_text_234;
@@ -5197,19 +5195,19 @@ Constant text_U247 = alphabetised_text_219;
 Constant text_U248 = alphabetised_text_108;
 Constant text_U249 = alphabetised_text_337;
 Constant text_U250 = alphabetised_text_233;
-Constant text_U251 = alphabetised_text_262;
-Constant text_U252 = alphabetised_text_283;
+Constant text_U251 = alphabetised_text_263;
+Constant text_U252 = alphabetised_text_284;
 Constant text_U253 = alphabetised_text_163;
-Constant text_U254 = alphabetised_text_279;
-Constant text_U255 = alphabetised_text_290;
-Constant text_U256 = alphabetised_text_264;
+Constant text_U254 = alphabetised_text_280;
+Constant text_U255 = alphabetised_text_291;
+Constant text_U256 = alphabetised_text_265;
 Constant text_U257 = alphabetised_text_240;
-Constant text_U258 = alphabetised_text_265;
+Constant text_U258 = alphabetised_text_266;
 Constant text_U259 = alphabetised_text_234;
-Constant text_U260 = alphabetised_text_296;
+Constant text_U260 = alphabetised_text_297;
 Constant text_U261 = alphabetised_text_98;
 Constant text_U262 = alphabetised_text_126;
-Constant text_U263 = alphabetised_text_259;
+Constant text_U263 = alphabetised_text_260;
 Constant text_U264 = alphabetised_text_233;
 Constant text_U265 = alphabetised_text_217;
 Constant text_U266 = alphabetised_text_361;
@@ -5221,9 +5219,9 @@ Constant text_U271 = alphabetised_text_360;
 Constant text_U272 = alphabetised_text_319;
 Constant text_U273 = alphabetised_text_347;
 Constant text_U274 = alphabetised_text_319;
-Constant text_U275 = alphabetised_text_263;
+Constant text_U275 = alphabetised_text_264;
 Constant text_U276 = alphabetised_text_240;
-Constant text_U277 = alphabetised_text_266;
+Constant text_U277 = alphabetised_text_267;
 Constant text_U278 = alphabetised_text_109;
 Constant text_U279 = alphabetised_text_99;
 Constant text_U280 = alphabetised_text_330;
@@ -5232,28 +5230,28 @@ Constant text_U282 = alphabetised_text_171;
 Constant text_U283 = alphabetised_text_206;
 Constant text_U284 = alphabetised_text_322;
 Constant text_U285 = alphabetised_text_110;
-Constant text_U286 = alphabetised_text_261;
-Constant text_U287 = alphabetised_text_257;
+Constant text_U286 = alphabetised_text_262;
+Constant text_U287 = alphabetised_text_258;
 Constant text_U288 = alphabetised_text_233;
 Constant text_U289 = alphabetised_text_369;
 Constant text_U290 = alphabetised_text_233;
 Constant text_U291 = alphabetised_text_314;
 Constant text_U292 = alphabetised_text_172;
 Constant text_U293 = alphabetised_text_107;
-Constant text_U294 = alphabetised_text_295;
-Constant text_U295 = alphabetised_text_436;
-Constant text_U296 = alphabetised_text_260;
+Constant text_U294 = alphabetised_text_296;
+Constant text_U295 = alphabetised_text_435;
+Constant text_U296 = alphabetised_text_261;
 Constant text_U297 = alphabetised_text_45;
 Constant text_U298 = alphabetised_text_234;
 Constant text_U299 = alphabetised_text_216;
 Constant text_U300 = alphabetised_text_175;
 Constant text_U301 = alphabetised_text_334;
 Constant text_U302 = alphabetised_text_177;
-Constant text_U303 = alphabetised_text_297;
+Constant text_U303 = alphabetised_text_298;
 Constant text_U304 = alphabetised_text_159;
 Constant text_U305 = alphabetised_text_358;
 Constant text_U306 = alphabetised_text_174;
-Constant text_U307 = alphabetised_text_278;
+Constant text_U307 = alphabetised_text_279;
 Constant text_U308 = alphabetised_text_48;
 Constant text_U309 = alphabetised_text_68;
 Constant text_U310 = alphabetised_text_101;
@@ -5268,341 +5266,340 @@ Constant text_U318 = alphabetised_text_315;
 Constant text_U319 = alphabetised_text_233;
 Constant text_U320 = alphabetised_text_319;
 Constant text_U321 = alphabetised_text_330;
-Constant text_U322 = alphabetised_text_288;
-Constant text_U323 = alphabetised_text_434;
-Constant text_U324 = alphabetised_text_37;
+Constant text_U322 = alphabetised_text_289;
+Constant text_U323 = alphabetised_text_37;
+Constant text_U324 = alphabetised_text_431;
 Constant text_U325 = alphabetised_text_431;
 Constant text_U326 = alphabetised_text_431;
 Constant text_U327 = alphabetised_text_431;
 Constant text_U328 = alphabetised_text_431;
-Constant text_U329 = alphabetised_text_431;
-Constant text_U330 = alphabetised_text_76;
+Constant text_U329 = alphabetised_text_76;
+Constant text_U330 = alphabetised_text_431;
 Constant text_U331 = alphabetised_text_431;
 Constant text_U332 = alphabetised_text_431;
 Constant text_U333 = alphabetised_text_431;
-Constant text_U334 = alphabetised_text_431;
-Constant text_U335 = alphabetised_text_393;
-Constant text_U336 = alphabetised_text_282;
-Constant text_U337 = alphabetised_text_393;
-Constant text_U338 = alphabetised_text_282;
-Constant text_U339 = alphabetised_text_289;
-Constant text_U340 = alphabetised_text_277;
-Constant text_U341 = alphabetised_text_370;
-Constant text_U342 = alphabetised_text_179;
-Constant text_U343 = alphabetised_text_191;
-Constant text_U344 = alphabetised_text_38;
-Constant text_U345 = alphabetised_text_395;
-Constant text_U346 = alphabetised_text_182;
-Constant text_U347 = alphabetised_text_406;
-Constant text_U348 = alphabetised_text_127;
-Constant text_U349 = alphabetised_text_199;
-Constant text_U350 = alphabetised_text_221;
-Constant text_U351 = alphabetised_text_220;
-Constant text_U352 = alphabetised_text_176;
-Constant text_U353 = alphabetised_text_221;
-Constant text_U354 = alphabetised_text_408;
-Constant text_U355 = alphabetised_text_180;
-Constant text_U356 = alphabetised_text_409;
-Constant text_U357 = alphabetised_text_227;
-Constant text_U358 = alphabetised_text_229;
-Constant text_U359 = alphabetised_text_198;
-Constant text_U360 = alphabetised_text_227;
-Constant text_U361 = alphabetised_text_232;
-Constant text_U362 = alphabetised_text_231;
-Constant text_U363 = alphabetised_text_167;
-Constant text_U364 = alphabetised_text_232;
-Constant text_U365 = alphabetised_text_183;
-Constant text_U366 = alphabetised_text_178;
-Constant text_U367 = alphabetised_text_410;
-Constant text_U368 = alphabetised_text_144;
-Constant text_U369 = alphabetised_text_185;
-Constant text_U370 = alphabetised_text_3;
-Constant text_U371 = alphabetised_text_2;
-Constant text_U372 = alphabetised_text_1;
-Constant text_U373 = alphabetised_text_38;
-Constant text_U374 = alphabetised_text_205;
-Constant text_U375 = alphabetised_text_97;
-Constant text_U376 = alphabetised_text_411;
-Constant text_U377 = alphabetised_text_303;
-Constant text_U378 = alphabetised_text_130;
-Constant text_U379 = alphabetised_text_304;
-Constant text_U380 = alphabetised_text_131;
-Constant text_U381 = alphabetised_text_239;
-Constant text_U382 = alphabetised_text_79;
-Constant text_U383 = alphabetised_text_205;
-Constant text_U384 = alphabetised_text_160;
-Constant text_U385 = alphabetised_text_305;
-Constant text_U386 = alphabetised_text_132;
-Constant text_U387 = alphabetised_text_412;
-Constant text_U388 = alphabetised_text_413;
-Constant text_U389 = alphabetised_text_205;
-Constant text_U390 = alphabetised_text_119;
-Constant text_U391 = alphabetised_text_397;
-Constant text_U392 = alphabetised_text_14;
-Constant text_U393 = alphabetised_text_13;
-Constant text_U394 = alphabetised_text_4;
-Constant text_U395 = alphabetised_text_205;
-Constant text_U396 = alphabetised_text_146;
-Constant text_U397 = alphabetised_text_205;
-Constant text_U398 = alphabetised_text_85;
-Constant text_U399 = alphabetised_text_252;
-Constant text_U400 = alphabetised_text_84;
-Constant text_U401 = alphabetised_text_241;
-Constant text_U402 = alphabetised_text_250;
-Constant text_U403 = alphabetised_text_53;
-Constant text_U404 = alphabetised_text_250;
-Constant text_U405 = alphabetised_text_414;
-Constant text_U406 = alphabetised_text_307;
-Constant text_U407 = alphabetised_text_134;
-Constant text_U408 = alphabetised_text_205;
-Constant text_U409 = alphabetised_text_125;
-Constant text_U410 = alphabetised_text_396;
-Constant text_U411 = alphabetised_text_205;
-Constant text_U412 = alphabetised_text_67;
-Constant text_U413 = alphabetised_text_348;
-Constant text_U414 = alphabetised_text_153;
-Constant text_U415 = alphabetised_text_336;
-Constant text_U416 = alphabetised_text_151;
-Constant text_U417 = alphabetised_text_317;
-Constant text_U418 = alphabetised_text_141;
+Constant text_U334 = alphabetised_text_393;
+Constant text_U335 = alphabetised_text_283;
+Constant text_U336 = alphabetised_text_393;
+Constant text_U337 = alphabetised_text_283;
+Constant text_U338 = alphabetised_text_290;
+Constant text_U339 = alphabetised_text_278;
+Constant text_U340 = alphabetised_text_370;
+Constant text_U341 = alphabetised_text_179;
+Constant text_U342 = alphabetised_text_191;
+Constant text_U343 = alphabetised_text_38;
+Constant text_U344 = alphabetised_text_395;
+Constant text_U345 = alphabetised_text_182;
+Constant text_U346 = alphabetised_text_406;
+Constant text_U347 = alphabetised_text_127;
+Constant text_U348 = alphabetised_text_199;
+Constant text_U349 = alphabetised_text_221;
+Constant text_U350 = alphabetised_text_220;
+Constant text_U351 = alphabetised_text_176;
+Constant text_U352 = alphabetised_text_221;
+Constant text_U353 = alphabetised_text_408;
+Constant text_U354 = alphabetised_text_180;
+Constant text_U355 = alphabetised_text_409;
+Constant text_U356 = alphabetised_text_227;
+Constant text_U357 = alphabetised_text_229;
+Constant text_U358 = alphabetised_text_198;
+Constant text_U359 = alphabetised_text_227;
+Constant text_U360 = alphabetised_text_232;
+Constant text_U361 = alphabetised_text_231;
+Constant text_U362 = alphabetised_text_167;
+Constant text_U363 = alphabetised_text_232;
+Constant text_U364 = alphabetised_text_183;
+Constant text_U365 = alphabetised_text_178;
+Constant text_U366 = alphabetised_text_410;
+Constant text_U367 = alphabetised_text_144;
+Constant text_U368 = alphabetised_text_185;
+Constant text_U369 = alphabetised_text_3;
+Constant text_U370 = alphabetised_text_2;
+Constant text_U371 = alphabetised_text_1;
+Constant text_U372 = alphabetised_text_38;
+Constant text_U373 = alphabetised_text_205;
+Constant text_U374 = alphabetised_text_97;
+Constant text_U375 = alphabetised_text_411;
+Constant text_U376 = alphabetised_text_303;
+Constant text_U377 = alphabetised_text_130;
+Constant text_U378 = alphabetised_text_304;
+Constant text_U379 = alphabetised_text_131;
+Constant text_U380 = alphabetised_text_239;
+Constant text_U381 = alphabetised_text_79;
+Constant text_U382 = alphabetised_text_205;
+Constant text_U383 = alphabetised_text_160;
+Constant text_U384 = alphabetised_text_305;
+Constant text_U385 = alphabetised_text_132;
+Constant text_U386 = alphabetised_text_412;
+Constant text_U387 = alphabetised_text_413;
+Constant text_U388 = alphabetised_text_205;
+Constant text_U389 = alphabetised_text_119;
+Constant text_U390 = alphabetised_text_397;
+Constant text_U391 = alphabetised_text_14;
+Constant text_U392 = alphabetised_text_13;
+Constant text_U393 = alphabetised_text_4;
+Constant text_U394 = alphabetised_text_205;
+Constant text_U395 = alphabetised_text_146;
+Constant text_U396 = alphabetised_text_205;
+Constant text_U397 = alphabetised_text_85;
+Constant text_U398 = alphabetised_text_252;
+Constant text_U399 = alphabetised_text_84;
+Constant text_U400 = alphabetised_text_241;
+Constant text_U401 = alphabetised_text_250;
+Constant text_U402 = alphabetised_text_53;
+Constant text_U403 = alphabetised_text_250;
+Constant text_U404 = alphabetised_text_414;
+Constant text_U405 = alphabetised_text_307;
+Constant text_U406 = alphabetised_text_134;
+Constant text_U407 = alphabetised_text_205;
+Constant text_U408 = alphabetised_text_125;
+Constant text_U409 = alphabetised_text_396;
+Constant text_U410 = alphabetised_text_205;
+Constant text_U411 = alphabetised_text_67;
+Constant text_U412 = alphabetised_text_348;
+Constant text_U413 = alphabetised_text_153;
+Constant text_U414 = alphabetised_text_336;
+Constant text_U415 = alphabetised_text_151;
+Constant text_U416 = alphabetised_text_317;
+Constant text_U417 = alphabetised_text_141;
+Constant text_U418 = alphabetised_text_38;
 Constant text_U419 = alphabetised_text_38;
-Constant text_U420 = alphabetised_text_38;
-Constant text_U421 = alphabetised_text_398;
-Constant text_U422 = alphabetised_text_205;
-Constant text_U423 = alphabetised_text_128;
-Constant text_U424 = alphabetised_text_399;
-Constant text_U425 = alphabetised_text_285;
-Constant text_U426 = alphabetised_text_286;
-Constant text_U427 = alphabetised_text_287;
-Constant text_U428 = alphabetised_text_400;
-Constant text_U429 = alphabetised_text_401;
+Constant text_U420 = alphabetised_text_398;
+Constant text_U421 = alphabetised_text_205;
+Constant text_U422 = alphabetised_text_128;
+Constant text_U423 = alphabetised_text_399;
+Constant text_U424 = alphabetised_text_286;
+Constant text_U425 = alphabetised_text_287;
+Constant text_U426 = alphabetised_text_288;
+Constant text_U427 = alphabetised_text_400;
+Constant text_U428 = alphabetised_text_401;
+Constant text_U429 = alphabetised_text_143;
 Constant text_U430 = alphabetised_text_143;
-Constant text_U431 = alphabetised_text_143;
-Constant text_U432 = alphabetised_text_205;
-Constant text_U433 = alphabetised_text_66;
+Constant text_U431 = alphabetised_text_205;
+Constant text_U432 = alphabetised_text_66;
+Constant text_U433 = alphabetised_text_38;
 Constant text_U434 = alphabetised_text_38;
-Constant text_U435 = alphabetised_text_38;
-Constant text_U436 = alphabetised_text_431;
-Constant text_U437 = alphabetised_text_402;
-Constant text_U438 = alphabetised_text_205;
-Constant text_U439 = alphabetised_text_111;
-Constant text_U440 = alphabetised_text_308;
-Constant text_U441 = alphabetised_text_135;
-Constant text_U442 = alphabetised_text_403;
-Constant text_U443 = alphabetised_text_306;
-Constant text_U444 = alphabetised_text_133;
-Constant text_U445 = alphabetised_text_404;
-Constant text_U446 = alphabetised_text_362;
-Constant text_U447 = alphabetised_text_363;
-Constant text_U448 = alphabetised_text_371;
-Constant text_U449 = alphabetised_text_367;
-Constant text_U450 = alphabetised_text_112;
-Constant text_U451 = alphabetised_text_367;
-Constant text_U452 = alphabetised_text_145;
-Constant text_U453 = alphabetised_text_371;
-Constant text_U454 = alphabetised_text_364;
-Constant text_U455 = alphabetised_text_365;
-Constant text_U456 = alphabetised_text_364;
-Constant text_U457 = alphabetised_text_365;
-Constant text_U458 = alphabetised_text_205;
-Constant text_U459 = alphabetised_text_155;
-Constant text_U460 = alphabetised_text_405;
-Constant text_U461 = alphabetised_text_437;
-Constant text_U462 = alphabetised_text_197;
-Constant text_U463 = alphabetised_text_223;
-Constant text_U464 = alphabetised_text_205;
-Constant text_U465 = alphabetised_text_152;
-Constant text_U466 = alphabetised_text_407;
-Constant text_U467 = alphabetised_text_205;
-Constant text_U468 = alphabetised_text_129;
-Constant text_U469 = alphabetised_text_205;
-Constant text_U470 = alphabetised_text_85;
-Constant text_U471 = alphabetised_text_251;
-Constant text_U472 = alphabetised_text_83;
-Constant text_U473 = alphabetised_text_241;
-Constant text_U474 = alphabetised_text_250;
-Constant text_U475 = alphabetised_text_52;
-Constant text_U476 = alphabetised_text_250;
-Constant text_U477 = alphabetised_text_244;
-Constant text_U478 = alphabetised_text_431;
-Constant text_U479 = alphabetised_text_205;
-Constant text_U480 = alphabetised_text_35;
-Constant text_U481 = alphabetised_text_341;
-Constant text_U482 = alphabetised_text_237;
-Constant text_U483 = alphabetised_text_196;
-Constant text_U484 = alphabetised_text_237;
-Constant text_U485 = alphabetised_text_0;
-Constant text_U486 = alphabetised_text_9;
-Constant text_U487 = alphabetised_text_426;
-Constant text_U488 = alphabetised_text_140;
-Constant text_U489 = alphabetised_text_191;
-Constant text_U490 = alphabetised_text_7;
-Constant text_U491 = alphabetised_text_10;
-Constant text_U492 = alphabetised_text_8;
-Constant text_U493 = alphabetised_text_11;
-Constant text_U494 = alphabetised_text_12;
-Constant text_U495 = alphabetised_text_6;
-Constant text_U496 = alphabetised_text_148;
-Constant text_U497 = alphabetised_text_201;
-Constant text_U498 = alphabetised_text_5;
+Constant text_U435 = alphabetised_text_431;
+Constant text_U436 = alphabetised_text_402;
+Constant text_U437 = alphabetised_text_205;
+Constant text_U438 = alphabetised_text_111;
+Constant text_U439 = alphabetised_text_308;
+Constant text_U440 = alphabetised_text_135;
+Constant text_U441 = alphabetised_text_403;
+Constant text_U442 = alphabetised_text_306;
+Constant text_U443 = alphabetised_text_133;
+Constant text_U444 = alphabetised_text_404;
+Constant text_U445 = alphabetised_text_362;
+Constant text_U446 = alphabetised_text_363;
+Constant text_U447 = alphabetised_text_371;
+Constant text_U448 = alphabetised_text_367;
+Constant text_U449 = alphabetised_text_112;
+Constant text_U450 = alphabetised_text_367;
+Constant text_U451 = alphabetised_text_145;
+Constant text_U452 = alphabetised_text_371;
+Constant text_U453 = alphabetised_text_364;
+Constant text_U454 = alphabetised_text_365;
+Constant text_U455 = alphabetised_text_364;
+Constant text_U456 = alphabetised_text_365;
+Constant text_U457 = alphabetised_text_205;
+Constant text_U458 = alphabetised_text_155;
+Constant text_U459 = alphabetised_text_405;
+Constant text_U460 = alphabetised_text_436;
+Constant text_U461 = alphabetised_text_197;
+Constant text_U462 = alphabetised_text_223;
+Constant text_U463 = alphabetised_text_205;
+Constant text_U464 = alphabetised_text_152;
+Constant text_U465 = alphabetised_text_407;
+Constant text_U466 = alphabetised_text_205;
+Constant text_U467 = alphabetised_text_129;
+Constant text_U468 = alphabetised_text_205;
+Constant text_U469 = alphabetised_text_85;
+Constant text_U470 = alphabetised_text_251;
+Constant text_U471 = alphabetised_text_83;
+Constant text_U472 = alphabetised_text_241;
+Constant text_U473 = alphabetised_text_250;
+Constant text_U474 = alphabetised_text_52;
+Constant text_U475 = alphabetised_text_250;
+Constant text_U476 = alphabetised_text_244;
+Constant text_U477 = alphabetised_text_431;
+Constant text_U478 = alphabetised_text_205;
+Constant text_U479 = alphabetised_text_35;
+Constant text_U480 = alphabetised_text_341;
+Constant text_U481 = alphabetised_text_237;
+Constant text_U482 = alphabetised_text_196;
+Constant text_U483 = alphabetised_text_237;
+Constant text_U484 = alphabetised_text_0;
+Constant text_U485 = alphabetised_text_9;
+Constant text_U486 = alphabetised_text_426;
+Constant text_U487 = alphabetised_text_140;
+Constant text_U488 = alphabetised_text_191;
+Constant text_U489 = alphabetised_text_7;
+Constant text_U490 = alphabetised_text_10;
+Constant text_U491 = alphabetised_text_8;
+Constant text_U492 = alphabetised_text_11;
+Constant text_U493 = alphabetised_text_12;
+Constant text_U494 = alphabetised_text_6;
+Constant text_U495 = alphabetised_text_148;
+Constant text_U496 = alphabetised_text_201;
+Constant text_U497 = alphabetised_text_5;
 Constant column_identity_U11 = table_column_id_U3;
 Constant column_identity_U12 = table_column_id_U11;
-Constant text_U499 = alphabetised_text_105;
-Constant text_U500 = alphabetised_text_106;
-Constant text_U501 = alphabetised_text_118;
-Constant text_U502 = alphabetised_text_78;
+Constant text_U498 = alphabetised_text_105;
+Constant text_U499 = alphabetised_text_106;
+Constant text_U500 = alphabetised_text_118;
+Constant text_U501 = alphabetised_text_78;
 Constant column_identity_U13 = table_column_id_U12;
-Constant text_U503 = alphabetised_text_271;
-Constant text_U504 = alphabetised_text_249;
-Constant text_U505 = alphabetised_text_435;
-Constant text_U506 = alphabetised_text_272;
+Constant text_U502 = alphabetised_text_272;
+Constant text_U503 = alphabetised_text_249;
+Constant text_U504 = alphabetised_text_434;
+Constant text_U505 = alphabetised_text_273;
 Constant column_identity_U14 = table_column_id_U13;
 Constant column_identity_U15 = table_column_id_U14;
 Constant column_identity_U16 = table_column_id_U15;
-Constant text_U507 = alphabetised_text_109;
+Constant text_U506 = alphabetised_text_109;
 Constant column_identity_U17 = table_column_id_U16;
+Constant text_U507 = alphabetised_text_194;
 Constant text_U508 = alphabetised_text_194;
 Constant text_U509 = alphabetised_text_194;
 Constant text_U510 = alphabetised_text_194;
 Constant text_U511 = alphabetised_text_194;
 Constant text_U512 = alphabetised_text_194;
 Constant text_U513 = alphabetised_text_194;
-Constant text_U514 = alphabetised_text_194;
+Constant text_U514 = alphabetised_text_73;
 Constant text_U515 = alphabetised_text_73;
 Constant text_U516 = alphabetised_text_73;
 Constant text_U517 = alphabetised_text_73;
 Constant text_U518 = alphabetised_text_73;
-Constant text_U519 = alphabetised_text_73;
+Constant text_U519 = alphabetised_text_89;
 Constant text_U520 = alphabetised_text_89;
 Constant text_U521 = alphabetised_text_89;
-Constant text_U522 = alphabetised_text_89;
+Constant text_U522 = alphabetised_text_193;
 Constant text_U523 = alphabetised_text_193;
 Constant text_U524 = alphabetised_text_193;
-Constant text_U525 = alphabetised_text_193;
-Constant text_U526 = alphabetised_text_102;
-Constant text_U527 = alphabetised_text_192;
-Constant text_U528 = alphabetised_text_55;
-Constant text_U529 = alphabetised_text_123;
-Constant text_U530 = alphabetised_text_114;
-Constant text_U531 = alphabetised_text_138;
-Constant text_U532 = alphabetised_text_93;
-Constant text_U533 = alphabetised_text_47;
-Constant text_U534 = alphabetised_text_113;
-Constant text_U535 = alphabetised_text_122;
-Constant text_U536 = alphabetised_text_103;
-Constant text_U537 = alphabetised_text_104;
+Constant text_U525 = alphabetised_text_102;
+Constant text_U526 = alphabetised_text_192;
+Constant text_U527 = alphabetised_text_55;
+Constant text_U528 = alphabetised_text_123;
+Constant text_U529 = alphabetised_text_114;
+Constant text_U530 = alphabetised_text_138;
+Constant text_U531 = alphabetised_text_93;
+Constant text_U532 = alphabetised_text_47;
+Constant text_U533 = alphabetised_text_113;
+Constant text_U534 = alphabetised_text_122;
+Constant text_U535 = alphabetised_text_103;
+Constant text_U536 = alphabetised_text_104;
 Constant column_identity_U18 = table_column_id_U17;
-Constant text_U538 = alphabetised_text_60;
-Constant text_U539 = alphabetised_text_94;
-Constant text_U540 = alphabetised_text_70;
-Constant text_U541 = alphabetised_text_82;
-Constant text_U542 = alphabetised_text_87;
-Constant text_U543 = alphabetised_text_82;
-Constant text_U544 = alphabetised_text_70;
-Constant text_U545 = alphabetised_text_42;
-Constant text_U546 = alphabetised_text_70;
+Constant text_U537 = alphabetised_text_60;
+Constant text_U538 = alphabetised_text_94;
+Constant text_U539 = alphabetised_text_70;
+Constant text_U540 = alphabetised_text_82;
+Constant text_U541 = alphabetised_text_87;
+Constant text_U542 = alphabetised_text_82;
+Constant text_U543 = alphabetised_text_70;
+Constant text_U544 = alphabetised_text_42;
+Constant text_U545 = alphabetised_text_70;
+Constant text_U546 = alphabetised_text_77;
 Constant text_U547 = alphabetised_text_77;
-Constant text_U548 = alphabetised_text_77;
-Constant text_U549 = alphabetised_text_70;
-Constant text_U550 = alphabetised_text_42;
+Constant text_U548 = alphabetised_text_70;
+Constant text_U549 = alphabetised_text_42;
+Constant text_U550 = alphabetised_text_77;
 Constant text_U551 = alphabetised_text_77;
 Constant text_U552 = alphabetised_text_77;
-Constant text_U553 = alphabetised_text_77;
-Constant text_U554 = alphabetised_text_42;
-Constant text_U555 = alphabetised_text_77;
-Constant text_U556 = alphabetised_text_29;
-Constant text_U557 = alphabetised_text_31;
-Constant text_U558 = alphabetised_text_33;
-Constant text_U559 = alphabetised_text_30;
-Constant text_U560 = alphabetised_text_32;
-Constant text_U561 = alphabetised_text_27;
-Constant text_U562 = alphabetised_text_26;
-Constant text_U563 = alphabetised_text_34;
-Constant text_U564 = alphabetised_text_25;
-Constant text_U565 = alphabetised_text_28;
-Constant text_U566 = alphabetised_text_75;
-Constant text_U567 = alphabetised_text_115;
+Constant text_U553 = alphabetised_text_42;
+Constant text_U554 = alphabetised_text_77;
+Constant text_U555 = alphabetised_text_29;
+Constant text_U556 = alphabetised_text_31;
+Constant text_U557 = alphabetised_text_33;
+Constant text_U558 = alphabetised_text_30;
+Constant text_U559 = alphabetised_text_32;
+Constant text_U560 = alphabetised_text_27;
+Constant text_U561 = alphabetised_text_26;
+Constant text_U562 = alphabetised_text_34;
+Constant text_U563 = alphabetised_text_25;
+Constant text_U564 = alphabetised_text_28;
+Constant text_U565 = alphabetised_text_75;
+Constant text_U566 = alphabetised_text_115;
 Constant column_identity_U19 = table_column_id_U18;
-Constant text_U568 = alphabetised_text_372;
-Constant text_U569 = alphabetised_text_382;
-Constant text_U570 = alphabetised_text_383;
-Constant text_U571 = alphabetised_text_384;
-Constant text_U572 = alphabetised_text_385;
-Constant text_U573 = alphabetised_text_377;
-Constant text_U574 = alphabetised_text_378;
-Constant text_U575 = alphabetised_text_386;
-Constant text_U576 = alphabetised_text_387;
-Constant text_U577 = alphabetised_text_388;
-Constant text_U578 = alphabetised_text_389;
-Constant text_U579 = alphabetised_text_373;
-Constant text_U580 = alphabetised_text_374;
-Constant text_U581 = alphabetised_text_375;
-Constant text_U582 = alphabetised_text_376;
-Constant text_U583 = alphabetised_text_379;
-Constant text_U584 = alphabetised_text_380;
-Constant text_U585 = alphabetised_text_381;
+Constant text_U567 = alphabetised_text_372;
+Constant text_U568 = alphabetised_text_382;
+Constant text_U569 = alphabetised_text_383;
+Constant text_U570 = alphabetised_text_384;
+Constant text_U571 = alphabetised_text_385;
+Constant text_U572 = alphabetised_text_377;
+Constant text_U573 = alphabetised_text_378;
+Constant text_U574 = alphabetised_text_386;
+Constant text_U575 = alphabetised_text_387;
+Constant text_U576 = alphabetised_text_388;
+Constant text_U577 = alphabetised_text_389;
+Constant text_U578 = alphabetised_text_373;
+Constant text_U579 = alphabetised_text_374;
+Constant text_U580 = alphabetised_text_375;
+Constant text_U581 = alphabetised_text_376;
+Constant text_U582 = alphabetised_text_379;
+Constant text_U583 = alphabetised_text_380;
+Constant text_U584 = alphabetised_text_381;
 Constant column_identity_U20 = table_column_id_U3;
 Constant column_identity_U21 = table_column_id_U11;
-Constant text_U586 = alphabetised_text_187;
-Constant text_U587 = alphabetised_text_164;
-Constant text_U588 = alphabetised_text_117;
+Constant text_U585 = alphabetised_text_187;
+Constant text_U586 = alphabetised_text_164;
+Constant text_U587 = alphabetised_text_117;
 Constant column_identity_U22 = table_column_id_U12;
-Constant text_U589 = alphabetised_text_270;
-Constant text_U590 = alphabetised_text_318;
-Constant text_U591 = alphabetised_text_435;
+Constant text_U588 = alphabetised_text_271;
+Constant text_U589 = alphabetised_text_318;
+Constant text_U590 = alphabetised_text_434;
 Constant column_identity_U23 = table_column_id_U13;
 Constant column_identity_U24 = table_column_id_U3;
 Constant column_identity_U25 = table_column_id_U11;
-Constant text_U592 = alphabetised_text_291;
-Constant text_U593 = alphabetised_text_294;
+Constant text_U591 = alphabetised_text_292;
+Constant text_U592 = alphabetised_text_295;
 Constant column_identity_U26 = table_column_id_U12;
-Constant text_U594 = alphabetised_text_292;
-Constant text_U595 = alphabetised_text_293;
+Constant text_U593 = alphabetised_text_293;
+Constant text_U594 = alphabetised_text_294;
 Constant column_identity_U27 = table_column_id_U13;
 Constant column_identity_U28 = table_column_id_U19;
 Constant column_identity_U29 = table_column_id_U20;
 Constant column_identity_U30 = table_column_id_U21;
 Constant column_identity_U31 = table_column_id_U22;
-Constant text_U596 = alphabetised_text_97;
-Constant text_U597 = alphabetised_text_160;
-Constant text_U598 = alphabetised_text_119;
-Constant text_U599 = alphabetised_text_125;
-Constant text_U600 = alphabetised_text_67;
-Constant text_U601 = alphabetised_text_129;
-Constant text_U602 = alphabetised_text_85;
-Constant text_U603 = alphabetised_text_35;
-Constant text_U604 = alphabetised_text_66;
-Constant text_U605 = alphabetised_text_76;
-Constant text_U606 = alphabetised_text_146;
-Constant text_U607 = alphabetised_text_111;
-Constant text_U608 = alphabetised_text_128;
-Constant text_U609 = alphabetised_text_152;
-Constant text_U610 = alphabetised_text_155;
+Constant text_U595 = alphabetised_text_97;
+Constant text_U596 = alphabetised_text_160;
+Constant text_U597 = alphabetised_text_119;
+Constant text_U598 = alphabetised_text_125;
+Constant text_U599 = alphabetised_text_67;
+Constant text_U600 = alphabetised_text_129;
+Constant text_U601 = alphabetised_text_85;
+Constant text_U602 = alphabetised_text_35;
+Constant text_U603 = alphabetised_text_66;
+Constant text_U604 = alphabetised_text_76;
+Constant text_U605 = alphabetised_text_146;
+Constant text_U606 = alphabetised_text_111;
+Constant text_U607 = alphabetised_text_128;
+Constant text_U608 = alphabetised_text_152;
+Constant text_U609 = alphabetised_text_155;
 Constant column_identity_U32 = table_column_id_U15;
-Constant text_U611 = alphabetised_text_92;
-Constant text_U612 = alphabetised_text_157;
-Constant text_U613 = alphabetised_text_184;
-Constant text_U614 = alphabetised_text_156;
-Constant text_U615 = alphabetised_text_195;
-Constant text_U616 = alphabetised_text_91;
-Constant text_U617 = alphabetised_text_90;
-Constant text_U618 = alphabetised_text_80;
-Constant text_U619 = alphabetised_text_188;
-Constant text_U620 = alphabetised_text_139;
-Constant text_U621 = alphabetised_text_190;
-Constant text_U622 = alphabetised_text_137;
-Constant text_U623 = alphabetised_text_136;
-Constant text_U624 = alphabetised_text_158;
-Constant text_U625 = alphabetised_text_69;
+Constant text_U610 = alphabetised_text_92;
+Constant text_U611 = alphabetised_text_157;
+Constant text_U612 = alphabetised_text_184;
+Constant text_U613 = alphabetised_text_156;
+Constant text_U614 = alphabetised_text_195;
+Constant text_U615 = alphabetised_text_91;
+Constant text_U616 = alphabetised_text_90;
+Constant text_U617 = alphabetised_text_80;
+Constant text_U618 = alphabetised_text_188;
+Constant text_U619 = alphabetised_text_139;
+Constant text_U620 = alphabetised_text_190;
+Constant text_U621 = alphabetised_text_137;
+Constant text_U622 = alphabetised_text_136;
+Constant text_U623 = alphabetised_text_158;
+Constant text_U624 = alphabetised_text_69;
 Constant column_identity_U33 = table_column_id_U23;
 Constant column_identity_U34 = table_column_id_U24;
 Constant abilities_U3 = (RELS_TEST);
 Constant abilities_U4 = (RELS_TEST);
 Constant abilities_U6 = (RELS_TEST);
 Constant abilities_U7 = (RELS_TEST);
-Constant text_U626 = alphabetised_text_36;
-Constant text_U627 = alphabetised_text_54;
-Constant text_U628 = alphabetised_text_56;
+Constant text_U625 = alphabetised_text_36;
+Constant text_U626 = alphabetised_text_54;
+Constant text_U627 = alphabetised_text_56;
 Constant GPR_REPARSE = REPARSE_CODE;
 Constant TABLE_NOVALUE = IMPROBABLE_VALUE;
 Constant RC_INFINITY = MAX_POSITIVE_NUMBER;
@@ -5714,9 +5711,9 @@ Constant Computed_Constant_Value_23_U1 = (BLK_DATA_OFFSET + Computed_Constant_Va
 Constant VALENCY_MASK = Computed_Constant_Value_60_U1;
 Constant Computed_Constant_Value_39_U1 = (Computed_Constant_Value_38_U1 * TEXT_TY_NoBuffers);
 Constant BLK_DATA_MULTI_OFFSET = Computed_Constant_Value_23_U1;
-Constant Story = bc_U1080;
-Constant Headline = bc_U1081;
-Constant Story_Author = bc_U1082;
+Constant Story = bc_U1079;
+Constant Headline = bc_U1080;
+Constant Story_Author = bc_U1081;
 Constant Computed_Constant_Value_24_U1 = (MEMORY_HEAP_SIZE + BLK_DATA_MULTI_OFFSET);
 Constant abilities_U5 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
 Constant abilities_U8 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
@@ -7693,11 +7690,11 @@ Array DK11_relation_of_people_to_th --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; 
 Array ts_array_U512 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2345; ];
 Array bc_U760 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U322; ];
 Array bc_U761 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U323; ];
-Array bc_U762 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U324; ];
 Array as_block_constant_U411 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2351; ];
 Array ts_array_U513 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2352; ];
 Array as_block_constant_U412 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2353; ];
 Array ts_array_U514 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2354; ];
+Array bc_U762 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U324; ];
 Array bc_U763 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U325; ];
 Array bc_U764 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U326; ];
 Array bc_U765 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U327; ];
@@ -7709,18 +7706,18 @@ Array bc_U770 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U332; ];
 Array bc_U771 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U333; ];
 Array bc_U772 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U334; ];
 Array bc_U773 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U335; ];
-Array bc_U774 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U336; ];
 Array ts_array_U515 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2364; ];
+Array bc_U774 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U336; ];
 Array bc_U775 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U337; ];
-Array bc_U776 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U338; ];
 Array ts_array_U516 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2367; ];
-Array bc_U777 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U339; ];
+Array bc_U776 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U338; ];
 Array ts_array_U517 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2378; ];
 Array ts_array_U518 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2380; ];
+Array bc_U777 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U339; ];
 Array bc_U778 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U340; ];
 Array bc_U779 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U341; ];
-Array bc_U780 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U342; ];
 Array ts_array_U519 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2383; ];
+Array bc_U780 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U342; ];
 Array bc_U781 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U343; ];
 Array bc_U782 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U344; ];
 Array bc_U783 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U345; ];
@@ -7734,8 +7731,8 @@ Array bc_U790 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U352; ];
 Array bc_U791 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U353; ];
 Array bc_U792 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U354; ];
 Array bc_U793 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U355; ];
-Array bc_U794 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U356; ];
 Array ts_array_U520 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2394; ];
+Array bc_U794 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U356; ];
 Array bc_U795 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U357; ];
 Array bc_U796 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U358; ];
 Array bc_U797 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U359; ];
@@ -7766,11 +7763,11 @@ Array bc_U821 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U383; ];
 Array bc_U822 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U384; ];
 Array bc_U823 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U385; ];
 Array bc_U824 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U386; ];
-Array bc_U825 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U387; ];
 Array ts_array_U521 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2418; ];
 Array ts_array_U522 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2419; ];
 Array ts_array_U523 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2421; ];
 Array ts_array_U524 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2422; ];
+Array bc_U825 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U387; ];
 Array bc_U826 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U388; ];
 Array bc_U827 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U389; ];
 Array bc_U828 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U390; ];
@@ -7801,12 +7798,12 @@ Array bc_U852 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U414; ];
 Array bc_U853 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U415; ];
 Array bc_U854 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U416; ];
 Array bc_U855 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U417; ];
-Array bc_U856 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U418; ];
 Array list_U3 --> [ 85721088; LIST_OF_TY; MAX_POSITIVE_NUMBER; NIL_TY; 0; ];
-Array bc_U857 --> [ list_U3; 0; ];
-Array bc_U858 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U419; ];
+Array bc_U856 --> [ list_U3; 0; ];
+Array bc_U857 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U418; ];
 Array list_U4 --> [ 85721088; LIST_OF_TY; MAX_POSITIVE_NUMBER; NIL_TY; 0; ];
-Array bc_U859 --> [ list_U4; 0; ];
+Array bc_U858 --> [ list_U4; 0; ];
+Array bc_U859 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U419; ];
 Array bc_U860 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U420; ];
 Array bc_U861 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U421; ];
 Array bc_U862 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U422; ];
@@ -7814,14 +7811,14 @@ Array bc_U863 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U423; ];
 Array bc_U864 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U424; ];
 Array bc_U865 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U425; ];
 Array bc_U866 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U426; ];
-Array bc_U867 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U427; ];
 Array ts_array_U525 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2450; ];
+Array bc_U867 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U427; ];
 Array bc_U868 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U428; ];
-Array bc_U869 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U429; ];
 Array ts_array_U526 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2460; ];
 Array ts_array_U527 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2461; ];
 Array ts_array_U528 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2463; ];
 Array ts_array_U529 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2464; ];
+Array bc_U869 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U429; ];
 Array bc_U870 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U430; ];
 Array bc_U871 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U431; ];
 Array bc_U872 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U432; ];
@@ -7837,11 +7834,11 @@ Array bc_U881 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U441; ];
 Array bc_U882 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U442; ];
 Array bc_U883 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U443; ];
 Array bc_U884 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U444; ];
-Array bc_U885 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U445; ];
 Array ts_array_U530 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2479; ];
 Array ts_array_U531 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2480; ];
 Array ts_array_U532 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2482; ];
 Array ts_array_U533 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2483; ];
+Array bc_U885 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U445; ];
 Array bc_U886 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U446; ];
 Array bc_U887 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U447; ];
 Array bc_U888 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U448; ];
@@ -7851,18 +7848,18 @@ Array bc_U891 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U451; ];
 Array bc_U892 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U452; ];
 Array bc_U893 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U453; ];
 Array bc_U894 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U454; ];
-Array bc_U895 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U455; ];
 Array ts_array_U534 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2487; ];
+Array bc_U895 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U455; ];
 Array bc_U896 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U456; ];
-Array bc_U897 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U457; ];
 Array ts_array_U535 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2488; ];
+Array bc_U897 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U457; ];
 Array bc_U898 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U458; ];
 Array bc_U899 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U459; ];
 Array bc_U900 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U460; ];
 Array bc_U901 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U461; ];
-Array bc_U902 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U462; ];
 Array ts_array_U536 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2498; ];
 Array ts_array_U537 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2499; ];
+Array bc_U902 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U462; ];
 Array bc_U903 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U463; ];
 Array bc_U904 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U464; ];
 Array bc_U905 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U465; ];
@@ -7876,20 +7873,20 @@ Array bc_U912 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U472; ];
 Array bc_U913 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U473; ];
 Array bc_U914 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U474; ];
 Array bc_U915 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U475; ];
-Array bc_U916 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U476; ];
-Array bc_U917 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
+Array bc_U916 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
+Array bc_U917 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U476; ];
 Array bc_U918 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U477; ];
 Array bc_U919 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U478; ];
 Array bc_U920 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U479; ];
 Array bc_U921 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U480; ];
-Array bc_U922 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U481; ];
 Array ts_array_U538 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U2508; ];
+Array bc_U922 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U481; ];
 Array bc_U923 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U482; ];
 Array bc_U924 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U483; ];
-Array bc_U925 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U484; ];
 Array ts_array_U539 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2509; ];
 Array ts_array_U540 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2513; ];
 Array ts_array_U541 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2514; ];
+Array bc_U925 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U484; ];
 Array bc_U926 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U485; ];
 Array bc_U927 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U486; ];
 Array bc_U928 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U487; ];
@@ -7900,30 +7897,30 @@ Array bc_U932 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U491; ];
 Array bc_U933 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U492; ];
 Array bc_U934 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U493; ];
 Array bc_U935 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U494; ];
-Array bc_U936 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U495; ];
-Array bc_U937 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
+Array bc_U936 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
+Array bc_U937 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U495; ];
 Array bc_U938 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U496; ];
-Array bc_U939 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U497; ];
 Array ts_array_U542 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U2530; ];
-Array bc_U940 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U498; ];
+Array bc_U939 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U497; ];
 Array column_data_U11 table [ column_bits_U11; column_blanks_U10; Consult_Grammar7; Consult_Grammar8; Consult_Grammar9; Consult_Grammar10; ];
-Array column_data_U12 table [ column_bits_U12; column_blanks_U11; bc_U941; bc_U942; bc_U943; bc_U944; ];
+Array column_data_U12 table [ column_bits_U12; column_blanks_U11; bc_U940; bc_U941; bc_U942; bc_U943; ];
+Array bc_U940 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U498; ];
 Array bc_U941 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U499; ];
 Array bc_U942 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U500; ];
 Array bc_U943 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U501; ];
+Array column_data_U13 table [ column_bits_U13; column_blanks_U12; bc_U944; bc_U945; bc_U946; bc_U947; ];
 Array bc_U944 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U502; ];
-Array column_data_U13 table [ column_bits_U13; column_blanks_U12; bc_U945; bc_U946; bc_U947; bc_U948; ];
 Array bc_U945 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U503; ];
 Array bc_U946 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U504; ];
 Array bc_U947 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U505; ];
-Array bc_U948 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U506; ];
 Array column_data_U14 table [ column_bits_U14; column_blanks_U13; 0; 0; 0; 0; ];
 Array table_data_U4 table [ column_data_U11; column_data_U12; column_data_U13; column_data_U14; ];
 Array column_data_U15 table [ column_bits_U15; NULL; I_golden_key_U1; ];
-Array column_data_U16 table [ column_bits_U16; column_blanks_U14; bc_U949; ];
-Array bc_U949 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U507; ];
+Array column_data_U16 table [ column_bits_U16; column_blanks_U14; bc_U948; ];
+Array bc_U948 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U506; ];
 Array table_data_U5 table [ column_data_U15; column_data_U16; ];
-Array column_data_U17 table [ column_bits_U17; column_blanks_U15; bc_U950; bc_U951; bc_U952; bc_U953; bc_U954; bc_U955; bc_U956; bc_U957; bc_U958; bc_U959; bc_U960; bc_U961; bc_U962; bc_U963; bc_U964; bc_U965; bc_U966; bc_U967; bc_U968; bc_U969; bc_U970; bc_U971; bc_U972; bc_U973; bc_U974; bc_U975; bc_U976; bc_U977; bc_U978; bc_U979; ];
+Array column_data_U17 table [ column_bits_U17; column_blanks_U15; bc_U949; bc_U950; bc_U951; bc_U952; bc_U953; bc_U954; bc_U955; bc_U956; bc_U957; bc_U958; bc_U959; bc_U960; bc_U961; bc_U962; bc_U963; bc_U964; bc_U965; bc_U966; bc_U967; bc_U968; bc_U969; bc_U970; bc_U971; bc_U972; bc_U973; bc_U974; bc_U975; bc_U976; bc_U977; bc_U978; ];
+Array bc_U949 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U507; ];
 Array bc_U950 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U508; ];
 Array bc_U951 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U509; ];
 Array bc_U952 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U510; ];
@@ -7953,8 +7950,8 @@ Array bc_U975 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U533; ];
 Array bc_U976 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U534; ];
 Array bc_U977 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U535; ];
 Array bc_U978 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U536; ];
+Array column_data_U18 table [ column_bits_U18; column_blanks_U16; bc_U979; bc_U980; bc_U981; bc_U982; bc_U983; bc_U984; bc_U985; bc_U986; bc_U987; bc_U988; bc_U989; bc_U990; bc_U991; bc_U992; bc_U993; bc_U994; bc_U995; bc_U996; bc_U997; bc_U998; bc_U999; bc_U1000; bc_U1001; bc_U1002; bc_U1003; bc_U1004; bc_U1005; bc_U1006; bc_U1007; bc_U1008; ];
 Array bc_U979 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U537; ];
-Array column_data_U18 table [ column_bits_U18; column_blanks_U16; bc_U980; bc_U981; bc_U982; bc_U983; bc_U984; bc_U985; bc_U986; bc_U987; bc_U988; bc_U989; bc_U990; bc_U991; bc_U992; bc_U993; bc_U994; bc_U995; bc_U996; bc_U997; bc_U998; bc_U999; bc_U1000; bc_U1001; bc_U1002; bc_U1003; bc_U1004; bc_U1005; bc_U1006; bc_U1007; bc_U1008; bc_U1009; ];
 Array bc_U980 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U538; ];
 Array bc_U981 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U539; ];
 Array bc_U982 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U540; ];
@@ -7984,8 +7981,8 @@ Array bc_U1005 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U563; ];
 Array bc_U1006 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U564; ];
 Array bc_U1007 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U565; ];
 Array bc_U1008 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U566; ];
+Array column_data_U19 table [ column_bits_U19; column_blanks_U17; bc_U1009; bc_U1010; bc_U1011; bc_U1012; bc_U1013; bc_U1014; bc_U1015; bc_U1016; bc_U1017; bc_U1018; bc_U1019; bc_U1020; bc_U1021; bc_U1022; bc_U1023; bc_U1024; bc_U1025; bc_U1026; bc_U1027; bc_U1028; bc_U1029; bc_U1030; bc_U1031; bc_U1032; bc_U1033; bc_U1034; bc_U1035; bc_U1036; bc_U1037; bc_U1038; ];
 Array bc_U1009 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U567; ];
-Array column_data_U19 table [ column_bits_U19; column_blanks_U17; bc_U1010; bc_U1011; bc_U1012; bc_U1013; bc_U1014; bc_U1015; bc_U1016; bc_U1017; bc_U1018; bc_U1019; bc_U1020; bc_U1021; bc_U1022; bc_U1023; bc_U1024; bc_U1025; bc_U1026; bc_U1027; bc_U1028; bc_U1029; bc_U1030; bc_U1031; bc_U1032; bc_U1033; bc_U1034; bc_U1035; bc_U1036; bc_U1037; bc_U1038; bc_U1039; ];
 Array bc_U1010 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U568; ];
 Array bc_U1011 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U569; ];
 Array bc_U1012 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U570; ];
@@ -8003,7 +8000,7 @@ Array bc_U1023 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U581; ];
 Array bc_U1024 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U582; ];
 Array bc_U1025 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U583; ];
 Array bc_U1026 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U584; ];
-Array bc_U1027 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U585; ];
+Array bc_U1027 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1028 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1029 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1030 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
@@ -8015,33 +8012,33 @@ Array bc_U1035 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1036 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1037 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array bc_U1038 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
-Array bc_U1039 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array table_data_U6 table [ column_data_U17; column_data_U18; column_data_U19; ];
 Array column_data_U20 table [ column_bits_U20; column_blanks_U18; Consult_Grammar11; Consult_Grammar12; Consult_Grammar13; ];
-Array column_data_U21 table [ column_bits_U21; column_blanks_U19; bc_U1040; bc_U1041; bc_U1042; ];
+Array column_data_U21 table [ column_bits_U21; column_blanks_U19; bc_U1039; bc_U1040; bc_U1041; ];
+Array bc_U1039 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U585; ];
 Array bc_U1040 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U586; ];
 Array bc_U1041 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U587; ];
+Array column_data_U22 table [ column_bits_U22; column_blanks_U20; bc_U1042; bc_U1043; bc_U1044; ];
 Array bc_U1042 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U588; ];
-Array column_data_U22 table [ column_bits_U22; column_blanks_U20; bc_U1043; bc_U1044; bc_U1045; ];
 Array bc_U1043 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U589; ];
 Array bc_U1044 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U590; ];
-Array bc_U1045 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U591; ];
 Array column_data_U23 table [ column_bits_U23; column_blanks_U21; 0; 0; 0; ];
 Array table_data_U7 table [ column_data_U20; column_data_U21; column_data_U22; column_data_U23; ];
 Array column_data_U24 table [ column_bits_U24; column_blanks_U22; Consult_Grammar14; Consult_Grammar15; ];
-Array column_data_U25 table [ column_bits_U25; column_blanks_U23; bc_U1046; bc_U1047; ];
+Array column_data_U25 table [ column_bits_U25; column_blanks_U23; bc_U1045; bc_U1046; ];
+Array bc_U1045 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U591; ];
 Array bc_U1046 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U592; ];
+Array column_data_U26 table [ column_bits_U26; column_blanks_U24; bc_U1047; bc_U1048; ];
 Array bc_U1047 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U593; ];
-Array column_data_U26 table [ column_bits_U26; column_blanks_U24; bc_U1048; bc_U1049; ];
 Array bc_U1048 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U594; ];
-Array bc_U1049 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U595; ];
 Array column_data_U27 table [ column_bits_U27; column_blanks_U25; 0; 0; ];
 Array table_data_U8 table [ column_data_U24; column_data_U25; column_data_U26; column_data_U27; ];
 Array column_data_U28 table [ column_bits_U28; NULL; I_black_key_U1; I_armor_U1; ];
 Array column_data_U29 table [ column_bits_U29; column_blanks_U26; 80; 51; ];
 Array column_data_U30 table [ column_bits_U30; column_blanks_U27; 0; 0; ];
 Array table_data_U9 table [ column_data_U28; column_data_U29; column_data_U30; ];
-Array column_data_U31 table [ column_bits_U31; column_blanks_U28; bc_U1050; bc_U1051; bc_U1052; bc_U1053; bc_U1054; bc_U1055; bc_U1056; bc_U1057; bc_U1058; bc_U1059; bc_U1060; bc_U1061; bc_U1062; bc_U1063; bc_U1064; ];
+Array column_data_U31 table [ column_bits_U31; column_blanks_U28; bc_U1049; bc_U1050; bc_U1051; bc_U1052; bc_U1053; bc_U1054; bc_U1055; bc_U1056; bc_U1057; bc_U1058; bc_U1059; bc_U1060; bc_U1061; bc_U1062; bc_U1063; ];
+Array bc_U1049 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U595; ];
 Array bc_U1050 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U596; ];
 Array bc_U1051 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U597; ];
 Array bc_U1052 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U598; ];
@@ -8056,8 +8053,8 @@ Array bc_U1060 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U606; ];
 Array bc_U1061 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U607; ];
 Array bc_U1062 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U608; ];
 Array bc_U1063 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U609; ];
+Array column_data_U32 table [ column_bits_U32; column_blanks_U29; bc_U1064; bc_U1065; bc_U1066; bc_U1067; bc_U1068; bc_U1069; bc_U1070; bc_U1071; bc_U1072; bc_U1073; bc_U1074; bc_U1075; bc_U1076; bc_U1077; bc_U1078; ];
 Array bc_U1064 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U610; ];
-Array column_data_U32 table [ column_bits_U32; column_blanks_U29; bc_U1065; bc_U1066; bc_U1067; bc_U1068; bc_U1069; bc_U1070; bc_U1071; bc_U1072; bc_U1073; bc_U1074; bc_U1075; bc_U1076; bc_U1077; bc_U1078; bc_U1079; ];
 Array bc_U1065 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U611; ];
 Array bc_U1066 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U612; ];
 Array bc_U1067 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U613; ];
@@ -8072,7 +8069,6 @@ Array bc_U1075 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U621; ];
 Array bc_U1076 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U622; ];
 Array bc_U1077 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U623; ];
 Array bc_U1078 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U624; ];
-Array bc_U1079 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U625; ];
 Array column_data_U33 table [ column_bits_U33; column_blanks_U30; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; TABLE_NOVALUE; ];
 Array column_data_U34 table [ column_bits_U34; column_blanks_U31; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
 Array table_data_U10 table [ column_data_U31; column_data_U32; column_data_U33; column_data_U34; ];
@@ -8092,9 +8088,9 @@ Array Rel_Record15 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; N
 Array Rel_Record16 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "touchability relation"; abilities_U16; 0; DK10_relation_of_things; call_U2551; "can-touch"; ];
 Array Rel_Record17 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "concealment relation"; abilities_U17; 0; DK10_relation_of_things; call_U2552; "conceals"; ];
 Array Rel_Record18 --> [ 0; 101515264; RELATION_TY; MAX_POSITIVE_NUMBER; NULL; NULL; "never-holding relation"; abilities_U18; 0; DK7_relation_of_values; call_U2553; "is"; ];
+Array bc_U1079 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U625; ];
 Array bc_U1080 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U626; ];
 Array bc_U1081 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U627; ];
-Array bc_U1082 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U628; ];
 Array UUID_ARRAY -> [ 45; 'U'; 'U'; 'I'; 'D'; ':'; '/'; '/'; 'C'; 'A'; 'D'; '7'; '5'; '6'; '8'; '1'; '-'; '8'; 'B'; '0'; 'E'; '-'; '4'; 'B'; '2'; '4'; '-'; 'A'; '7'; 'C'; 'B'; '-'; 'B'; '9'; 'D'; 'E'; '6'; '3'; '9'; 'C'; 'D'; 'A'; '8'; 'D'; '/'; '/'; ];
 Array InitialSituation --> [ selfobj; 0; I_garage_U1; 780; 0; ];
 Array Map_Storage --> [ I_hallway_U1; 0; 0; 0; 0; 0; I_storeroom_U1; 0; 0; 0; 0; 0; 0; 0; 0; I_garage_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_garage_U1; 0; 0; 0; 0; I_brown_door_U1; 0; 0; 0; 0; 0; 0; I_bathroom_U1; 0; 0; 0; 0; I_gallery_U1; 0; 0; 0; 0; 0; I_entrance_hall_U1; I_utility_room_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_bathroom_U1; 0; 0; 0; 0; 0; I_kitchen_U1; 0; 0; I_brown_door_U1; 0; 0; I_spike_pit_U1; 0; 0; 0; 0; 0; 0; 0; 0; I_secret_door_U1; 0; 0; 0; I_spike_pit_U1; 0; 0; 0; 0; I_secret_door_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_dining_room_U1; 0; 0; I_bathroom_U1; 0; 0; 0; I_sobaa_U1; 0; 0; 0; 0; I_sobab_U1; 0; 0; 0; 0; 0; I_gallery_U1; 0; 0; 0; 0; 0; I_sobac_U1; 0; 0; I_sobaa_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_sobab_U1; 0; 0; I_closet_U1; 0; 0; 0; 0; 0; I_attic_U1; 0; 0; I_red_door_U1; 0; 0; 0; I_sobac_U1; 0; 0; 0; 0; 0; 0; 0; I_living_room_U1; 0; 0; I_pantry_U1; I_dining_room_U1; 0; 0; 0; 0; I_red_door_U1; 0; 0; I_gallery_U1; 0; 0; I_kitchen_U1; 0; 0; 0; 0; 0; I_rotating_blades_U1; 0; 0; 0; 0; 0; 0; I_kitchen_U1; 0; 0; 0; 0; 0; 0; 0; I_closet_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_rotating_blades_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
@@ -12982,15 +12978,15 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U2347)) {
-            print "game quit rule";
-            rtrue;
-        }
-        if ((R == call_U2348)) {
             print "When play begins";
             rtrue;
         }
-        if ((R == call_U2349)) {
+        if ((R == call_U2348)) {
             print "Check restoring the game";
+            rtrue;
+        }
+        if ((R == call_U2349)) {
+            print "Check quitting the game";
             rtrue;
         }
         if ((R == call_U2350)) {
@@ -31133,12 +31129,12 @@ Global max_z_object;
     if (say__p) {
         RulebookParBreak(forbid_breaks);
     }
-    (rv = (call_U2348)());
+    (rv = (call_U2347)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2348;
+        return call_U2347;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -37512,6 +37508,17 @@ Global max_z_object;
 [ SleepDbg n s for_say;
     print "sleeping";
 ];
+[ call_U674 forbid_breaks rv;
+    (rv = (call_U2349)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U2349;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
 [ call_U675 forbid_breaks rv;
     if (debug_rules) {
         DB_Rule(QUIT_THE_GAME_R, 0, 0);
@@ -37553,12 +37560,12 @@ Global max_z_object;
     print "saving the game";
 ];
 [ call_U680 forbid_breaks rv;
-    (rv = (call_U2349)());
+    (rv = (call_U2348)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U2349;
+        return call_U2348;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -67684,25 +67691,9 @@ Global max_z_object;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U760));
     rfalse;
 ];
-[ call_U2347 RV;
-    @push I7SFRAME;
-    StackFrameCreate(2);
-    BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U191());
-    BlkValueFreeOnStack(0);
-    @pull I7SFRAME;
-    return RV;
-];
-[ kernel1_U191;
+[ call_U2347 ct_0 ct_1;
     if (debug_rules) {
         DB_Rule(call_U2347, 1010, 0);
-    }
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U761));
-    rfalse;
-];
-[ call_U2348 ct_0 ct_1;
-    if (debug_rules) {
-        DB_Rule(call_U2348, 1011, 0);
     }
     (ct_0 = table_data_U1);
     (ct_1 = TableRowCorr(ct_0, table_column_id_U4, IMMEDIATELY_RESTART_VM_R));
@@ -67712,10 +67703,27 @@ Global max_z_object;
     TableLookUpEntry(ct_0, table_column_id_U1, ct_1, 4);
     (ct_0 = table_data_U1);
     (ct_1 = TableRowCorr(ct_0, table_column_id_U4, IMMEDIATELY_QUIT_R));
-    (TableLookUpEntry)(ct_0,table_column_id_U4,ct_1,1,call_U2347);
+    TableLookUpEntry(ct_0, table_column_id_U1, ct_1, 4);
     (ct_0 = table_data_U1);
     (ct_1 = TableRowCorr(ct_0, table_column_id_U4, IMMEDIATELY_UNDO_R));
     TableLookUpEntry(ct_0, table_column_id_U1, ct_1, 4);
+    rfalse;
+];
+[ call_U2348;
+    if ((actor == player)) {
+        if (debug_rules) {
+            DB_Rule(call_U2348, 1011, 0);
+        }
+        (say__p = 1);
+        ParaContent();
+        print "Restoring saved game is not allowed in this game.";
+        print "^";
+        rtrue;
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U2348, 1011, 3);
+        }
+    }
     rfalse;
 ];
 [ call_U2349;
@@ -67725,7 +67733,7 @@ Global max_z_object;
         }
         (say__p = 1);
         ParaContent();
-        print "Restoring saved games is not allowed in this game.";
+        print "Quitting is not allowed in this game.";
         print "^";
         rtrue;
     } else {
@@ -67740,13 +67748,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U192());
+    (RV = kernel1_U191());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U192 tmp_0 ct_0 ct_1 tmp_1 tmp_2;
+[ kernel1_U191 tmp_0 ct_0 ct_1 tmp_1 tmp_2;
     if (debug_rules) {
         DB_Rule(call_U2350, 1013, 0);
     }
@@ -67780,7 +67788,7 @@ Global max_z_object;
         if ((TableRowIsBlank(ct_0, ct_1) == 0)) {
             if ((((TableLookUpEntry(ct_0, table_column_id_U2, ct_1) == 0)) || (story_complete))) {
                 if (((ExistsTableLookUpEntry(ct_0, table_column_id_U4, ct_1)) || ((~~(call_U51(TableLookUpEntry(ct_0, table_column_id_U5, ct_1))))))) {
-                    if (((ExistsTableLookUpEntry(ct_0, table_column_id_U1, ct_1)) && (TEXT_TY_Replace_RE(REGEXP_BLOB, TableLookUpEntry(ct_0, table_column_id_U1, ct_1), bc_U762, 0, 0)))) {
+                    if (((ExistsTableLookUpEntry(ct_0, table_column_id_U1, ct_1)) && (TEXT_TY_Replace_RE(REGEXP_BLOB, TableLookUpEntry(ct_0, table_column_id_U1, ct_1), bc_U761, 0, 0)))) {
                         call_U2080(BlkValueCopy(I7SFRAME, TEXT_TY_RE_GetMatchVar(0)), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), TableLookUpEntry(ct_0, table_column_id_U1, ct_1)));
                         (tmp_0 = (tmp_0 - 1));
                         if ((tmp_0 == 1)) {
@@ -67838,13 +67846,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U193());
+    (RV = kernel1_U192());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U193;
+[ kernel1_U192;
     if ((((actor == player)) && (((((MStack-->(MstVON(var_id_U42, 2))) == I_spike_pit_U1)) && (((MStack-->(MstVON(var_id_U42, 1))) ~= 0)))))) {
         (self = noun);
         if (debug_rules) {
@@ -67874,11 +67882,11 @@ Global max_z_object;
                 ParaContent();
                 print "it, not just have it in your inventory.";
                 print "^";
-                call_U2107(BlkValueCopy(I7SFRAME, bc_U763));
+                call_U2107(BlkValueCopy(I7SFRAME, bc_U762));
                 call_U2507(I_living_room_U1);
                 rtrue;
             } else {
-                call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U764));
+                call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U763));
                 call_U2507(I_living_room_U1);
                 rtrue;
             }
@@ -67895,13 +67903,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U194());
+    (RV = kernel1_U193());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U194;
+[ kernel1_U193;
     if ((((actor == player)) && (((((MStack-->(MstVON(var_id_U42, 2))) == I_rotating_blades_U1)) && (((MStack-->(MstVON(var_id_U42, 1))) ~= 0)))))) {
         (self = noun);
         if (debug_rules) {
@@ -67931,11 +67939,11 @@ Global max_z_object;
                 ParaContent();
                 print "it.";
                 print "^";
-                call_U2107(BlkValueCopy(I7SFRAME, bc_U765));
+                call_U2107(BlkValueCopy(I7SFRAME, bc_U764));
                 call_U2507(I_pantry_U1);
                 rtrue;
             } else {
-                call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U766));
+                call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U765));
                 call_U2507(I_pantry_U1);
                 rtrue;
             }
@@ -67952,13 +67960,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U195());
+    (RV = kernel1_U194());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U195;
+[ kernel1_U194;
     if ((((actor == player)) && ((noun == I_black_chest_U1)))) {
         (self = noun);
         if (debug_rules) {
@@ -67974,8 +67982,8 @@ Global max_z_object;
             ParaContent();
             print "This is better left unopened.";
             print "^";
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U767));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U768));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U766));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U767));
             call_U2507(I_closet_U1);
             rtrue;
         }
@@ -67990,12 +67998,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U196());
+    (RV = kernel1_U195());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U196;
+[ kernel1_U195;
     if ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_gallery_U1)))) {
         (self = noun);
         if (debug_rules) {
@@ -68015,7 +68023,7 @@ Global max_z_object;
             ParaContent();
             print "Two bright eyes are the last thing you see as you enter the Gallery.";
             print "^";
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U769));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U768));
             call_U2507(I_bathroom_U1);
             rtrue;
         }
@@ -68030,12 +68038,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U197());
+    (RV = kernel1_U196());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U197;
+[ kernel1_U196;
     if ((((action == ##Take)) && ((((actor == player)) && ((((noun == I_red_key_U1)) && (((((self = actor),1)) && ((I_beast_U1 == CarrierOf(I_red_key_U1))))))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68045,7 +68053,7 @@ Global max_z_object;
         ParaContent();
         print "As you reach for the key, neighbor snarls and attacks!";
         print "^";
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U770));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U769));
         call_U2507(I_gallery_U1);
         RulebookFails(0, 0);
         rtrue;
@@ -68060,12 +68068,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U198());
+    (RV = kernel1_U197());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U198;
+[ kernel1_U197;
     if ((((actor == player)) && ((((noun == I_north_U1)) && (((((((MStack-->(MstVON(var_id_U42, 0))) == I_sobaa_U1)) && (((MStack-->(MstVON(var_id_U42, 0))) ofclass K1_room)))) && (((MStack-->(MstVON(var_id_U42, 1))) ~= 0)))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68076,7 +68084,7 @@ Global max_z_object;
             ParaContent();
             print "You are too heavy!";
             print "^";
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U771));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U770));
             call_U2507(I_gallery_U1);
             rtrue;
         }
@@ -68091,12 +68099,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U199());
+    (RV = kernel1_U198());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U199;
+[ kernel1_U198;
     if ((((actor == player)) && ((((noun == I_north_U1)) && (((((((MStack-->(MstVON(var_id_U42, 0))) == I_sobab_U1)) && (((MStack-->(MstVON(var_id_U42, 0))) ofclass K1_room)))) && (((MStack-->(MstVON(var_id_U42, 1))) ~= 0)))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68109,7 +68117,7 @@ Global max_z_object;
             ParaContent();
             print "You are still too heavy.";
             print "^";
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U772));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U771));
             call_U2507(I_gallery_U1);
             rtrue;
         }
@@ -68131,7 +68139,7 @@ Global max_z_object;
     BlkValueCreateOnStack(10, TEXT_TY);
     BlkValueCreateOnStack(12, TEXT_TY);
     BlkValueCreateOnStack(14, TEXT_TY);
-    (RV = kernel1_U200());
+    (RV = kernel1_U199());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -68143,7 +68151,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U200 tmp_0 tmp_1 tmp_2 tmp_3;
+[ kernel1_U199 tmp_0 tmp_1 tmp_2 tmp_3;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2362, 1022, 0);
@@ -68160,13 +68168,13 @@ Global max_z_object;
             print " carrying:";
             ParaContent();
             print "^";
-            call_U2024(BlkValueCopy(I7SFRAME, bc_U773));
+            call_U2024(BlkValueCopy(I7SFRAME, bc_U772));
             for (((tmp_0 = (call_U2363)(0)),(tmp_1 = (call_U2363)(tmp_0))):tmp_0:((tmp_0 = tmp_1),(tmp_1 = (call_U2363)(tmp_1)))) {
-                call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U774), BlkValueCopy((I7SFRAME + (WORDSIZE*4)), (((LocalParking-->(0)) = tmp_0),(((LocalParking-->(1)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*6)), ts_array_U515)))));
+                call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U773), BlkValueCopy((I7SFRAME + (WORDSIZE*4)), (((LocalParking-->(0)) = tmp_0),(((LocalParking-->(1)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*6)), ts_array_U515)))));
                 if (call_U2365(tmp_0)) {
-                    call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U775));
+                    call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U774));
                     for (((tmp_2 = (call_U2366)(tmp_0,0)),(tmp_3 = (call_U2366)(tmp_0,tmp_2))):tmp_2:((tmp_2 = tmp_3),(tmp_3 = (call_U2366)(tmp_0,tmp_3)))) {
-                        call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U776), BlkValueCopy((I7SFRAME + (WORDSIZE*12)), (((LocalParking-->(0)) = tmp_0),(((LocalParking-->(1)) = tmp_1),(((LocalParking-->(2)) = tmp_2),(((LocalParking-->(3)) = tmp_3),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*14)), ts_array_U516)))))));
+                        call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U775), BlkValueCopy((I7SFRAME + (WORDSIZE*12)), (((LocalParking-->(0)) = tmp_0),(((LocalParking-->(1)) = tmp_1),(((LocalParking-->(2)) = tmp_2),(((LocalParking-->(3)) = tmp_3),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*14)), ts_array_U516)))))));
                     }
                     call_U2025();
                 }
@@ -68419,20 +68427,20 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U201());
+    (RV = kernel1_U200());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U201;
+[ kernel1_U200;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2377, 1033, 0);
         }
         if (call_U2000()) {
-            call_U2073(BlkValueCopy(I7SFRAME, bc_U777), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*4)), ts_array_U517)));
+            call_U2073(BlkValueCopy(I7SFRAME, bc_U776), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*4)), ts_array_U517)));
         }
     } else {
         if ((debug_rules > 1)) {
@@ -68454,13 +68462,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U202());
+    (RV = kernel1_U201());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U202;
+[ kernel1_U201;
     if ((((action == ##Go)) && ((actor == player)))) {
         (self = noun);
         if (debug_rules) {
@@ -68519,7 +68527,7 @@ Global max_z_object;
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
     BlkValueCreateOnStack(8, TEXT_TY);
-    (RV = kernel1_U203());
+    (RV = kernel1_U202());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -68528,13 +68536,13 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U203;
+[ kernel1_U202;
     if (debug_rules) {
         DB_Rule(call_U2382, 1036, 0);
     }
-    call_U2107(BlkValueCopy(I7SFRAME, bc_U778), 1);
+    call_U2107(BlkValueCopy(I7SFRAME, bc_U777), 1);
     if (call_U2000()) {
-        call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U779), BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U780), 1);
+        call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U778), BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U779), 1);
     }
     call_U2161(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*8)), ts_array_U519)));
     SPACEPause();
@@ -68564,7 +68572,7 @@ Global max_z_object;
     if (debug_rules) {
         DB_Rule(call_U2385, 1039, 0);
     }
-    BlkValueCopy((Global_Vars-->21), bc_U781);
+    BlkValueCopy((Global_Vars-->21), bc_U780);
     rfalse;
 ];
 [ call_U2386 RV;
@@ -68573,14 +68581,14 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U204());
+    (RV = kernel1_U203());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U204 tmp_0;
+[ kernel1_U203 tmp_0;
     if (call_U2518()) {
         if (debug_rules) {
             DB_Rule(call_U2386, 1041, 0);
@@ -68607,7 +68615,7 @@ Global max_z_object;
             rtrue;
         }
         BlkValueCast((Global_Vars-->61), SNIPPET_TY, players_command);
-        BlkValueCopy((Global_Vars-->21), bc_U782);
+        BlkValueCopy((Global_Vars-->21), bc_U781);
         (say__p = 1);
         ParaContent();
         print "^";
@@ -68623,9 +68631,9 @@ Global max_z_object;
         print "! I'm glad you're back. You've been gone for quite some time. Let's remember how things work around here.";
         ParaContent();
         print "^";
-        call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U783));
+        call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U782));
         MoveObject(player, I_garage_U1, 1, 0);
-        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U784), 9);
+        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U783), 9);
         RulebookFails();
         rtrue;
     } else {
@@ -68684,14 +68692,14 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U205());
+    (RV = kernel1_U204());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U205;
+[ kernel1_U204;
     if ((((action == ##Look)) && ((actor == player)))) {
         (self = noun);
         if (debug_rules) {
@@ -68699,14 +68707,14 @@ Global max_z_object;
         }
         if ((((real_location == I_garage_U1)) && (((Global_Vars-->62) == 1)))) {
             call_U2260();
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U785));
-            call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U786), 18);
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U784));
+            call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U785), 18);
             call_U2519();
             call_U2520();
             ((Global_Vars-->62) = 0);
         } else {
             if ((((real_location == I_garage_U1)) && ((~~((player == CarrierOf(I_first_coin_U1))))))) {
-                call_U2258(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U787));
+                call_U2258(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U786));
                 call_U2521();
             }
         }
@@ -68726,7 +68734,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U206());
+    (RV = kernel1_U205());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -68734,14 +68742,14 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U206;
+[ kernel1_U205;
     if ((parameter_value == I_brush_U1)) {
         if (debug_rules) {
             DB_Rule(call_U2391, 1046, 0);
         }
         if ((real_location == I_garage_U1)) {
-            call_U2030(BlkValueCopy(I7SFRAME, bc_U788), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U789));
-            call_U2252(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U790), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U791));
+            call_U2030(BlkValueCopy(I7SFRAME, bc_U787), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U788));
+            call_U2252(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U789), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U790));
         } else {
             (say__p = 1);
             ParaContent();
@@ -68761,13 +68769,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U207());
+    (RV = kernel1_U206());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U207;
+[ kernel1_U206;
     if ((((PAPR1)()) && (((((TimesActionHasHappened-->(ahc_id_U1)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U1))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68775,8 +68783,8 @@ Global max_z_object;
         }
         call_U2260();
         TryAction(0, player, ##Look, 0, 0);
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U792));
-        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U793), 10);
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U791));
+        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U792), 10);
         call_U2522();
         RulebookSucceeds(0, 0);
         rtrue;
@@ -68793,14 +68801,14 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U208());
+    (RV = kernel1_U207());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U208;
+[ kernel1_U207;
     if ((((PAPR2)()) && (((((TimesActionHasHappened-->(ahc_id_U2)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U2))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68808,7 +68816,7 @@ Global max_z_object;
         }
         call_U2260();
         TryAction(0, player, ##Look, 0, 0);
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U794));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U793));
         call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*4)), ts_array_U520)), 11);
         RulebookSucceeds(0, 0);
         rtrue;
@@ -68840,7 +68848,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U209());
+    (RV = kernel1_U208());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -68848,7 +68856,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U209;
+[ kernel1_U208;
     if ((((action == ##Examine)) && ((((actor == player)) && ((((noun == I_coffer_U1)) && (((((self = actor),1)) && (call_U306(I_coffer_U1)))))))))) {
         (self = noun);
         if (debug_rules) {
@@ -68857,8 +68865,8 @@ Global max_z_object;
         (say__p = 1);
         ParaContent();
         print "A small ornate chest that you've never seen open. The coffer is ";
-        call_U2030(BlkValueCopy(I7SFRAME, bc_U795), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U796));
-        call_U2252(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U797), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U798));
+        call_U2030(BlkValueCopy(I7SFRAME, bc_U794), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U795));
+        call_U2252(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U796), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U797));
         (say__p = 1);
         ParaContent();
         print ".";
@@ -68879,7 +68887,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U210());
+    (RV = kernel1_U209());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -68887,14 +68895,14 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U210;
+[ kernel1_U209;
     if ((parameter_value == I_first_coin_U1)) {
         if ((I_coffer_U1 == ContainerOf(I_first_coin_U1))) {
             if (debug_rules) {
                 DB_Rule(call_U2396, 1050, 0);
             }
-            call_U2030(BlkValueCopy(I7SFRAME, bc_U799), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U800));
-            call_U2249(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U801), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U802), 1);
+            call_U2030(BlkValueCopy(I7SFRAME, bc_U798), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U799));
+            call_U2249(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U800), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U801), 1);
             RulebookSucceeds(0, 0);
             rtrue;
         } else {
@@ -68913,12 +68921,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U211());
+    (RV = kernel1_U210());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U211;
+[ kernel1_U210;
     if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_first_coin_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -68931,7 +68939,7 @@ Global max_z_object;
         print "^";
         WriteGProperty(OBJECT_TY, player, A_P_weight, (GProperty(OBJECT_TY, player, A_P_weight) + 1));
         if ((~~(TestActionBitmap(I_first_coin_U1, ##Take)))) {
-            call_U2258(BlkValueCopy(I7SFRAME, bc_U803));
+            call_U2258(BlkValueCopy(I7SFRAME, bc_U802));
             call_U2524();
             call_U2515();
         } else {
@@ -68950,12 +68958,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U212());
+    (RV = kernel1_U211());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U212;
+[ kernel1_U211;
     if ((((action == ##Inv)) && ((actor == player)))) {
         (self = noun);
         if (debug_rules) {
@@ -68963,7 +68971,7 @@ Global max_z_object;
         }
         if ((((I_storeroom_U1 == ContainerOf(player))) && ((player == CarrierOf(I_first_coin_U1))))) {
             call_U2260();
-            call_U2256(BlkValueCopy(I7SFRAME, bc_U804), 2);
+            call_U2256(BlkValueCopy(I7SFRAME, bc_U803), 2);
             call_U2523();
             call_U280(I_brush_U1);
         }
@@ -68981,13 +68989,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U213());
+    (RV = kernel1_U212());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U213;
+[ kernel1_U212;
     if ((((action == ##Take)) && ((((actor == player)) && ((((noun == I_brush_U1)) && (((((self = actor),1)) && (((call_U210(I_first_coin_U1)) && (((Global_Vars-->64) == 0)))))))))))) {
         (self = noun);
         if (debug_rules) {
@@ -69006,10 +69014,10 @@ Global max_z_object;
         ParaContent();
         print "Oh, one more thing before you leave.";
         print "^";
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U805));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U804));
         ((Global_Vars-->63) = 1);
-        BlkValueCopy((Global_Vars-->21), bc_U806);
-        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U807), 3);
+        BlkValueCopy((Global_Vars-->21), bc_U805);
+        call_U2256(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U806), 3);
         RulebookFails(0, 0);
         rtrue;
     } else {
@@ -69049,7 +69057,7 @@ Global max_z_object;
     BlkValueCreateOnStack(6, TEXT_TY);
     BlkValueCreateOnStack(8, TEXT_TY);
     BlkValueCreateOnStack(10, TEXT_TY);
-    (RV = kernel1_U214());
+    (RV = kernel1_U213());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -69059,7 +69067,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U214;
+[ kernel1_U213;
     if (((Global_Vars-->63) == 1)) {
         if (debug_rules) {
             DB_Rule(call_U2401, 1061, 0);
@@ -69077,15 +69085,15 @@ Global max_z_object;
             }
             if ((GProperty(OBJECT_TY, player, A_P_difficulty) == I_normal_U1)) {
                 WriteGProperty(OBJECT_TY, player, A_P_lives, 9);
-                call_U2003(BlkValueCopy(I7SFRAME, bc_U808));
+                call_U2003(BlkValueCopy(I7SFRAME, bc_U807));
             }
             if ((GProperty(OBJECT_TY, player, A_P_difficulty) == I_hard_U1)) {
                 WriteGProperty(OBJECT_TY, player, A_P_lives, 3);
-                call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U809));
+                call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U808));
             }
             if ((GProperty(OBJECT_TY, player, A_P_difficulty) == I_unforgiving_U1)) {
                 WriteGProperty(OBJECT_TY, player, A_P_lives, 1);
-                call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U810));
+                call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U809));
             }
             (say__p = 1);
             ParaContent();
@@ -69093,15 +69101,15 @@ Global max_z_object;
             ParaContent();
             print "Your journey continues...";
             print "^";
-            BlkValueCopy((Global_Vars-->21), bc_U811);
+            BlkValueCopy((Global_Vars-->21), bc_U810);
             ((Global_Vars-->63) = 0);
             ((Global_Vars-->64) = 1);
             call_U2260();
             MoveObject(player, I_entrance_hall_U1, 0, 0);
             call_U2531();
-            call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U812));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U813));
-            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U814));
+            call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U811));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U812));
+            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U813));
             RulebookFails();
             rtrue;
         } else {
@@ -69125,20 +69133,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U215());
+    (RV = kernel1_U214());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U215;
+[ kernel1_U214;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_entrance_hall_note_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2402, 1062, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U815), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U816), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U814), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U815), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69154,19 +69162,19 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U216());
+    (RV = kernel1_U215());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U216;
+[ kernel1_U215;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2403, 1063, 0);
         }
         if ((noun == I_entrance_hall_note_U1)) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U817), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U818), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U816), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U817), 1);
         }
     } else {
         if ((debug_rules > 1)) {
@@ -69205,20 +69213,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U217());
+    (RV = kernel1_U216());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U217;
+[ kernel1_U216;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_desk_in_the_entrance_hall_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2405, 1065, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U819), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U820), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U818), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U819), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69234,13 +69242,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U218());
+    (RV = kernel1_U217());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U218;
+[ kernel1_U217;
     if ((((action == ##Open)) && ((((actor == player)) && ((noun == I_secret_drawer_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -69252,8 +69260,8 @@ Global max_z_object;
         ParaContent();
         print "^";
         if ((~~(TestActionBitmap(I_secret_drawer_U1, ##Open)))) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U821));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U822));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U820));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U821));
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69309,20 +69317,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U219());
+    (RV = kernel1_U218());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U219;
+[ kernel1_U218;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_library_note_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2409, 1069, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U823), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U824), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U822), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U823), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69441,18 +69449,18 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U220());
+    (RV = kernel1_U219());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U220;
+[ kernel1_U219;
     if ((((PAPR3)()) && (((((TimesActionHasHappened-->(ahc_id_U3)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U3))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2415, 1075, 0);
         }
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U825));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U824));
         rfalse;
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69503,7 +69511,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U221());
+    (RV = kernel1_U220());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -69511,7 +69519,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U221 tmp_0 ct_0 ct_1;
+[ kernel1_U220 tmp_0 ct_0 ct_1;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_teodor_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -69574,7 +69582,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U222());
+    (RV = kernel1_U221());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -69582,7 +69590,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U222;
+[ kernel1_U221;
     if ((parameter_value == I_teodor_U1)) {
         if (debug_rules) {
             DB_Rule(call_U2420, 1079, 0);
@@ -69619,18 +69627,18 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U223());
+    (RV = kernel1_U222());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U223;
+[ kernel1_U222;
     if ((((PAPR4)()) && (((((TimesActionHasHappened-->(ahc_id_U4)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U4))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2423, 1080, 0);
         }
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U826));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U825));
         rfalse;
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69646,13 +69654,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U224());
+    (RV = kernel1_U223());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U224;
+[ kernel1_U223;
     if ((((action == ##SwitchOn)) && ((((actor == player)) && ((noun == I_generator_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -69687,8 +69695,8 @@ Global max_z_object;
                         print "You switch the generator on.";
                         print "^";
                         call_U334(I_generator_U1);
-                        call_U2107(BlkValueCopy(I7SFRAME, bc_U827));
-                        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U828));
+                        call_U2107(BlkValueCopy(I7SFRAME, bc_U826));
+                        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U827));
                         RemoveFromPlay(I_fuel_can_U1);
                         RemoveFromPlay(I_fuse_U1);
                         WriteGProperty(OBJECT_TY, player, A_P_weight, (GProperty(OBJECT_TY, player, A_P_weight) - 2));
@@ -69712,27 +69720,27 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U225());
+    (RV = kernel1_U224());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U225;
+[ kernel1_U224;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_living_room_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2425, 1083, 0);
         }
         if (call_U243(I_living_room_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U829));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U828));
         }
         if ((GProperty(OBJECT_TY, I_living_room_U1, A_P_timer) == 0)) {
             WriteGProperty(OBJECT_TY, I_living_room_U1, A_P_timer, 1);
-            call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U830));
+            call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U829));
         }
-        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U831));
+        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U830));
         rfalse;
         RulebookSucceeds(0, 0);
         rtrue;
@@ -69747,18 +69755,18 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U226());
+    (RV = kernel1_U225());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U226;
+[ kernel1_U225;
     if ((((action == ##Go)) && ((((actor == player)) && (((((((MStack-->(MstVON(var_id_U42, 0))) == I_living_room_U1)) && (((MStack-->(MstVON(var_id_U42, 0))) ofclass K1_room)))) && (((MStack-->(MstVON(var_id_U42, 1))) ~= 0)))))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2426, 1084, 0);
         }
-        call_U2003(BlkValueCopy(I7SFRAME, bc_U832));
+        call_U2003(BlkValueCopy(I7SFRAME, bc_U831));
         WriteGProperty(OBJECT_TY, I_living_room_U1, A_P_timer, 0);
         rfalse;
         RulebookSucceeds(0, 0);
@@ -69783,7 +69791,7 @@ Global max_z_object;
     BlkValueCreateOnStack(14, TEXT_TY);
     BlkValueCreateOnStack(16, TEXT_TY);
     BlkValueCreateOnStack(18, TEXT_TY);
-    (RV = kernel1_U227());
+    (RV = kernel1_U226());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -69797,25 +69805,25 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U227;
+[ kernel1_U226;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2427, 1085, 0);
         }
         if ((I_living_room_U1 == ContainerOf(player))) {
-            call_U2105(BlkValueCopy(I7SFRAME, bc_U833));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U834));
+            call_U2105(BlkValueCopy(I7SFRAME, bc_U832));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U833));
             if ((GProperty(OBJECT_TY, player, A_P_difficulty) == I_unforgiving_U1)) {
-                call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U835));
-                call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U836));
+                call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U834));
+                call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U835));
             }
-            call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U837), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U838), 1);
-            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U839), 1);
+            call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U836), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U837), 1);
+            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U838), 1);
             (say__p = 1);
             ParaContent();
             print "^";
-            call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U840));
-            call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U841), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U842));
+            call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U839));
+            call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U840), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U841));
             (deadflag = 3);
             (story_complete = 1);
         } else {
@@ -69835,19 +69843,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U228());
+    (RV = kernel1_U227());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U228;
+[ kernel1_U227;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_library_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2428, 1086, 0);
         }
         if (call_U243(I_library_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U843));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U842));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -69885,20 +69893,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U229());
+    (RV = kernel1_U228());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U229;
+[ kernel1_U228;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_bookshelf_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2430, 1088, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U844), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U845), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U843), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U844), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -70047,13 +70055,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U230());
+    (RV = kernel1_U229());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U230;
+[ kernel1_U229;
     if ((((action == ##Pull)) && ((((actor == player)) && ((noun == I_wheel_book_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -70074,8 +70082,8 @@ Global max_z_object;
             call_U322(I_secret_door_U1);
             call_U304(I_secret_door_U1);
             call_U278(I_secret_door_U1);
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U846));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U847));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U845));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U846));
             (say__p = 1);
             ParaContent();
             print "^";
@@ -70099,19 +70107,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U231());
+    (RV = kernel1_U230());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U231;
+[ kernel1_U230;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_basement_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2436, 1094, 0);
         }
         if (call_U243(I_basement_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U848));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U847));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70160,21 +70168,21 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U232());
+    (RV = kernel1_U231());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U232;
+[ kernel1_U231;
     if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_golden_key_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2438, 1096, 0);
         }
         if ((~~(TestActionBitmap(I_golden_key_U1, ##Take)))) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U849));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U850));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U848));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U849));
         }
         (say__p = 1);
         ParaContent();
@@ -70201,7 +70209,7 @@ Global max_z_object;
     BlkValueCreateOnStack(6, TEXT_TY);
     BlkValueCreateOnStack(8, TEXT_TY);
     BlkValueCreateOnStack(10, TEXT_TY);
-    (RV = kernel1_U233());
+    (RV = kernel1_U232());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -70211,7 +70219,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U233;
+[ kernel1_U232;
     if ((((action == ##Insert)) && ((((actor == player)) && ((((noun ofclass K16_coin)) && ((second == I_game_machine_U1)))))))) {
         (self = noun);
         if (debug_rules) {
@@ -70236,7 +70244,7 @@ Global max_z_object;
             (say__p = 1);
             ParaContent();
             print "Press ";
-            call_U2080(BlkValueCopy(I7SFRAME, bc_U851), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U852));
+            call_U2080(BlkValueCopy(I7SFRAME, bc_U850), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U851));
             (say__p = 1);
             ParaContent();
             print " to play.";
@@ -70244,7 +70252,7 @@ Global max_z_object;
             (say__p = 1);
             ParaContent();
             print "Read ";
-            call_U2080(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U853), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U854));
+            call_U2080(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U852), BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U853));
             (say__p = 1);
             ParaContent();
             print ".";
@@ -70252,7 +70260,7 @@ Global max_z_object;
             (say__p = 1);
             ParaContent();
             print "View ";
-            call_U2080(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U855), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U856));
+            call_U2080(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U854), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U855));
             (say__p = 1);
             ParaContent();
             print ".";
@@ -70382,12 +70390,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U234());
+    (RV = kernel1_U233());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U234 tmp_0 ct_0 ct_1;
+[ kernel1_U233 tmp_0 ct_0 ct_1;
     if (call_U2527()) {
         if (debug_rules) {
             DB_Rule(call_U2444, 1104, 0);
@@ -70413,7 +70421,7 @@ Global max_z_object;
                 ParaContent();
                 DivideParagraphPoint();
                 print "^";
-                BlkValueCopy(GProperty(OBJECT_TY, I_game_machine_U1, A_P_asked_questions), bc_U857);
+                BlkValueCopy(GProperty(OBJECT_TY, I_game_machine_U1, A_P_asked_questions), bc_U856);
                 if ((GProperty(OBJECT_TY, I_game_machine_U1, A_P_times_won) > TableRows(table_data_U5))) {
                     (say__p = 1);
                     ParaContent();
@@ -70436,7 +70444,7 @@ Global max_z_object;
                 WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_loaded, 0);
                 WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_current_question, 0);
                 WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_correct_answers, 0);
-                BlkValueCopy((Global_Vars-->21), bc_U858);
+                BlkValueCopy((Global_Vars-->21), bc_U857);
             } else {
                 WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_current_question, (GProperty(OBJECT_TY, I_game_machine_U1, A_P_current_question) + 1));
                 call_U2528();
@@ -70448,12 +70456,12 @@ Global max_z_object;
             ParaContent();
             print "Wrong answer! Better luck next time!";
             print "^";
-            BlkValueCopy(GProperty(OBJECT_TY, I_game_machine_U1, A_P_asked_questions), bc_U859);
+            BlkValueCopy(GProperty(OBJECT_TY, I_game_machine_U1, A_P_asked_questions), bc_U858);
             WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_quiz_active, 0);
             WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_loaded, 0);
             WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_current_question, 0);
             WriteGProperty(OBJECT_TY, I_game_machine_U1, A_P_correct_answers, 0);
-            BlkValueCopy((Global_Vars-->21), bc_U860);
+            BlkValueCopy((Global_Vars-->21), bc_U859);
         }
         RulebookFails();
         rtrue;
@@ -70468,19 +70476,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U235());
+    (RV = kernel1_U234());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U235;
+[ kernel1_U234;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_gallery_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2445, 1105, 0);
         }
         if (call_U243(I_gallery_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U861));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U860));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70514,13 +70522,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U236());
+    (RV = kernel1_U235());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U236;
+[ kernel1_U235;
     if ((((action == ##Take)) && ((((actor == player)) && ((noun == I_red_key_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -70528,8 +70536,8 @@ Global max_z_object;
         }
         if (((Global_Vars-->66) == 0)) {
             ((Global_Vars-->66) = 1);
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U862));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U863));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U861));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U862));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70545,19 +70553,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U237());
+    (RV = kernel1_U236());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U237;
+[ kernel1_U236;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_sobaa_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2448, 1108, 0);
         }
         if (call_U243(I_sobaa_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U864));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U863));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70577,7 +70585,7 @@ Global max_z_object;
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
     BlkValueCreateOnStack(8, TEXT_TY);
-    (RV = kernel1_U238());
+    (RV = kernel1_U237());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -70586,7 +70594,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U238;
+[ kernel1_U237;
     if ((((action == ##Go)) && ((actor == player)))) {
         (self = noun);
         if (debug_rules) {
@@ -70594,13 +70602,13 @@ Global max_z_object;
         }
         if (call_U2000()) {
             if ((real_location == I_sobaa_U1)) {
-                call_U2003(BlkValueCopy(I7SFRAME, bc_U865));
+                call_U2003(BlkValueCopy(I7SFRAME, bc_U864));
             } else {
                 if ((real_location == I_sobab_U1)) {
-                    call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U866));
+                    call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U865));
                 } else {
                     if ((real_location == I_sobac_U1)) {
-                        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U867));
+                        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U866));
                     } else {
                         call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*8)), ts_array_U525)));
                     }
@@ -70707,19 +70715,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U239());
+    (RV = kernel1_U238());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U239;
+[ kernel1_U238;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_closet_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2455, 1114, 0);
         }
         if (call_U243(I_closet_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U868));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U867));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70756,19 +70764,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U240());
+    (RV = kernel1_U239());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U240;
+[ kernel1_U239;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_kitchen_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2457, 1116, 0);
         }
         if (call_U243(I_kitchen_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U869));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U868));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -70809,7 +70817,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U241());
+    (RV = kernel1_U240());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -70817,7 +70825,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U241 tmp_0 ct_0 ct_1;
+[ kernel1_U240 tmp_0 ct_0 ct_1;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_irena_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -70880,7 +70888,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U242());
+    (RV = kernel1_U241());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -70888,7 +70896,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U242;
+[ kernel1_U241;
     if ((parameter_value == I_irena_U1)) {
         if (debug_rules) {
             DB_Rule(call_U2462, 1119, 0);
@@ -70950,7 +70958,7 @@ Global max_z_object;
         ParaContent();
         print "It's locked. There seems to be a keypad lock on this.";
         print "^";
-        BlkValueCopy((Global_Vars-->21), bc_U870);
+        BlkValueCopy((Global_Vars-->21), bc_U869);
         RulebookFails(0, 0);
         rtrue;
     } else {
@@ -70966,15 +70974,15 @@ Global max_z_object;
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
-    (RV = kernel1_U243());
+    (RV = kernel1_U242());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U243;
-    if (((BlkValueCompare)((Global_Vars-->21),bc_U871) == 0)) {
+[ kernel1_U242;
+    if (((BlkValueCompare)((Global_Vars-->21),bc_U870) == 0)) {
         if (debug_rules) {
             DB_Rule(call_U2467, 1122, 0);
         }
@@ -70983,18 +70991,18 @@ Global max_z_object;
             ParaContent();
             print "The lock beeps and clicks open!";
             print "^";
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U872));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U873));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U871));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U872));
             call_U322(I_fridge_U1);
             WriteGProperty(OBJECT_TY, I_fridge_U1, A_P_code, 1);
-            BlkValueCopy((Global_Vars-->21), bc_U874);
+            BlkValueCopy((Global_Vars-->21), bc_U873);
         } else {
             (say__p = 1);
             ParaContent();
             print "The lock beeps angrily. Wrong code!";
             print "^";
-            BlkValueCopy((Global_Vars-->21), bc_U875);
-            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U876));
+            BlkValueCopy((Global_Vars-->21), bc_U874);
+            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U875));
             call_U2507(I_kitchen_U1);
         }
         RulebookFails();
@@ -71010,19 +71018,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U244());
+    (RV = kernel1_U243());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U244;
+[ kernel1_U243;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_dining_room_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2468, 1123, 0);
         }
         if (call_U243(I_dining_room_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U877));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U876));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71062,13 +71070,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U245());
+    (RV = kernel1_U244());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U245;
+[ kernel1_U244;
     if ((((PAPR5)()) && (((((TimesActionHasHappened-->(ahc_id_U5)) == 1)) && ((ActionCurrentlyHappeningFlag->(ahc_id_U5))))))) {
         (self = noun);
         if (debug_rules) {
@@ -71076,8 +71084,8 @@ Global max_z_object;
         }
         if (((Global_Vars-->67) == 0)) {
             ((Global_Vars-->67) = 1);
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U878));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U879));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U877));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U878));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71094,20 +71102,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U246());
+    (RV = kernel1_U245());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U246;
+[ kernel1_U245;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_mysterious_note_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2471, 1126, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U880), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U881), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U879), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U880), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -71141,19 +71149,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U247());
+    (RV = kernel1_U246());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U247;
+[ kernel1_U246;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_pantry_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2473, 1128, 0);
         }
         if (call_U243(I_pantry_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U882));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U881));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71189,20 +71197,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U248());
+    (RV = kernel1_U247());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U248;
+[ kernel1_U247;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_kitchen_note_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2475, 1130, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U883), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U884), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U882), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U883), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -71217,19 +71225,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U249());
+    (RV = kernel1_U248());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U249;
+[ kernel1_U248;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_attic_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2476, 1131, 0);
         }
         if (call_U243(I_attic_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U885));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U884));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71270,7 +71278,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U250());
+    (RV = kernel1_U249());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -71278,7 +71286,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U250 tmp_0 ct_0 ct_1;
+[ kernel1_U249 tmp_0 ct_0 ct_1;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_boris_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -71341,7 +71349,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U251());
+    (RV = kernel1_U250());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -71349,7 +71357,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U251;
+[ kernel1_U250;
     if ((parameter_value == I_boris_U1)) {
         if (debug_rules) {
             DB_Rule(call_U2481, 1134, 0);
@@ -71431,7 +71439,7 @@ Global max_z_object;
     BlkValueCreateOnStack(26, TEXT_TY);
     BlkValueCreateOnStack(28, TEXT_TY);
     BlkValueCreateOnStack(30, TEXT_TY);
-    (RV = kernel1_U252());
+    (RV = kernel1_U251());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -71451,7 +71459,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U252 ct_0 ct_1 tmp_0 tmp_1;
+[ kernel1_U251 ct_0 ct_1 tmp_0 tmp_1;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_shop_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -71469,19 +71477,19 @@ Global max_z_object;
             print " see the following items for sale:";
             ParaContent();
             print "^";
-            call_U2022(BlkValueCopy(I7SFRAME, bc_U886), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U887));
-            call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U888));
-            call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U889), BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U890));
-            call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U891), BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U892));
+            call_U2022(BlkValueCopy(I7SFRAME, bc_U885), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U886));
+            call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U887));
+            call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U888), BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U889));
+            call_U2028(BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U890), BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U891));
             call_U2025();
             @push ct_0;
             @push ct_1;
             for (((tmp_0 = table_data_U9),((tmp_1 = 1),((ct_0 = tmp_0),(ct_1 = tmp_1)))):(tmp_1 <= TableRows(tmp_0)):((tmp_1)++,((ct_0 = tmp_0),(ct_1 = tmp_1)))) {
                 if ((TableRowIsBlank(ct_0, ct_1) == 0)) {
                     if ((TableLookUpEntry(ct_0, table_column_id_U21, ct_1) == 0)) {
-                        call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U893));
-                        call_U2026(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U894), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U895), BlkValueCopy((I7SFRAME + (WORDSIZE*20)), (((LocalParking-->(0)) = ct_0),(((LocalParking-->(1)) = ct_1),(((LocalParking-->(2)) = tmp_0),(((LocalParking-->(3)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*22)), ts_array_U534)))))));
-                        call_U2026(BlkValueCopy((I7SFRAME + (WORDSIZE*24)), bc_U896), BlkValueCopy((I7SFRAME + (WORDSIZE*26)), bc_U897), BlkValueCopy((I7SFRAME + (WORDSIZE*28)), (((LocalParking-->(0)) = ct_0),(((LocalParking-->(1)) = ct_1),(((LocalParking-->(2)) = tmp_0),(((LocalParking-->(3)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*30)), ts_array_U535)))))));
+                        call_U2024(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U892));
+                        call_U2026(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U893), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U894), BlkValueCopy((I7SFRAME + (WORDSIZE*20)), (((LocalParking-->(0)) = ct_0),(((LocalParking-->(1)) = ct_1),(((LocalParking-->(2)) = tmp_0),(((LocalParking-->(3)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*22)), ts_array_U534)))))));
+                        call_U2026(BlkValueCopy((I7SFRAME + (WORDSIZE*24)), bc_U895), BlkValueCopy((I7SFRAME + (WORDSIZE*26)), bc_U896), BlkValueCopy((I7SFRAME + (WORDSIZE*28)), (((LocalParking-->(0)) = ct_0),(((LocalParking-->(1)) = ct_1),(((LocalParking-->(2)) = tmp_0),(((LocalParking-->(3)) = tmp_1),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*30)), ts_array_U535)))))));
                         call_U2025();
                     }
                 }
@@ -71659,13 +71667,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U253());
+    (RV = kernel1_U252());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U253 tmp_0 ct_0 ct_1 tmp_1 tmp_2;
+[ kernel1_U252 tmp_0 ct_0 ct_1 tmp_1 tmp_2;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2493, 1141, 0);
@@ -71702,8 +71710,8 @@ Global max_z_object;
         print "^";
         if (((Global_Vars-->68) == 0)) {
             ((Global_Vars-->68) = 1);
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U898));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U899));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U897));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U898));
         }
     } else {
         if ((debug_rules > 1)) {
@@ -71738,19 +71746,19 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U254());
+    (RV = kernel1_U253());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U254;
+[ kernel1_U253;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_study_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2495, 1143, 0);
         }
         if (call_U243(I_study_U1)) {
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U900));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U899));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71767,20 +71775,20 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U255());
+    (RV = kernel1_U254());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U255;
+[ kernel1_U254;
     if ((((action == ##Examine)) && ((((actor == player)) && ((noun == I_photo_U1)))))) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U2496, 1144, 0);
         }
         if (call_U2000()) {
-            call_U2101(BlkValueCopy(I7SFRAME, bc_U901), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U902), 1);
+            call_U2101(BlkValueCopy(I7SFRAME, bc_U900), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U901), 1);
         }
         RulebookSucceeds(0, 0);
         rtrue;
@@ -71798,7 +71806,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U256());
+    (RV = kernel1_U255());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -71806,12 +71814,12 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U256;
+[ kernel1_U255;
     if (debug_rules) {
         DB_Rule(call_U2497, 1145, 0);
     }
     if (((TEXT_TY_Replace_RE(CHR_BLOB, SNIPPET_TY_to_TEXT_TY(I7SFRAME, players_command), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*2)), ts_array_U536), 0, 0)) || (TEXT_TY_Replace_RE(CHR_BLOB, SNIPPET_TY_to_TEXT_TY((I7SFRAME + (WORDSIZE*4)), players_command), TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*6)), ts_array_U537), 0, 0)))) {
-        SpliceSnippet(matched_text, bc_U903);
+        SpliceSnippet(matched_text, bc_U902);
         rfalse;
     }
     rfalse;
@@ -71854,19 +71862,19 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U257());
+    (RV = kernel1_U256());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U257;
+[ kernel1_U256;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2501, 1147, 0);
         }
-        call_U2107(BlkValueCopy(I7SFRAME, bc_U904));
-        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U905));
+        call_U2107(BlkValueCopy(I7SFRAME, bc_U903));
+        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U904));
         (say__p = 1);
         ParaContent();
         print "You disappear into a cloud of fog.";
@@ -71883,12 +71891,12 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U258());
+    (RV = kernel1_U257());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U258;
+[ kernel1_U257;
     if ((((action == ##Go)) && ((((actor == player)) && (((MStack-->(MstVON(var_id_U42, 1))) == I_bedroom_U1)))))) {
         (self = noun);
         if (debug_rules) {
@@ -71896,7 +71904,7 @@ Global max_z_object;
         }
         if (((Global_Vars-->69) == 0)) {
             ((Global_Vars-->69) = 1);
-            call_U2107(BlkValueCopy(I7SFRAME, bc_U906));
+            call_U2107(BlkValueCopy(I7SFRAME, bc_U905));
         }
         rfalse;
         RulebookSucceeds(0, 0);
@@ -71921,7 +71929,7 @@ Global max_z_object;
     BlkValueCreateOnStack(14, TEXT_TY);
     BlkValueCreateOnStack(16, TEXT_TY);
     BlkValueCreateOnStack(18, TEXT_TY);
-    (RV = kernel1_U259());
+    (RV = kernel1_U258());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -71935,25 +71943,25 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U259;
+[ kernel1_U258;
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U2503, 1149, 0);
         }
         if ((I_bedroom_U1 == ContainerOf(player))) {
-            call_U2105(BlkValueCopy(I7SFRAME, bc_U907));
-            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U908));
+            call_U2105(BlkValueCopy(I7SFRAME, bc_U906));
+            call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U907));
             if ((GProperty(OBJECT_TY, player, A_P_difficulty) == I_unforgiving_U1)) {
-                call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U909));
-                call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U910));
+                call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U908));
+                call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U909));
             }
-            call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U911), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U912), 1);
-            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U913), 1);
+            call_U2101(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U910), BlkValueCopy((I7SFRAME + (WORDSIZE*10)), bc_U911), 1);
+            call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U912), 1);
             (say__p = 1);
             ParaContent();
             print "^";
-            call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U914));
-            call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U915), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U916));
+            call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U913));
+            call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U914), BlkValueCopy((I7SFRAME + (WORDSIZE*18)), bc_U915));
             (deadflag = 3);
             (story_complete = 1);
         } else {
@@ -72183,7 +72191,7 @@ Global max_z_object;
     BlkValueCreateOnStack(16, TEXT_TY);
     BlkValueCreateOnStack(18, TEXT_TY);
     BlkValueCreateOnStack(20, TEXT_TY);
-    (RV = kernel1_U260(t_0));
+    (RV = kernel1_U259(t_0));
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -72198,14 +72206,14 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U260 t_0;
+[ kernel1_U259 t_0;
     WriteGProperty(OBJECT_TY, player, A_P_lives, (GProperty(OBJECT_TY, player, A_P_lives) - 1));
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U918));
+    call_U2003(BlkValueCopy(I7SFRAME, bc_U917));
     if (((Global_Vars-->59) == 0)) {
         ((Global_Vars-->59) = 1);
-        call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U919));
-        call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U920));
-        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U921));
+        call_U2105(BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U918));
+        call_U2107(BlkValueCopy((I7SFRAME + (WORDSIZE*4)), bc_U919));
+        call_U2529(BlkValueCopy((I7SFRAME + (WORDSIZE*6)), bc_U920));
     }
     if ((GProperty(OBJECT_TY, player, A_P_lives) == 0)) {
         (say__p = 1);
@@ -72214,7 +72222,7 @@ Global max_z_object;
         ParaContent();
         print "You are out of lives!";
         print "^";
-        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U922));
+        call_U2003(BlkValueCopy((I7SFRAME + (WORDSIZE*8)), bc_U921));
         (deadflag = (((LocalParking-->(0)) = t_0),TEXT_TY_ExpandIfPerishable((I7SFRAME + (WORDSIZE*10)), ts_array_U538)));
         BlkValueIncRefCountPrimitive(deadflag);
         (story_complete = 0);
@@ -72222,8 +72230,8 @@ Global max_z_object;
         (say__p = 1);
         ParaContent();
         print "^";
-        call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U923));
-        call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U924), BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U925));
+        call_U2031(BlkValueCopy((I7SFRAME + (WORDSIZE*12)), bc_U922));
+        call_U2039(BlkValueCopy((I7SFRAME + (WORDSIZE*14)), bc_U923), BlkValueCopy((I7SFRAME + (WORDSIZE*16)), bc_U924));
         (say__p = 1);
         ParaContent();
         print "^";
@@ -72262,7 +72270,7 @@ Global max_z_object;
     BlkValueCreateOnStack(2, TEXT_TY);
     BlkValueCreateOnStack(4, TEXT_TY);
     BlkValueCreateOnStack(6, TEXT_TY);
-    (RV = kernel1_U261());
+    (RV = kernel1_U260());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     BlkValueFreeOnStack(4);
@@ -72270,7 +72278,7 @@ Global max_z_object;
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U261 tmp_0 tmp_1 tmp_2 tmp_3 tmp_4;
+[ kernel1_U260 tmp_0 tmp_1 tmp_2 tmp_3 tmp_4;
     (tmp_0 = (call_U2511)());
     (tmp_1 = 0);
     if ((player == CarrierOf(I_backpack_U1))) {
@@ -72359,13 +72367,13 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U262());
+    (RV = kernel1_U261());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U262;
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U926));
+[ kernel1_U261;
+    call_U2003(BlkValueCopy(I7SFRAME, bc_U925));
     call_U2510();
     rfalse;
 ];
@@ -72373,13 +72381,13 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U263());
+    (RV = kernel1_U262());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U263;
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U927));
+[ kernel1_U262;
+    call_U2003(BlkValueCopy(I7SFRAME, bc_U926));
     rfalse;
 ];
 [ call_U2517 RV;
@@ -72387,26 +72395,39 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U264());
+    (RV = kernel1_U263());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U264;
+[ kernel1_U263;
     if (call_U2000()) {
-        call_U2085(BlkValueCopy(I7SFRAME, bc_U928), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U929));
+        call_U2085(BlkValueCopy(I7SFRAME, bc_U927), BlkValueCopy((I7SFRAME + (WORDSIZE*2)), bc_U928));
     }
     rfalse;
 ];
 [ call_U2518;
-    if (((BlkValueCompare)((Global_Vars-->21),bc_U930) == 0)) {
+    if (((BlkValueCompare)((Global_Vars-->21),bc_U929) == 0)) {
         rtrue;
     }
     rfalse;
     rfalse;
 ];
 [ call_U2519 RV;
+    @push I7SFRAME;
+    StackFrameCreate(2);
+    BlkValueCreateOnStack(0, TEXT_TY);
+    (RV = kernel1_U264());
+    BlkValueFreeOnStack(0);
+    @pull I7SFRAME;
+    return RV;
+];
+[ kernel1_U264;
+    call_U2003(BlkValueCopy(I7SFRAME, bc_U930));
+    rfalse;
+];
+[ call_U2520 RV;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -72419,7 +72440,7 @@ Global max_z_object;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U931));
     rfalse;
 ];
-[ call_U2520 RV;
+[ call_U2521 RV;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -72432,7 +72453,7 @@ Global max_z_object;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U932));
     rfalse;
 ];
-[ call_U2521 RV;
+[ call_U2522 RV;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -72445,7 +72466,7 @@ Global max_z_object;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U933));
     rfalse;
 ];
-[ call_U2522 RV;
+[ call_U2523 RV;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -72458,7 +72479,7 @@ Global max_z_object;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U934));
     rfalse;
 ];
-[ call_U2523 RV;
+[ call_U2524 RV;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -72469,19 +72490,6 @@ Global max_z_object;
 ];
 [ kernel1_U269;
     call_U2003(BlkValueCopy(I7SFRAME, bc_U935));
-    rfalse;
-];
-[ call_U2524 RV;
-    @push I7SFRAME;
-    StackFrameCreate(2);
-    BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U270());
-    BlkValueFreeOnStack(0);
-    @pull I7SFRAME;
-    return RV;
-];
-[ kernel1_U270;
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U936));
     rfalse;
 ];
 [ call_U2525 ct_0 ct_1 tmp_0 tmp_1;
@@ -72539,14 +72547,14 @@ Global max_z_object;
     BlkValueCreateOnStack(0, DK6_list_of_numbers);
     BlkValueCreateOnStack(1, TEXT_TY);
     BlkValueCreateOnStack(3, TEXT_TY);
-    (RV = kernel1_U271());
+    (RV = kernel1_U270());
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(1);
     BlkValueFreeOnStack(3);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U271 tmp_0 tmp_1 tmp_2 tmp_3 ct_0 ct_1;
+[ kernel1_U270 tmp_0 tmp_1 tmp_2 tmp_3 ct_0 ct_1;
     (tmp_0 = I7SFRAME);
     for ((tmp_1 = 1):(tmp_1 <= TableRows(table_data_U6)):(tmp_1)++) {
         if ((LIST_OF_TY_FindItem(GProperty(OBJECT_TY, I_game_machine_U1, A_P_asked_questions), tmp_1) == 0)) {
@@ -72574,14 +72582,14 @@ Global max_z_object;
     ParaContent();
     DivideParagraphPoint();
     print "^";
-    if ((((~~(((BlkValueCompare)(TableLookUpEntry(ct_0, table_column_id_U18, ct_1),bc_U937) == 0)))) && (call_U2000()))) {
-        call_U2101(BlkValueCopy((I7SFRAME + WORDSIZE), TableLookUpEntry(ct_0, table_column_id_U18, ct_1)), BlkValueCopy((I7SFRAME + (WORDSIZE*3)), bc_U938), 1);
+    if ((((~~(((BlkValueCompare)(TableLookUpEntry(ct_0, table_column_id_U18, ct_1),bc_U936) == 0)))) && (call_U2000()))) {
+        call_U2101(BlkValueCopy((I7SFRAME + WORDSIZE), TableLookUpEntry(ct_0, table_column_id_U18, ct_1)), BlkValueCopy((I7SFRAME + (WORDSIZE*3)), bc_U937), 1);
         (say__p = 1);
         ParaContent();
         DivideParagraphPoint();
         print "^";
     }
-    BlkValueCopy((Global_Vars-->21), bc_U939);
+    BlkValueCopy((Global_Vars-->21), bc_U938);
     rfalse;
 ];
 [ call_U2529 t_0 RV;
@@ -72589,13 +72597,13 @@ Global max_z_object;
     StackFrameCreate(4);
     BlkValueCreateOnStack(0, TEXT_TY);
     BlkValueCreateOnStack(2, TEXT_TY);
-    (RV = kernel1_U272(t_0));
+    (RV = kernel1_U271(t_0));
     BlkValueFreeOnStack(0);
     BlkValueFreeOnStack(2);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U272 t_0 ct_0 ct_1 tmp_0 tmp_1;
+[ kernel1_U271 t_0 ct_0 ct_1 tmp_0 tmp_1;
     @push ct_0;
     @push ct_1;
     for (((tmp_0 = table_data_U10),((tmp_1 = 1),((ct_0 = tmp_0),(ct_1 = tmp_1)))):(tmp_1 <= TableRows(tmp_0)):((tmp_1)++,((ct_0 = tmp_0),(ct_1 = tmp_1)))) {
@@ -72628,13 +72636,13 @@ Global max_z_object;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
-    (RV = kernel1_U273());
+    (RV = kernel1_U272());
     BlkValueFreeOnStack(0);
     @pull I7SFRAME;
     return RV;
 ];
-[ kernel1_U273;
-    call_U2003(BlkValueCopy(I7SFRAME, bc_U940));
+[ kernel1_U272;
+    call_U2003(BlkValueCopy(I7SFRAME, bc_U939));
     rfalse;
 ];
 [ ConjugateVerb1 fn vp t modal_to;

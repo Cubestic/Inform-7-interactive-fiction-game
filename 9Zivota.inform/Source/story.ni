@@ -150,8 +150,8 @@ After issuing the response text of a response (called R):
 This is the game restart rule:
 	execute JavaScript command "location.reload();".
 	
-This is the game quit rule:
-	execute JavaScript command "window.close();".
+[This is the game quit rule:
+	execute JavaScript command "window.close();".]
 		
 When play begins:
 	choose row with a final response rule of immediately restart the VM rule in the Table of Final Question Options;
@@ -159,12 +159,16 @@ When play begins:
 	choose row with a final response rule of immediately restore saved game rule in the Table of Final Question Options;
 	blank out the final question wording entry;
 	choose row with a final response rule of immediately quit rule in the Table of Final Question Options;
-	now the final response rule entry is the game quit rule;
+	[now the final response rule entry is the game quit rule;]
+	blank out the final question wording entry;
 	choose row with a final response rule of immediately undo rule in the Table of Final Question Options;
 	blank out the final question wording entry.
 
 Check restoring the game:
-	say "Restoring saved games is not allowed in this game." instead.
+	say "Restoring saved game is not allowed in this game." instead.
+	
+Check quitting the game:
+	say "Quitting is not allowed in this game." instead.
 	
 Use undo prevention.
 
@@ -695,7 +699,7 @@ After reading a command when tezina is true:
 		
 Part - Entrance hall
 
-The entrance hall note is on the desk in the Entrance hall. The printed name of the entrance hall note is "note".
+The entrance hall note is on the desk in the Entrance hall. The printed name of the entrance hall note is "entrance note".
 The description is "[player's full name] isn't allowed to go in. The brown door is locked, and the key's in the drawer. I wrote down how to open it, just in case you forgot.[line break]D."
 
 After examining the entrance hall note:
