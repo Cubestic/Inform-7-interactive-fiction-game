@@ -1,5 +1,5 @@
 Debugging log of inform7
-inform7 was called as: C:\Program Files\Inform\Compilers\inform7 -release -internal C:\Program Files\Inform\Internal -external C:\Users\Cubestic\Documents\Inform -project C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform -format=Inform6/32
+inform7 was called as: C:\Program Files\Inform\Compilers\inform7 -release -internal C:\Program Files\Inform\Internal -external C:\Users\Cubestic\Documents\Inform -project C:\test\Inform-7-interactive-fiction-game\9Zivota.inform -format=Inform6/32
 Reading further switches from file: <no file>
 Completed expert settings file
 Using Inform kit 'BasicInformKit' (priority 0).
@@ -31,6 +31,7 @@ I've also read Vorple Element Manipulation by Juhana Leinonen, which is 1738 wor
 Phase I ... Dividing source into compilation units
 -----------------------------------------------------
 
+.... Task__write_XML_headings_file() took 1cs
 
 
 -----------------------------------------------------
@@ -48,27 +49,28 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModel
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Figures.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Sounds.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandParserKit\kinds\Parsing.neptune
+.... Task__make_built_in_kind_constructors() took 1cs
 
 
 -----------------------------------------------------
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 11cs
+.... MajorNodes__pre_pass() took 22cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 8cs
+.... MajorNodes__pass_1() took 14cs
 
 
 -----------------------------------------------------
 Phase V ... Second pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_2() took 1cs
+.... MajorNodes__pass_2() took 3cs
 
 
 -----------------------------------------------------
@@ -93,30 +95,31 @@ Phase VIII ... Tables and grammar
 Phase IX ... Augment model world
 -----------------------------------------------------
 
-.... World__stage_V() took 1cs
+.... World__stage_V() took 3cs
 
 
 -----------------------------------------------------
 Phase X ... Phrases and rules
 -----------------------------------------------------
 
-.... ImperativeDefinitions__assess_all() took 5cs
+.... ImperativeDefinitions__assess_all() took 11cs
 
 
 -----------------------------------------------------
 Phase XI ... Generating inter (1)
 -----------------------------------------------------
 
-.... RTKindConstructors__compile() took 5cs
+.... RTKindConstructors__compile() took 12cs
 
 
 -----------------------------------------------------
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... CompletionModule__compile() took 1cs
-.... RTKindConstructors__compile_permissions() took 1cs
-.... ImperativeDefinitions__compile_first_block() took 1cs
+.... CompletionModule__compile() took 2cs
+.... RTKindConstructors__compile_permissions() took 2cs
+.... InferenceSubjects__emit_all() took 1cs
+.... ImperativeDefinitions__compile_first_block() took 2cs
 
 
 ==== Phase XII.1 ... Slashing command grammar ====
@@ -137,9 +140,9 @@ Switch val is LOCAL_VARIABLE_NT'hex value' {local: LV"hex value"-number number}
  for kind number pointery 0
 Switch val is LOCAL_VARIABLE_NT'type' {local: LV"type"-notification type notification type}
  for kind notification type pointery 0
-.... Sequence__undertake_queued_tasks() took 162cs
-.... Sequence__undertake_queued_tasks() took 1cs
-.... RTPhrasebook__compile_entries() took 4cs
+.... Sequence__undertake_queued_tasks() took 403cs
+.... Sequence__undertake_queued_tasks() took 2cs
+.... RTPhrasebook__compile_entries() took 10cs
 
 
 -----------------------------------------------------
@@ -160,22 +163,23 @@ Phase XIV ... Generating inter (4)
 Phase XV ... Generating inter (5)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 1cs
+.... Sequence__undertake_queued_tasks() took 2cs
 Providing for a total heap of 8192, given requirement of 8192
-.... Sequence__lint_inter() took 2cs
+.... Sequence__lint_inter() took 5cs
 
 
 -----------------------------------------------------
 Phase XVI ... Bibliographic work
 -----------------------------------------------------
 
+.... ReleaseInstructions__write_ifiction_and_blurb() took 1cs
 
 
 -----------------------------------------------------
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 216 centiseconds
+Compile CPU time: 511 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -8918,7 +8922,7 @@ HTML tag stack:
     30. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 140cs
+Back end elapsed time: 511cs
 Total of 146 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789

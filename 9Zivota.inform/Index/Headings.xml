@@ -9,294 +9,294 @@
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>3</integer>
         <key>Title</key><string>Part - Game setup</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Chapter - Extensions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>19</integer>
         <key>Title</key><string>Chapter - Images</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>38</integer>
         <key>Title</key><string>Chapter - Audio</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>68</integer>
         <key>Title</key><string>Chapter - Font</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>72</integer>
         <key>Title</key><string>Chapter - HTML</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>8</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>76</integer>
         <key>Title</key><string>Chapter - CSS</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>80</integer>
         <key>Title</key><string>Part - Rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>10</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>122</integer>
         <key>Title</key><string>Part - Doors</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>11</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>144</integer>
         <key>Title</key><string>Part - Command</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>12</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>201</integer>
         <key>Title</key><string>Part - Dying</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>13</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>296</integer>
         <key>Title</key><string>Part - Inventory</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>14</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>317</integer>
         <key>Title</key><string>Chapter - Backpack</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>400</integer>
         <key>Title</key><string>Part - Status line</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>16</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>409</integer>
         <key>Title</key><string>Part - Map</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>17</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>438</integer>
         <key>Title</key><string>Part - Title screen</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>18</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>455</integer>
         <key>Title</key><string>Part - Tutorial</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>19</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>457</integer>
         <key>Title</key><string>Chapter - Player's name</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>20</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>488</integer>
         <key>Title</key><string>Chapter - Garage</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>21</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>516</integer>
         <key>Title</key><string>Chapter - Hallway</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>22</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>525</integer>
         <key>Title</key><string>Chapter - Storeroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>23</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>618</integer>
         <key>Title</key><string>Chapter - Difficulty</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>24</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>700</integer>
         <key>Title</key><string>Part - Entrance hall</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>25</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>805</integer>
         <key>Title</key><string>Part - Bathroom</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>26</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>850</integer>
         <key>Title</key><string>Part - Utility room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>27</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>891</integer>
         <key>Title</key><string>Part - Living room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>28</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>900</integer>
         <key>Title</key><string>Chapter - Secret ending</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>951</integer>
         <key>Title</key><string>Part - Library</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>30</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1022</integer>
         <key>Title</key><string>Part - Basement</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>31</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1220</integer>
         <key>Title</key><string>Part - Gallery</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>32</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1249</integer>
         <key>Title</key><string>Part - Balcony</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>33</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1274</integer>
         <key>Title</key><string>Chapter - Player's weight</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>34</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1289</integer>
         <key>Title</key><string>Part - Closet</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>35</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1302</integer>
         <key>Title</key><string>Part - Kitchen</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>36</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1372</integer>
         <key>Title</key><string>Part - Dining room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>37</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1408</integer>
         <key>Title</key><string>Part - Pantry</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>38</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1428</integer>
         <key>Title</key><string>Part - Attic</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>39</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1479</integer>
         <key>Title</key><string>Chapter - Attic items</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>40</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1578</integer>
         <key>Title</key><string>Part - Study</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>41</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1611</integer>
         <key>Title</key><string>Part - Bedroom (Ending)</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>42</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.inform\Source\story.ni</string>
         <key>Line</key><integer>1642</integer>
         <key>Title</key><string>Part - Achievements</string>
         <key>Level</key><integer>3</integer>
@@ -1534,483 +1534,483 @@
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>219</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>220</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>6</integer>
         <key>Title</key><string>Chapter 1 - Awarding achievements</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>221</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>47</integer>
         <key>Title</key><string>Chapter 2 - Helper phrases</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>222</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>70</integer>
         <key>Title</key><string>Chapter 3 - ACHIEVEMENTS command</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>223</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>95</integer>
         <key>Title</key><string>Chapter 4 - When play ends</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>224</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>120</integer>
         <key>Title</key><string>Chapter 5 - Persistent achievements</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>225</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Achievements-v1.i7x</string>
         <key>Line</key><integer>160</integer>
         <key>Title</key><string>Chapter 6 - Persistent achievements Z-code dummy</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>226</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>227</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Chapter 1 - Queueing parser commands</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>228</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>18</integer>
         <key>Title</key><string>Chapter 2 - Command history</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>229</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>34</integer>
         <key>Title</key><string>Chapter 3 - Prefilling the command line</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>230</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>40</integer>
         <key>Title</key><string>Chapter 4 - Changing the previous command</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>231</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Command Prompt Control.i7x</string>
         <key>Line</key><integer>46</integer>
         <key>Title</key><string>Chapter 5 - Hiding the prompt</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>232</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>233</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Chapter 1 - Placing links</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>234</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>12</integer>
         <key>Title</key><string>Section 1 - Web sites</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>235</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>40</integer>
         <key>Title</key><string>Section 2 - Commands</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>236</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>72</integer>
         <key>Title</key><string>Section 3 - JavaScript commands</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>237</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Hyperlinks.i7x</string>
         <key>Line</key><integer>83</integer>
         <key>Title</key><string>Chapter 2 - Disabling links</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>238</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>239</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Chapter 1 - Modal windows</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>240</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Modal Windows.i7x</string>
         <key>Line</key><integer>28</integer>
         <key>Title</key><string>Chapter 2 - Waiting for keypress</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>241</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>242</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Chapter 1 - Images</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>243</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Multimedia.i7x</string>
         <key>Line</key><integer>47</integer>
         <key>Title</key><string>Chapter 2 - Audio</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>244</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>245</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Chapter 1 - Displaying notifications</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>246</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Notifications.i7x</string>
         <key>Line</key><integer>52</integer>
         <key>Title</key><string>Chapter 2 - Fallback</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>247</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>248</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>11</integer>
         <key>Title</key><string>Section 1 - Centering text in Glulx</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>249</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>75</integer>
         <key>Title</key><string>Section 2 - Text with alignment</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>250</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>87</integer>
         <key>Title</key><string>Section 3 - Displaying boxed quotations</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>251</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>100</integer>
         <key>Title</key><string>Section 4 - Showing the current quotation</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>252</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>111</integer>
         <key>Title</key><string>Section 5 - Styles</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>253</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>145</integer>
         <key>Title</key><string>Section 6 - Colors</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>254</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>182</integer>
         <key>Title</key><string>Section 7 - Headers</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>255</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>191</integer>
         <key>Title</key><string>Section 8 - Lists</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>256</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Screen Effects.i7x</string>
         <key>Line</key><integer>212</integer>
         <key>Title</key><string>Section 9 - Clearing the screen</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>257</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Status Line.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Status Line.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>258</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Status Line.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Status Line.i7x</string>
         <key>Line</key><integer>13</integer>
         <key>Title</key><string>Chapter 1 - Constructing the status line</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>259</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>260</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>12</integer>
         <key>Title</key><string>Chapter 1 - Tooltips on mouseover</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>261</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>31</integer>
         <key>Title</key><string>Chapter 2 - Manually triggered tooltips</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>262</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>52</integer>
         <key>Title</key><string>Chapter 3 - Tooltips on the prompt</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>263</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>76</integer>
         <key>Title</key><string>Chapter 4 - Hiding tooltips</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>264</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Tooltips.i7x</string>
         <key>Line</key><integer>85</integer>
         <key>Title</key><string>Chapter 5 - Initialization</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>265</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>266</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>8</integer>
         <key>Title</key><string>Chapter 1 - Run-time errors</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>267</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>14</integer>
         <key>Title</key><string>Chapter 2 - Interpreter handshake</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>268</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>47</integer>
         <key>Title</key><string>Chapter 3 - JavaScript code execution</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>269</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>49</integer>
         <key>Title</key><string>Section 1 - Executing code</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>270</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>60</integer>
         <key>Title</key><string>Section 2 - Return values</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>271</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>173</integer>
         <key>Title</key><string>Section 3 - Escaping text for JavaScript</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>272</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>244</integer>
         <key>Title</key><string>Chapter 4 - HTML tags</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>273</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>246</integer>
         <key>Title</key><string>Section 1 - Opening and closing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>274</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>258</integer>
         <key>Title</key><string>Section 2 - Placing elements</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>275</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>297</integer>
         <key>Title</key><string>Section 3 - Displaying content</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>276</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>307</integer>
         <key>Title</key><string>Section 4 - Output focus</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>277</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>316</integer>
         <key>Title</key><string>Section 5 - Counting and testing for existence</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>278</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>333</integer>
         <key>Title</key><string>Section 6 - Scrolling</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>279</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>342</integer>
         <key>Title</key><string>Section 7 - Line break workarounds</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>280</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>351</integer>
         <key>Title</key><string>Chapter 5 - User Interface rulebooks</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>281</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>353</integer>
         <key>Title</key><string>Section 1 - Interface setup rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>282</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>367</integer>
         <key>Title</key><string>Section 2 - Interface update rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>283</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>374</integer>
         <key>Title</key><string>Chapter 6 - Prompt</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>284</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>447</integer>
         <key>Title</key><string>Chapter 7 - Unique identifiers</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>285</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>457</integer>
         <key>Title</key><string>Chapter 8 - UI blocking</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>286</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>466</integer>
         <key>Title</key><string>Chapter 9 - Window title</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>287</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple.i7x</string>
         <key>Line</key><integer>472</integer>
         <key>Title</key><string>Chapter 10 - Credits</string>
         <key>Level</key><integer>4</integer>
@@ -2066,7 +2066,7 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>295</key><dict>
-        <key>Filename</key><string>C:\IF\nginx-1.26.3\html\diplomski\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Element Manipulation.i7x</string>
+        <key>Filename</key><string>C:\test\Inform-7-interactive-fiction-game\9Zivota.materials\Extensions\Juhana Leinonen\Vorple Element Manipulation.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
